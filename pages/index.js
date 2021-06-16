@@ -1,5 +1,6 @@
-import Head from 'next/head';
 import Image from 'next/image';
+
+import Meta from '/components/Meta';
 
 import logo from '../public/assets/logo_wimma.png';
 import styles from '../styles/Home.module.scss';
@@ -7,10 +8,7 @@ import styles from '../styles/Home.module.scss';
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Meta />
 
       <main className={styles.main}>
         <Image src={logo} alt="WIMMA Lab -logo" quality="90" priority />
