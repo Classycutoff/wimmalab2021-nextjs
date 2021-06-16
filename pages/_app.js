@@ -1,7 +1,10 @@
 import '../styles/globals.scss';
 
-function App({ Component, pageProps }) {
+// Documentation:
+// https://nextjs.org/docs/advanced-features/custom-app
+
+function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
 }
 
-export default App;
+export default MyApp;
