@@ -18,6 +18,8 @@ First, run the development server:
 yarn dev
 ```
 
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
 
 ## Using Docker
 
@@ -25,4 +27,3 @@ yarn dev
 1. Build your container: `docker build -t nextjs-docker .`.
 1. Run your container: `docker run -p 3000:3000 nextjs-docker`.
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
