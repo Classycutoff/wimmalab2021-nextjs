@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 
 import Layout, { siteTitle } from '/components/Layout';
 
@@ -14,6 +15,9 @@ export default function Home() {
       </Head>
       <div className={styles.container}>
         <main className={styles.main}>
+          <Link href="./yritykset">
+            <a>to yritykset</a>
+          </Link>
           <Image src={logo} alt="WIMMA Lab -logo" quality="90" priority />
           <h1 className={styles.title}>Opiskelijoille</h1>
 
