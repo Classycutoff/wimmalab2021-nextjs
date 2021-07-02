@@ -1,5 +1,5 @@
 {
-    "change-locale": "Vaihda kieli",
-    "opiskelijat": "opsikelijat sivulle",
-    "yritykset": "yritykset sivulle"
-  }
+  "change-locale": "Vaihda kieli",
+  "students": "Opiskelijoille",
+  "companies": "Yrityksille"
+}

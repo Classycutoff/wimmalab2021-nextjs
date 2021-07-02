@@ -14,6 +14,7 @@ const Home = () => {
   const router = useRouter();
   const { locale, locales, defaultLocale } = router;
   const { t } = useTranslation('common');
+
   return (
     <Layout>
       <Head>
@@ -25,10 +26,16 @@ const Home = () => {
             <button>{t('change-locale')}</button>
           </Link>
 
-          <Link href="./opiskelijat">
-            <a>{t('opiskelijat')}</a>
+          <p>Navigation:</p>
+          <Link href="./students">
+            <a>{t('students')}</a>
           </Link>
+          <Link href="./companies">
+            <a>{t('companies')}</a>
+          </Link>
+
           <Image src={logo} alt="WIMMA Lab -logo" quality="90" priority />
+
           <h1 className={styles.title}>
             Welcome to <a href="https://nextjs.org">Next.js</a> on Docker!
           </h1>
@@ -46,7 +53,7 @@ const Home = () => {
 
 export const getStaticProps = async ({ locale }) => ({
   props: {
-    ...(await serverSideTranslations(locale, ['common', 'footer']))
+    ...(await serverSideTranslations(locale, ['common']))
   }
 });
 
