@@ -1,0 +1,39 @@
+// -----------------------------------------------------------------------------
+// Base level typography related styles
+// -----------------------------------------------------------------------------
+
+$fallback-stack: (
+  -apple-system,
+  BlinkMacSystemFont,
+  'Segoe UI',
+  Roboto,
+  Oxygen-Sans,
+  Ubuntu,
+  Cantarell,
+  'Helvetica Neue',
+  sans-serif
+);
+
+$emoji-stack: (
+  'Apple Color Emoji',
+  'Segoe UI Emoji',
+  'Segoe UI Symbol',
+  'Noto Color Emoji'
+);
+
+// Apply default paragraph styles to the body element
+body {
+  font-size: 100%;
+  font-family: $fallback-stack, $emoji-stack;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.063rem;
+  line-height: 1.6;
+
+  @include breakpoint(lg) {
+    font-size: 1.125rem;
+    line-height: 1.8;
+  }
+}

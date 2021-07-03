@@ -1,0 +1,26 @@
+// -----------------------------------------------------------------------------
+// Application-wide base styles
+// -----------------------------------------------------------------------------
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+figure {
+  margin: 0;
+}
