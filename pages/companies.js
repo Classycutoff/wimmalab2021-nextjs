@@ -6,7 +6,6 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import Layout, { siteTitle } from '/components/Layout';
 
 import logo from '../public/assets/logo_wimma.png';
-import styles from '../styles/Home.module.scss';
 
 const Companies = () => {
   const { t } = useTranslation('companies');
@@ -18,12 +17,10 @@ const Companies = () => {
           {t('page-title')} – {siteTitle}
         </title>
       </Head>
-      <div className={styles.container}>
-        <main className={styles.main}>
-          <Image src={logo} alt="WIMMA Lab -logo" quality="90" priority />
-          <h1 className={styles.title}>{t('h1')}</h1>
-        </main>
-      </div>
+      <main>
+        <Image src={logo} alt="WIMMA Lab -logo" quality="90" priority />
+        <h1>{t('h1')}</h1>
+      </main>
     </Layout>
   );
 };

@@ -5,7 +5,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Meta />
-      <div>{children}</div>
+      <div className="content">{children}</div>
     </>
   );
 }

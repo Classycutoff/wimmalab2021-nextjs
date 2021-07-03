@@ -8,7 +8,6 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import Layout, { siteTitle } from '/components/Layout';
 
 import logo from '../public/assets/logo_wimma.png';
-import styles from '../styles/Home.module.scss';
 
 const Home = () => {
   const router = useRouter();
@@ -20,8 +19,8 @@ const Home = () => {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <div className={styles.container}>
-        <main className={styles.main}>
+      <div>
+        <main>
           <Link href="/" locale={router.locale === 'fi' ? 'en' : 'fi'}>
             <button>{t('change-locale')}</button>
           </Link>
@@ -36,11 +35,11 @@ const Home = () => {
 
           <Image src={logo} alt="WIMMA Lab -logo" quality="90" priority />
 
-          <h1 className={styles.title}>
+          <h1>
             Welcome to <a href="https://nextjs.org">Next.js</a> on Docker!
           </h1>
-          <p className={styles.description}>
-            Get started by editing <code className={styles.code}>pages/index.js</code>
+          <p>
+            Get started by editing <code>pages/index.js</code>
           </p>
           <p>Current locale: {locale}</p>
           <p>Default locale: {defaultLocale}</p>
