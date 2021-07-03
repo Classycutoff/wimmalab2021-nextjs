@@ -2,38 +2,63 @@
 // Base level typography related styles
 // -----------------------------------------------------------------------------
 
-$fallback-stack: (
-  -apple-system,
-  BlinkMacSystemFont,
-  'Segoe UI',
-  Roboto,
-  Oxygen-Sans,
-  Ubuntu,
-  Cantarell,
-  'Helvetica Neue',
-  sans-serif
-);
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
 
-$emoji-stack: (
-  'Apple Color Emoji',
-  'Segoe UI Emoji',
-  'Segoe UI Symbol',
-  'Noto Color Emoji'
+@font-face {
+  font-family: 'SpaceGrotesk';
+  src: url('/fonts/SpaceGrotesk-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+$fallback-stack: (
+  -apple-system, 
+  BlinkMacSystemFont, 
+  'Segoe UI', 
+  Helvetica, 
+  Arial, 
+  sans-serif, 
+  'Apple Color Emoji', 
+  'Segoe UI Emoji'
 );
 
 // Apply default paragraph styles to the body element
 body {
   font-size: 100%;
-  font-family: $fallback-stack, $emoji-stack;
-  font-weight: 400;
+  font-family: 'Inter', $fallback-stack;
 }
 
 p {
+  line-height: 1.77;
   font-size: 1.063rem;
-  line-height: 1.6;
 
-  @include breakpoint(lg) {
+  @include breakpoint(md) {
     font-size: 1.125rem;
-    line-height: 1.8;
+  }
+}
+
+h1, h2, h3, h4 {
+  font-family: 'SpaceGrotesk', $fallback-stack;
+  font-weight: 500;
+  font-feature-settings: "ss02", "ss03", "ss04";
+}
+
+h1 {
+  font-size: 2.5rem;
+  letter-spacing: -1px;
+  line-height: 1.3;
+  
+  @include breakpoint(md) {
+    font-size: 3rem;
   }
 }
