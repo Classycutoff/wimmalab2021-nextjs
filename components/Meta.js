@@ -46,7 +46,7 @@ export default function Meta() {
       {/* Preload local fonts */}
       <link
         rel="preload"
-        href="/fonts/SpaceGrotesk-Medium.woff2"
+        href="/fonts/SpaceGrotesk.woff2"
         as="font"
         type="font/woff2"
         crossOrigin="anonymous"
