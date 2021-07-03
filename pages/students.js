@@ -1,11 +1,10 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 import Layout, { siteTitle } from '/components/Layout';
 
-import logo from '../public/assets/logo_wimma.png';
+import Logo from '../svgs/logo_round.svg';
 
 const Students = () => {
   const { t } = useTranslation('students');
@@ -33,7 +32,7 @@ const Students = () => {
       <section className="content__section">
         <div className="simple-grid">
           <div>
-            <Image src={logo} alt="WIMMA Lab -logo" quality="90" priority />
+            <Logo width="156" height="156" />
             <h1>{t('h1')}</h1>
             <p>{t('h1-subheading')}</p>
           </div>
