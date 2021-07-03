@@ -26,7 +26,7 @@
 
   &__section {
     display: grid;
-    grid-template-columns: minmax(1rem, 1fr) [contain-start] minmax(0, $breakpoint-lg) [contain-end] minmax(1rem, 1fr);
+    grid-template-columns: minmax(1rem, 1fr) [contain-start] minmax(0, $breakpoint-xxl) [contain-end] minmax(1rem, 1fr);
     padding: 2rem 0;
 
     @include breakpoint(md) {

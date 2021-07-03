@@ -1,0 +1,8 @@
+.simple-grid {
+  display: grid;
+  gap: 1rem;
+
+  @include breakpoint(lg) {
+    grid-template-columns: 1fr 1fr;
+  }
+}

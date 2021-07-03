@@ -1,5 +1,24 @@
 {
   "page-title": "Tietoa opiskelijoille",
   "h1": "Opi tehokkaammin yhdessä tekemällä",
-  "h1-subheading": "Hae mukaan WIMMA Labiin ratkaisemaan oikeita toimeksiantoja, kartuttamaan työelämässä tarpeellisia taitoja ja verkostoitumaan alan yrityksiin."
+  "h1-subheading": "Hae mukaan WIMMA Labiin ratkaisemaan oikeita toimeksiantoja, kartuttamaan työelämässä tarpeellisia taitoja ja verkostoitumaan alan yrityksiin.",
+
+  "h2-students": "Tietoa opiskelijoille",
+
+  "h3-wimma-lab-offers": "Mitä WIMMA Lab tarjoaa?",
+  "p-wimma-lab-offers-1": "WIMMA Lab on ainutlaatuinen tilaisuus verkostoitua yritysten edustajien kanssa ja saada kokemusta työelämän kaltaisesta projektityöskentelystä. WIMMA Labissa kasvatat luottamusta omiin taitoihisi ja parannat asemaasi työmarkkinoilla.",
+  "p-wimma-lab-offers-2": "WIMMA Labissa työskennellään osana virtuaaliyritystä, joita on neljä: IoTitude, Mysticons, Overflow ja Pengwin Media. Virtuaaliyritykset toteuttavat toimeksiantoja, jotka on saatu yrityksiltä, JAMKilta tai WIMMA Labin sisäisesti. Tekemistä riittää sekä projektinhallinnassa että teknisissä ja visuaalisissa tehtävissä.",
+
+  "h3-apply-to-wimma-lab": "Miten voin osallistua?",
+  "p-apply-to-wimma-lab-1": "WIMMA Labin osallistujat valitaan haastatteluilla. Ilmoita osallistumisaikeistasi täyttämällä ilmoittautumislomake, niin saat kutsun haastatteluihin sähköpostiisi. Haastattelussa käydään läpi, mitä haluaisit oppia, mitä jo osaat ja millaisessa roolissa voisit työskennellä WIMMA Labissa. Positiivisella asenteella, motivaatiolla ja halulla oppia uutta on suuri merkitys!",
+  "p-apply-to-wimma-lab-2": "Ilmoittautumislomake avataan vuoden alkupuolella helmi–maaliskuussa. Haastattelut järjestetään huhtikuussa.",
+
+  "h2-responsibility": "Kaipaatko enemmän vastuuta?",
+  
+  "h3-team-leader": "Tiiminvetäjä",
+  "p-team-leader": "Jokainen WIMMA Labin virtuaaliyritys tarvitsee tiiminvetäjän! WIMMA Lab on turvallinen ympäristö kokeilla uutta ja astua oman mukavuusalueen ulkopuolelle, joten miksipä et ottaisi tilaisuudesta kaikkea irti ja lähtisi tiiminvetäjäksi? Tiiminvetäjänä opit näkemään projektit uudesta näkökulmasta ja saat arvokasta kokemusta tiimin johtamisesta.",
+  
+  "h3-student-coach": "Opiskelijaohjaaja",
+  "p-student-coach": "Haluaisitko oppia toimimaan isomman tiimin ohjauksen parissa? Opiskelijaohjaajalla on tärkeä rooli, sillä hän on WIMMA Labin ruorissa kesä–heinäkuun ajan. Toimenkuvaan kuuluu muun muassa yhteydenpito yrityksiin ja sponsoreihin sekä tapahtumien ja esitysten järjestäminen opiskelijoille. Opiskelijaohjaaja tukee, kannustaa ja opastaa tiiminvetäjiä ja varmistaa, että projektityöskentely sujuu sulavasti."
+
 }

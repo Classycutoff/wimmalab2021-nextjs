@@ -1,5 +1,24 @@
 {
   "page-title": "For Students",
   "h1": "Learn by making, not by studying",
-  "h1-subheading": "Apply to WIMMA Lab and you’ll have a unique opportunity to solve real-world problems in a team, network with companies and practise skills you’ll need in your working life."
+  "h1-subheading": "Apply to WIMMA Lab and you’ll have a unique opportunity to solve real-world problems in a team, network with companies and practise skills you’ll need in your working life.",
+
+  "h2-students": "Information for students",
+
+  "h3-wimma-lab-offers": "What does WIMMA Lab offer?",
+  "p-wimma-lab-offers-1": "WIMMA Lab offers many opportunities for students that participate, from networking with representatives of companies to learning a new and modern technology. All of this combined will give you a headstart to your working life and newfound confidence in your work.",
+  "p-wimma-lab-offers-2": "In WIMMA Lab, students work in one of the four virtual companies: IoTitude, Mysticons, Overflow or Pengwin Media. Each one has a different assignment every summer, and there is a role for everybody regardless of your technical background.",
+
+  "h3-apply-to-wimma-lab": "How to participate?",
+  "p-apply-to-wimma-lab-1": "Application process is made as painless as possible. You only need to fill out an application form and be yourself in the interview with the coaches. You don't need to know everything, since you are here to learn. The only requirements are motivation, positive attitude and determination to learn as much as possible.",
+  "p-apply-to-wimma-lab-2": "Application form opens at the start of the year, usually around February or March. Interviews are held in April.",
+
+  "h2-responsibility": "Interested in more responsibility?",
+  
+  "h3-team-leader": "Team leader",
+  "p-team-leader": "Every team needs a team leader, and WIMMA Lab has four of them! WIMMA Lab is your chance to try something new, like being a team leader. Team Leader runs the Daily Scrum, Sprint Planning, and Sprint Review. They are the contact between coaches and teams, and they strive to keep everyone on the same page.",
+  
+  "h3-student-coach": "Student coach",
+  "p-student-coach": "WIMMA Lab couldn't function without student coaches! Student coach is the backbone that keeps the whole operation running smoothly. They are the first contact with the companies and sponsors, they guide and support team leaders, and they are the first to know when someone needs help. They also organise events like Open Doors and KettuKeter."
+
 }
