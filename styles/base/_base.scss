@@ -24,3 +24,19 @@ a {
 figure {
   margin: 0;
 }
+
+dl, dt, dd {
+  margin: 0;
+  padding: 0;
+}
+
+dl {
+  margin: 1.75rem 0;
+}
+
+dt {
+  margin-bottom: 0.5rem;
+}
+dd {
+  display: none;
+}

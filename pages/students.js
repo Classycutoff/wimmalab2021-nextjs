@@ -10,6 +10,17 @@ import logo from '../public/assets/logo_wimma.png';
 const Students = () => {
   const { t } = useTranslation('students');
 
+  // Questions & answers
+  let faq = [];
+  for (let i = 1; i <= 6; i++) {
+    faq.push(
+      <dl key={i}>
+        <dt>+ {t(`p-faq-q${i}`)}</dt>
+        <dd>{t(`p-faq-a${i}`)}</dd>
+      </dl>
+    );
+  }
+
   return (
     <Layout>
       <Head>
@@ -17,13 +28,20 @@ const Students = () => {
           {t('page-title')} – {siteTitle}
         </title>
       </Head>
+
+      {/* Hero section */}
       <section className="content__section">
-        <div>
-          <Image src={logo} alt="WIMMA Lab -logo" quality="90" priority />
-          <h1>{t('h1')}</h1>
-          <p>{t('h1-subheading')}</p>
+        <div className="simple-grid">
+          <div>
+            <Image src={logo} alt="WIMMA Lab -logo" quality="90" priority />
+            <h1>{t('h1')}</h1>
+            <p>{t('h1-subheading')}</p>
+          </div>
+          <div></div>
         </div>
       </section>
+
+      {/* Information for students */}
       <section className="content__section">
         <div>
           <h2>{t('h2-students')}</h2>
@@ -43,6 +61,8 @@ const Students = () => {
           </div>
         </div>
       </section>
+
+      {/* Interested in more responsibility? */}
       <section className="content__section">
         <div>
           <h2>{t('h2-responsibility')}</h2>
@@ -55,6 +75,27 @@ const Students = () => {
               <h3>{t('h3-student-coach')}</h3>
               <p>{t('p-student-coach')}</p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* WIMMA Lab timeline */}
+      <section className="content__section">
+        <div>
+          <h2>{t('h2-timeline')}</h2>
+          <div>
+            <p>Lorem ipsum</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Questions & answers */}
+      <section className="content__section">
+        <div>
+          <h2>{t('h2-faq')}</h2>
+          <div className="simple-grid">
+            <div></div>
+            <div>{faq}</div>
           </div>
         </div>
       </section>
