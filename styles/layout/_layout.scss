@@ -2,6 +2,23 @@
 // Base grid layout
 // -----------------------------------------------------------------------------
 
+/**
+ * `.content` class is applied to layout root div (located in Layout.js). 
+ * `.content__section` class is applied to every section in layout.
+ * Everything inside `.content__section` should be wrapped in e.g. <div>.
+ *
+ * In `pages/[filename].js`:
+ * <Layout>
+ *    <Head />
+ *    <section className="content__section">
+ *       <div>Hero section</div>
+ *    </section>
+ *    <section className="content__section">
+ *       <div>About section</div>
+ *    </section>
+ * </Layout>
+ */
+
 .content {
   display: flex;
   flex: 1 1 auto;

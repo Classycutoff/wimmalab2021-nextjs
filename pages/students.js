@@ -17,13 +17,13 @@ const Students = () => {
           {t('page-title')} – {siteTitle}
         </title>
       </Head>
-      <div>
-        <main>
+      <section className="content__section">
+        <div>
           <Image src={logo} alt="WIMMA Lab -logo" quality="90" priority />
           <h1>{t('h1')}</h1>
           <p>{t('h1-subheading')}</p>
-        </main>
-      </div>
+        </div>
+      </section>
     </Layout>
   );
 };

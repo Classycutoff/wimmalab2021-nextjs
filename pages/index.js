@@ -19,8 +19,8 @@ const Home = () => {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <div>
-        <main>
+      <section className="content__section">
+        <div>
           <Link href="/" locale={router.locale === 'fi' ? 'en' : 'fi'}>
             <button>{t('change-locale')}</button>
           </Link>
@@ -44,8 +44,8 @@ const Home = () => {
           <p>Current locale: {locale}</p>
           <p>Default locale: {defaultLocale}</p>
           <p>Configured locales: {JSON.stringify(locales)}</p>
-        </main>
-      </div>
+        </div>
+      </section>
     </Layout>
   );
 };
