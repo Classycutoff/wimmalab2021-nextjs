@@ -58,11 +58,11 @@
   }
 
   &__h1 {
-    max-width: 400px;
+    max-width: 350px;
     text-align: center;
 
     @include breakpoint(sm) {
-      max-width: 500px;
+      max-width: 480px;
     }
   }
 
