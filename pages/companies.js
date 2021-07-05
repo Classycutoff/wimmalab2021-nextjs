@@ -1,11 +1,8 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 import Layout, { siteTitle } from '/components/Layout';
-
-import logo from '../public/assets/logo_wimma.png';
 
 const Companies = () => {
   const { t } = useTranslation('companies');
@@ -18,9 +15,9 @@ const Companies = () => {
         </title>
       </Head>
       <section className="content__section">
-        <div>
-          <Image src={logo} alt="WIMMA Lab -logo" quality="90" priority />
-          <h1>{t('h1')}</h1>
+        <div className="hero__container">
+          <h1 className="hero__h1">{t('h1')}</h1>
+          <p className="hero__p">{t('h1-subheading')}</p>
         </div>
       </section>
     </Layout>
