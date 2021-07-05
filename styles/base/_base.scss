@@ -1,0 +1,29 @@
+/* =============================
+   Base styles
+   ============================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body, body * { 
+  font-family: 'Inter', sans-serif; 
+  color:inherit;
+  background-color:inherit;
+  font-size: 1rem;
+}
+
+li {
+  list-style: none;
+  display:inline;
+  padding: 0 0.84rem 0 1rem;
+}
+p {
+font-size: 1.063rem;
+line-height: 1.55;
+}
+a {
+  text-decoration: none;
+}
