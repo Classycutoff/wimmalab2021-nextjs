@@ -23,9 +23,24 @@
   }
 
   a, a:active, a:visited {
-    color: #f3eded;
-    font-size: 1rem;
+    color: $txt-white;
+    font-size: 0.9rem;
     font-weight: 500;
     padding: .2rem .3rem;
+
+    @include breakpoint(sm) {
+      font-size: 1rem;
+    }
   }
+
+  img {
+    min-width: 40px;
+  }
+}
+
+// Refactor
+li {
+  list-style: none;
+  display: inline;
+  padding: 0 0.5rem 0 1rem;
 }
