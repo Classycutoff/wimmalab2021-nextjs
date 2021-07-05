@@ -1,3 +1,42 @@
 // -----------------------------------------------------------------------------
 // Button component
 // -----------------------------------------------------------------------------
+
+.btn {
+  border: none;
+  outline: none;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.8rem 1.2rem;
+  font-size: 1.063rem;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  border-radius: $border-radius;
+  white-space: nowrap;
+  transition: 150ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  cursor: pointer;
+
+  &--primary {
+    color: $txt-white;
+    background-color: $bg-black;
+
+    &:visited {
+      color: $txt-white;
+    }
+    
+    &:hover {
+      color: $cyan;
+    }
+
+    &:focus {
+      box-shadow: 0 0 0 1px $cyan;
+    }
+  }
+
+  .icon-arrow {
+    margin-left: 0.3rem;
+    margin-right: -0.3rem;
+    margin-bottom: 0.05rem;
+  }
+}
