@@ -1,4 +1,4 @@
-import '../styles/globals.scss';
+import '../styles/main.scss';
 
 // Documentation:
 // https://nextjs.org/docs/advanced-features/custom-app

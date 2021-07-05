@@ -4,7 +4,6 @@ import Image from 'next/image';
 import Layout, { siteTitle } from '/components/Layout';
 
 import logo from '../public/assets/logo_wimma.png';
-import styles from '../styles/Home.module.scss';
 
 export default function Home() {
   return (
@@ -12,15 +11,15 @@ export default function Home() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <div className={styles.container}>
-        <main className={styles.main}>
+      <div>
+        <main>
           <Image src={logo} alt="WIMMA Lab -logo" quality="90" priority />
-          <h1 className={styles.title}>
+          <h1>
             Welcome to <a href="https://nextjs.org">Next.js</a> on Docker!
           </h1>
 
-          <p className={styles.description}>
-            Get started by editing <code className={styles.code}>pages/index.js</code>
+          <p>
+            Get started by editing <code>pages/index.js</code>
           </p>
         </main>
       </div>

@@ -4,7 +4,6 @@ import Image from 'next/image';
 import Layout, { siteTitle } from '/components/Layout';
 
 import logo from '../public/assets/logo_wimma.png';
-import styles from '../styles/Home.module.scss';
 
 export default function Home() {
   return (
@@ -12,12 +11,12 @@ export default function Home() {
       <Head>
         <title>Yrityksille – {siteTitle}</title>
       </Head>
-      <div className={styles.container}>
-        <main className={styles.main}>
+      <div>
+        <main>
           <Image src={logo} alt="WIMMA Lab -logo" quality="90" priority />
-          <h1 className={styles.title}>Yrityksille</h1>
+          <h1>Yrityksille</h1>
 
-          <p className={styles.description}>Tällä sivulla on tietoa yrityksille.</p>
+          <p>Tällä sivulla on tietoa yrityksille.</p>
         </main>
       </div>
     </Layout>
