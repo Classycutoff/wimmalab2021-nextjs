@@ -1,15 +1,17 @@
 {
   "page-title": "Tietoa opiskelijoille",
+  "h1-for1": "Tietoa",
+  "h1-for2": "opiskelijoille",
   "h1": "Opi tehokkaammin yhdessä tekemällä",
   "h1-subheading": "Hae mukaan WIMMA Labiin ratkaisemaan oikeita toimeksiantoja, kartuttamaan työelämässä tarpeellisia taitoja ja verkostoitumaan alan yrityksiin.",
+  "apply-button": "Hae WIMMA Labiin",
 
-  "h2-students": "Tietoa opiskelijoille",
+  "h2-students": "Mitä WIMMA Lab tarjoaa",
 
-  "h3-wimma-lab-offers": "Mitä WIMMA Lab tarjoaa?",
   "p-wimma-lab-offers-1": "WIMMA Lab on ainutlaatuinen tilaisuus verkostoitua yritysten edustajien kanssa ja saada kokemusta työelämän kaltaisesta projektityöskentelystä. WIMMA Labissa kasvatat luottamusta omiin taitoihisi ja parannat asemaasi työmarkkinoilla.",
   "p-wimma-lab-offers-2": "WIMMA Labissa työskennellään osana virtuaaliyritystä, joita on neljä: IoTitude, Mysticons, Overflow ja Pengwin Media. Virtuaaliyritykset toteuttavat toimeksiantoja, jotka on saatu yrityksiltä, JAMKilta tai WIMMA Labin sisäisesti. Tekemistä riittää sekä projektinhallinnassa että teknisissä ja visuaalisissa tehtävissä.",
 
-  "h3-apply-to-wimma-lab": "Miten voin osallistua?",
+  "h3-apply-to-wimma-lab": "Hakeminen WIMMA Labiin",
   "p-apply-to-wimma-lab-1": "WIMMA Labin osallistujat valitaan haastatteluilla. Ilmoita osallistumisaikeistasi täyttämällä ilmoittautumislomake, niin saat kutsun haastatteluihin sähköpostiisi. Haastattelussa käydään läpi, mitä haluaisit oppia, mitä jo osaat ja millaisessa roolissa voisit työskennellä WIMMA Labissa. Positiivisella asenteella, motivaatiolla ja halulla oppia uutta on suuri merkitys!",
   "p-apply-to-wimma-lab-2": "Ilmoittautumislomake avataan vuoden alkupuolella helmi–maaliskuussa. Haastattelut järjestetään huhtikuussa.",
 

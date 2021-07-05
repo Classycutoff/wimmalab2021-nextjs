@@ -4,7 +4,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 import Layout, { siteTitle } from '/components/Layout';
 
-import Logo from '../svgs/logo_round.svg';
+import Button from '../components/Button';
 
 const Students = () => {
   const { t } = useTranslation('students');
@@ -29,12 +29,14 @@ const Students = () => {
       </Head>
 
       {/* Hero section */}
-      <section className="content__section">
+      <section className="content__section hero--students">
         <div className="hero__container">
-          <Logo width="156" height="156" />
-          <h1>{t('h1')}</h1>
+          <p className="hero__for">
+            {t('h1-for1')} <span>{t('h1-for2')}</span>
+          </p>
+          <h1 className="hero__h1">{t('h1')}</h1>
           <p className="hero__p">{t('h1-subheading')}</p>
-          <a href="/">Apply to WIMMA Lab</a>
+          <Button name={t('apply-button')} icon />
         </div>
       </section>
 
@@ -44,7 +46,6 @@ const Students = () => {
           <h2>{t('h2-students')}</h2>
           <div className="simple-grid">
             <div>
-              <h3>{t('h3-wimma-lab-offers')}</h3>
               <p>{t('p-wimma-lab-offers-1')}</p>
               <p>{t('p-wimma-lab-offers-2')}</p>
             </div>
