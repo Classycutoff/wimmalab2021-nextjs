@@ -38,3 +38,17 @@
     }
   }
 }
+
+.hero {
+  &__container {
+    max-width: $breakpoint-sm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__p {
+    font-size: 1.313rem;
+    line-height: 1.4;
+  }
+}

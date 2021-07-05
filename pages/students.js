@@ -30,13 +30,11 @@ const Students = () => {
 
       {/* Hero section */}
       <section className="content__section">
-        <div className="simple-grid">
-          <div>
-            <Logo width="156" height="156" />
-            <h1>{t('h1')}</h1>
-            <p>{t('h1-subheading')}</p>
-          </div>
-          <div></div>
+        <div className="hero__container">
+          <Logo width="156" height="156" />
+          <h1>{t('h1')}</h1>
+          <p className="hero__p">{t('h1-subheading')}</p>
+          <a href="/">Apply to WIMMA Lab</a>
         </div>
       </section>
 

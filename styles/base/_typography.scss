@@ -57,7 +57,7 @@ dt {
 h1, h2, h3, h4 {
   font-family: 'Space Grotesk', $fallback-stack;
   font-feature-settings: "ss02", "ss03", "ss04";
-  font-weight: 600;
+  font-weight: 700;
   color: $txt-black;
 }
 
@@ -68,12 +68,12 @@ h1 {
   
   @include breakpoint(md) {
     font-size: 3rem;
-  letter-spacing: -1.25px;
+    letter-spacing: -1.25px;
   }
 
   @include breakpoint(lg) {
-    font-size: 3.25rem;
-  letter-spacing: -1.5px;
+    font-size: 3.625rem;
+    letter-spacing: -2.5px;
   }
 }
 
