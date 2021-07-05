@@ -1,29 +1,50 @@
-/* =============================
-   Base styles
-   ============================= */
+// -----------------------------------------------------------------------------
+// Application-wide base styles
+// -----------------------------------------------------------------------------
 
-* {
-  margin: 0;
-  padding: 0;
+html {
   box-sizing: border-box;
 }
 
-html,body, body * { 
-  font-family: 'Inter', sans-serif; 
-  color:inherit;
-  background-color:inherit;
-  font-size: 1rem;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
-li {
-  list-style: none;
-  display:inline;
-  padding: 0 0.84rem 0 1rem;
+body {
+  height: 100%;
 }
-p {
-font-size: 1.063rem;
-line-height: 1.55;
-}
+
 a {
   text-decoration: none;
+  outline: none;
+}
+
+figure {
+  margin: 0;
+}
+
+dl, dt, dd {
+  margin: 0;
+  padding: 0;
+}
+
+dl {
+  margin: 1.75rem 0;
+}
+
+dt {
+  margin-bottom: 0.5rem;
+}
+
+dd {
+  display: none;
+}
+
+// Move this to _navbar.scss
+li {
+  list-style: none;
+  display: inline;
+  padding: 0 0.84rem 0 1rem;
 }

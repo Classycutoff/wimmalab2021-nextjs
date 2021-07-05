@@ -42,6 +42,22 @@ export default function Meta() {
         content="WIMMA Lab on haastekeskeinen oppimiskonsepti, joka toteutetaan virtuaalisesti vuonna 2021."
       />
       <meta property="twitter:image" content="https://www.wimmalab.org/assets/meta_wimma.png" />
+
+      {/* Preload local fonts */}
+      <link
+        rel="preload"
+        href="/fonts/SpaceGrotesk.woff2"
+        as="font"
+        type="font/woff2"
+        crossOrigin="anonymous"
+      />
+      <link
+        rel="preload"
+        href="/fonts/Inter.woff2"
+        as="font"
+        type="font/woff2"
+        crossOrigin="anonymous"
+      />
     </Head>
   );
 }

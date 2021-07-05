@@ -1,9 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 import logoPicture from '../public/assets/wi-logo-light.png';
 
-export default function Navbar() {
+export function Navbar({ t }) {
+  const router = useRouter();
+
   return (
     <div className="navbar">
       <Link href="/">
@@ -13,21 +16,26 @@ export default function Navbar() {
       </Link>
       <ul>
         <li>
-          <Link href="/">
-            <a>FI | EN</a>
+          <Link href="/students">
+            <a>{t('students')}</a>
           </Link>
         </li>
         <li>
-          <Link href="/opiskelijat">
-            <a>Opiskelijat</a>
+          <Link href="/companies">
+            <a>{t('companies')}</a>
           </Link>
         </li>
         <li>
-          <Link href="/yritykset">
-            <a>Yritykset</a>
+          <Link href={router.route} locale="fi">
+            <a>FI</a>
+          </Link>
+          <Link href={router.route} locale="en">
+            <a>EN</a>
           </Link>
         </li>
       </ul>
     </div>
   );
 }
+
+export default Navbar;

@@ -1,9 +1,32 @@
 @charset "UTF-8";
 
-// Base
+// Global variables and helpers
 @import
-  'base/base';
+  'abstracts/variables',
+  'abstracts/mixins',
+  'abstracts/helpers';
 
-// Layout sections
+// 3rd-party vendor tools (frameworks, libraries, helpers)
 @import
-  'layout/navbar';
+  'vendors/normalize'; // 8.0.1
+
+// Base-level stuff
+@import
+  'base/base',
+  'base/typography';
+
+// Layout-related sections
+@import
+  'layout/layout',
+  'layout/navbar',
+  'layout/footer';
+
+// Components
+@import
+  'components/button';
+
+// Page-specific styles
+@import
+  'pages/home',
+  'pages/students',
+  'pages/companies';

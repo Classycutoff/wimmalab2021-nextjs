@@ -1,0 +1,54 @@
+// -----------------------------------------------------------------------------
+// Base grid layout
+// -----------------------------------------------------------------------------
+
+/**
+ * `.content` class is applied to layout root div (located in Layout.js). 
+ * `.content__section` class is applied to every section in layout.
+ * Everything inside `.content__section` should be wrapped in e.g. <div>.
+ *
+ * In `pages/[filename].js`:
+ * <Layout>
+ *    <Head />
+ *    <section className="content__section">
+ *       <div>Hero section</div>
+ *    </section>
+ *    <section className="content__section">
+ *       <div>About section</div>
+ *    </section>
+ * </Layout>
+ */
+
+.content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+
+  &__section {
+    display: grid;
+    grid-template-columns: minmax(1rem, 1fr) [contain-start] minmax(0, $breakpoint-xxl) [contain-end] minmax(1rem, 1fr);
+    padding: 2rem 0;
+
+    @include breakpoint(md) {
+      padding: 4rem 0;
+    }
+    
+    > * {
+      grid-column: contain;
+    }
+  }
+}
+
+.hero {
+  &__container {
+    max-width: $breakpoint-sm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__p {
+    font-size: 1.313rem;
+    line-height: 1.4;
+  }
+}
