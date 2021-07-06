@@ -17,7 +17,7 @@ variables:
 
 build:
   stage: build
-  when: manual
+ # when: manual
   script: echo "Building"
   image:
     name: gcr.io/kaniko-project/executor:debug
