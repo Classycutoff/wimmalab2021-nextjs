@@ -1,44 +1,41 @@
 stages:
-#- test
-- build
-- deploy
+#  - test
+  - build
+  - deploy
+  - dast
 
 #include:
-# - template: Dependency-Scanning.gitlab-ci.yml
+#  - template: Dependency-Scanning.gitlab-ci.yml
 #  - template: Security/License-Scanning.gitlab-ci.yml
 #  - template: Security/Secret-Detection.gitlab-ci.yml
 #  - template: Security/SAST.gitlab-ci.yml
+#  - template: DAST.gitlab-ci.yml
+
+#variables:
+#  SAST_GOSEC_LEVEL: 2
+#  DAST_WEBSITE: http://vm3714.kaj.pouta.csc.fi:30149/
 
 build:
   stage: build
+#  when: manual
+  script: echo "Building"
   image:
     name: gcr.io/kaniko-project/executor:debug
     entrypoint: [""]
   script:
-   # - mkdir -p /kaniko/.docker
     - echo "{\"auths\":{\"$CI_REGISTRY\":{\"username\":\"$CI_REGISTRY_USER\",\"password\":\"$CI_REGISTRY_PASSWORD\"}}}" > /kaniko/.docker/config.json
     - /kaniko/executor --context $CI_PROJECT_DIR --dockerfile $CI_PROJECT_DIR/Dockerfile --destination $CI_REGISTRY_IMAGE:$CI_COMMIT_TAG
-  ## - general
-  ## - master
-#
-#
+
 deploy:
     stage: deploy
-    #when: manual
+#    when: manual
+    script: echo "Deploying"
     image: bitnami/kubectl:latest
     script:
-#    - 'kubectl apply -f yaml/minio-secrets.yaml'
-#    - sleep 3
-#    - 'kubectl apply -f yaml/postgres-secrets.yaml'
-#    - sleep 3
-#    - 'kubectl apply -f yaml/backend-config.yaml'
-#    - sleep 3
-    - 'kubectl apply -f service.yaml'
-    - sleep 3
-    - 'kubectl apply -f deployment.yaml'
-    - sleep 3
-    - 'echo "Deployment complete"'
-    
-   # environment:
-    #    name: Development
-     #   url: https://vm3728.kaj.pouta.csc.fi:8443
+        - kubectl delete -n default deployment temp
+        - sleep 3
+        - kubectl delete -n default service temp
+        - sleep 3
+        - kubectl apply -f deployment.yaml
+        - kubectl apply -f service.yaml
+        - echo "http://vm3714.kaj.pouta.csc.fi:30149/"
