@@ -32,10 +32,10 @@ deploy:
     script: echo "Deploying"
     image: bitnami/kubectl:latest
     script:
-        - kubectl delete -n default deployment temp
-        - sleep 3
-        - kubectl delete -n default service temp
-        - sleep 3
-        - kubectl apply -f deployment.yaml
-        - kubectl apply -f service.yaml
+      #  - kubectl delete -n default deployment temp
+       # - sleep 3
+        #- kubectl delete -n default service temp
+        #- sleep 3
+        - kubectl apply -f yaml/deployment.yaml
+        - kubectl apply -f yaml/service.yaml
         - echo "http://vm3714.kaj.pouta.csc.fi:30149/"
