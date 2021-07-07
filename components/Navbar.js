@@ -1,8 +1,7 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-import logoPicture from '../public/assets/wi-logo-light.png';
+import Logo from '../svgs/logo-sm.svg';
 
 export function Navbar({ t }) {
   const router = useRouter();
@@ -12,7 +11,7 @@ export function Navbar({ t }) {
       <div className="navbar__container">
         <Link href="/">
           <a>
-            <Image src={logoPicture} alt="WIMMA Lab" width="40" height="20" />
+            <Logo width="40" height="20" />
           </a>
         </Link>
         <ul>
