@@ -11,6 +11,11 @@ import ActiveLink from './ActiveLink';
 export default function NavMenu({ t, active, handleClick }) {
   const router = useRouter();
 
+  function changeLanguage(e) {
+    const locale = e.target.value;
+    router.push(router.pathname, router.asPath, { locale });
+  }
+
   return (
     <nav role="navigation">
       <div className="desktop-menu">
@@ -28,12 +33,10 @@ export default function NavMenu({ t, active, handleClick }) {
         </ul>
         <ul className="desktop-menu__locale">
           <li>
-            <Link href={router.route} locale="fi">
-              <a>FI</a>
-            </Link>
-            <Link href={router.route} locale="en">
-              <a>EN</a>
-            </Link>
+            <select onChange={changeLanguage} defaultValue={router.locale}>
+              <option value="fi">FI</option>
+              <option value="en">EN</option>
+            </select>
           </li>
         </ul>
       </div>
