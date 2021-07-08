@@ -39,5 +39,12 @@ module.exports = {
         aspects: ['invalidHref', 'preferButton']
       }
     ]
-  }
+  },
+  overrides: [
+    {
+      rules: {
+        'jsx-ally/no-onchange': 'off'
+      }
+    }
+  ]
 };
