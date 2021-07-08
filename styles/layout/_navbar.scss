@@ -24,23 +24,21 @@
 
   a, a:active, a:visited {
     color: $txt-white;
-    font-size: 0.9rem;
-    font-weight: 500;
-    padding: .2rem .3rem;
-
-    @include breakpoint(sm) {
-      font-size: 1rem;
-    }
   }
 
   &__logo {
     z-index: 999;
+    padding: 0.2rem;
   }
 }
 
-// ===================
-// Hamburger menu icon
-// ===================
+// ==============
+// Hamburger menu
+// ==============
+$bar-width: 27px;
+$bar-height: 2px;
+$bar-spacing: 8px;
+
 .mobile-menu {
   display: block;
 
@@ -48,20 +46,16 @@
     display: none;
   }
 
-  &__icon {
+  &__button {
+    cursor: pointer;
     position: relative;
+    z-index: 998;
+
     padding: 0.5rem 0.5rem 0.5rem 0.6rem;
     margin: 0;
     border: none;
     border-radius: 8px;
     background: transparent;
-    cursor: pointer;
-    z-index: 998;
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    width: 42px;
 
     &:focus {
       outline: none;
@@ -73,87 +67,208 @@
       border: none;
       outline: none;
     }
+  }
+}
 
-    span {
-      background: $txt-white;
-      border-radius: 22px;
-      height: 2px;
-      margin: 2.5px 0;
-      transition: 0.3s cubic-bezier(0.68, 0, 0.32, 1);
+.hamburger,
+.hamburger:after,
+.hamburger:before {
+  width: $bar-width;
+	height: $bar-height;
+  border-radius: 8px;
+}
 
-      &:nth-of-type(1) {
-        width: 70%;
-      }
-
-      &:nth-of-type(2) {
-        width: 100%;
-      }
-
-      &:nth-of-type(3) {
-        width: 85%;
-      }
-    }
+.hamburger {
+  &__wrapper {
+    width: $bar-width;
+    height: $bar-height + $bar-spacing*2;
   }
 
-  // onClick animation
-  &__icon.active {
-    span {
-      &:nth-of-type(1) {
-        transform-origin: bottom;
-        width: 52.5%;
-        transform: rotatez(-45deg) translate(-2.75px, 0.75px);
-      }
-
-      &:nth-of-type(2) {
-        transform-origin: top;
-        transform: rotatez(45deg);
-      }
-
-      &:nth-of-type(3) {
-        transform-origin: bottom;
-        width: 52.5%;
-        transform: translate(-9.5px, -3.75px) rotatez(-45deg);
-      }
-    }
+	transform: translateY($bar-spacing);
+	background: rgba(255, 255, 255, 1);
+	transition: all 0ms 300ms;
+  
+  &.animate {
+    background: rgba(255, 255, 255, 0); 
   }
+}
+
+.hamburger:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: $bar-spacing;
+	background: rgba(255, 255, 255, 1);
+	transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.hamburger:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: $bar-spacing;
+	background: rgba(255, 255, 255, 1);
+	transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.hamburger.animate:after {
+	top: 0;
+	transform: rotate(45deg);
+	transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.hamburger.animate:before {
+	bottom: 0;
+	transform: rotate(-45deg);
+	transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 // =============================
 // Mobile menu overlay container
 // =============================
+@keyframes m-links {
+  0% {
+    opacity: 0;
+    transform: translateX(-20%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 .mobile-menu {
   &__container {
     background-color: $bg-black;
-    visibility: visible;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     z-index: 99;
-    opacity: 1;
-    transition: visibility 600ms cubic-bezier(0.4, 0, 0.2, 1),
-      opacity 400ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 7rem 1rem 2rem;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate3d(0, -100%, 0);
+    transition: all 0.55s cubic-bezier(0.77, 0, 0.175, 1);
 
     ul {
       list-style: none;
       margin: 0;
       padding: 0;
-      opacity: 1;
-      transform: translateY(0%);
-      transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1),
-        transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    li {
+      opacity: 0;
     }
   }
 
-  &__container.closed {
-    visibility: hidden;
-    opacity: 0;
+  &__container.open {
+    transform: translateZ(0);
+    max-height: 100vh;
+    opacity: 1;
+    visibility: visible;
 
-    ul {
-      opacity: 0;
-      transform: translateY(10%);
+    ul.mobile-menu__main-links {
+      opacity: 1;
     }
+
+    .mobile-menu__main-links li {
+      animation-name: m-links;
+      animation-duration: 0.5s;
+      animation-iteration-count: 1;
+      animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      animation-fill-mode: forwards;
+
+      &:nth-child(1) {
+        animation-delay: 0.1125s;
+      }
+      &:nth-child(2) {
+        animation-delay: 0.175s;
+      }
+      &:nth-child(3) {
+        animation-delay: 0.2375s;
+      }
+    }
+
+    ul.mobile-menu__team-links {
+      opacity: 1;
+      margin-top: 2rem;
+    }
+
+    .mobile-menu__team-links li {
+      animation-name: m-links;
+      animation-duration: 0.5s;
+      animation-iteration-count: 1;
+      animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      animation-fill-mode: forwards;
+
+      &:nth-child(1) {
+        animation-delay: 0.2425s;
+      }
+      &:nth-child(2) {
+        animation-delay: 0.2425s;
+      }
+      &:nth-child(3) {
+        animation-delay: 0.2425s;
+      }
+      &:nth-child(4) {
+        animation-delay: 0.2425s;
+      }
+    }
+
+    ul.mobile-menu__locale-links {
+      opacity: 1;
+      margin-top: 2.5rem;
+    }
+
+    .mobile-menu__locale-links li {
+      animation-name: m-links;
+      animation-duration: 0.5s;
+      animation-iteration-count: 1;
+      animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      animation-fill-mode: forwards;
+
+      &:nth-child(1) {
+        animation-delay: 0.2725s;
+      }
+    }
+
+    ul.mobile-menu__social-links {
+      opacity: 1;
+    }
+
+    .mobile-menu__social-links li {
+      animation-name: m-links;
+      animation-duration: 0.5s;
+      animation-iteration-count: 1;
+      animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      animation-fill-mode: forwards;
+      
+      &:nth-child(1) {
+        animation-delay: 0.3s;
+      }
+      &:nth-child(2) {
+        animation-delay: 0.32s;
+      }
+      &:nth-child(3) {
+        animation-delay: 0.34s;
+      }
+      &:nth-child(4) {
+        animation-delay: 0.35s;
+      }
+      &:nth-child(5) {
+        animation-delay: 0.36s;
+      }
+    }
+  }
+
+  &__container-links {
+    height: 85%;
+  }
+
+  &__container-socials {
+    height: 15%;
   }
 }
 
@@ -163,30 +278,63 @@
 .mobile-menu {
   &__main-links {
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 75%;
 
     li a {
       display: block;
-      margin: 0.8rem 0;
+      margin: 0.25rem 0;
       padding: 0.5rem;
-      font-size: 2.25rem;
+      font-size: 1.75rem;
       color: $txt-white;
       text-decoration: none;
+      font-weight: 400;
+      letter-spacing: -0.5px;
     }
   }
 
-  &__outgoing-links {
+  &__team-links {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    li a {
+      display: block;
+      margin: 0;
+      padding: 0.5rem;
+      font-size: 1.25rem;
+      color: $txt-white;
+      text-decoration: none;
+      font-weight: 400;
+    }
+  }
+
+  &__locale-links {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    li a {
+      display: block;
+      margin: 0;
+      padding: 0.5rem;
+      font-size: 1.125rem;
+      color: $txt-white;
+      text-decoration: none;
+      font-weight: 400;
+    }
+  }
+
+
+  &__social-links {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 25%;
+    height: 100%;
 
     li a {
-      padding: 0.3rem;
-      margin: 0.3rem;
+      padding: 0.2rem;
+      margin: 0.2rem;
       color: $txt-white;
       text-decoration: none;
     }

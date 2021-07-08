@@ -19,7 +19,7 @@ export function Navbar({ t }) {
     <div className="navbar">
       <div className="navbar__container">
         <Link href="/">
-          <a className="navbar__logo">
+          <a className="navbar__logo" aria-label={t('home')}>
             <Logo width="40" height="20" />
           </a>
         </Link>
