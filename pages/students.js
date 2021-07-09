@@ -39,7 +39,6 @@ const Students = () => {
           objectFit="cover"
           objectPosition="center"
           alt=""
-          priority
           quality={100}
           className="hero__bg"
         />
