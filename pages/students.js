@@ -1,10 +1,12 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 import Layout, { siteTitle } from '/components/Layout';
 
 import Button from '../components/Button';
+import heroBg from '../public/assets/students-hero-bg.png';
 
 const Students = () => {
   const { t } = useTranslation('students');
@@ -29,7 +31,17 @@ const Students = () => {
       </Head>
 
       {/* Hero section */}
-      <section className="content__section hero--students">
+      <section className="content__section hero hero--students">
+        <Image
+          src={heroBg}
+          layout="fill"
+          objectFit="cover"
+          objectPosition="center"
+          alt=""
+          priority
+          quality={100}
+          className="hero__bg"
+        />
         <div className="hero__container">
           <p className="hero__for">
             {t('h1-for1')} <span>{t('h1-for2')}</span>

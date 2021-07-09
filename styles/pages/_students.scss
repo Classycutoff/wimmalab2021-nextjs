@@ -4,9 +4,7 @@
 
 // color variations
 .hero--students {
-  background-color: $cyan-light;
-
-  .hero__p, .hero__for {
-    color: $txt-on-cyan;
+  .hero__bg {
+    background-color: $cyan-light;
   }
 }
