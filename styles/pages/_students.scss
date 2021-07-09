@@ -5,6 +5,12 @@
 // color variations
 .hero--students {
   .hero__bg {
-    background-color: $cyan-light;
+    background-color: $students-bg;
+  }
+}
+
+.students {
+  &__apply-dates {
+    margin-bottom: 2rem;
   }
 }

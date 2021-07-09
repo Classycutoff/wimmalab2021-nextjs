@@ -7,6 +7,7 @@ import Layout, { siteTitle } from '/components/Layout';
 
 import Button from '../components/Button';
 import heroBg from '../public/assets/students-hero-bg.png';
+import SvgUnderline from '../svgs/underline.svg';
 
 const Students = () => {
   const { t } = useTranslation('students');
@@ -44,7 +45,11 @@ const Students = () => {
         />
         <div className="hero__container">
           <p className="hero__for">
-            {t('h1-for1')} <span>{t('h1-for2')}</span>
+            {t('h1-for1')}{' '}
+            <span>
+              {t('h1-for2')}
+              <SvgUnderline />
+            </span>
           </p>
           <h1 className="hero__h1">{t('h1')}</h1>
           <p className="hero__p">{t('h1-subheading')}</p>
@@ -66,7 +71,8 @@ const Students = () => {
             <div>
               <h3>{t('h3-apply-to-wimma-lab')}</h3>
               <p>{t('p-apply-to-wimma-lab-1')}</p>
-              <p>{t('p-apply-to-wimma-lab-2')}</p>
+              <small className="students__apply-dates">{t('p-apply-to-wimma-lab-2')}</small>
+              <Button name={t('apply-button')} icon type="secondary" />
             </div>
           </div>
         </div>

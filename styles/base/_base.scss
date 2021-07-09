@@ -41,3 +41,10 @@ dt {
 dd {
   display: none;
 }
+
+small {
+  display: inline-block;
+  font-size: 0.9rem;
+  color: $txt-lightgrey;
+  line-height: 1.55;
+}

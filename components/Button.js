@@ -1,4 +1,4 @@
-import ArrowIcon from '../svgs/arrow-up-right.svg';
+import ArrowIcon from '../svgs/arrow-right.svg';
 
 // Actually a link styled as a button
 export default function Button({ href, name, type = 'primary', icon }) {
