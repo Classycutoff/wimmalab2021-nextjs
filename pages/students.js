@@ -6,7 +6,9 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import Layout, { siteTitle } from '/components/Layout';
 
 import Button from '../components/Button';
+import ImageWrapper from '../components/ImageWrapper';
 import heroBg from '../public/assets/students-hero-bg.png';
+import Img1 from '../public/assets/students-img1.png';
 import SvgUnderline from '../svgs/underline.svg';
 
 const Students = () => {
@@ -60,13 +62,17 @@ const Students = () => {
       <section className="content__section">
         <div>
           <h2>{t('h2-students')}</h2>
-          <div className="simple-grid">
+          <div className="simple-grid margin-b">
             <div>
               <p>{t('p-wimma-lab-offers-1')}</p>
               <p>{t('p-wimma-lab-offers-2')}</p>
             </div>
             <div></div>
-            <div></div>
+          </div>
+          <div className="simple-grid">
+            <div>
+              <ImageWrapper src={Img1} className="students-img1" />
+            </div>
             <div>
               <h3>{t('h3-apply-to-wimma-lab')}</h3>
               <p>{t('p-apply-to-wimma-lab-1')}</p>
@@ -79,14 +85,17 @@ const Students = () => {
 
       {/* Interested in more responsibility? */}
       <section className="content__section">
-        <div>
-          <h2>{t('h2-responsibility')}</h2>
-          <div className="simple-grid">
-            <div>
+        <div className="simple-grid">
+          <div>
+            <h2>{t('h2-responsibility')}</h2>
+            <p className="p-responsibility">{t('p-responsibility')}</p>
+          </div>
+          <div>
+            <div className="leader-card leader-card--orange">
               <h3>{t('h3-team-leader')}</h3>
               <p>{t('p-team-leader')}</p>
             </div>
-            <div>
+            <div className="leader-card leader-card--purple">
               <h3>{t('h3-student-coach')}</h3>
               <p>{t('p-student-coach')}</p>
             </div>

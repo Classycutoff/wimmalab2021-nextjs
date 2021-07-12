@@ -26,11 +26,21 @@
 
   &__section {
     display: grid;
-    grid-template-columns: [full-start] minmax(1rem, 1fr) [contain-start] minmax(0, $breakpoint-xxl) [contain-end] minmax(1rem, 1fr) [full-end];
+    --padding: 1rem;
+    grid-template-columns: [full-start] minmax(var(--padding), 1fr) [contain-start] minmax(0, $breakpoint-xxl) [contain-end] minmax(var(--padding), 1fr) [full-end];
     padding: 2rem 0 3.25rem;
 
     @include breakpoint(sm) {
+      --padding: 3rem;
       padding: 4rem 0rem 5rem;
+    }
+
+    @include breakpoint(md) {
+      --padding: 4rem;
+    }
+
+    @include breakpoint(lg) {
+      --padding: 2rem;
     }
     
     > * {
