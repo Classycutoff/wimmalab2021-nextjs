@@ -16,7 +16,7 @@
   "p-apply-to-wimma-lab-2": "Application form opens at the start of the year, usually around February or March. Interviews are held in April.",
 
   "h2-responsibility": "Interested in more responsibility?",
-  "p-responsibility": "We encourage personal growth. WIMMA Lab is the perfect chance to practise and polish your skills to be more comfortable as a leader. You don't have to worry about being perfect; we don’t mind mistakes.",
+  "p-responsibility": "We encourage personal growth. WIMMA Lab is the perfect chance to practise and polish your skills to be more comfortable as a leader.",
   
   "h3-team-leader": "Team leader",
   "p-team-leader": "Every team needs a team leader, and WIMMA Lab has four of them! WIMMA Lab is your chance to try something new, like being a team leader. Team Leader runs the Daily Scrum, Sprint Planning, and Sprint Review. They are the contact between coaches and teams, and they strive to keep everyone on the same page.",
@@ -25,6 +25,21 @@
   "p-student-coach": "WIMMA Lab couldn't function without student coaches! Student coach is the backbone that keeps the whole operation running smoothly. They are the first contact with the companies and sponsors, they guide and support team leaders, and they are the first to know when someone needs help. They also organise events like Open Doors and KettuKeter.",
 
   "h2-timeline": "WIMMA Lab timeline",
+
+  "h3-orientation-week": "Orientation week",
+  "p-orientation-week": "WIMMA Lab begins! Students are introduced to WIMMA Lab practices, assignments and also to each other.",
+
+  "h3-open-doors": "Open Doors",
+  "p-open-doors": "WIMMA Lab's biggest event, where students present their plans for the summer and network with companies. Anyone who's interested can stop by!",
+
+  "h3-kettuketer": "KettuKeter",
+  "p-kettuketer": "To wind down after Open doors, WIMMA Lab and its stakeholders get together for a fun evening.",
+
+  "h3-kaunailta": "Kaunailta",
+  "p-kaunailta": "WIMMA Lab’s official closing event. Everyone who has participated in or worked with WIMMA Lab is invited!",
+
+  "h3-retro-day": "Retro Day",
+  "p-retro-day": "When summer holidays are over, WIMMA Lab gathers one last time to present the final results.",
 
   "h2-faq": "Questions & answers",
 

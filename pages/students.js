@@ -108,7 +108,26 @@ const Students = () => {
         <div>
           <h2>{t('h2-timeline')}</h2>
           <div>
-            <p>Lorem ipsum</p>
+            <div>
+              <h3>{t('h3-orientation-week')}</h3>
+              <p>{t('p-orientation-week')}</p>
+            </div>
+            <div>
+              <h3>{t('h3-open-doors')}</h3>
+              <p>{t('p-open-doors')}</p>
+            </div>
+            <div>
+              <h3>{t('h3-kettuketer')}</h3>
+              <p>{t('p-kettuketer')}</p>
+            </div>
+            <div>
+              <h3>{t('h3-kaunailta')}</h3>
+              <p>{t('p-kaunailta')}</p>
+            </div>
+            <div>
+              <h3>{t('h3-retro-day')}</h3>
+              <p>{t('p-retro-day')}</p>
+            </div>
           </div>
         </div>
       </section>
