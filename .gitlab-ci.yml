@@ -32,9 +32,9 @@ deploy:
     script: echo "Deploying"
     image: bitnami/kubectl:latest
     script:
-#        - kubectl apply -f yaml/deployment.yaml
         - kubectl apply -f yaml/service.yaml
+        - kubectl apply -f yaml/deployment.yaml
 
-        - kubectl rollout restart yaml/deployment.yaml
+#        - kubectl rollout restart yaml/deployment.yaml
 
         - echo "http://vm3714.kaj.pouta.csc.fi:30149/"
