@@ -29,6 +29,7 @@ module.exports = {
     'prettier/prettier': ['error', { endOfLine: 'auto', usePrettierrc: true }], // Ignore CRLF/LF errors, use .prettierrc file as source
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
+    'jsx-ally/no-onchange': 'off',
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
     'jsx-a11y/anchor-is-valid': [

@@ -25,18 +25,46 @@
       color: $txt-white;
     }
     
-    &:hover {
-      color: $cyan;
+    &:hover, &:focus {
+      color: $txt-white;
     }
 
     &:focus {
       box-shadow: 0 0 0 1px $cyan;
     }
+
+    .icon-arrow {
+      margin: 0 -0.1rem -0.1rem 0.75rem;
+      width: 27px;
+      height: 15px;
+    }
   }
 
-  .icon-arrow {
-    margin-left: 0.3rem;
-    margin-right: -0.3rem;
-    margin-bottom: 0.05rem;
+  &--secondary {
+    color: $link-color;
+    padding: 0.2rem 0;
+
+    &:visited {
+      color: $link-color;
+    }
+    
+    &:hover, &:focus {
+      color: $link-hover;
+    }
+
+    .icon-arrow {
+      position: relative;
+      left: 0.75rem;
+      bottom: -0.1rem;
+      width: 27px;
+      height: 15px;
+      transition: all 0.15s ease-in-out;
+    }
+
+    &:hover {
+      .icon-arrow {
+        left: 1.2rem;
+      }
+    }
   }
 }

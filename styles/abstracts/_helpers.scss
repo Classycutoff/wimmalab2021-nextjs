@@ -1,8 +1,21 @@
 .simple-grid {
   display: grid;
-  gap: 1rem;
+  gap: 2rem;
 
   @include breakpoint(lg) {
     grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+
+  h2 {
+    margin-top: 0.25rem;
+  }
+}
+
+.margin-b {
+  margin-bottom: 2rem;
+
+  @include breakpoint(lg) {
+    margin-bottom: 5rem;
   }
 }

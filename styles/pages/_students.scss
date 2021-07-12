@@ -4,9 +4,36 @@
 
 // color variations
 .hero--students {
-  background-color: $cyan-light;
-
-  .hero__p, .hero__for {
-    color: $txt-on-cyan;
+  .hero__bg {
+    background-color: $students-bg;
   }
+}
+
+.students {
+  &__apply-dates {
+    margin-bottom: 2rem;
+  }
+}
+
+.leader-card {
+  border-radius: $border-radius;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+
+  p {
+    font-size: 1.063rem;
+    margin: 1rem 0 0;
+  }
+
+  &--purple {
+    background-color: $pastel-purple;
+  }
+
+  &--orange {
+    background-color: $pastel-orange;
+  }
+}
+
+.p-responsibility {
+  max-width: 540px;
 }

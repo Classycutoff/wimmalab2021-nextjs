@@ -1,40 +1,30 @@
-import Image from 'next/image';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
+import { useEffect, useState } from 'react';
 
-import logoPicture from '../public/assets/wi-logo-light.png';
+import Logo from '../svgs/logo-sm.svg';
+import NavMenu from './NavMenu';
 
 export function Navbar({ t }) {
-  const router = useRouter();
+  const [active, setActive] = useState(false);
+
+  const handleClick = () => setActive(!active);
+
+  // Prevent body scroll when mobile menu is open
+  useEffect(() => {
+    if (active) document.body.style.overflow = 'hidden';
+    else document.body.style.overflow = 'auto';
+  }, [active]);
 
   return (
     <div className="navbar">
       <div className="navbar__container">
         <Link href="/">
-          <a>
-            <Image src={logoPicture} alt="WIMMA Lab" width="40" height="20" />
+          <a className="navbar__logo" aria-label={t('home')}>
+            <Logo width="40" height="20" />
           </a>
         </Link>
-        <ul>
-          <li>
-            <Link href="/students">
-              <a>{t('students')}</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/companies">
-              <a>{t('companies')}</a>
-            </Link>
-          </li>
-          <li>
-            <Link href={router.route} locale="fi">
-              <a>FI</a>
-            </Link>
-            <Link href={router.route} locale="en">
-              <a>EN</a>
-            </Link>
-          </li>
-        </ul>
+
+        <NavMenu t={t} active={active} handleClick={handleClick} />
       </div>
     </div>
   );

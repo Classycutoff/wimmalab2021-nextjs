@@ -26,11 +26,21 @@
 
   &__section {
     display: grid;
-    grid-template-columns: minmax(1rem, 1fr) [contain-start] minmax(0, $breakpoint-xxl) [contain-end] minmax(1rem, 1fr);
+    --padding: 1rem;
+    grid-template-columns: [full-start] minmax(var(--padding), 1fr) [contain-start] minmax(0, $breakpoint-xxl) [contain-end] minmax(var(--padding), 1fr) [full-end];
     padding: 2rem 0 3.25rem;
 
     @include breakpoint(sm) {
-      padding: 4rem 0.5rem 5rem;
+      --padding: 3rem;
+      padding: 4rem 0rem 5rem;
+    }
+
+    @include breakpoint(md) {
+      --padding: 4rem;
+    }
+
+    @include breakpoint(lg) {
+      --padding: 2rem;
     }
     
     > * {
@@ -41,19 +51,43 @@
 
 /* Hero section at the top of every page */
 .hero {
+  position: relative;
+
+  > * {
+    grid-column: full;
+  }
+
   &__container {
     max-width: $breakpoint-sm;
-    margin: 0 auto;
+    margin: 2rem auto 3rem;
     display: flex;
     flex-direction: column;
+    z-index: 2;
     align-items: center;
+
+    padding: 0 1rem;
+    color: $txt-black;
+  }
+
+  &__bg {
+    z-index: -1;
   }
 
   &__for {
-    font-size: 1.125;
+    font-size: 1.125rem;
 
     span {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      width: min-content;
       font-weight: 600;
+    }
+
+    svg {
+      margin-top: -0.65rem;
+      max-width: 100%;
+      color: $cyan-dark;
     }
   }
 
@@ -67,13 +101,13 @@
   }
 
   &__p {
-    font-size: 1.188rem;
+    font-size: 1.125rem;
     line-height: 1.4;
     text-align: center;
     margin-bottom: 2.5rem;
 
     @include breakpoint(sm) {
-      font-size: 1.313rem;
+      font-size: 1.188rem;
     }
   }
 }
