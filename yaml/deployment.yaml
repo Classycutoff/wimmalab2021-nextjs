@@ -5,6 +5,8 @@ metadata:
     app: temp
   name: temp
   namespace: default
+  annotations: 
+    date: "+%H:%M:%S %d/%m/%y"
 spec:
   replicas: 4
   selector:
@@ -19,8 +21,6 @@ spec:
     metadata:
       labels:
         app: temp
-      annotations: 
-        date: "+%H:%M:%S %d/%m/%y"
     spec:
       containers:
       - image: gitlab.labranet.jamk.fi:4567/wimmalab2021/pengwin/wimmalab2021-nextjs:latest
