@@ -41,7 +41,7 @@ const Students = () => {
           objectFit="cover"
           objectPosition="center"
           alt=""
-          quality={100}
+          quality={96}
           className="hero__bg"
         />
         <div className="hero__container">

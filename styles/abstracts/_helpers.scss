@@ -19,3 +19,13 @@
     margin-bottom: 5rem;
   }
 }
+
+// object fades in on load
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.1s ease;
+
+  &.loaded {
+    opacity: 1;
+  }
+}
