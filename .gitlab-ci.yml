@@ -44,5 +44,6 @@ deploy:
         - kubectl apply -f yaml/service.yaml
         - sleep 2
         - cat yaml/deployment.yaml | sed "s/{{CI_COMMIT_SHA}}/$CI_COMMIT_SHA/g" | kubectl apply -f -
+        - kubectl rollout restart deployment/pengwin
 
         - echo "http://vm3714.kaj.pouta.csc.fi:30149/"
