@@ -6,11 +6,6 @@ metadata:
   name: temp
   namespace: default
 spec:
-    template:
-     metadata:
-       annotations:
-         commit_sha: $CI_COMMIT_SHORT_SHA
-spec:
   replicas: 4
   selector:
     matchLabels:
@@ -26,6 +21,6 @@ spec:
         app: temp
     spec:
       containers:
-      - image: gitlab.labranet.jamk.fi:4567/wimmalab2021/pengwin/wimmalab2021-nextjs:<VERSION>
+      - image: gitlab.labranet.jamk.fi:4567/wimmalab2021/pengwin/wimmalab2021-nextjs:{{ .Values.image.tag }}
         imagePullPolicy: Always
         name: temp
