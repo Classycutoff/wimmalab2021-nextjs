@@ -40,7 +40,7 @@ deploy:
 
          - kubectl apply -f yaml/service.yaml
          - kubectl apply -f yaml/deployment.yaml
-#         - kubectl -n default rollout restart deployment pengwin
+         - kubectl -n default rollout restart deployment pengwin
          - kubectl rollout status deployment pengwin
 
          - echo "http://vm3714.kaj.pouta.csc.fi:30149/"
