@@ -21,6 +21,6 @@ spec:
         app: pengwin
     spec:
       containers:
-      - image: gitlab.labranet.jamk.fi:4567/wimmalab2021/pengwin/wimmalab2021-nextjs:$CI_COMMIT_SHA
+      - image: gitlab.labranet.jamk.fi:4567/wimmalab2021/pengwin/wimmalab2021-nextjs:latest
         imagePullPolicy: Always
         name: pengwin
