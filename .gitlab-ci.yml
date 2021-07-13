@@ -33,6 +33,7 @@ deploy:
     image: bitnami/kubectl:latest
     script:
         - kubectl apply -f yaml/service.yaml
+        - sed -i "s/<VERSION>/${CI_COMMIT_SHORT_SHA}/g" yaml/deployment.yaml
         - kubectl apply -f yaml/deployment.yaml
 
         - echo "http://vm3714.kaj.pouta.csc.fi:30149/"
