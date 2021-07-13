@@ -26,22 +26,12 @@ stages:
 #    - echo "{\"auths\":{\"$CI_REGISTRY\":{\"username\":\"$CI_REGISTRY_USER\",\"password\":\"$CI_REGISTRY_PASSWORD\"}}}" > /kaniko/.docker/config.json
 #    - /kaniko/executor --context $CI_PROJECT_DIR --dockerfile $CI_PROJECT_DIR/Dockerfile --destination $CI_REGISTRY_IMAGE:$CI_COMMIT_SHA
 
-#deploy:
-#    stage: deploy
- #   when: manual
-#    script: echo "Deploying"
-#    image: bitnami/kubectl:latest
-#    script:
-#        - kubectl apply -f yaml/service.yaml
-#        - sed -i "s/<VERSION>/${CI_COMMIT_SHORT_SHA}/g" yaml/deployment.yaml
-#        - kubectl apply -f yaml/deployment.yaml
-#
-
 deploy:
-  stage: deploy
-  image: dtzar/helm-kubectl
-  script:
-    - helm upgrade temp ./ --install --set image.tag=${CI_COMMIT_SHORT_SHA}
-
-
-    - echo "http://vm3714.kaj.pouta.csc.fi:30149/"
+    stage: deploy
+ #   when: manual
+    script: echo "Deploying"
+    image: bitnami/kubectl:latest
+    script:
+        - kubectl apply -f yaml/service.yaml
+        - kubectl apply -f yaml/deployment.yaml
+        - echo "http://vm3714.kaj.pouta.csc.fi:30149/"
