@@ -43,6 +43,7 @@ const Students = () => {
           alt=""
           quality={96}
           className="hero__bg"
+          priority={true}
         />
         <div className="hero__container">
           <p className="hero__for">
@@ -107,27 +108,28 @@ const Students = () => {
       <section className="content__section">
         <div>
           <h2>{t('h2-timeline')}</h2>
-          <div>
-            <div>
-              <h3>{t('h3-orientation-week')}</h3>
-              <p>{t('p-orientation-week')}</p>
+          <div className="timeline">
+            <div className="timeline__box first">
+              <h3 className="timeline__h3">{t('h3-orientation-week')}</h3>
+              <p className="timeline__p">{t('p-orientation-week')}</p>
             </div>
-            <div>
-              <h3>{t('h3-open-doors')}</h3>
-              <p>{t('p-open-doors')}</p>
+            <div className="timeline__box second">
+              <h3 className="timeline__h3">{t('h3-open-doors')}</h3>
+              <p className="timeline__p">{t('p-open-doors')}</p>
             </div>
-            <div>
-              <h3>{t('h3-kettuketer')}</h3>
-              <p>{t('p-kettuketer')}</p>
+            <div className="timeline__box third">
+              <h3 className="timeline__h3">{t('h3-kettuketer')}</h3>
+              <p className="timeline__p">{t('p-kettuketer')}</p>
             </div>
-            <div>
-              <h3>{t('h3-kaunailta')}</h3>
-              <p>{t('p-kaunailta')}</p>
+            <div className="timeline__box fourth">
+              <h3 className="timeline__h3">{t('h3-kaunailta')}</h3>
+              <p className="timeline__p">{t('p-kaunailta')}</p>
             </div>
-            <div>
-              <h3>{t('h3-retro-day')}</h3>
-              <p>{t('p-retro-day')}</p>
+            <div className="timeline__box fifth">
+              <h3 className="timeline__h3">{t('h3-retro-day')}</h3>
+              <p className="timeline__p">{t('p-retro-day')}</p>
             </div>
+            <div className="timeline__line"></div>
           </div>
         </div>
       </section>
