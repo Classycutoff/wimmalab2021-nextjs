@@ -3,6 +3,9 @@ kind: Deployment
 metadata:
   labels:
     app: pengwin
+  annotations:
+    date: {{CI_COMMIT_SHA}}
+
   name: pengwin
   namespace: default
 spec:
