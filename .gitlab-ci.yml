@@ -32,24 +32,8 @@ deploy:
     script: echo "Deploying"
     image: bitnami/kubectl:latest
     script:
-
-#        - kubectl delete -n default service pengwin
-#        - sleep 3
-#        - kubectl delete -n default deployment pengwin
-#        - sleep 3
-
          - kubectl apply -f yaml/service.yaml
          - kubectl apply -f yaml/deployment.yaml
          - kubectl -n default rollout restart deployment pengwin
-         - kubectl rollout status deployment pengwin
 
          - echo "http://vm3714.kaj.pouta.csc.fi:30149/"
-
-
-#        - kubectl apply -f yaml/service.yaml
-#        - sleep 2
-#        - cat yaml/deployment.yaml | sed "s/{{CI_COMMIT_SHA}}/$CI_COMMIT_SHA/g" | kubectl apply -f -
-#        - kubectl rollout restart deployment/pengwin
-#        - kubectl -n default rollout restart deployment pengwin
-
-#        - echo "http://vm3714.kaj.pouta.csc.fi:30149/"
