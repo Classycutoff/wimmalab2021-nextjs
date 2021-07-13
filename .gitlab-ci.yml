@@ -41,7 +41,6 @@ deploy:
   stage: deploy
   image: dtzar/helm-kubectl
   script:
-    - helm init --client-only
     - helm upgrade temp ./ --install --set image.tag=${CI_COMMIT_SHORT_SHA}
 
 
