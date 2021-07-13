@@ -107,24 +107,29 @@ const Students = () => {
       {/* WIMMA Lab timeline */}
       <section className="content__section">
         <div>
-          <h2>{t('h2-timeline')}</h2>
+          <h2 className="h2-timeline">{t('h2-timeline')}</h2>
           <div className="timeline">
+            <p className="month first">{t('month-orientation-week')}</p>
             <div className="timeline__box first">
               <h3 className="timeline__h3">{t('h3-orientation-week')}</h3>
               <p className="timeline__p">{t('p-orientation-week')}</p>
             </div>
+            <p className="month second">{t('month-open-doors')}</p>
             <div className="timeline__box second">
               <h3 className="timeline__h3">{t('h3-open-doors')}</h3>
               <p className="timeline__p">{t('p-open-doors')}</p>
             </div>
+            <p className="month third">{t('month-kettuketer')}</p>
             <div className="timeline__box third">
               <h3 className="timeline__h3">{t('h3-kettuketer')}</h3>
               <p className="timeline__p">{t('p-kettuketer')}</p>
             </div>
+            <p className="month fourth">{t('month-kaunailta')}</p>
             <div className="timeline__box fourth">
               <h3 className="timeline__h3">{t('h3-kaunailta')}</h3>
               <p className="timeline__p">{t('p-kaunailta')}</p>
             </div>
+            <p className="month fifth">{t('month-retro-day')}</p>
             <div className="timeline__box fifth">
               <h3 className="timeline__h3">{t('h3-retro-day')}</h3>
               <p className="timeline__p">{t('p-retro-day')}</p>

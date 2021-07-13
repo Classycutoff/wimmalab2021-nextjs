@@ -36,6 +36,15 @@
   max-width: 540px;
 }
 
+.h2-timeline {
+  margin-bottom: 3rem;
+
+  @include breakpoint(lg) {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+}
+
 .timeline {
   display: grid;
 	grid-template-columns: 1.5rem 1fr;
@@ -46,6 +55,17 @@
 		"tl fourth"
 		"tl fifth";
 	gap: 1rem;
+  max-width: $breakpoint-xl;
+  margin: 0 auto;
+
+  .month {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: $txt-lightgrey;
+    margin-top: -0.25rem;
+  }
 
   .first {
 		grid-area: first;
@@ -67,7 +87,7 @@
 		grid-area: tl;
 		background-color: $pastel-blue;
 		width: 4px;
-		margin: 2rem 0 0 0.25rem;
+		margin: 0 0 0.75rem 0.25rem;
 	}
 
   &__box {
@@ -75,7 +95,8 @@
 		background: $pastel-blue;
 		padding: 1.5rem;
 		border-radius: $border-radius;
-    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 	}
 
   &__p {
@@ -115,14 +136,58 @@
 		}
 	}
 
+  // md+ viewport:
+  // month on left, box on right
+  @include breakpoint(md) {
+    grid-template-columns: 1fr 3rem 4fr;
+	  grid-template-areas:
+			"first-month tl first"
+			"second-month tl second"
+			"third-month tl third"
+			"fourth-month tl fourth"
+			"fifth-month tl fifth";
+
+    &__box {
+      margin-bottom: 0.5rem;
+      margin-top: 0;
+    }
+
+    &__line {
+      margin: 0 1rem 0.25rem auto;
+    }
+
+    .month {
+      margin-top: 1.75rem;
+      text-align: right;
+    }
+
+    .month:nth-of-type(1) {
+      grid-area: first-month;
+    }
+    .month:nth-of-type(2) {
+      grid-area: second-month;
+    }
+    .month:nth-of-type(3) {
+      grid-area: third-month;
+    }
+    .month:nth-of-type(4) {
+      grid-area: fourth-month;
+    }
+    .month:nth-of-type(5) {
+      grid-area: fifth-month;
+    }
+  }
+
+  // lg+ viewport:
+  // line in the middle, every other box on the other side
   @include breakpoint(lg) {
     grid-template-columns: 1fr 3rem 1fr;
 		grid-template-areas:
-			"first tl ."
-			". tl second"
-			"third tl ."
-			". tl fourth"
-			"fifth tl .";
+			"first tl first-month"
+			"second-month tl second"
+			"third tl third-month"
+			"fourth-month tl fourth"
+			"fifth tl fifth-month";
 
     &__line {
       margin: 2rem auto 0;
@@ -130,6 +195,15 @@
 
     .timeline__h3::after {
       left: -3.1rem;
+    }
+
+    .month {
+      text-align: left;
+    }
+
+    .month:nth-of-type(2),
+    .month:nth-of-type(4) {
+      text-align: right;
     }
 
     .first,
@@ -146,10 +220,6 @@
 				left: auto;
 				right: -3.1rem;
 			}
-    }
-
-    .second, .third, .fourth, .fifth {
-      margin-top: -5rem;
     }
   }
 }

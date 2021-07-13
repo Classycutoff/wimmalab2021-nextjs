@@ -28,18 +28,20 @@
 
   "h3-orientation-week": "Orientation week",
   "p-orientation-week": "WIMMA Lab begins! Students are introduced to WIMMA Lab practices, assignments and also to each other.",
-
   "h3-open-doors": "Open Doors",
   "p-open-doors": "WIMMA Lab's biggest event, where students present their plans for the summer and network with companies. Anyone who's interested can stop by!",
-
   "h3-kettuketer": "KettuKeter",
   "p-kettuketer": "To wind down after Open doors, WIMMA Lab and its stakeholders get together for a fun evening.",
-
   "h3-kaunailta": "Kaunailta",
   "p-kaunailta": "WIMMA Lab’s official closing event. Everyone who has participated in or worked with WIMMA Lab is invited!",
-
   "h3-retro-day": "Retro Day",
   "p-retro-day": "When summer holidays are over, WIMMA Lab gathers one last time to present the final results.",
+
+  "month-orientation-week": "May",
+  "month-open-doors": "June",
+  "month-kettuketer": "June",
+  "month-kaunailta": "July",
+  "month-retro-day": "September",
 
   "h2-faq": "Questions & answers",
 

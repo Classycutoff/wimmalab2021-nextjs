@@ -35,7 +35,13 @@
   "h3-kaunailta": "Kaunailta",
   "p-kaunailta": "WIMMA Labin virallinen päätöstilaisuus, johon ovat tervetulleita kaikki WIMMA Labissa ja sen kanssa yhteistyössä toimineet henkilöt.",
   "h3-retro-day": "Retro Day",
-  "p-retro-day": "Mitä jäi kesältä käteen? Syyskuussa järjestettävä esittelypäivä, jolloin käydään läpi WIMMA Labin tuloksia.",
+  "p-retro-day": "Mitä jäi kesältä käteen? Syksyllä järjestettävä esittelypäivä, jolloin käydään läpi WIMMA Labin tuloksia.",
+
+  "month-orientation-week": "Toukokuu",
+  "month-open-doors": "Kesäkuu",
+  "month-kettuketer": "Kesäkuu",
+  "month-kaunailta": "Heinäkuu",
+  "month-retro-day": "Syyskuu",
 
   "h2-faq": "Kysymyksiä & vastauksia",
 
