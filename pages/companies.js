@@ -14,14 +14,16 @@ const Companies = () => {
           {t('page-title')} – {siteTitle}
         </title>
       </Head>
+
+      {/* information for companies */}
       <section className="content__section .hero--companies">
-        {/* information for companies */}
         <div className="hero__container">
           <p> {t('p-info')} </p>
           <h1 className="hero__h1">{t('h1')}</h1>
           <p className="hero__p">{t('h1-subheading')}</p>
         </div>
       </section>
+
       {/* what is wimmalab */}
       <section className="content__section">
         <div className="conten_section">
@@ -29,6 +31,7 @@ const Companies = () => {
           <p> {t('p-what-is-wimma-lab')} </p>
         </div>
       </section>
+
       {/* how to participate */}
       <section className="content__section">
         <div className="conten_section">
@@ -56,6 +59,7 @@ const Companies = () => {
           </div>
         </div>
       </section>
+
       {/* events */}
       <section className="content__section">
         <div>
@@ -73,6 +77,7 @@ const Companies = () => {
           </div>
         </div>
       </section>
+
       {/* experiences */}
       <section className="content__section">
         <div>
@@ -96,6 +101,7 @@ const Companies = () => {
           </div>
         </div>
       </section>
+
       {/* contact us */}
       <section className="content__section">
         <div>
@@ -109,6 +115,9 @@ const Companies = () => {
           </div>
         </div>
       </section>
+
+      {/* sosocial media */}
+      <h2>{t('h2-social-media')}</h2>
     </Layout>
   );
 };
