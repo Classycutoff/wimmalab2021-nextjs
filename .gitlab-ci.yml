@@ -32,6 +32,12 @@ deploy:
     script: echo "Deploying"
     image: bitnami/kubectl:latest
     script:
+
+#        - kubectl delete -n default service pengwin
+#        - sleep 3
+#        - kubectl delete -n default deployment pengwin
+#        - sleep 3
+
         - kubectl apply -f yaml/service.yaml
         - kubectl apply -f yaml/deployment.yaml
         - echo "http://vm3714.kaj.pouta.csc.fi:30149/"
