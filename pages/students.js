@@ -68,7 +68,20 @@ const Students = () => {
               <p>{t('p-wimma-lab-offers-1')}</p>
               <p>{t('p-wimma-lab-offers-2')}</p>
             </div>
-            <div></div>
+            <div className="teams__logo-grid">
+              <div className="teams__iotitude">
+                <span>IoTitude</span>
+              </div>
+              <div className="teams__mysticons">
+                <span>Mysticons</span>
+              </div>
+              <div className="teams__overflow">
+                <span>Overflow</span>
+              </div>
+              <div className="teams__pengwin">
+                <span>Pengwin Media</span>
+              </div>
+            </div>
           </div>
           <div className="simple-grid">
             <div>
