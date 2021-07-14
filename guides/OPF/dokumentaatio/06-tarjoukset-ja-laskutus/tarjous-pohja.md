@@ -1,4 +1,0 @@
-# Tarjouspohja
-
-
-TBD
