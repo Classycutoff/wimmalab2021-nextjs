@@ -37,21 +37,13 @@ body {
   color: $txt-grey;
 }
 
-p, dl, dt, dd {
+p {
   line-height: 1.77;
   font-size: 1.063rem;
 
   @include breakpoint(xxl) {
     font-size: 1.125rem;
   }
-}
-
-dt {
-  color: $txt-black;
-  line-height: 1.55;
-  font-size: 1.4375rem;
-  letter-spacing: -0.2px;
-  font-weight: 400;
 }
 
 h1, h2, h3, h4 {

@@ -16,7 +16,7 @@
   "p-apply-to-wimma-lab-2": "Ilmoittautumislomake avataan vuoden alkupuolella helmi–maaliskuussa. Haastattelut järjestetään huhtikuussa.",
 
   "h2-responsibility": "Kaipaatko enemmän vastuuta?",
-  "p-responsibility": "p-responsibility",
+  "p-responsibility": "WIMMA Lab tarjoaa erinomaisen tilaisuuden kehittyä ja oppia uutta rennossa ja kannustavassa ympäristössä.",
   
   "h3-team-leader": "Tiiminvetäjä",
   "p-team-leader": "Jokainen WIMMA Labin virtuaaliyritys tarvitsee tiiminvetäjän! WIMMA Lab on turvallinen ympäristö kokeilla uutta ja astua oman mukavuusalueen ulkopuolelle, joten miksipä et ottaisi tilaisuudesta kaikkea irti ja lähtisi tiiminvetäjäksi? Tiiminvetäjänä opit näkemään projektit uudesta näkökulmasta ja saat arvokasta kokemusta tiimin johtamisesta.",
@@ -44,6 +44,8 @@
   "month-retro-day": "Syyskuu",
 
   "h2-faq": "Kysymyksiä & vastauksia",
+  "p-faq-more-info": "Jäikö jokin vielä epäselväksi? WIMMA Labin Black Book ja muut oppaat antavat kattavan kokonaiskuvan siitä, mitä WIMMA Labissa tapahtuu.",
+  "button-faq-guides": "Siirry oppaisiin",
 
   "p-faq-q1": "Saanko WIMMA Labista opintopisteitä?",
   "p-faq-a1": "Kyllä. Kesälle voi hakea opintotukea.",
