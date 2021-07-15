@@ -13,6 +13,61 @@
   }
 }
 
+.teams {
+  &__logo-grid {
+    display: grid;
+    grid-template-areas:
+      "iotitude mysticons ."
+      ". overflow pengwin";
+    gap: 1rem;
+    grid-auto-columns: 1fr;
+    place-content: start center;
+
+    > * {
+      border-radius: $border-radius;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    // CSS trick to get square grid items
+    > *::before {
+      content: '';
+      display: inline-block;
+      width: 0;
+      height: 0;
+      padding-bottom: 100%;
+    }
+
+    span {
+      font-size: 1.063rem;
+      font-weight: 500;
+      
+    }
+  }
+  
+  &__iotitude {
+    grid-area: iotitude;
+    background-color: $pastel-cyan;
+  }
+
+  &__mysticons {
+    grid-area: mysticons;
+    background-color: $pastel-purple;
+  }
+
+  &__overflow {
+    grid-area: overflow;
+    background-color: $pastel-blue;
+  }
+
+  &__pengwin {
+    grid-area: pengwin;
+    background-color: $pastel-orange;
+  }
+}
+
 .leader-card {
   border-radius: $border-radius;
   padding: 1.5rem;
@@ -30,10 +85,6 @@
   &--orange {
     background-color: $pastel-orange;
   }
-}
-
-.p-responsibility {
-  max-width: 540px;
 }
 
 .h2-timeline {
@@ -211,7 +262,7 @@
 		.fifth {
 			.timeline__h3::before {
 				left: auto;
-				right: -0.6rem;
+				right: -0.7rem;
 				border-right: none;
 				border-left: 12px solid $pastel-blue;
 			}

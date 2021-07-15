@@ -3,27 +3,17 @@ import Image from 'next/image';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
+import Accordion from '/components/Accordion';
+import Button from '/components/Button';
+import ImageWrapper from '/components/ImageWrapper';
 import Layout, { siteTitle } from '/components/Layout';
+import heroBg from '/public/assets/students-hero-bg.png';
+import Img1 from '/public/assets/students-img1.png';
 
-import Button from '../components/Button';
-import ImageWrapper from '../components/ImageWrapper';
-import heroBg from '../public/assets/students-hero-bg.png';
-import Img1 from '../public/assets/students-img1.png';
 import SvgUnderline from '../svgs/underline.svg';
 
 const Students = () => {
   const { t } = useTranslation('students');
-
-  // Questions & answers
-  let faq = [];
-  for (let i = 1; i <= 6; i++) {
-    faq.push(
-      <dl key={i}>
-        <dt>+ {t(`p-faq-q${i}`)}</dt>
-        <dd>{t(`p-faq-a${i}`)}</dd>
-      </dl>
-    );
-  }
 
   return (
     <Layout t={t}>
@@ -68,7 +58,20 @@ const Students = () => {
               <p>{t('p-wimma-lab-offers-1')}</p>
               <p>{t('p-wimma-lab-offers-2')}</p>
             </div>
-            <div></div>
+            <div className="teams__logo-grid">
+              <div className="teams__iotitude">
+                <span>IoTitude</span>
+              </div>
+              <div className="teams__mysticons">
+                <span>Mysticons</span>
+              </div>
+              <div className="teams__overflow">
+                <span>Overflow</span>
+              </div>
+              <div className="teams__pengwin">
+                <span>Pengwin Media</span>
+              </div>
+            </div>
           </div>
           <div className="simple-grid">
             <div>
@@ -89,7 +92,7 @@ const Students = () => {
         <div className="simple-grid">
           <div>
             <h2>{t('h2-responsibility')}</h2>
-            <p className="p-responsibility">{t('p-responsibility')}</p>
+            <p className="p-narrow">{t('p-responsibility')}</p>
           </div>
           <div>
             <div className="leader-card leader-card--orange">
@@ -141,11 +144,19 @@ const Students = () => {
 
       {/* Questions & answers */}
       <section className="content__section">
-        <div>
-          <h2>{t('h2-faq')}</h2>
-          <div className="simple-grid">
-            <div></div>
-            <div>{faq}</div>
+        <div className="simple-grid">
+          <div>
+            <h2>{t('h2-faq')}</h2>
+            <p className="p-narrow">{t('p-faq-more-info')}</p>
+            <Button name={t('button-faq-guides')} icon type="secondary" />
+          </div>
+          <div>
+            <Accordion title={t('p-faq-q1')}>{t('p-faq-a1')}</Accordion>
+            <Accordion title={t('p-faq-q2')}>{t('p-faq-a2')}</Accordion>
+            <Accordion title={t('p-faq-q3')}>{t('p-faq-a3')}</Accordion>
+            <Accordion title={t('p-faq-q4')}>{t('p-faq-a4')}</Accordion>
+            <Accordion title={t('p-faq-q5')}>{t('p-faq-a5')}</Accordion>
+            <Accordion title={t('p-faq-q6')}>{t('p-faq-a6')}</Accordion>
           </div>
         </div>
       </section>
