@@ -45,7 +45,7 @@ const Students = () => {
           </p>
           <h1 className="hero__h1">{t('h1')}</h1>
           <p className="hero__p">{t('h1-subheading')}</p>
-          <Button name={t('apply-button')} icon />
+          <Button icon>{t('apply-button')}</Button>
         </div>
       </section>
 
@@ -81,7 +81,9 @@ const Students = () => {
               <h3>{t('h3-apply-to-wimma-lab')}</h3>
               <p>{t('p-apply-to-wimma-lab-1')}</p>
               <small className="students__apply-dates">{t('p-apply-to-wimma-lab-2')}</small>
-              <Button name={t('apply-button')} icon type="secondary" />
+              <Button type="secondary" icon>
+                {t('apply-button')}
+              </Button>
             </div>
           </div>
         </div>
@@ -148,7 +150,9 @@ const Students = () => {
           <div>
             <h2>{t('h2-faq')}</h2>
             <p className="p-narrow">{t('p-faq-more-info')}</p>
-            <Button name={t('button-faq-guides')} icon type="secondary" />
+            <Button type="secondary" icon>
+              {t('button-faq-guides')}
+            </Button>
           </div>
           <div>
             <Accordion title={t('p-faq-q1')}>{t('p-faq-a1')}</Accordion>
