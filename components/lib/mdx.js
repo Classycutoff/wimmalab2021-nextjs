@@ -72,10 +72,11 @@ export const getAllStaticIds = () => {
  This is for rendering mdx so all of the contents should be markdown.
  It also gets all of the frontmatter out of it, sans the graymatter plugin.
  */
-export const getFileBySlug = async (type, slug) => {
+export const getFileBySlug = async (directory, slug) => {
+  console.log('getFileBySlug directory ->', directory, 'slug ->', slug);
   const source = slug
-    ? fs.readFileSync(path.join(root, 'guides', type, `${slug}.mdx`), 'utf8')
-    : fs.readFileSync(path.join(root, 'data', `${type}.mdx`), 'utf8');
+    ? fs.readFileSync(path.join(root, 'guides', directory, `${slug}.mdx`), 'utf8')
+    : fs.readFileSync(path.join(root, 'guides', `${directory}`, 'index.mdx'), 'utf8');
 
   const { data, content } = matter(source);
 

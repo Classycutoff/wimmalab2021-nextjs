@@ -2,10 +2,10 @@ import { MDXRemote } from 'next-mdx-remote';
 
 import { getAllStaticIds, getFileBySlug } from '/components/lib/mdx';
 
-const Guide = ({ frontMatter, mdxSource }) => {
+//If you have any frontMatter, add frontMatter to props jusst beside mdxSource and use that
+const Guide = ({ mdxSource }) => {
   return (
     <div className="wrapper">
-      <h1>{frontMatter.title}this is a test</h1>
       <MDXRemote {...mdxSource} />
     </div>
   );
