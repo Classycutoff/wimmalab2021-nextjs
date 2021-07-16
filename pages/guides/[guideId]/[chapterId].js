@@ -1,6 +1,6 @@
 import { MDXRemote } from 'next-mdx-remote';
 
-import { getAllGuideIds, getFileBySlug } from '/components/lib/mdx';
+import { getAllStaticIds, getFileBySlug } from '/components/lib/mdx';
 
 const Guide = ({ frontMatter, mdxSource }) => {
   return (
@@ -12,16 +12,17 @@ const Guide = ({ frontMatter, mdxSource }) => {
 };
 
 export const getStaticPaths = async () => {
-  const paths = getAllGuideIds('Black-Book-fi');
+  const paths = await getAllStaticIds();
 
   return {
-    paths,
+    paths: paths,
     fallback: false
   };
 };
 
 export const getStaticProps = async ({ params }) => {
-  const source = await getFileBySlug('Black-Book-fi', params.chapterId);
+  const { guideId, chapterId } = params;
+  const source = await getFileBySlug(guideId, chapterId);
   return { props: source };
 };
 

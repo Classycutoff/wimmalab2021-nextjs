@@ -3,22 +3,76 @@ import matter from 'gray-matter';
 import { serialize } from 'next-mdx-remote/serialize';
 import path from 'path';
 
+// Gets the root of the server
 const root = process.cwd();
 
-export function getAllGuideIds(dir) {
-  const filenames = fs.readdirSync(path.join(root, 'guides', `${dir}`));
+// Gets all the folders inside the guides folder,
+// for accessing the names of all the guides and their information
+export const getAllFolders = () => {
+  const directoryPath = path.join(root, 'guides');
 
-  return filenames.map((filename) => {
-    return {
-      params: {
-        chapterId: filename.replace(/\.mdx$/, ''),
-        guideId: 'test'
-      }
-    };
+  return fs
+    .readdirSync(directoryPath, { withFileTypes: true })
+    .filter((dirent) => dirent.isDirectory())
+    .map((dirent) => dirent.name);
+};
+
+/*
+ The highlevel function, which get all of the folders and their contentnames to getStaticPaths
+ inside pages/guides/[guideId]/[chapterId].js in the form of:
+
+ {
+   params: {
+     chapterId: [chapterId]_slug,
+     guideId: [guideId]_slug
+   }
+ }
+*/
+export const getAllStaticIds = () => {
+  const guideDirs = getAllFolders();
+
+  const newGuideDirs = guideDirs.map((guide) => {
+    const files = fs.readdirSync(path.join(root, 'guides', `${guide}`));
+
+    const mdxFiles = files.filter((file) => file.includes('.mdx'));
+
+    return mdxFiles.map((chapter) => {
+      return {
+        params: {
+          chapterId: chapter.replace(/\.mdx$/, ''),
+          guideId: guide
+        }
+      };
+    });
   });
-}
+  const allPaths = [];
 
-export async function getFileBySlug(type, slug) {
+  /*
+  The newGuideDirs is in the form of :
+  [
+    [
+      First Guide params...
+    ],
+    [
+      Second Guide params...
+    ]
+  ]
+  This next double mapping is made because of that
+  */
+  newGuideDirs.map((guideDir) => {
+    guideDir.map((chapter) => {
+      allPaths.push(chapter);
+    });
+  });
+  return allPaths;
+};
+
+/*
+ Gets the specific contents of a specific file in a specific folder inside the guides folder.
+ This is for rendering mdx so all of the contents should be markdown.
+ It also gets all of the frontmatter out of it, sans the graymatter plugin.
+ */
+export const getFileBySlug = async (type, slug) => {
   const source = slug
     ? fs.readFileSync(path.join(root, 'guides', type, `${slug}.mdx`), 'utf8')
     : fs.readFileSync(path.join(root, 'data', `${type}.mdx`), 'utf8');
@@ -32,4 +86,4 @@ export async function getFileBySlug(type, slug) {
       ...data
     }
   };
-}
+};
