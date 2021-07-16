@@ -1,10 +1,12 @@
+import Link from 'next/link';
+
 const GuidesIndex = () => {
   return (
-    <>
-      <h1>
-        <a href="guides\01-Johdanto">Linke to the first chapter</a>
-      </h1>
-    </>
+    <h1>
+      <Link href="/guides/01-Johdanto">
+        <a>Linke to the first chapter</a>
+      </Link>
+    </h1>
   );
 };
 

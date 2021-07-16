@@ -1,5 +1,6 @@
-import { MDXRemote } from '../../../mdx_test/node_modules/next-mdx-remote';
-import { getAllGuideIds, getFileBySlug } from '../../components/lib/mdx';
+import { MDXRemote } from 'next-mdx-remote';
+
+import { getAllGuideIds, getFileBySlug } from '/components/lib/mdx';
 
 const Guide = ({ frontMatter, mdxSource }) => {
   return (
