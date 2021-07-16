@@ -5,13 +5,11 @@ const Accordion = ({ title, children }) => {
 
   return (
     <div className={`accordion-wrapper ${isOpen ? 'open' : ''}`}>
-      <div
+      <button
         className={`accordion-title ${isOpen ? 'open' : ''}`}
-        onClick={() => setOpen(!isOpen)}
-        role="button"
-        tabIndex="0">
+        onClick={() => setOpen(!isOpen)}>
         <p>{title}</p>
-      </div>
+      </button>
       <div className={`accordion-item ${!isOpen ? 'collapsed' : ''}`}>
         <div className="accordion-content">
           <p>{children}</p>

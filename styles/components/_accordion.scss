@@ -2,14 +2,17 @@
 // Accordion component
 // -----------------------------------------------------------------------------
 
+.accordion-wrapper {
+  display: flex;
+  flex-direction: column;
+}
 
 .accordion-title {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  cursor: pointer;
+  text-align: left;
   background: $pastel-cyan;
+  border: none;
   border-radius: $border-radius;
+  cursor: pointer;
 
   & + * {
     margin-top: 0.75rem;
