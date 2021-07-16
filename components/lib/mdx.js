@@ -17,6 +17,17 @@ export const getAllFolders = () => {
     .map((dirent) => dirent.name);
 };
 
+// Gets files inside a specific directory inside guides
+export const getAllGuideIds = (guide) => {
+  const files = fs.readdirSync(path.join(root, 'guides', `${guide}`));
+
+  const allFiles = files.filter((file) => file.includes('.mdx') && !file.includes('index.mdx'));
+
+  return allFiles.map((file) => {
+    return file.replace(/\.mdx$/, '');
+  });
+};
+
 /*
  The highlevel function, which get all of the folders and their contentnames to getStaticPaths
  inside pages/guides/[guideId]/[chapterId].js in the form of:
@@ -32,14 +43,12 @@ export const getAllStaticIds = () => {
   const guideDirs = getAllFolders();
 
   const newGuideDirs = guideDirs.map((guide) => {
-    const files = fs.readdirSync(path.join(root, 'guides', `${guide}`));
-
-    const mdxFiles = files.filter((file) => file.includes('.mdx'));
+    const mdxFiles = getAllGuideIds(guide);
 
     return mdxFiles.map((chapter) => {
       return {
         params: {
-          chapterId: chapter.replace(/\.mdx$/, ''),
+          chapterId: chapter,
           guideId: guide
         }
       };
