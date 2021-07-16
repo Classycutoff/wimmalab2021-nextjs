@@ -11,7 +11,8 @@ export function getAllGuideIds(dir) {
   return filenames.map((filename) => {
     return {
       params: {
-        guideId: filename.replace(/\.mdx$/, '')
+        chapterId: filename.replace(/\.mdx$/, ''),
+        guideId: 'test'
       }
     };
   });

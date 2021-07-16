@@ -20,7 +20,7 @@ export const getStaticPaths = async () => {
 };
 
 export const getStaticProps = async ({ params }) => {
-  const source = await getFileBySlug('Black-Book-fi', params.guideId);
+  const source = await getFileBySlug('Black-Book-fi', params.chapterId);
   return { props: source };
 };
 
