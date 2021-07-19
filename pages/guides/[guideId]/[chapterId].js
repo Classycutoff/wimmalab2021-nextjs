@@ -5,8 +5,8 @@ import NextChapter from '/components/NextChapter';
 
 //If you have any frontMatter, add frontMatter to props jusst beside mdxSource and use that
 const Guide = (props) => {
-  const { source, chapterList, chapterId, guideId } = props;
-  const { mdxSource } = source;
+  console.log('Guide props ->', props);
+  const { mdxSource, chapterList, chapterId, guideId } = props;
   return (
     <div className="wrapper">
       <NextChapter chapterList={chapterList} chapterId={chapterId} guideId={guideId} />
@@ -34,7 +34,7 @@ export const getStaticProps = async ({ params }) => {
       chapterList,
       chapterId,
       guideId,
-      source
+      ...source
     }
   };
 };

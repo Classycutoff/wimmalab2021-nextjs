@@ -1,11 +1,11 @@
 import Link from 'next/link';
 
 export default function NextChapter(props) {
-  console.log(props);
-
   const { chapterList, chapterId, guideId } = props;
   const chapterPos = chapterList.findIndex((chapter) => chapter === chapterId);
+
   console.log('chapterPos? ->', chapterPos);
+
   if (chapterPos !== 0 && chapterPos !== chapterList.length - 1) {
     return (
       <div id="Switching_Chapters">
