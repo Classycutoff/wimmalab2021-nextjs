@@ -6,25 +6,39 @@
   "h1-subheading": "Participate in WIMMA Lab and you’ll have a unique opportunity to solve real-world problems in a team, network with companies and practise skills you’ll need in your working life.",
   "apply-button": "Apply to WIMMA Lab",
 
-  "h2-students": "What WIMMA Lab offers",
+  "h2-students": "A better way to learn",
 
   "p-wimma-lab-offers-1": "WIMMA Lab offers many opportunities for students that participate, from networking with representatives of companies to learning a new and modern technology. All of this combined will give you a headstart to your working life and newfound confidence in your work.",
   "p-wimma-lab-offers-2": "In WIMMA Lab, students work in one of the four virtual companies: IoTitude, Mysticons, Overflow or Pengwin Media. Each one has a different assignment every summer, and there is a role for everybody regardless of your technical background.",
 
   "h3-apply-to-wimma-lab": "How to participate",
-  "p-apply-to-wimma-lab-1": "Application process is made as painless as possible. You only need to fill out an application form and be yourself in the interview with the coaches. You don't need to know everything, since you are here to learn. The only requirements are motivation, positive attitude and determination to learn as much as possible.",
+  "p-apply-to-wimma-lab-1": "Application process is simple and straightforward: you only need to fill out an application form and be yourself in the interview with the coaches. You don't need to know everything, since you are here to learn. The only requirements are motivation, positive attitude and determination to learn as much as possible.",
   "p-apply-to-wimma-lab-2": "Application form opens at the start of the year, usually around February or March. Interviews are held in April.",
 
-  "h2-responsibility": "Interested in more responsibility?",
+  "h2-roles": "Find your role",
+  "p-roles": "WIMMA Lab's assignments reflect the demands of the field. Possible roles vary based on the year's assignments and students' personal interest.",
+
+  "li-roles-frontend": "Front-end Development",
+  "li-roles-backend": "Back-end Development",
+  "li-roles-develop": "Desktop and mobile applications",
+
+  "li-roles-testing": "Test Automation",
+
+  "li-roles-uidesign": "UI/UX Design",
+  "li-roles-graphicdesign": "Graphic Design",
+  "li-roles-photography": "Photography",
+  "li-roles-some": "Social Media",
+
+  "h3-responsibility": "Interested in more responsibility?",
   "p-responsibility": "We encourage personal growth. WIMMA Lab is the perfect chance to practise and polish your skills to be more comfortable as a leader.",
   
   "h3-team-leader": "Team leader",
-  "p-team-leader": "Every team needs a team leader, and WIMMA Lab has four of them! WIMMA Lab is your chance to try something new, like being a team leader. Team Leader runs the Daily Scrum, Sprint Planning, and Sprint Review. They are the contact between coaches and teams, and they strive to keep everyone on the same page.",
+  "p-team-leader": "Every team needs a team leader! WIMMA Lab is your chance to try something new, like being a team leader. Team Leader runs the Daily Scrum, Sprint Planning, and Sprint Review. They are the contact between coaches and teams, and they strive to keep everyone on the same page.",
   
   "h3-student-coach": "Student coach",
-  "p-student-coach": "WIMMA Lab couldn't function without student coaches! Student coach is the backbone that keeps the whole operation running smoothly. They are the first contact with the companies and sponsors, they guide and support team leaders, and they are the first to know when someone needs help. They also organise events like Open Doors and KettuKeter.",
+  "p-student-coach": "WIMMA Lab couldn't function without student coaches! Student coach is the backbone that keeps the whole operation running smoothly throughout June and July. They are the first contact with the companies and sponsors and they guide and support team leaders. They also organise events like Open Doors and KettuKeter.",
 
-  "h2-timeline": "WIMMA Lab timeline",
+  "h2-timeline": "Course timeline",
 
   "h3-orientation-week": "Orientation week",
   "p-orientation-week": "WIMMA Lab begins! Students are introduced to WIMMA Lab practices, assignments and also to each other.",
