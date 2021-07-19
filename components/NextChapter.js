@@ -8,7 +8,7 @@ export default function NextChapter(props) {
 
   if (chapterPos !== 0 && chapterPos !== chapterList.length - 1) {
     return (
-      <div id="Switching_Chapters">
+      <div className="switch_chapter">
         <Link href={'../' + guideId + '/' + chapterList[chapterPos - 1]}>
           Link to the previous chapter
         </Link>
@@ -20,7 +20,7 @@ export default function NextChapter(props) {
     );
   } else if (chapterPos === chapterList.length - 1) {
     return (
-      <div id="Switching_Chapters">
+      <div className="switch_chapter">
         <Link href={'../' + guideId + '/' + chapterList[chapterPos - 1]}>
           Link to the previous chapter
         </Link>
@@ -29,7 +29,7 @@ export default function NextChapter(props) {
     );
   } else {
     return (
-      <div id="Switching_Chapters">
+      <div className="switch_chapter">
         <Link href={'../' + guideId}>Link to the introduction</Link>
         <Link href={'../' + guideId + '/' + chapterList[chapterPos + 1]}>
           Link to the Next chapter

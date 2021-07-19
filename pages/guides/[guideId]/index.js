@@ -6,7 +6,9 @@ import { getAllFolders, getFileBySlug } from '/components/lib/mdx';
 const guideIndex = ({ mdxSource }) => {
   return (
     <>
-      <MDXRemote {...mdxSource} />
+      <div className="mdx">
+        <MDXRemote {...mdxSource} />
+      </div>
     </>
   );
 };
