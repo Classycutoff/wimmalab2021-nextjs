@@ -4,6 +4,10 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 import Layout, { siteTitle } from '/components/Layout';
 
+import ImageWrapper from '../components/ImageWrapper';
+// import companyBg from '../public/assets/company.jpg';
+import Img2 from '../public/assets/company2.png';
+
 const Companies = () => {
   const { t } = useTranslation('companies');
 
@@ -29,6 +33,17 @@ const Companies = () => {
         <div className="conten_section">
           <h2>{t('h2-companies')}</h2>
           <p> {t('p-what-is-wimma-lab')} </p>
+        </div>
+        <div>
+          <ul>
+            <li>+ {t(`li-reasons-1`)}</li>
+            <li>+ {t(`li-reasons-2`)}</li>
+            <li>+ {t(`li-reasons-3`)}</li>
+            <li>+ {t(`li-reasons-4`)}</li>
+          </ul>
+        </div>
+        <div>
+          <ImageWrapper src={Img2} className="company2" />
         </div>
       </section>
 
@@ -64,7 +79,6 @@ const Companies = () => {
       <section className="content__section">
         <div>
           <h2>{t('h2-events')}</h2>
-          <p>{t('p-events')}</p>
         </div>
         <div className="simple-grid">
           <div>
