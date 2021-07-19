@@ -2,7 +2,11 @@
 // Companies
 // -----------------------------------------------------------------------------
 .hero--companies {
-    background-color: $cyan-light;
+    background-color: $pastel-blue;
+
+    .hero__h1 {
+        max-width: 560px;
+    }
 }
 
 .companies {

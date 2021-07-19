@@ -19,7 +19,7 @@ const Companies = () => {
         </title>
       </Head>
 
-      {/* information for companies */}
+      {/* Information for companies */}
       <section className="content__section hero--companies">
         <div className="hero__container">
           <p> {t('p-info')} </p>
@@ -28,26 +28,26 @@ const Companies = () => {
         </div>
       </section>
 
-      {/* what is wimmalab */}
+      {/* What is WIMMA Lab */}
       <section className="content__section">
-        <div className="conten_section">
-          <h2>{t('h2-companies')}</h2>
-          <p> {t('p-what-is-wimma-lab')} </p>
-        </div>
-        <div>
-          <ul>
-            <li>+ {t(`li-reasons-1`)}</li>
-            <li>+ {t(`li-reasons-2`)}</li>
-            <li>+ {t(`li-reasons-3`)}</li>
-            <li>+ {t(`li-reasons-4`)}</li>
-          </ul>
-        </div>
-        <div>
-          <ImageWrapper src={Img2} className="company2" />
+        <div className="simple-grid">
+          <div>
+            <h2>{t('h2-companies')}</h2>
+            <p>{t('p-what-is-wimma-lab')}</p>
+            <ul>
+              <li>{t('li-reasons-1')}</li>
+              <li>{t('li-reasons-2')}</li>
+              <li>{t('li-reasons-3')}</li>
+              <li>{t('li-reasons-4')}</li>
+            </ul>
+          </div>
+          <div>
+            <ImageWrapper src={Img2} className="company2" />
+          </div>
         </div>
       </section>
 
-      {/* how to participate */}
+      {/* How to participate */}
       <section className="content__section">
         <div className="conten_section">
           <div>
@@ -75,24 +75,24 @@ const Companies = () => {
         </div>
       </section>
 
-      {/* events */}
+      {/* Events */}
       <section className="content__section">
         <div>
           <h2>{t('h2-events')}</h2>
         </div>
         <div className="simple-grid">
           <div>
-            <h2>{t('h3-events-kettuketer')}</h2>
+            <h3>{t('h3-events-kettuketer')}</h3>
             <p>{t('p-events-kettuketer')}</p>
           </div>
           <div>
-            <h2>{t('h3-events-kaunailta')}</h2>
+            <h3>{t('h3-events-kaunailta')}</h3>
             <p>{t('p-events-kaunailta')}</p>
           </div>
         </div>
       </section>
 
-      {/* experiences */}
+      {/* Experiences */}
       <section className="content__section">
         <div>
           <h2>{t('h2-experiences')}</h2>
@@ -105,33 +105,30 @@ const Companies = () => {
           </div>
           <div>
             <p>{t('p-experience-2')}</p>
-            <h5>{t('p-experience-2-who')}</h5>
+            <p>{t('p-experience-2-who')}</p>
             <p>{t('p-experience-2-company')}</p>
-          </div>
-          <div>
-            <p>{t('p-experience-3')}</p>
-            <p>{t('p-experience-3-who')}</p>
-            <p>{t('p-experience-3-company')}</p>
           </div>
         </div>
       </section>
 
-      {/* contact us */}
+      {/* Contact us */}
       <section className="content__section">
         <div>
           <div>
             <h2> {t('h2-contact-us')}</h2>
           </div>
           <div>
-            <p>{t('p-contact-first-row')}</p>
-            <p>{t('p-contact-second-row')}</p>
-            <p>{t('p-contact-third-row')}</p>
+            <p>Marko Rintamäki</p>
+            <p>LinkedIn</p>
+            <p>marko.rintamaki@jamk.fi</p>
           </div>
         </div>
       </section>
 
-      {/* sosocial media */}
-      <h2>{t('h2-social-media')}</h2>
+      {/* Social media */}
+      <section className="content__section">
+        <h2>{t('h2-social-media')}</h2>
+      </section>
     </Layout>
   );
 };

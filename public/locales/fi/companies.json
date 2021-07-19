@@ -1,10 +1,10 @@
 {
   "page-title": "Tietoa yrityksille",
   "p-info": "Tietoa yrityksille",
-  "h1": "Tule tutustumaan tuleviin ammattilaisiin!",
+  "h1": "Tule tutustumaan tuleviin ammattilaisiin",
   "h1-subheading": "WIMMA Lab tarjoaa yrityksellesi paraatipaikan verkostoitua ja rekrytoida huippuopiskelijoita rennon epävirallisissa tunnelmissa.",
   
-  "h2-companies": "Mikä tekee WIMMA Labista erityisen?!",
+  "h2-companies": "Mikä tekee WIMMA Labista erityisen?",
   "p-what-is-wimma-lab": "Eli toisin sanoen, miksi yrityksesi kannattaa olla hyvin edustettuna juuri tälle opiskelijajoukolle?",
   "li-reasons-1": "WIMMA Lab on jo yhdeksän vuoden ajan toiminut projektioppimisympäristö. Aikaisemmin se on tunnettu nimillä Summer Factory (2011 – 2014) ja Challenge Factory (2014 – 2017).",
   "li-reasons-2": "WIMMA Labin ~25 opiskelijan joukko on kasattu haastatteluprosessin kautta. Joukkueesta koulitaan kesän aikana yrityksellesi loistavia projektityöntekijöitä.",
@@ -34,26 +34,19 @@
   "h3-events-kaunailta": "Kaunailta",
   "p-events-kaunailta": "Yrityksesi pääsee isännöimään projektinlopetus-saunailtaa koko porukalle, ja tarjoaa esim. pizzat, oluet ja saunan. Budjetti ~2000€.",
 
-  "p-participating-tips": "Vinkki: yhdistäkää voimianne! Konsortiot ovat aina tervetulleita.",
+  "p-participating-tips": "Vinkki: Yhdistäkää voimianne! Konsortiot ovat aina tervetulleita.",
 
   "h2-experiences": "Kokemuksia WIMMA Labista",
 
   "p-experience-1": "“Lorem ipsum on 1500-luvulta lähtien olemassa ollut teksti, jota käytetään usein täytetekstinä ulkoasun testaamiseen graafisessa suunnittelussa, kun oikeata tekstisisältöä ei vielä ole.”",
   "p-experience-1-who": "Etunimi Sukunimi",
-  "p-experience-1-company": "tyopaikka",
+  "p-experience-1-company": "Tyopaikka",
 
   "p-experience-2": "“Lorem ipsum on 1500-luvulta lähtien olemassa ollut teksti, jota käytetään usein täytetekstinä ulkoasun testaamiseen graafisessa suunnittelussa, kun oikeata tekstisisältöä ei vielä ole.”",
   "p-experience-2-who": "Etunimi Sukunimi",
-  "p-experience-2-company": "tyopaikka",
-
-  "p-experience-3": "“Lorem ipsum on 1500-luvulta lähtien olemassa ollut teksti, jota käytetään usein täytetekstinä ulkoasun testaamiseen graafisessa suunnittelussa, kun oikeata tekstisisältöä ei vielä ole.”",
-  "p-experience-3-who": "Etunimi Sukunimi",
-  "p-experience-3-company": "tyopaikka",
+  "p-experience-2-company": "Tyopaikka",
 
   "h2-contact-us": "Ota siis yhteyttä ja onnistu opiskelijarekrytoinnissa!",
-  "p-contact-first-row": "Marko Rintamäki",
-  "p-contact-second-row": "LinkedIn",
-  "p-contact-third-row": "marko.rintamaki@jamk.fi",
 
   "h2-social-media": "WIMMA Lab sosiaalisessa mediassa"
  
