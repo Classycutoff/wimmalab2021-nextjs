@@ -3,7 +3,7 @@ import Link from 'next/link';
 const GuidesIndex = () => {
   return (
     <h1>
-      <Link href="/guides/01-Johdanto">
+      <Link href="/guides/Black-Book-fi/01-Johdanto">
         <a>Link to the first chapter</a>
       </Link>
     </h1>
