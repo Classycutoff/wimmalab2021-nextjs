@@ -17,8 +17,12 @@
   margin-bottom: 4rem;
 
   @include breakpoint(lg) {
-    margin-bottom: 8rem;
+    margin-bottom: 6rem;
   }
+}
+
+.margin-t {
+  margin-top: 1.5rem;
 }
 
 .p-narrow {
