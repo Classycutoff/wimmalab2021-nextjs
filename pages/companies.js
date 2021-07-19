@@ -16,7 +16,7 @@ const Companies = () => {
       </Head>
 
       {/* information for companies */}
-      <section className="content__section .hero--companies">
+      <section className="content__section hero--companies">
         <div className="hero__container">
           <p> {t('p-info')} </p>
           <h1 className="hero__h1">{t('h1')}</h1>
