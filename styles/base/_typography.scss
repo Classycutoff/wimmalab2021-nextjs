@@ -40,10 +40,6 @@ body {
 p {
   line-height: 1.77;
   font-size: 1.063rem;
-
-  @include breakpoint(xxl) {
-    font-size: 1.125rem;
-  }
 }
 
 h1, h2, h3, h4 {

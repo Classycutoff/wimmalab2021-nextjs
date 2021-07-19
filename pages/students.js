@@ -24,7 +24,7 @@ const Students = () => {
       </Head>
 
       {/* Hero section */}
-      <section className="content__section hero hero--students">
+      <section className="content__section hero hero--students margin-b">
         <Image
           src={heroBg}
           layout="fill"
@@ -52,9 +52,9 @@ const Students = () => {
       {/* Information for students */}
       <section className="content__section">
         <div>
-          <h2>{t('h2-students')}</h2>
           <div className="simple-grid margin-b">
             <div>
+              <h2>{t('h2-students')}</h2>
               <p>{t('p-wimma-lab-offers-1')}</p>
               <p>{t('p-wimma-lab-offers-2')}</p>
             </div>
@@ -78,13 +78,30 @@ const Students = () => {
               <ImageWrapper src={Img1} className="students-img1" />
             </div>
             <div>
-              <h3>{t('h3-apply-to-wimma-lab')}</h3>
+              <h3 className="students__apply-h3">{t('h3-apply-to-wimma-lab')}</h3>
               <p>{t('p-apply-to-wimma-lab-1')}</p>
-              <small className="students__apply-dates">{t('p-apply-to-wimma-lab-2')}</small>
-              <Button type="secondary" icon>
+              <p>{t('p-apply-to-wimma-lab-2')}</p>
+              <Button type="secondary" className="margin-t" icon>
                 {t('apply-button')}
               </Button>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Roles in WIMMA Lab */}
+      <section className="content__section">
+        <div>
+          <h2>Roles in WIMMA Lab</h2>
+          <p>
+            Roolit vaihtelevat joka wimma-toteutuksessa toimeksiantojen mukaan. Rooleja voi olla
+            yksi tai useita. Roolit voivat olla myös jotain muuta kun mitä tällä listalla on.
+          </p>
+          <div className="roles__wrapper">
+            <div className="roles__box">Front-end Development Back-end Development</div>
+            <div className="roles__box">UI/UX Design Graphic Design</div>
+            <div className="roles__box">Photography Social Media</div>
+            <div className="roles__box">DevOps CI/CD Test Automation</div>
           </div>
         </div>
       </section>

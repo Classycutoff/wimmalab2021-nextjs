@@ -8,20 +8,29 @@
 }
 
 .students {
-  &__apply-dates {
-    margin-bottom: 2rem;
+  &__apply-h3 {
+    margin-top: 1.5rem;
+
+    @include breakpoint(lg) {
+      margin-top: 0;
+    }
   }
 }
 
 .teams {
   &__logo-grid {
+    align-self: center;
     display: grid;
     grid-template-areas:
       "iotitude mysticons ."
       ". overflow pengwin";
-    gap: 1rem;
+    gap: 0.5rem;
     grid-auto-columns: 1fr;
     place-content: start center;
+
+    @include breakpoint(sm) {
+      gap: 1rem;
+    }
 
     > * {
       border-radius: $border-radius;
