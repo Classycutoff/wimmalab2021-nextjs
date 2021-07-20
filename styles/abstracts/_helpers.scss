@@ -8,8 +8,14 @@
     gap: 3rem;
   }
 
-  h2 {
+  h2, h3 {
     margin-top: -0.25rem;
+  }
+
+  &.margin-b {
+    @include breakpoint(xxl) {
+      margin-bottom: 9rem;
+    }
   }
 }
 
@@ -36,5 +42,22 @@
 
   &.loaded {
     opacity: 1;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.p-bigger {
+  font-size: 1.188rem;
+}
+
+.h2-centered {
+  margin-bottom: 3rem;
+
+  @include breakpoint(lg) {
+    text-align: center;
+    margin-bottom: 4rem;
   }
 }
