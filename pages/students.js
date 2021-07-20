@@ -92,16 +92,29 @@ const Students = () => {
       {/* Roles in WIMMA Lab */}
       <section className="content__section">
         <div>
-          <h2>Roles in WIMMA Lab</h2>
-          <p>
-            Roolit vaihtelevat joka wimma-toteutuksessa toimeksiantojen mukaan. Rooleja voi olla
-            yksi tai useita. Roolit voivat olla myös jotain muuta kun mitä tällä listalla on.
-          </p>
+          <h2 className="text-center">{t('h2-roles')}</h2>
+          <p className="p-roles">{t('p-roles')}</p>
           <div className="roles__wrapper">
-            <div className="roles__box">Front-end Development Back-end Development</div>
-            <div className="roles__box">UI/UX Design Graphic Design</div>
-            <div className="roles__box">Photography Social Media</div>
-            <div className="roles__box">DevOps CI/CD Test Automation</div>
+            <div className="roles__box">
+              <ul>
+                <li>{t('li-roles-frontend')}</li>
+                <li>{t('li-roles-backend')}</li>
+              </ul>
+            </div>
+            <div className="roles__box">
+              <ul>
+                <li>DevSecOps</li>
+                <li>CI/CD</li>
+                <li>{t('li-roles-testing')}</li>
+              </ul>
+            </div>
+            <div className="roles__box">
+              <ul>
+                <li>{t('li-roles-uidesign')}</li>
+                <li>{t('li-roles-graphicdesign')}</li>
+                <li>{t('li-roles-photography')}</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
@@ -110,16 +123,16 @@ const Students = () => {
       <section className="content__section">
         <div className="simple-grid">
           <div>
-            <h2>{t('h2-responsibility')}</h2>
-            <p className="p-narrow">{t('p-responsibility')}</p>
+            <h3>{t('h3-responsibility')}</h3>
+            <p className="p-narrow p-bigger">{t('p-responsibility')}</p>
           </div>
           <div>
             <div className="leader-card leader-card--orange">
-              <h3>{t('h3-team-leader')}</h3>
+              <h4>{t('h3-team-leader')}</h4>
               <p>{t('p-team-leader')}</p>
             </div>
             <div className="leader-card leader-card--purple">
-              <h3>{t('h3-student-coach')}</h3>
+              <h4>{t('h3-student-coach')}</h4>
               <p>{t('p-student-coach')}</p>
             </div>
           </div>
@@ -133,27 +146,27 @@ const Students = () => {
           <div className="timeline">
             <p className="month first">{t('month-orientation-week')}</p>
             <div className="timeline__box first">
-              <h3 className="timeline__h3">{t('h3-orientation-week')}</h3>
+              <h4 className="timeline__h3">{t('h3-orientation-week')}</h4>
               <p className="timeline__p">{t('p-orientation-week')}</p>
             </div>
             <p className="month second">{t('month-open-doors')}</p>
             <div className="timeline__box second">
-              <h3 className="timeline__h3">{t('h3-open-doors')}</h3>
+              <h4 className="timeline__h3">{t('h3-open-doors')}</h4>
               <p className="timeline__p">{t('p-open-doors')}</p>
             </div>
             <p className="month third">{t('month-kettuketer')}</p>
             <div className="timeline__box third">
-              <h3 className="timeline__h3">{t('h3-kettuketer')}</h3>
+              <h4 className="timeline__h3">{t('h3-kettuketer')}</h4>
               <p className="timeline__p">{t('p-kettuketer')}</p>
             </div>
             <p className="month fourth">{t('month-kaunailta')}</p>
             <div className="timeline__box fourth">
-              <h3 className="timeline__h3">{t('h3-kaunailta')}</h3>
+              <h4 className="timeline__h3">{t('h3-kaunailta')}</h4>
               <p className="timeline__p">{t('p-kaunailta')}</p>
             </div>
             <p className="month fifth">{t('month-retro-day')}</p>
             <div className="timeline__box fifth">
-              <h3 className="timeline__h3">{t('h3-retro-day')}</h3>
+              <h4 className="timeline__h3">{t('h3-retro-day')}</h4>
               <p className="timeline__p">{t('p-retro-day')}</p>
             </div>
             <div className="timeline__line"></div>
@@ -162,12 +175,12 @@ const Students = () => {
       </section>
 
       {/* Questions & answers */}
-      <section className="content__section">
+      <section className="content__section margin-t">
         <div className="simple-grid">
           <div>
             <h2>{t('h2-faq')}</h2>
-            <p className="p-narrow">{t('p-faq-more-info')}</p>
-            <Button type="secondary" icon>
+            <p className="p-narrow p-bigger">{t('p-faq-more-info')}</p>
+            <Button type="secondary" className="margin-t" icon>
               {t('button-faq-guides')}
             </Button>
           </div>
@@ -176,8 +189,28 @@ const Students = () => {
             <Accordion title={t('p-faq-q2')}>{t('p-faq-a2')}</Accordion>
             <Accordion title={t('p-faq-q3')}>{t('p-faq-a3')}</Accordion>
             <Accordion title={t('p-faq-q4')}>{t('p-faq-a4')}</Accordion>
-            <Accordion title={t('p-faq-q5')}>{t('p-faq-a5')}</Accordion>
             <Accordion title={t('p-faq-q6')}>{t('p-faq-a6')}</Accordion>
+          </div>
+        </div>
+      </section>
+
+      {/* Comments from past participants */}
+      <section className="content__section">
+        <div>
+          <h2 className="text-center">{t('h2-experiences')}</h2>
+          <div className="comments__wrapper">
+            <div className="comments__box">
+              <p className="comments__comment">{t('exp1-comment')}</p>
+              <p>Minttu Mäkäläinen</p>
+              <p>LinkedIn</p>
+              <p>{t('exp1-title')} (2018)</p>
+            </div>
+            <div className="comments__box">
+              <p>{t('exp2-comment')}</p>
+              <p>Hannu Oksman</p>
+              <p>LinkedIn</p>
+              <p>{t('exp1-title')} (2019)</p>
+            </div>
           </div>
         </div>
       </section>

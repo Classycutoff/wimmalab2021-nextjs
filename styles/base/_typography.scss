@@ -69,14 +69,23 @@ h2 {
 
   @include breakpoint(sm) {
     font-size: 2.7rem;
-    font-weight: 700;
     letter-spacing: -2px;
   }
 }
 
 h3 {
+  font-size: 2rem;
+  letter-spacing: -1.5px;
+  line-height: 1.1;
+  margin: 2rem 0;
+
+  @include breakpoint(sm) {
+    font-size: 2.1rem;
+  }
+}
+
+h4 {
   font-family: 'Inter', $fallback-stack;
-  font-weight: 700;
   font-size: 1.3rem;
   letter-spacing: -0.2px;
   line-height: 1.2;
