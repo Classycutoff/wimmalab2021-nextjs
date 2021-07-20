@@ -1,8 +1,9 @@
+// import Meta from '/components/Meta';
 import Head from 'next/head';
 import { MDXRemote } from 'next-mdx-remote';
 
+import GuideLayout from '/components/GuideLayout';
 import { getAllGuideIds, getAllStaticIds, getFileBySlug } from '/components/lib/mdx';
-import Meta from '/components/Meta';
 import NextChapter from '/components/NextChapter';
 
 //If you have any frontMatter, add frontMatter to props jusst beside mdxSource and use that
@@ -11,14 +12,15 @@ const Guide = (props) => {
   const { mdxSource, chapterList, chapterId, guideId } = props;
   return (
     <>
-      <Meta />
-      <Head>
-        <title>{chapterId}</title>
-      </Head>
-      <div className="mdx">
-        <MDXRemote {...mdxSource} />
-        <NextChapter chapterList={chapterList} chapterId={chapterId} guideId={guideId} />
-      </div>
+      <GuideLayout guideId={guideId}>
+        <Head>
+          <title>{chapterId}</title>
+        </Head>
+        <div className="mdx">
+          <MDXRemote {...mdxSource} />
+          <NextChapter chapterList={chapterList} chapterId={chapterId} guideId={guideId} />
+        </div>
+      </GuideLayout>
     </>
   );
 };
