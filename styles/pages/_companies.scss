@@ -2,11 +2,7 @@
 // Companies
 // -----------------------------------------------------------------------------
 .hero--companies {
-    background-color: $pastel-blue;
-
-    .hero__h1 {
-        max-width: 560px;
-    }
+    background-color: whitesmoke;
 }
 
 .companies {
@@ -14,3 +10,42 @@
     margin-bottom: 2rem;
     }
 }
+
+.company-card{
+    border-radius: $border-radius;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+
+    &--purple{
+        background-color: $pastel-purple;
+    }
+
+    &--blue{
+        background-color: $pastel-blue;
+    }
+
+}
+
+.experience-card{
+    border-radius: $border-radius;
+    padding: 1.5rem;
+    margin-bottom: 1rem; 
+
+    &--alice{
+        background-color: aliceblue;
+    }
+}
+// testing
+// .landingImage{
+//     height: 500px;
+//     z-index: 0;
+// }
+
+// .landingText{
+//     position: relative;
+//     z-index: 1;
+// }
+
+// -landingForm{
+//     z-index: 1;
+// }
