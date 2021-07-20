@@ -200,7 +200,7 @@ const Students = () => {
           <h2 className="text-center">{t('h2-experiences')}</h2>
           <div className="comments__wrapper">
             <div className="comments__box">
-              <p>{t('exp1-comment')}</p>
+              <p className="comments__comment">{t('exp1-comment')}</p>
               <p>Minttu Mäkäläinen</p>
               <p>LinkedIn</p>
               <p>{t('exp1-title')} (2018)</p>

@@ -339,12 +339,18 @@
   }
 
   &__box {
-    border-radius: $border-radius;
-    padding: 1.5rem;
     flex: 1;
 
     p {
       margin: 0;
     }
+  }
+
+  &__comment {
+    padding: 1.5rem;
+    font-size: 1.15rem;
+    letter-spacing: -0.2px;
+    background-color: $pastel-purple;
+    border-radius: $border-radius;
   }
 }
