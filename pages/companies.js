@@ -99,7 +99,7 @@ const Companies = () => {
       </section>
 
       {/* experiences */}
-      <section className="content__section simple-grid">
+      <section className="content__section simple-grid experience">
         <div>
           <h2>{t('h2-experiences')}</h2>
         </div>
@@ -119,14 +119,16 @@ const Companies = () => {
 
       {/* Contact us */}
       <section className="content__section">
-        <div>
+        <div className=" company-card company-card--blue">
           <div>
             <h2> {t('h2-contact-us')}</h2>
           </div>
-          <div>
-            <p>Marko Rintamäki</p>
-            <p>LinkedIn</p>
-            <p>marko.rintamaki@jamk.fi</p>
+          <div className="simple-grid">
+            <div className=" company-card company-card--purple">
+              <p>Marko Rintamäki</p>
+              <p>LinkedIn</p>
+              <p>marko.rintamaki@jamk.fi</p>
+            </div>
           </div>
         </div>
       </section>
