@@ -1,11 +1,13 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 import Layout, { siteTitle } from '/components/Layout';
 
 import ImageWrapper from '../components/ImageWrapper';
-// import companyBg from '../public/assets/company.jpg';
+import companyBg from '../public/assets/companyBg.jpg';
+import Img3 from '../public/assets/kettuketer.jpg';
 import Img2 from '../public/assets/software-development-image.png';
 
 const Companies = () => {
@@ -20,9 +22,18 @@ const Companies = () => {
       </Head>
 
       {/* information for companies */}
-      <section className="content__section hero--companies">
+      <section className="content__section hero hero--students margin-b">
         <div className="hero__container">
-          {/* <Image src={companyBg} layout="fill" objectFit="cover" objectPosition="center" /> */}
+          <Image
+            src={companyBg}
+            layout="fill"
+            objectFit="cover"
+            objectPosition="center"
+            alt=""
+            quality={96}
+            className="hero__bg"
+            priority={true}
+          />
           <p> {t('p-info')} </p>
           <h1 className="hero__h1">{t('h1')}</h1>
           <p className="hero__p">{t('h1-subheading')}</p>
@@ -83,7 +94,7 @@ const Companies = () => {
         </div>
         <div className="simple-grid">
           <div>
-            <ImageWrapper src={Img2} className="company2" />
+            <ImageWrapper src={Img3} className="company2" />
           </div>
           <div>
             <div className="company-card company-card--purple">
