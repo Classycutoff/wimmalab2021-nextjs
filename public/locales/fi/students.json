@@ -33,7 +33,7 @@
   "p-responsibility": "WIMMA Lab tarjoaa erinomaisen tilaisuuden laajentaa omaa osaamista ja opetella johtamistaitoja rennossa ja kannustavassa ympäristössä.",
   
   "h3-team-leader": "Tiiminvetäjä",
-  "p-team-leader": "Jokainen WIMMA Labin virtuaaliyritys tarvitsee tiiminvetäjän! Tiiminvetäjä johtaa tiimin työskentelyä ketteriä käytänteitä, kuten Daily Scrumia ja sprinttejä hyödyntäen. Tiiminvetäjänä opit näkemään projektit uudesta näkökulmasta ja saat arvokasta kokemusta tiimin johtamisesta.",
+  "p-team-leader": "Jokainen WIMMA Labin virtuaaliyritys tarvitsee tiiminvetäjän! Tiiminvetäjä johtaa tiimin työskentelyä ketteriä menetelmiä, kuten Daily Scrumia ja sprinttejä hyödyntäen. Tiiminvetäjänä opit kommunikoimaan paremmin, näkemään projektit uudesta näkökulmasta ja saat arvokasta kokemusta projektin johtamisesta.",
   
   "h3-student-coach": "Opiskelijaohjaaja",
   "p-student-coach": "Haluaisitko oppia toimimaan isomman tiimin ohjauksen parissa? Opiskelijaohjaajalla on tärkeä rooli, sillä hän on WIMMA Labin ruorissa kesä–heinäkuun ajan. Toimenkuvaan kuuluu muun muassa yhteydenpito yrityksiin ja sponsoreihin sekä tapahtumien ja esitysten järjestäminen opiskelijoille. Opiskelijaohjaaja tukee, kannustaa ja opastaa tiiminvetäjiä ja varmistaa, että projektityöskentely sujuu sulavasti.",
@@ -58,7 +58,7 @@
   "month-retro-day": "Syyskuu",
 
   "h2-faq": "Kysymyksiä & vastauksia",
-  "p-faq-more-info": "Jäikö jokin vielä epäselväksi? WIMMA Labin Black Book ja muut oppaat antavat kattavan kokonaiskuvan siitä, mitä WIMMA Labissa tapahtuu.",
+  "p-faq-more-info": "Jäikö jokin vielä epäselväksi? WIMMA Labin Black Book ja muut oppaat antavat kattavan kuvan siitä, mitä WIMMA Labissa tapahtuu.",
   "button-faq-guides": "Siirry oppaisiin",
 
   "p-faq-q1": "Saanko WIMMA Labista opintopisteitä?",
@@ -73,6 +73,13 @@
   "p-faq-q5": "Miten osallistujat valitaan?",
   "p-faq-a5": "Haastatteluilla. Tarkoituksena on kartoittaa opiskelijoiden motivaatiota, asennetta ja halua oppia uutta.",
   "p-faq-q6": "En tiedä, olenko tarpeeksi taitava. Voinko epäonnistua?",
-  "p-faq-a6": "WIMMA Lab on turvallinen ympäristö kehittää taitojaan ja kokeilla uutta. Tulosvastuuta ei ole."
+  "p-faq-a6": "WIMMA Lab on turvallinen ympäristö kehittää taitojaan ja kokeilla uutta. Tulosvastuuta ei ole.",
 
+  "h2-experiences": "Labilaisten kokemuksia",
+
+  "exp1-comment": "Opin WIMMA Labissa paljon mm. projektien vetämisestä, kommunikaatiosta sekä tapahtumien ja palaverien organisoimisesta. Parasta oli WIMMA Labin yhteinen henki, joka syntyi kesän aikana. WIMMA Labiin kannattaa hakea, sillä se oli parasta, mitä koin JAMKin opiskelujeni aikana ja auttoi myöhemmin työllistymisessä.",
+  "exp1-title": "Opiskelijaohjaaja",
+
+  "exp2-comment": "Parasta WIMMA Labissa oli yhdessä tekeminen sekä vierailijat eri yrityksistä. Mielestäni WIMMA Lab on potentiaalisesti hyödyllisempi kuin tavanomainen kesätyöpaikka vastuullisemman roolin ja uusien kontaktien takia.",
+  "exp2-title": "Opiskelijaohjaaja"
 }

@@ -175,12 +175,12 @@ const Students = () => {
       </section>
 
       {/* Questions & answers */}
-      <section className="content__section">
+      <section className="content__section margin-t">
         <div className="simple-grid">
           <div>
             <h2>{t('h2-faq')}</h2>
-            <p className="p-narrow">{t('p-faq-more-info')}</p>
-            <Button type="secondary" icon>
+            <p className="p-narrow p-bigger">{t('p-faq-more-info')}</p>
+            <Button type="secondary" className="margin-t" icon>
               {t('button-faq-guides')}
             </Button>
           </div>
@@ -189,8 +189,28 @@ const Students = () => {
             <Accordion title={t('p-faq-q2')}>{t('p-faq-a2')}</Accordion>
             <Accordion title={t('p-faq-q3')}>{t('p-faq-a3')}</Accordion>
             <Accordion title={t('p-faq-q4')}>{t('p-faq-a4')}</Accordion>
-            <Accordion title={t('p-faq-q5')}>{t('p-faq-a5')}</Accordion>
             <Accordion title={t('p-faq-q6')}>{t('p-faq-a6')}</Accordion>
+          </div>
+        </div>
+      </section>
+
+      {/* Comments from past participants */}
+      <section className="content__section">
+        <div>
+          <h2 className="text-center">{t('h2-experiences')}</h2>
+          <div className="comments__wrapper">
+            <div className="comments__box">
+              <p>{t('exp1-comment')}</p>
+              <p>Minttu Mäkäläinen</p>
+              <p>LinkedIn</p>
+              <p>{t('exp1-title')} (2018)</p>
+            </div>
+            <div className="comments__box">
+              <p>{t('exp2-comment')}</p>
+              <p>Hannu Oksman</p>
+              <p>LinkedIn</p>
+              <p>{t('exp1-title')} (2019)</p>
+            </div>
           </div>
         </div>
       </section>

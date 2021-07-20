@@ -16,7 +16,7 @@
   "p-apply-to-wimma-lab-2": "Application form opens at the start of the year, usually around February or March. Interviews are held in April.",
 
   "h2-roles": "Find your role",
-  "p-roles": "WIMMA Lab's assignments reflect the demands of the field. Possible roles vary based on the year's assignments and students' personal interest.",
+  "p-roles": "WIMMA Lab's assignments reflect the current demands of the field. Possible roles vary based on the year's assignments and students' personal interests.",
 
   "li-roles-frontend": "Front-end Development",
   "li-roles-backend": "Back-end Development",
@@ -30,13 +30,13 @@
   "li-roles-some": "Social Media",
 
   "h3-responsibility": "Interested in more responsibility?",
-  "p-responsibility": "We encourage personal growth. WIMMA Lab is the perfect chance to practise and polish your skills to be more comfortable as a leader.",
+  "p-responsibility": "We encourage personal growth. WIMMA Lab is the perfect chance to practise your skills to be more comfortable as a leader.",
   
-  "h3-team-leader": "Team leader",
-  "p-team-leader": "Every team needs a team leader! WIMMA Lab is your chance to try something new, like being a team leader. Team Leader runs the Daily Scrum, Sprint Planning, and Sprint Review. They are the contact between coaches and teams, and they strive to keep everyone on the same page.",
+  "h3-team-leader": "Team Leader",
+  "p-team-leader": "Every team needs a Team Leader! Team Leader guides their team with agile methods, such as Daily Scrum, Sprint Planning, and Sprint Review. They are the contact between coaches and teams, and they strive to keep everyone on the same page. As a Team Leader you learn to see projects from a new perspective and gain valuable experience in leading a project.",
   
-  "h3-student-coach": "Student coach",
-  "p-student-coach": "WIMMA Lab couldn't function without student coaches! Student coach is the backbone that keeps the whole operation running smoothly throughout June and July. They are the first contact with the companies and sponsors and they guide and support team leaders. They also organise events like Open Doors and KettuKeter.",
+  "h3-student-coach": "Student Coach",
+  "p-student-coach": "WIMMA Lab couldn't function without Student Coaches! Student Coach is the backbone that keeps the whole operation running smoothly throughout June and July. They are the first contact with the companies and sponsors and they guide and support Team Leaders. They also organise events like Open Doors and KettuKeter.",
 
   "h2-timeline": "Course timeline",
 
@@ -73,6 +73,13 @@
   "p-faq-q5": "How are the participants selected?",
   "p-faq-a5": "By interviews. The purpose of the interviews is to learn about students' motivation and skills.",
   "p-faq-q6": "I'm not sure if I'm skilled enough. Can I fail?",
-  "p-faq-a6": "WIMMA Lab is a safe environment to try new things and fail. You are here to learn!"
+  "p-faq-a6": "WIMMA Lab is a safe environment to try new things and fail. You are here to learn!",
 
+  "h2-experiences": "Comments from participants",
+
+  "exp1-comment": "I learned a lot in WIMMA Lab about leading projects, communication, scheduling meetings and organizing events. I loved the team spirit that formed during the summer. I recommend applying to WIMMA Lab, because it was the best thing I experienced during my studies in JAMK and it helped me get employed.",
+  "exp1-title": "Student Coach",
+
+  "exp2-comment": "Best thing about WIMMA Lab was working together and meeting people from different companies. I believe that WIMMA Lab is potentially more beneficial than a conventional summer job due to wider range of responsibilities and new contacts.",
+  "exp2-title": "Student Coach"
 }
