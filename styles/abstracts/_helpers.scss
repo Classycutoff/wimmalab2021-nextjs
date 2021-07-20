@@ -52,3 +52,12 @@
 .p-bigger {
   font-size: 1.188rem;
 }
+
+.h2-centered {
+  margin-bottom: 3rem;
+
+  @include breakpoint(lg) {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+}

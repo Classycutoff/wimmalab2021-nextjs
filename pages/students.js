@@ -7,6 +7,8 @@ import Accordion from '/components/Accordion';
 import Button from '/components/Button';
 import ImageWrapper from '/components/ImageWrapper';
 import Layout, { siteTitle } from '/components/Layout';
+import Profile2 from '/public/assets/pfp-hannu.png';
+import Profile1 from '/public/assets/pfp-minttu.png';
 import heroBg from '/public/assets/students-hero-bg.png';
 import Img1 from '/public/assets/students-img1.png';
 
@@ -142,7 +144,7 @@ const Students = () => {
       {/* WIMMA Lab timeline */}
       <section className="content__section">
         <div>
-          <h2 className="h2-timeline">{t('h2-timeline')}</h2>
+          <h2 className="h2-centered">{t('h2-timeline')}</h2>
           <div className="timeline">
             <p className="month first">{t('month-orientation-week')}</p>
             <div className="timeline__box first">
@@ -197,19 +199,51 @@ const Students = () => {
       {/* Comments from past participants */}
       <section className="content__section">
         <div>
-          <h2 className="text-center">{t('h2-experiences')}</h2>
+          <h2 className="h2-centered">{t('h2-experiences')}</h2>
           <div className="comments__wrapper">
             <div className="comments__box">
-              <p className="comments__comment">{t('exp1-comment')}</p>
-              <p>Minttu Mäkäläinen</p>
-              <p>LinkedIn</p>
-              <p>{t('exp1-title')} (2018)</p>
+              <div className="comments__comment">
+                <p>
+                  <span>&quot;</span>
+                  {t('exp1-comment')}
+                  <span>&quot;</span>
+                </p>
+              </div>
+              <div className="comments__profile">
+                <Image
+                  src={Profile1}
+                  alt="Minttu Mäkäläinen"
+                  className="comments__image"
+                  width={100}
+                  height={100}
+                />
+                <div>
+                  <p className="comments__name">Minttu Mäkäläinen</p>
+                  <p>{t('exp1-title')} (2018)</p>
+                </div>
+              </div>
             </div>
             <div className="comments__box">
-              <p>{t('exp2-comment')}</p>
-              <p>Hannu Oksman</p>
-              <p>LinkedIn</p>
-              <p>{t('exp1-title')} (2019)</p>
+              <div className="comments__comment">
+                <p>
+                  <span>&quot;</span>
+                  {t('exp2-comment')}
+                  <span>&quot;</span>
+                </p>
+              </div>
+              <div className="comments__profile">
+                <Image
+                  src={Profile2}
+                  alt="Hannu Oksman"
+                  className="comments__image"
+                  width={100}
+                  height={100}
+                />
+                <div>
+                  <p className="comments__name">Hannu Oksman</p>
+                  <p>{t('exp1-title')} (2019)</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

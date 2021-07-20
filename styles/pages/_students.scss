@@ -139,15 +139,6 @@
   }
 }
 
-.h2-timeline {
-  margin-bottom: 3rem;
-
-  @include breakpoint(lg) {
-    text-align: center;
-    margin-bottom: 4rem;
-  }
-}
-
 .timeline {
   display: grid;
 	grid-template-columns: 1.5rem 1fr;
@@ -331,7 +322,7 @@
   &__wrapper {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
 
     @include breakpoint(lg) {
       flex-direction: row;
@@ -340,6 +331,7 @@
 
   &__box {
     flex: 1;
+    position: relative;
 
     p {
       margin: 0;
@@ -347,10 +339,65 @@
   }
 
   &__comment {
-    padding: 1.5rem;
+    padding: 2rem 2rem 2rem 3rem;
     font-size: 1.15rem;
     letter-spacing: -0.2px;
     background-color: $pastel-purple;
     border-radius: $border-radius;
+    position: relative;
+
+    // refactor this to allow for any height
+    @include breakpoint(lg) {
+      min-height: 265px;
+      display: flex;
+      align-items: center;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: 2.25rem;
+      bottom: -0.7rem;
+      width: 0;
+      height: 0;
+      border-left: 12px solid transparent;
+      border-right: 12px solid transparent;
+      border-top: 12px solid $pastel-purple;
+    }
+    
+    // quotes
+    span {
+      display: inline-block;
+      position: absolute;
+      font-family: 'Space Grotesk', $fallback-stack;
+      font-size: 3rem;
+      line-height: 1;
+      color: #b79cd8;
+
+      &:first-of-type {
+        margin-left: -1.5rem;
+        margin-top: -0.2rem;
+      }
+      &:last-of-type {
+        margin-left: 0.1rem;
+        margin-top: -0.1rem;
+      }
+    }
+  }
+
+  &__image {
+    border-radius: 100%;
+  }
+
+  &__profile {
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  &__name {
+    font-weight: 600;
+    letter-spacing: -0.2px;
   }
 }
