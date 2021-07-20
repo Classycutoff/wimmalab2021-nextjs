@@ -1,4 +1,7 @@
-# Next.js With Docker
+# [https://www.wimmalab.org/](https://www.wimmalab.org/)
+![Screenshot of students page](/public/assets/screenshot-students-page.png)
+
+## Next.js With Docker
 
 > This project uses Docker with Next.js based on the [deployment documentation](https://nextjs.org/docs/deployment#docker-image), built on top of [with-docker example](https://github.com/vercel/next.js/tree/canary/examples/with-docker).
 
