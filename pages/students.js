@@ -202,13 +202,13 @@ const Students = () => {
           <h2 className="h2-centered">{t('h2-experiences')}</h2>
           <div className="comments__wrapper">
             <div className="comments__box">
-              <p className="comments__comment">
-                <div>
+              <div className="comments__comment">
+                <p>
                   <span>&quot;</span>
                   {t('exp1-comment')}
                   <span>&quot;</span>
-                </div>
-              </p>
+                </p>
+              </div>
               <div className="comments__profile">
                 <Image
                   src={Profile1}
@@ -224,13 +224,13 @@ const Students = () => {
               </div>
             </div>
             <div className="comments__box">
-              <p className="comments__comment">
-                <div>
+              <div className="comments__comment">
+                <p>
                   <span>&quot;</span>
                   {t('exp2-comment')}
                   <span>&quot;</span>
-                </div>
-              </p>
+                </p>
+              </div>
               <div className="comments__profile">
                 <Image
                   src={Profile2}
