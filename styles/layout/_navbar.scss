@@ -29,6 +29,12 @@
   &__logo {
     z-index: 999;
     padding: 0.25rem;
+
+    svg {
+      width: 40px;
+      height: 20px;
+      margin-top: 0.1rem;
+    }
   }
 }
 
