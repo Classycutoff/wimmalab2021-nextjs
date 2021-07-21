@@ -9,7 +9,7 @@ export default function NextChapter(props) {
     setChapterPos(chapterList.findIndex((chapter) => chapter === chapterId));
   }, [chapterId, chapterList]);
 
-  return chapterPos ? (
+  return chapterPos !== null ? (
     <div className="switch_chapter">
       {chapterPos !== 0 ? (
         <Link href={'../' + guideId + '/' + chapterList[chapterPos - 1]}>
@@ -20,7 +20,7 @@ export default function NextChapter(props) {
           <a>Link to Introduction</a>
         </Link>
       )}
-      {chapterPos !== chapterList.length - 1 && (
+      {chapterPos !== chapterList.length - 2 && (
         <Link href={'../' + guideId + '/' + chapterList[chapterPos + 1]}>
           <a>Link to Next chapter</a>
         </Link>
