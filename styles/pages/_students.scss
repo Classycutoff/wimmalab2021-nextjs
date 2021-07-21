@@ -99,23 +99,43 @@
     padding: 1.5rem;
     background-color: $pastel-blue;
     border-radius: $border-radius;
-    display: flex;
     flex: 1;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
 
     ul {
       list-style-type: none;
-      margin: 0;
+      margin: 1rem;
       padding: 0;
       text-align: center;
     }
 
     li {
-      padding: 0.25rem 0;
-      font-size: 1.063rem;
-      font-weight: 500;
+      padding: 0.4rem 0;
+      font-size: 1.1rem;
+      font-weight: 700;
       letter-spacing: -0.2px;
+      color: $txt-black;
+    }
+
+    svg {
+      max-width: 132px;
+      color: $txt-black;
+      margin: 1rem 1rem 0;
+    }
+
+    .icon-dev {
+      margin: 1rem 1rem 0 0;
+    }
+
+    .icon-devops {
+      max-width: 108px;
+    }
+
+    .icon-design {
+      max-width: 121px;
     }
   }
 }
@@ -124,18 +144,34 @@
   border-radius: $border-radius;
   padding: 1.5rem;
   margin-bottom: 1rem;
+  background-color: $pastel-purple;
+
+  @include breakpoint(sm) {
+    padding: 2rem;
+  }
+
+  @include breakpoint(lg) {
+    padding: 1.5rem;
+  }
+
+  @include breakpoint(xl) {
+    padding: 2rem;
+  }
+
+  svg {
+    max-width: 90px;
+    color: $txt-black;
+    margin: 0.25rem 0 1rem;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+    margin: 0 0 0.75rem;
+  }
 
   p {
     font-size: 1.063rem;
     margin: 1rem 0 0;
-  }
-
-  &--purple {
-    background-color: $pastel-purple;
-  }
-
-  &--orange {
-    background-color: $pastel-orange;
   }
 }
 
@@ -198,7 +234,7 @@
     margin: 0;
   }
 
-  &__h3 {
+  &__h4 {
     margin: 0 0 0.75rem;
     font-size: 1.1rem;
 
@@ -287,7 +323,7 @@
       margin: 2rem auto 0;
     }
 
-    .timeline__h3::after {
+    .timeline__h4::after {
       left: -3.1rem;
     }
 
@@ -303,14 +339,14 @@
     .first,
 		.third,
 		.fifth {
-			.timeline__h3::before {
+			.timeline__h4::before {
 				left: auto;
 				right: -0.7rem;
 				border-right: none;
 				border-left: 12px solid $pastel-blue;
 			}
 			
-			.timeline__h3::after {
+			.timeline__h4::after {
 				left: auto;
 				right: -3.1rem;
 			}
@@ -340,8 +376,6 @@
 
   &__comment {
     padding: 2rem 2rem 2rem 3rem;
-    font-size: 1.15rem;
-    letter-spacing: -0.2px;
     background-color: $pastel-purple;
     border-radius: $border-radius;
     position: relative;
@@ -351,6 +385,11 @@
       min-height: 265px;
       display: flex;
       align-items: center;
+    }
+
+    p {
+      font-size: 1.15rem;
+      letter-spacing: -0.2px;
     }
 
     &::after {
