@@ -5,8 +5,8 @@ test:
   stage: test
   image: gitlab.labranet.jamk.fi:4567/wimma-lab-2019/mysticons/cayac/tools/robot
   script:
-    - export ROBOT_TESTS=/sample_tests/
-    - export OUTPUT_DIR=/output/
+    - export ROBOT_TESTS=PATH_TO_TESTS_DIRECTORY/
+    - export OUTPUT_DIR=DIRECTORY_TO_SAVE_OUTPUT_TO
     - run.sh
   artifacts:
     paths:
