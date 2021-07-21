@@ -1,8 +1,8 @@
 stages:
   - test
   - build
-  #- deploy
-  #- dast
+  - deploy
+  - dast
 
 include:
   - template: Dependency-Scanning.gitlab-ci.yml
@@ -26,14 +26,15 @@ build:
     - echo "{\"auths\":{\"$CI_REGISTRY\":{\"username\":\"$CI_REGISTRY_USER\",\"password\":\"$CI_REGISTRY_PASSWORD\"}}}" > /kaniko/.docker/config.json
     - /kaniko/executor --context $CI_PROJECT_DIR --dockerfile $CI_PROJECT_DIR/Dockerfile --destination $CI_REGISTRY_IMAGE:$CI_COMMIT_TAG
 
-#deploy:
- #   stage: deploy
+deploy:
+    stage: deploy
  #   when: manual
-  #  script: echo "Deploying"
-  #  image: bitnami/kubectl:latest
-   # script:
-    #    - kubectl apply -f yaml/service.yaml
-    #    - kubectl apply -f yaml/deployment.yaml
-    #     - kubectl -n default rollout restart deployment pengwin
-#
-     #   - echo "http://vm3714.kaj.pouta.csc.fi:30149/"
+    script: echo "Deploying"
+    image: bitnami/kubectl:latest
+    script:
+         - kubectl apply -f yaml/service.yaml
+         - kubectl apply -f yaml/deployment.yaml
+         - kubectl -n default rollout restart deployment pengwin
+
+         - echo "http://vm3714.kaj.pouta.csc.fi:30149/"
+
