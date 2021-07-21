@@ -13,7 +13,7 @@ export default function NextChapter(props) {
     <div className="switch_chapter">
       {chapterPos !== 0 ? (
         <Link href={'../' + guideId + '/' + chapterList[chapterPos - 1]}>
-          Link to Previous chapter
+          <a>Link to Previous chapter</a>
         </Link>
       ) : (
         <Link href={'../' + guideId}>
