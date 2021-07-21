@@ -3,12 +3,12 @@ import Head from 'next/head';
 import { MDXRemote } from 'next-mdx-remote';
 
 import GuideLayout from '/components/GuideLayout';
+import { CodeBlock } from '/components/lib/CodeBlock';
 import { getAllGuideIds, getAllStaticIds, getFileBySlug } from '/components/lib/mdx';
 import NextChapter from '/components/NextChapter';
 
 //If you have any frontMatter, add frontMatter to props jusst beside mdxSource and use that
 const Guide = (props) => {
-  console.log('Guide props ->', props);
   const { mdxSource, chapterList, chapterId, guideId } = props;
   return (
     <>
@@ -17,7 +17,7 @@ const Guide = (props) => {
           <title>{chapterId}</title>
         </Head>
         <div className="mdx">
-          <MDXRemote {...mdxSource} />
+          <MDXRemote {...mdxSource} components={{ code: CodeBlock }} />
           <NextChapter chapterList={chapterList} chapterId={chapterId} guideId={guideId} />
         </div>
       </GuideLayout>
