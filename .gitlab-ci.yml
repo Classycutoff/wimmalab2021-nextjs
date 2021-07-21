@@ -1,8 +1,8 @@
 stages:
   - test
-  - build
-  - deploy
-  - dast
+  #- build
+  #- deploy
+  #- dast
 
 include:
   - template: Dependency-Scanning.gitlab-ci.yml
