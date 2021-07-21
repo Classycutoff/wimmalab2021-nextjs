@@ -16,7 +16,7 @@ stages:
 #  DAST_WEBSITE: http://vm3714.kaj.pouta.csc.fi:30149/
 
 build:
-#  stage: build
+  stage: build
  # when: manual
   script: echo "Building"
   image:
