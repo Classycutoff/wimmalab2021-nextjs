@@ -5,8 +5,8 @@ test:
   stage: test
   image: gitlab.labranet.jamk.fi:4567/wimma-lab-2019/mysticons/cayac/tools/robot
   script:
-    - export ROBOT_TESTS=/wimmalab2021-nextjs/sample_tests/
-    - export OUTPUT_DIR=/wimmalab2021-nextjs/output/
+    - export ROBOT_TESTS=wimmalab2021-nextjs/sample_tests/
+    - export OUTPUT_DIR=wimmalab2021-nextjs/output/
 
     - run.sh
   artifacts:
