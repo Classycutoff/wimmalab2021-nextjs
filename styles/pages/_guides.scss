@@ -15,7 +15,20 @@
 }
 
 .guides {
+  a {
+    color: $link-color;
+    transition: color 0.15s ease;
+  }
+
+  a:hover, a:focus {
+    color: $link-hover;
+  }
+
   .navbar {
+    a {
+      color: $txt-white;
+    }
+
     ul {
       display: inline;
     }
@@ -47,5 +60,34 @@
     > * {
       grid-column: contain;
     }
+  }
+}
+
+.book {
+  &__container {
+    border: 1px solid #eee;
+    margin-bottom: 1rem;
+    border-radius: $border-radius;
+    padding: 1.5rem;
+    transition: all 0.15s ease;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    @include breakpoint(md) {
+      flex-direction: row;
+    }
+    
+    p {
+      font-size: 1rem;
+      margin-bottom: 1.25rem;
+      color: $txt-grey;
+    }
+  }
+
+  &__img-container {
+    width: 100%;
+    max-width: 10rem;
   }
 }
