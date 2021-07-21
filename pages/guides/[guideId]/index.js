@@ -1,15 +1,17 @@
+import Image from 'next/image';
 import { MDXRemote } from 'next-mdx-remote';
 
+import CustomLink from '/components/CustomLink';
 import { getAllFolders, getFileBySlug } from '/components/lib/mdx';
+
+const components = { Image, a: CustomLink };
 
 // If you want frontmatter, add frontMatter next to mdxSource
 const guideIndex = ({ mdxSource }) => {
   return (
-    <>
-      <div className="mdx">
-        <MDXRemote {...mdxSource} />
-      </div>
-    </>
+    <div className="mdx">
+      <MDXRemote {...mdxSource} components={components} />
+    </div>
   );
 };
 
