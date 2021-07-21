@@ -1,11 +1,10 @@
 .mdx {
-  width: 100%;
-  padding: 0 20%;
+  position: relative;
 
   img {
-    width: 100%;
+    max-width: 100%;
   }
-
+  
   .switch_chapter {
     text-align: center;
     a {
@@ -18,7 +17,35 @@
 .guides {
   .navbar {
     ul {
-      display:inline;
+      display: inline;
+    }
+  }
+
+  &__content {
+    display: grid;
+    --padding: 1rem;
+    grid-template-columns: [full-start] minmax(var(--padding), 1fr) [contain-start] minmax(0, $breakpoint-md) [contain-end] minmax(var(--padding), 1fr) [full-end];
+    padding: 2rem 0 6rem;
+
+    p {
+      font-size: 1.063rem;
+    }
+
+    @include breakpoint(sm) {
+      --padding: 3rem;
+      padding-top: 6rem;
+    }
+
+    @include breakpoint(md) {
+      --padding: 4rem;
+    }
+
+    @include breakpoint(lg) {
+      --padding: 2rem;
+    }
+    
+    > * {
+      grid-column: contain;
     }
   }
 }

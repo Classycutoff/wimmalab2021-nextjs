@@ -2,16 +2,19 @@ import Image from 'next/image';
 import { MDXRemote } from 'next-mdx-remote';
 
 import CustomLink from '/components/CustomLink';
+import GuideLayout from '/components/GuideLayout';
 import { getAllFolders, getFileBySlug } from '/components/lib/mdx';
 
 const components = { Image, a: CustomLink };
 
 // If you want frontmatter, add frontMatter next to mdxSource
-const guideIndex = ({ mdxSource }) => {
+const GuideIndex = ({ mdxSource }) => {
   return (
-    <div className="mdx">
-      <MDXRemote {...mdxSource} components={components} />
-    </div>
+    <GuideLayout>
+      <div className="mdx">
+        <MDXRemote {...mdxSource} components={components} />
+      </div>
+    </GuideLayout>
   );
 };
 
@@ -40,4 +43,4 @@ export const getStaticProps = async ({ params }) => {
   };
 };
 
-export default guideIndex;
+export default GuideIndex;
