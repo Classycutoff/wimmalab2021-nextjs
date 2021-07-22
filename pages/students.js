@@ -12,6 +12,7 @@ import Profile1 from '/public/assets/pfp-minttu.png';
 import heroBg from '/public/assets/students-hero-bg.png';
 import Img1 from '/public/assets/students-img1.png';
 
+import IconCoach from '../svgs/icon-coach.svg';
 import IconDesign from '../svgs/icon-design.svg';
 import IconDev from '../svgs/icon-dev.svg';
 import IconDevOps from '../svgs/icon-devops.svg';
@@ -143,6 +144,7 @@ const Students = () => {
               <p>{t('p-team-leader')}</p>
             </div>
             <div className="leader-card">
+              <IconCoach className="icon-coach" />
               <h4>{t('h3-student-coach')}</h4>
               <p>{t('p-student-coach')}</p>
             </div>
