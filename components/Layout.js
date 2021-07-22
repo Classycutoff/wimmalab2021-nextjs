@@ -11,7 +11,7 @@ export function Layout({ t, children }) {
       <Meta />
       <Navbar t={t} />
       <div className="content">{children}</div>
-      <Footer />
+      <Footer t={t} />
     </>
   );
 }

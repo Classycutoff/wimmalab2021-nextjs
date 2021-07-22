@@ -8,7 +8,7 @@ import IconLinkedIn from '../svgs/socials-linkedin.svg';
 import IconTwitter from '../svgs/socials-twitter.svg';
 import IconYouTube from '../svgs/socials-youtube.svg';
 
-const Footer = () => {
+const Footer = ({ t }) => {
   return (
     <footer className="footer content__section">
       <div className="footer__container">
@@ -19,11 +19,7 @@ const Footer = () => {
             </a>
           </Link>
 
-          <p className="footer__p">
-            Projekti­pohjaisen oppimisen
-            <br />
-            tulevaisuus on täällä.
-          </p>
+          <p className="footer__p">{t('footer-title')}</p>
 
           <ul className="footer__social-media-container">
             <li>
@@ -56,33 +52,33 @@ const Footer = () => {
 
         <div className="footer__right-container">
           <div>
-            <h4 className="footer__title">Tutustu</h4>
+            <h4 className="footer__title">{t('footer-title1')}</h4>
             <ul className="footer__links">
               <li>
-                <Link href="/iotitude">
-                  <a>Opiskelijoille</a>
+                <Link href="/students">
+                  <a>{t('students')}</a>
                 </Link>
               </li>
               <li>
-                <Link href="/iotitude">
-                  <a>Yrityksille</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/guides">
-                  <a>Oppaat</a>
+                <Link href="/companies">
+                  <a>{t('companies')}</a>
                 </Link>
               </li>
               <li>
                 <Link href="/guides">
-                  <a>Avoimet ovet 2021</a>
+                  <a>{t('guides')}</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/">
+                  <a>{t('open-doors')}</a>
                 </Link>
               </li>
             </ul>
           </div>
 
           <div>
-            <h4 className="footer__title">Virtuaaliyritykset</h4>
+            <h4 className="footer__title">{t('footer-title2')}</h4>
             <ul className="footer__links">
               <li>
                 <Link href="/iotitude">
@@ -108,7 +104,7 @@ const Footer = () => {
           </div>
 
           <div className="footer__contact-container">
-            <h4 className="footer__title">Ota yhteyttä</h4>
+            <h4 className="footer__title">{t('footer-title3')}</h4>
             <dl className="footer__contact">
               <dt>Marko Rintamäki</dt>
               <dd>
