@@ -11,4 +11,4 @@ test:
     - run.sh
   artifacts:
     paths:
-      - DIRECTORY_TO_SAVE_OUTPUT_TO/output/
+      - DIRECTORY_TO_SAVE_OUTPUT_TO=output/
