@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 import Logo from '../svgs/logo-sm.svg';
 
-export default function GuideNavBar({ guideId }) {
+export default function GuideNavBar() {
   return (
     <div className="navbar">
       <div className="navbar__container">
@@ -16,12 +16,17 @@ export default function GuideNavBar({ guideId }) {
             <ul className="desktop-menu__links">
               <li>
                 <Link href="/guides">
-                  <a>guides</a>
+                  <a>Guides</a>
                 </Link>
               </li>
               <li>
-                <Link href={'/guides/' + guideId}>
-                  <a>guide index</a>
+                <Link href="/guides/Black-Book-en">
+                  <a>Black Book 1.2</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/guides/Green-Book">
+                  <a>Green Book 2021</a>
                 </Link>
               </li>
             </ul>

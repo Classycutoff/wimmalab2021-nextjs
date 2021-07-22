@@ -28,10 +28,6 @@
     a {
       color: $txt-white;
     }
-
-    ul {
-      display: inline;
-    }
   }
 
   &__content {
@@ -65,7 +61,7 @@
 
 .book {
   &__container {
-    border: 1px solid #eee;
+    border: 1px solid #eaeaea;
     margin-bottom: 1rem;
     border-radius: $border-radius;
     padding: 1.5rem;

@@ -22,11 +22,11 @@ const GuidesIndex = () => {
       </p>
 
       <h2>All Guides</h2>
-      <BookCard title="Black Book" href="/guides/Black-Book-en" img={BlackBookImg}>
+      <BookCard title="Black Book 1.2" href="/guides/Black-Book-en" img={BlackBookImg}>
         The blueprint for WIMMA Lab. It explains the concept in detail: how virtual companies
         operate and what kind of practices are utilized, from daily routines to special events.
       </BookCard>
-      <BookCard title="Green Book" href="/guides/Green-Book" img={GreenBookImg}>
+      <BookCard title="Green Book 2021" href="/guides/Green-Book" img={GreenBookImg}>
         Technical guide that dives deep into DevOps. Includes step-by-step instructions on how
         project environments and pipelines are set up and how WIMMA Lab projects are deployed to the
         cloud.
