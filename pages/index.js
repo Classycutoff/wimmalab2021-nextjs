@@ -18,6 +18,63 @@ const Home = () => {
           <p className="hero__p">{t('h1-subheading')}</p>
         </div>
       </section>
+      <section className="content__section">
+        <div className="history">
+          <h2 className="text-center">{t('h2-history')}</h2>
+          <p className="p-intro">{t('p-big-history')}</p>
+
+          <div className="history">
+            <div className="history__section">
+              <h3>{t('h3-history-2021')}</h3>
+              <div className="history__card-wrapper">
+                <div className="history-card">
+                  <h4>{t('h4-history-2021-1')}</h4>
+                  <p>{t('p-history-2021-1')}</p>
+                </div>
+                <div className="history-card">
+                  <h4>{t('h4-history-2021-2')}</h4>
+                  <p>{t('p-history-2021-2')}</p>
+                </div>
+                <div className="history-card">
+                  <h4>{t('h4-history-2021-3')}</h4>
+                  <p>{t('p-history-2021-3')}</p>
+                </div>
+                <div className="history-card">
+                  <h4>{t('h4-history-2021-4')}</h4>
+                  <p>{t('p-history-2021-4')}</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="history__section">
+              <h3>{t('h3-history-2020')}</h3>
+              <p>{t('p-history-2020')}</p>
+            </div>
+
+            <div className="history__section">
+              <h3>{t('h3-history-2019')}</h3>
+              <div className="history__card-wrapper">
+                <div className="history-card">
+                  <h4>{t('h4-history-2019-1')}</h4>
+                  <p>{t('p-history-2019-1')}</p>
+                </div>
+                <div className="history-card">
+                  <h4>{t('h4-history-2019-2')}</h4>
+                  <p>{t('p-history-2019-2')}</p>
+                </div>
+                <div className="history-card">
+                  <h4>{t('h4-history-2019-3')}</h4>
+                  <p>{t('p-history-2019-3')}</p>
+                </div>
+                <div className="history-card">
+                  <h4>{t('h4-history-2019-4')}</h4>
+                  <p>{t('p-history-2019-4')}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </Layout>
   );
 };

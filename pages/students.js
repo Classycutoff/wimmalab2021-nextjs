@@ -100,7 +100,7 @@ const Students = () => {
       <section className="content__section">
         <div>
           <h2 className="text-center">{t('h2-roles')}</h2>
-          <p className="p-roles">{t('p-roles')}</p>
+          <p className="p-intro">{t('p-roles')}</p>
           <div className="roles__wrapper">
             <div className="roles__box">
               <IconDev className="icon-dev" />

@@ -7,3 +7,46 @@
     max-width: 100%;
   }
 }
+
+
+// ===============
+// History styling
+// ===============
+.history {
+  &__section {
+    background-color: $pastel-blue;
+    padding: 1.5rem;
+    border-radius: $border-radius;
+    margin-bottom: 1.5rem;
+  }
+
+  h3 {
+    margin: 0 0 1rem;
+  }
+
+  &__card-wrapper {
+    display: grid;
+    gap: 1rem;
+    
+    @include breakpoint(lg) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
+
+.history-card {
+  border: 1px solid $pastel-blue-dark;
+  border-radius: $border-radius;
+  padding: 1.25rem;
+
+  h4 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+  }
+
+  p {
+    font-size: 1rem;
+    margin: 0.5rem 0 0;
+  }
+}
