@@ -81,3 +81,17 @@ export const getFileBySlug = async (directory, slug) => {
     }
   };
 };
+
+export const getGuideIntroductions = async () => {
+  const allFolders = getAllFolders();
+
+  const guideIndexes = allFolders.map((folder) => {
+    const source = fs.readFileSync(path.join(root, 'guides', folder, 'index.mdx'), 'utf8');
+
+    const { data } = matter(source);
+    return data;
+  });
+  return {
+    guideIndexes: guideIndexes
+  };
+};

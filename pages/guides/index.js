@@ -1,9 +1,11 @@
 import BookCard from '/components/BookCard';
 import GuideLayout from '/components/GuideLayout';
+import { getGuideIntroductions } from '/components/lib/mdx';
 import BlackBookImg from '/public/assets/Black-Book-Images/blackbook.png';
 import GreenBookImg from '/public/assets/Black-Book-Images/greenbook.png';
 
-const GuidesIndex = () => {
+const GuidesIndex = (props) => {
+  console.log('GuidesIndex  ------------->', props);
   return (
     <GuideLayout>
       <h1>WIMMA Lab Guides</h1>
@@ -33,6 +35,16 @@ const GuidesIndex = () => {
       </BookCard>
     </GuideLayout>
   );
+};
+
+export const getStaticProps = async () => {
+  const frontmatter = getGuideIntroductions();
+  console.log('FRONTMATTER', frontmatter);
+  return {
+    props: {
+      ...frontmatter
+    }
+  };
 };
 
 export default GuidesIndex;
