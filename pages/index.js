@@ -1,8 +1,10 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
+import HistoryCard from '/components/HistoryCard';
 import HistorySection from '/components/HistorySection';
 import Layout, { siteTitle } from '/components/Layout';
 
@@ -25,153 +27,61 @@ const Home = () => {
         <p className="p-intro">{t('p-big-history')}</p>
 
         <div className="history">
-          <div className="history__section">
-            <h3>{t('h3-history-2021')}</h3>
-            <div className="history__card-wrapper">
-              <div className="history-card">
-                <h4>{t('h4-history-2021-1')}</h4>
-                <p>{t('p-history-2021-1')}</p>
-              </div>
-              <div className="history-card">
-                <h4>{t('h4-history-2021-2')}</h4>
-                <p>{t('p-history-2021-2')}</p>
-              </div>
-              <div className="history-card">
-                <h4>{t('h4-history-2021-3')}</h4>
-                <p>{t('p-history-2021-3')}</p>
-              </div>
-              <div className="history-card">
-                <h4>{t('h4-history-2021-4')}</h4>
-                <p>{t('p-history-2021-4')}</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="history__section">
-            <h3>{t('h3-history-2020')}</h3>
-            <p>{t('p-history-2020')}</p>
-          </div>
-
-          <HistorySection year="2019">
-            <div className="history-card">
-              <div className="history-card__image">
-                <Image
-                  src="/assets/history/iotitude-logo.png"
-                  alt="IoTitude 2019"
-                  width={100}
-                  height={100}
-                />
-              </div>
-              <div>
-                <h4>{t('h4-history-2019-1')}</h4>
-                <p>{t('p-history-2019-1')}</p>
-              </div>
-            </div>
-            <div className="history-card">
-              <div className="history-card__image">
-                <Image
-                  src="/assets/history/overflow-logo.png"
-                  alt="Overflow 2019"
-                  width={100}
-                  height={100}
-                />
-              </div>
-              <div>
-                <h4>{t('h4-history-2019-2')}</h4>
-                <p>{t('p-history-2019-2')}</p>
-              </div>
-            </div>
-            <div className="history-card">
-              <div className="history-card__image">
-                <Image
-                  src="/assets/history/mysticons-logo.png"
-                  alt="Mysticons 2019"
-                  width={100}
-                  height={100}
-                />
-              </div>
-              <div>
-                <h4>{t('h4-history-2019-3')}</h4>
-                <p>{t('p-history-2019-3')}</p>
-              </div>
-            </div>
-            <div className="history-card">
-              <div className="history-card__image">
-                <Image
-                  src="/assets/history/pengwin-logo.png"
-                  alt="Pengwin Media 2019"
-                  width={100}
-                  height={100}
-                />
-              </div>
-              <div>
-                <h4>{t('h4-history-2019-4')}</h4>
-                <p>{t('p-history-2019-4')}</p>
-              </div>
-            </div>
+          <HistorySection year="2021">
+            <HistoryCard
+              url="/iotitude"
+              imgUrl="/assets/history/iotitude-logo.png"
+              title={t('h4-history-2021-1')}
+              desc={t('p-history-2021-1')}
+            />
+            <HistoryCard
+              url="/overflow"
+              imgUrl="/assets/history/overflow-logo.png"
+              title={t('h4-history-2021-2')}
+              desc={t('p-history-2021-2')}
+            />
+            <HistoryCard
+              url="/mysticons"
+              imgUrl="/assets/history/mysticons-logo.png"
+              title={t('h4-history-2021-3')}
+              desc={t('p-history-2021-3')}
+            />
+            <HistoryCard
+              url="/pengwin"
+              imgUrl="/assets/history/pengwin-logo.png"
+              title={t('h4-history-2021-4')}
+              desc={t('p-history-2021-4')}
+            />
           </HistorySection>
 
-          <div className="history__section">
-            <h3>{t('h3-history-2019')}</h3>
-            <div className="history__card-wrapper">
-              <div className="history-card">
-                <div className="history-card__image">
-                  <Image
-                    src="/assets/history/iotitude-logo.png"
-                    alt="IoTitude 2019"
-                    width={100}
-                    height={100}
-                  />
-                </div>
-                <div>
-                  <h4>{t('h4-history-2019-1')}</h4>
-                  <p>{t('p-history-2019-1')}</p>
-                </div>
-              </div>
-              <div className="history-card">
-                <div className="history-card__image">
-                  <Image
-                    src="/assets/history/overflow-logo.png"
-                    alt="Overflow 2019"
-                    width={100}
-                    height={100}
-                  />
-                </div>
-                <div>
-                  <h4>{t('h4-history-2019-2')}</h4>
-                  <p>{t('p-history-2019-2')}</p>
-                </div>
-              </div>
-              <div className="history-card">
-                <div className="history-card__image">
-                  <Image
-                    src="/assets/history/mysticons-logo.png"
-                    alt="Mysticons 2019"
-                    width={100}
-                    height={100}
-                  />
-                </div>
-                <div>
-                  <h4>{t('h4-history-2019-3')}</h4>
-                  <p>{t('p-history-2019-3')}</p>
-                </div>
-              </div>
-              <div className="history-card">
-                <div className="history-card__image">
-                  <Image
-                    src="/assets/history/pengwin-logo.png"
-                    alt="Pengwin Media 2019"
-                    width={100}
-                    height={100}
-                  />
-                </div>
-                <div>
-                  <h4>{t('h4-history-2019-4')}</h4>
-                  <p>{t('p-history-2019-4')}</p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <HistorySection year="2020" intro={t('p-history-2020')} />
+
+          <HistorySection year="2019">
+            <HistoryCard
+              url="http://wimma-lab-2019.pages.labranet.jamk.fi/iotitude/site/"
+              imgUrl="/assets/history/iotitude-logo.png"
+              title={t('h4-history-2019-1')}
+              desc={t('p-history-2019-1')}
+            />
+            <HistoryCard
+              url="https://wimma-lab-2019.pages.labranet.jamk.fi/overflow/site/"
+              imgUrl="/assets/history/overflow-logo.png"
+              title={t('h4-history-2019-2')}
+              desc={t('p-history-2019-2')}
+            />
+            <HistoryCard
+              url="http://wimma-lab-2019.pages.labranet.jamk.fi/mysticons/site/"
+              imgUrl="/assets/history/mysticons-logo.png"
+              title={t('h4-history-2019-3')}
+              desc={t('p-history-2019-3')}
+            />
+            <HistoryCard
+              url="http://wimma-lab-2019.pages.labranet.jamk.fi/pengwin/site/"
+              imgUrl="/assets/history/pengwin-logo.png"
+              title={t('h4-history-2019-4')}
+              desc={t('p-history-2019-4')}
+            />
+          </HistorySection>
         </div>
       </section>
     </Layout>
