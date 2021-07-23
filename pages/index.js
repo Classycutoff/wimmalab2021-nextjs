@@ -3,6 +3,8 @@ import Image from 'next/image';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
+import HistoryCard from '/components/HistoryCard';
+import HistorySection from '/components/HistorySection';
 import Layout, { siteTitle } from '/components/Layout';
 
 import ProfileCard from '../components/ProfileCard';
@@ -42,19 +44,19 @@ const Home = () => {
         <h2 className="h2-nutshell h2-section">{t('h2-nutshell')}</h2>
         <div className="simple-grid">
           <div>
-            <h3 className="h3-nutshell-1">{t('h3-nutshell-1')}</h3>
+            <h4 className="h3-nutshell-1">{t('h3-nutshell-1')}</h4>
             <p> {t('p-nutshell-1')} </p>
           </div>
           <div>
-            <h3 className="h3-nutshell-2">{t('h3-nutshell-2')}</h3>
+            <h4 className="h3-nutshell-2">{t('h3-nutshell-2')}</h4>
             <p> {t('p-nutshell-2')} </p>
           </div>
           <div>
-            <h3 className="h3-nutshell-3">{t('h3-nutshell-3')}</h3>
+            <h4 className="h3-nutshell-3">{t('h3-nutshell-3')}</h4>
             <p> {t('p-nutshell-3')} </p>
           </div>
           <div>
-            <h3 className="h3-nutshell-4">{t('h3-nutshell-4')}</h3>
+            <h4 className="h3-nutshell-4">{t('h3-nutshell-4')}</h4>
             <p> {t('p-nutshell-4')} </p>
           </div>
         </div>
@@ -110,17 +112,65 @@ const Home = () => {
 
       {/* History section */}
       <section className="content__section">
-        <div>
-          <h2 className="h2-history h2-section">{t('h2-history')}</h2>
-          <div className="profile-grid"></div>
-        </div>
-      </section>
+        <h2 className="text-center">{t('h2-history')}</h2>
+        <p className="p-intro">{t('p-big-history')}</p>
 
-      {/* Footer section  */}
-      <section className="content__section">
-        <div>
-          <h2 className="h2-section">Footer</h2>
-          <div className="profile-grid"></div>
+        <div className="history">
+          <HistorySection year="2021">
+            <HistoryCard
+              url="/iotitude"
+              imgUrl="/assets/history/iotitude-logo.png"
+              title={t('h4-history-2021-1')}
+              desc={t('p-history-2021-1')}
+            />
+            <HistoryCard
+              url="/overflow"
+              imgUrl="/assets/history/overflow-logo.png"
+              title={t('h4-history-2021-2')}
+              desc={t('p-history-2021-2')}
+            />
+            <HistoryCard
+              url="/mysticons"
+              imgUrl="/assets/history/mysticons-logo.png"
+              title={t('h4-history-2021-3')}
+              desc={t('p-history-2021-3')}
+            />
+            <HistoryCard
+              url="/pengwin"
+              imgUrl="/assets/history/pengwin-logo.png"
+              title={t('h4-history-2021-4')}
+              desc={t('p-history-2021-4')}
+            />
+          </HistorySection>
+
+          <HistorySection year="2020" intro={t('p-history-2020')} />
+
+          <HistorySection year="2019">
+            <HistoryCard
+              url="http://wimma-lab-2019.pages.labranet.jamk.fi/iotitude/site/"
+              imgUrl="/assets/history/iotitude-logo.png"
+              title={t('h4-history-2019-1')}
+              desc={t('p-history-2019-1')}
+            />
+            <HistoryCard
+              url="https://wimma-lab-2019.pages.labranet.jamk.fi/overflow/site/"
+              imgUrl="/assets/history/overflow-logo.png"
+              title={t('h4-history-2019-2')}
+              desc={t('p-history-2019-2')}
+            />
+            <HistoryCard
+              url="http://wimma-lab-2019.pages.labranet.jamk.fi/mysticons/site/"
+              imgUrl="/assets/history/mysticons-logo.png"
+              title={t('h4-history-2019-3')}
+              desc={t('p-history-2019-3')}
+            />
+            <HistoryCard
+              url="http://wimma-lab-2019.pages.labranet.jamk.fi/pengwin/site/"
+              imgUrl="/assets/history/pengwin-logo.png"
+              title={t('h4-history-2019-4')}
+              desc={t('p-history-2019-4')}
+            />
+          </HistorySection>
         </div>
       </section>
     </Layout>

@@ -100,7 +100,7 @@ const Students = () => {
       <section className="content__section">
         <div>
           <h2 className="text-center">{t('h2-roles')}</h2>
-          <p className="p-roles">{t('p-roles')}</p>
+          <p className="p-intro">{t('p-roles')}</p>
           <div className="roles__wrapper">
             <div className="roles__box">
               <IconDev className="icon-dev" />
@@ -198,11 +198,21 @@ const Students = () => {
             </Button>
           </div>
           <div>
-            <Accordion title={t('p-faq-q1')}>{t('p-faq-a1')}</Accordion>
-            <Accordion title={t('p-faq-q2')}>{t('p-faq-a2')}</Accordion>
-            <Accordion title={t('p-faq-q3')}>{t('p-faq-a3')}</Accordion>
-            <Accordion title={t('p-faq-q4')}>{t('p-faq-a4')}</Accordion>
-            <Accordion title={t('p-faq-q6')}>{t('p-faq-a6')}</Accordion>
+            <Accordion title={t('p-faq-q1')}>
+              <p className="faq__p">{t('p-faq-a1')}</p>
+            </Accordion>
+            <Accordion title={t('p-faq-q2')}>
+              <p className="faq__p">{t('p-faq-a2')}</p>
+            </Accordion>
+            <Accordion title={t('p-faq-q3')}>
+              <p className="faq__p">{t('p-faq-a3')}</p>
+            </Accordion>
+            <Accordion title={t('p-faq-q4')}>
+              <p className="faq__p">{t('p-faq-a4')}</p>
+            </Accordion>
+            <Accordion title={t('p-faq-q6')}>
+              <p className="faq__p">{t('p-faq-a6')}</p>
+            </Accordion>
           </div>
         </div>
       </section>

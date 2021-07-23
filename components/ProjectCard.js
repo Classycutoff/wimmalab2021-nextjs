@@ -17,7 +17,9 @@ export default function ProjectCard() {
           </small>
           <h3 className="h3-assignments-1">{t('h3-assignments-1')}</h3>
           <p className="p-assignments-1 project-card__description">{t('p-assignments-1')}</p>
-          <Button name={t('more-button')} icon type="secondary" />
+          <Button icon type="secondary">
+            {t('more-button')}
+          </Button>
         </div>
         <div className="project-card__image">
           <div className="project-card__img-outer-container">
@@ -34,6 +36,7 @@ export default function ProjectCard() {
           </div>
         </div>
       </div>
+
       {/* Mysticons */}
       <div className="project-card">
         <div className="project-card__desc">
@@ -44,7 +47,9 @@ export default function ProjectCard() {
           </small>
           <h3 className="h3-assignments-2">{t('h3-assignments-2')}</h3>
           <p className="p-assignments-2 project-card__description">{t('p-assignments-2')}</p>
-          <Button name={t('more-button')} icon type="secondary" />
+          <Button icon type="secondary">
+            {t('more-button')}
+          </Button>
         </div>
         <div className="project-card__image">
           <div className="project-card__img-outer-container">
@@ -61,6 +66,7 @@ export default function ProjectCard() {
           </div>
         </div>
       </div>
+
       {/* Overflow */}
       <div className="project-card">
         <div className="project-card__desc">
@@ -71,7 +77,9 @@ export default function ProjectCard() {
           </small>
           <h3 className="h3-assignments-3">{t('h3-assignments-3')}</h3>
           <p className="p-assignments-3 project-card__description">{t('p-assignments-3')}</p>
-          <Button name={t('more-button')} icon type="secondary" />
+          <Button icon type="secondary">
+            {t('more-button')}
+          </Button>
         </div>
         <div className="project-card__image">
           <div className="project-card__img-outer-container">
@@ -88,6 +96,7 @@ export default function ProjectCard() {
           </div>
         </div>
       </div>
+
       {/* Pengwin */}
       <div className="project-card">
         <div className="project-card__desc">
@@ -98,7 +107,9 @@ export default function ProjectCard() {
           </small>
           <h3 className="h3-assignments-4">{t('h3-assignments-4')}</h3>
           <p className="p-assignments-4 project-card__description">{t('p-assignments-4')}</p>
-          <Button name={t('more-button')} icon type="secondary" />
+          <Button icon type="secondary">
+            {t('more-button')}
+          </Button>
         </div>
         <div className="project-card__image">
           <div className="project-card__img-outer-container">

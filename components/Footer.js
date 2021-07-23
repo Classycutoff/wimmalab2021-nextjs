@@ -23,27 +23,36 @@ const Footer = ({ t }) => {
 
           <ul className="footer__social-media-container">
             <li>
-              <a href="https://www.facebook.com/wimmalab">
+              <a href="https://www.facebook.com/wimmalab" target="_blank" rel="noreferrer noopener">
                 <IconFacebook />
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/wimmalab">
+              <a
+                href="https://www.instagram.com/wimmalab"
+                target="_blank"
+                rel="noreferrer noopener">
                 <IconInstagram />
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/company/wimmalab">
+              <a
+                href="https://www.linkedin.com/company/wimmalab"
+                target="_blank"
+                rel="noreferrer noopener">
                 <IconLinkedIn />
               </a>
             </li>
             <li>
-              <a href="https://www.youtube.com/channel/UCe0Ssog7DURm_aTiPO2hUFw">
+              <a
+                href="https://www.youtube.com/channel/UCe0Ssog7DURm_aTiPO2hUFw"
+                target="_blank"
+                rel="noreferrer noopener">
                 <IconYouTube />
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/wimmalab">
+              <a href="https://twitter.com/wimmalab" target="_blank" rel="noreferrer noopener">
                 <IconTwitter />
               </a>
             </li>

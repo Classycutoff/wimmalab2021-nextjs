@@ -7,7 +7,6 @@ import Layout, { siteTitle } from '/components/Layout';
 
 import ImageWrapper from '../components/ImageWrapper';
 import companyBg from '../public/assets/companyBg.jpg';
-import Img3 from '../public/assets/kettuketer.jpg';
 import Img4 from '../public/assets/software.png';
 import Img5 from '../public/assets/what.jpg';
 
@@ -67,25 +66,25 @@ const Companies = () => {
         <div className="conten_section">
           <div>
             <h2>{t('h2-how-to-participate')}</h2>
-            <p className="general">{t('p-how-to-participate')}</p>
+            <p className="p-intro">{t('p-how-to-participate')}</p>
           </div>
-          <div className="simple-grid ">
+          <div className="simple-grid">
             <div className="company-card company-card--cyan-light">
               <div>
-                <h3>{t('h3-assignment')}</h3>
+                <h4>{t('h3-assignment')}</h4>
                 <p>{t('p-assignment')}</p>
               </div>
             </div>
             <div className="company-card company-card--cyan-light">
-              <h3>{t('h3-even-sponsorship')}</h3>
+              <h4>{t('h3-even-sponsorship')}</h4>
               <p>{t('p-even-sponsorship')}</p>
             </div>
             <div className="company-card company-card--cyan-light">
-              <h3>{t('h3-guest-lectures')}</h3>
+              <h4>{t('h3-guest-lectures')}</h4>
               <p>{t('p-guest-lectures')}</p>
             </div>
             <div className="company-card company-card--cyan-light">
-              <h3>{t('h3-mentoring')}</h3>
+              <h4>{t('h3-mentoring')}</h4>
               <p>{t('p-mentoring')}</p>
             </div>
           </div>
@@ -95,19 +94,19 @@ const Companies = () => {
       {/* events */}
       <section className="content__section">
         <div>
-          <h2>{t('h2-events')}</h2>
+          <h3>{t('h2-events')}</h3>
         </div>
         <div className="simple-grid">
           <div>
-            <ImageWrapper src={Img3} className="company2" />
+            <ImageWrapper src={Img5} className="company2" />
           </div>
           <div>
             <div className="company-card company-card--purple">
-              <h3>{t('h3-events-kettuketer')}</h3>
+              <h4>{t('h3-events-kettuketer')}</h4>
               <p>{t('p-events-kettuketer')}</p>
             </div>
             <div className="company-card company-card--purple">
-              <h3>{t('h3-events-kaunailta')}</h3>
+              <h4>{t('h3-events-kaunailta')}</h4>
               <p>{t('p-events-kaunailta')}</p>
             </div>
           </div>
