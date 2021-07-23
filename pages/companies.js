@@ -8,7 +8,8 @@ import Layout, { siteTitle } from '/components/Layout';
 import ImageWrapper from '../components/ImageWrapper';
 import companyBg from '../public/assets/companyBg.jpg';
 import Img3 from '../public/assets/kettuketer.jpg';
-import Img2 from '../public/assets/software-development-image.png';
+import Img4 from '../public/assets/software.png';
+import Img5 from '../public/assets/what.jpg';
 
 const Companies = () => {
   const { t } = useTranslation('companies');
@@ -34,14 +35,16 @@ const Companies = () => {
             className="hero__bg"
             priority={true}
           />
-          <p> {t('p-info')} </p>
-          <h1 className="hero__h1">{t('h1')}</h1>
-          <p className="hero__p">{t('h1-subheading')}</p>
+          <div className="hero__container">
+            <p> {t('p-info')} </p>
+            <h1 className="hero__h1">{t('h1')}</h1>
+            <p className="hero__p">{t('h1-subheading')}</p>
+          </div>
         </div>
       </section>
 
       {/* What is WIMMA Lab */}
-      <section className="content__section">
+      <section className="content__section what">
         <div className="simple-grid">
           <div>
             <h2>{t('h2-companies')}</h2>
@@ -54,32 +57,34 @@ const Companies = () => {
             </ul>
           </div>
           <div>
-            <ImageWrapper src={Img2} className="company2" />
+            <ImageWrapper src={Img5} className="company2" />
           </div>
         </div>
       </section>
 
       {/* How to participate */}
-      <section className="content__section">
+      <section className="content__section participate">
         <div className="conten_section">
           <div>
             <h2>{t('h2-how-to-participate')}</h2>
-            <p>{t('p-how-to-participate')}</p>
+            <p className="general">{t('p-how-to-participate')}</p>
           </div>
           <div className="simple-grid ">
-            <div className="company-card company-card--purple">
-              <h3>{t('h3-assignment')}</h3>
-              <p>{t('p-assignment')}</p>
+            <div className="company-card company-card--cyan-light">
+              <div>
+                <h3>{t('h3-assignment')}</h3>
+                <p>{t('p-assignment')}</p>
+              </div>
             </div>
-            <div className="company-card company-card--blue">
+            <div className="company-card company-card--cyan-light">
               <h3>{t('h3-even-sponsorship')}</h3>
               <p>{t('p-even-sponsorship')}</p>
             </div>
-            <div className="company-card company-card--blue">
+            <div className="company-card company-card--cyan-light">
               <h3>{t('h3-guest-lectures')}</h3>
               <p>{t('p-guest-lectures')}</p>
             </div>
-            <div className="company-card company-card--purple">
+            <div className="company-card company-card--cyan-light">
               <h3>{t('h3-mentoring')}</h3>
               <p>{t('p-mentoring')}</p>
             </div>
@@ -115,29 +120,41 @@ const Companies = () => {
           <h2>{t('h2-experiences')}</h2>
         </div>
         <div className="simple-grid experience-card">
-          <div className="experience-card experience-card--alice">
-            <p>{t('p-experience-1')}</p>
-            <p>{t('p-experience-1-who')}</p>
-            <p>{t('p-experience-1-company')}</p>
+          <div className="company-card company-card--blue">
+            <div>
+              <Image src={Img4} className="experience-image" />
+            </div>
+            <div>
+              <p>{t('p-experience-1')}</p>
+              <p>{t('p-experience-1-who')}</p>
+              <p>{t('p-experience-1-company')}</p>
+            </div>
           </div>
-          <div className="experience-card experience-card--alice">
-            <p>{t('p-experience-2')}</p>
-            <h5>{t('p-experience-2-who')}</h5>
-            <p>{t('p-experience-2-company')}</p>
+          <div className="company-card company-card--blue">
+            <div>
+              <Image src={Img4} className="experience-image" />
+            </div>
+            <div>
+              <p>{t('p-experience-2')}</p>
+              <h5>{t('p-experience-2-who')}</h5>
+              <p>{t('p-experience-2-company')}</p>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Contact us */}
       <section className="content__section">
-        <div className=" company-card company-card--blue">
+        <div className=" company-card ">
           <div>
             <h2> {t('h2-contact-us')}</h2>
           </div>
           <div className="simple-grid">
-            <div className=" company-card company-card--purple">
+            <div className=" company-card company-card--cyan-light contactInfo">
               <p>Marko Rintamäki</p>
-              <p>LinkedIn</p>
+              <a href="https://www.linkedin.com/in/narsuman/" target="_blank" rel="noreferrer">
+                LinkedIn
+              </a>
               <p>marko.rintamaki@jamk.fi</p>
             </div>
           </div>

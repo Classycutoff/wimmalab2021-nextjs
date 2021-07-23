@@ -2,42 +2,93 @@
 // Companies
 // -----------------------------------------------------------------------------
 .hero--companies {
-    background-color: whitesmoke;
+  background-color: whitesmoke;
 }
 
 .companies {
-    &__apply-dates {
+  &__apply-dates {
     margin-bottom: 2rem;
-    }
+  }
 }
 
-.company-card{
-    border-radius: $border-radius;
-    padding: 1.5rem;
-    margin-bottom: 1rem;
+// -----------------------------------------------------------------------------
+// General template for cards
+// -----------------------------------------------------------------------------
 
-    &--purple{
-        background-color: $pastel-purple;
-    }
+.company-card {
+  border-radius: $border-radius;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
 
-    &--blue{
-        background-color: $pastel-blue;
-    }
+  &--purple {
+    background-color: $pastel-purple;
+  }
+
+  &--blue {
+    background-color: $pastel-blue;
+  }
+
+  &--cyan-light{
+    background-color: $cyan-light;
+  }
+
+  &--cyan{
+      background-color: $cyan;
+  }
+
+  &--orange{
+    background-color: $pastel-orange;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// What WIMMA Lab is
+// -----------------------------------------------------------------------------
+
+.what {
+  li {
+    padding: 0.3rem;
+    margin: 0.3rem;
+    justify-content: left;
+    line-height: 1.6;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// How to participate
+// -----------------------------------------------------------------------------
+
+.participate {
+  h2 {
+    text-align: center;
+  }
+  .general {
+    font-size: 1.2rem;
+  }
+  Image {
+    size: 20%;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Experiences working with WIMMA Labs
+// -----------------------------------------------------------------------------
+
+.experience {
+  h2 {
+    text-align: center;
+  }
 
 }
 
-.experience{
+// -----------------------------------------------------------------------------
+// How to contact us
+// -----------------------------------------------------------------------------
 
-    h2{
-        text-align: center;
-    }
-    .experience-card{
-    border-radius: $border-radius;
-    padding: 1.5rem;
-    margin-bottom: 1rem; 
-
-    &--alice{
-        background-color: aliceblue;
-        }
-    }
+.contactInfo {
+  p,
+  a {
+    font-weight: bolder;
+    color: black;
+  }
 }
