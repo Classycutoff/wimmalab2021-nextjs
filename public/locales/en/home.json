@@ -91,7 +91,7 @@
   "h4-history-2019-1": "IoTitude",
   "p-history-2019-1": "Developed Jonoxi, a scalable queueing service using technologies such as PWA, serverless cloud functions and Firebase. The user can join a queue and track their queueing number.",
   "h4-history-2019-2": "Overflow",
-  "p-history-2019-2": "Developed a service called TACS for managing airsoft games. Their assignment was to expand on the already existing EHASA-system, which could create and organise games. With the added functionality of TACS, it allowed the game organisers to see players' positions on the map in real time, and to share tactical plans with the teams among other things.",
+  "p-history-2019-2": "Developed a service called TACS for managing airsoft games. Their assignment was to expand on the already existing EHASA-system, which could create and organise games. With the added functionality of TACS, it allowed the game organisers to see players' positions on the map in real time, and to share tactical plans with teams.",
   "h4-history-2019-3": "Mysticons",
   "p-history-2019-3": "Built a CI/CD pipeline and improved on the current DevSecOps model, produced software for a robot and extended its features, and made learning music easier through games for JAMK University of Applied Sciences' educational purposes.",
   "h4-history-2019-4": "Pengwin Media",
