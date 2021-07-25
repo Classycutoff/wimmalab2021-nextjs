@@ -16,6 +16,7 @@ Start Chrome
 
 Test chrome
     Start Chrome
+    sleep 5
     Go To    http://vm3714.kaj.pouta.csc.fi:30149/    
     Set Window size	    1366  768
     Title Should Be      WIMMA Lab
@@ -26,6 +27,7 @@ Test chrome
 
 Test firefox
     Open Browser    http://vm3714.kaj.pouta.csc.fi:30149/   Firefox
+    sleep 5
     Set Window size	     1920  1080
     Title Should Be      WIMMA Lab
     Capture Page Screenshot   
