@@ -193,7 +193,7 @@ const Students = () => {
           <div>
             <h2>{t('h2-faq')}</h2>
             <p className="p-narrow p-bigger">{t('p-faq-more-info')}</p>
-            <Button type="secondary" className="margin-t" icon>
+            <Button href="/guides" type="secondary" className="margin-t" icon>
               {t('button-faq-guides')}
             </Button>
           </div>
