@@ -9,8 +9,8 @@ import Layout, { siteTitle } from '/components/Layout';
 
 import ProfileCard from '../components/ProfileCard';
 import ProjectCard from '../components/ProjectCard';
-import logo from '../public/assets/logo_wimma.png';
-import heroBg from '../public/assets/students-hero-bg.png';
+import heroBg from '../public/assets/home-hero.png';
+import Logo from '../public/assets/logo_wimma.png';
 
 const Home = () => {
   const { t } = useTranslation('home');
@@ -33,7 +33,7 @@ const Home = () => {
           priority={true}
         />
         <div className="hero__container">
-          <Image src={logo} />
+          <Image src={Logo} width={160} height={160} priority={true} />
           <h1 className="hero__h1">{t('h1')}</h1>
           <p className="hero__p">{t('h1-subheading')}</p>
         </div>
