@@ -47,6 +47,11 @@
       @content;
     }
   }
+  @else if $point == card {
+    @media (min-width: $breakpoint-card) {
+      @content;
+    }
+  }
   @else {
     @media (min-width: '#{$point}') {
       @content;

@@ -12,6 +12,11 @@ import Profile1 from '/public/assets/pfp-minttu.png';
 import heroBg from '/public/assets/students-hero-bg.png';
 import Img1 from '/public/assets/students-img1.png';
 
+import IconCoach from '../svgs/icon-coach.svg';
+import IconDesign from '../svgs/icon-design.svg';
+import IconDev from '../svgs/icon-dev.svg';
+import IconDevOps from '../svgs/icon-devops.svg';
+import IconLeader from '../svgs/icon-leader.svg';
 import SvgUnderline from '../svgs/underline.svg';
 
 const Students = () => {
@@ -95,15 +100,18 @@ const Students = () => {
       <section className="content__section">
         <div>
           <h2 className="text-center">{t('h2-roles')}</h2>
-          <p className="p-roles">{t('p-roles')}</p>
+          <p className="p-intro">{t('p-roles')}</p>
           <div className="roles__wrapper">
             <div className="roles__box">
+              <IconDev className="icon-dev" />
               <ul>
                 <li>{t('li-roles-frontend')}</li>
                 <li>{t('li-roles-backend')}</li>
+                <li>{t('li-roles-servicedesign')}</li>
               </ul>
             </div>
             <div className="roles__box">
+              <IconDevOps className="icon-devops" />
               <ul>
                 <li>DevSecOps</li>
                 <li>CI/CD</li>
@@ -111,6 +119,7 @@ const Students = () => {
               </ul>
             </div>
             <div className="roles__box">
+              <IconDesign className="icon-design" />
               <ul>
                 <li>{t('li-roles-uidesign')}</li>
                 <li>{t('li-roles-graphicdesign')}</li>
@@ -129,11 +138,13 @@ const Students = () => {
             <p className="p-narrow p-bigger">{t('p-responsibility')}</p>
           </div>
           <div>
-            <div className="leader-card leader-card--orange">
+            <div className="leader-card">
+              <IconLeader />
               <h4>{t('h3-team-leader')}</h4>
               <p>{t('p-team-leader')}</p>
             </div>
-            <div className="leader-card leader-card--purple">
+            <div className="leader-card">
+              <IconCoach className="icon-coach" />
               <h4>{t('h3-student-coach')}</h4>
               <p>{t('p-student-coach')}</p>
             </div>
@@ -148,27 +159,27 @@ const Students = () => {
           <div className="timeline">
             <p className="month first">{t('month-orientation-week')}</p>
             <div className="timeline__box first">
-              <h4 className="timeline__h3">{t('h3-orientation-week')}</h4>
+              <h4 className="timeline__h4">{t('h3-orientation-week')}</h4>
               <p className="timeline__p">{t('p-orientation-week')}</p>
             </div>
             <p className="month second">{t('month-open-doors')}</p>
             <div className="timeline__box second">
-              <h4 className="timeline__h3">{t('h3-open-doors')}</h4>
+              <h4 className="timeline__h4">{t('h3-open-doors')}</h4>
               <p className="timeline__p">{t('p-open-doors')}</p>
             </div>
             <p className="month third">{t('month-kettuketer')}</p>
             <div className="timeline__box third">
-              <h4 className="timeline__h3">{t('h3-kettuketer')}</h4>
+              <h4 className="timeline__h4">{t('h3-kettuketer')}</h4>
               <p className="timeline__p">{t('p-kettuketer')}</p>
             </div>
             <p className="month fourth">{t('month-kaunailta')}</p>
             <div className="timeline__box fourth">
-              <h4 className="timeline__h3">{t('h3-kaunailta')}</h4>
+              <h4 className="timeline__h4">{t('h3-kaunailta')}</h4>
               <p className="timeline__p">{t('p-kaunailta')}</p>
             </div>
             <p className="month fifth">{t('month-retro-day')}</p>
             <div className="timeline__box fifth">
-              <h4 className="timeline__h3">{t('h3-retro-day')}</h4>
+              <h4 className="timeline__h4">{t('h3-retro-day')}</h4>
               <p className="timeline__p">{t('p-retro-day')}</p>
             </div>
             <div className="timeline__line"></div>
@@ -187,11 +198,21 @@ const Students = () => {
             </Button>
           </div>
           <div>
-            <Accordion title={t('p-faq-q1')}>{t('p-faq-a1')}</Accordion>
-            <Accordion title={t('p-faq-q2')}>{t('p-faq-a2')}</Accordion>
-            <Accordion title={t('p-faq-q3')}>{t('p-faq-a3')}</Accordion>
-            <Accordion title={t('p-faq-q4')}>{t('p-faq-a4')}</Accordion>
-            <Accordion title={t('p-faq-q6')}>{t('p-faq-a6')}</Accordion>
+            <Accordion title={t('p-faq-q1')}>
+              <p className="faq__p">{t('p-faq-a1')}</p>
+            </Accordion>
+            <Accordion title={t('p-faq-q2')}>
+              <p className="faq__p">{t('p-faq-a2')}</p>
+            </Accordion>
+            <Accordion title={t('p-faq-q3')}>
+              <p className="faq__p">{t('p-faq-a3')}</p>
+            </Accordion>
+            <Accordion title={t('p-faq-q4')}>
+              <p className="faq__p">{t('p-faq-a4')}</p>
+            </Accordion>
+            <Accordion title={t('p-faq-q6')}>
+              <p className="faq__p">{t('p-faq-a6')}</p>
+            </Accordion>
           </div>
         </div>
       </section>

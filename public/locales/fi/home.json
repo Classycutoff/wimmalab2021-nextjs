@@ -54,7 +54,7 @@
   "h3-assignments-4": "Brändiuudistus ja wimmalab.org",
   "p-assignments-4": "Pengwin Media vastaa WIMMA Labin brändiuudistuksesta ja wimmalab.org-sivuston kehittämisestä Next.js:llä. Tiimiläiset toimivat yhteistyössä muiden virtuaaliyritysten kanssa tarjoten  frontend-koodausapua, testausta sekä UI/UX-suunnittelua. Lisäksi Pengwin Media päivittää WIMMA Labin sosiaalisen median kanavia.",
 
-  "assignments-link-more": "Lue lisää",
+  "more-button": "Lue lisää",
 
   "h2-instructors": "Ohjaajat",
 
@@ -75,16 +75,16 @@
   "h3-history-2021": "2021",
 
   "h4-history-2021-1": "IoTitude",
-  "p-history-2021-1": "Suunnitteli ja toteutti Haastix-mobiilipelin web socketteja ja Reactia käyttäen, joka kannustaa pelaajia liikkumaan ja tutkimaan lähiympäristöä. Pelissä Pelimestari antaa pelaajille tehtävän ja pelaajat ottavat kuvia älypuhelimillaan tehtävässä mainitusta asiasta.",
+  "p-history-2021-1": "Suunnitteli ja toteutti Haastix-mobiilipelin WebSocketteja ja React Nativea käyttäen, joka kannustaa pelaajia liikkumaan ja tutkimaan lähiympäristöä. Pelissä Pelimestari antaa pelaajille tehtävän ja pelaajat ottavat kuvia älypuhelimillaan tehtävässä mainitusta asiasta.",
   "h4-history-2021-2": "Overflow",
-  "p-history-2021-2": "Kehitti Future Factory marketplace -palvelun JAMK:ille. Palvelun avulla opiskelijoiden on mahdollista tutustua toimeksiantoihin ja tiimiytyä muiden opiskelijoiden kanssa Future Factory -kurssille.",
+  "p-history-2021-2": "Kehitti Future Factory Marketplace -palvelun JAMKille. Palvelun avulla opiskelijoiden on mahdollista tutustua toimeksiantoihin ja tiimiytyä muiden opiskelijoiden kanssa Future Factory -kurssille.",
   "h4-history-2021-3": "Mysticons",
-  "p-history-2021-3": "Loi Kubernetes-alustan ja CI/CD-pipelinet WIMMA Labille, joiden avulla muiden virtuaaliyritysten palvelut toimivat. Mysticons kehitti myös Power Automate -työkalulla lomakkeen, jolla opettajat voivat luoda kursseille Microsoft Teams -kanavat ja Gitlab-repositoriot helposti.",
+  "p-history-2021-3": "Loi Kubernetes-alustan ja CI/CD-pipelinet WIMMA Labille, joiden avulla muiden virtuaaliyritysten palvelut toimivat. Mysticons kehitti myös Power Automate -työkalulla lomakkeen, jolla opettajat voivat luoda kursseille Microsoft Teams -kanavat ja GitLab-repositoriot helposti.",
   "h4-history-2021-4": "Pengwin Media",
-  "p-history-2021-4": "Toteutti WIMMA Labin brändiuudistuksen luomalla uudet verkkosivut käyttäen Next.js:ää ja Reactia. Pengwin Media antoi myös tukea muille virtuaaliyrityksille tarvittaessa.",
+  "p-history-2021-4": "Toteutti WIMMA Labin brändiuudistuksen luomalla uudet verkkosivut käyttäen Next.js:ää. Pengwin Media antoi myös tukea muille virtuaaliyrityksille tarvittaessa.",
 
   "h3-history-2020": "2020",
-  "p-history-2020": "WIMMA Lab oli tauolla COVID-19 vuoksi.",
+  "p-history-2020": "WIMMA Lab oli tauolla COVID-19-tilanteen vuoksi.",
 
   "h3-history-2019": "2019",
 
@@ -95,7 +95,7 @@
   "h4-history-2019-3": "Mysticons",
   "p-history-2019-3": "Työsti CI/CD pipelineä ja paransi nykyistä DevSecOps-mallia, kehitti ohjelman robotille ja uudisti sen uusilla toiminnallisuuksilla sekä helpotti sovelluksen avulla musiikin opiskelua Jyväskylän ammattikorkeakoulun opetustarkoituksiin.",
   "h4-history-2019-4": "Pengwin Media",
-  "p-history-2019-4": "Tuotti mediasisältöä, videoita, grafiikkaa sekä UI-suunnittelua WIMMA Labille ja sen virtuaaliyrityksille, ja auttoi muita virtuaalisia yrityksiä heidän toimeksiannoissa.",
+  "p-history-2019-4": "Tuotti mediasisältöä, videoita, grafiikkaa sekä UI-suunnittelua WIMMA Labille ja sen virtuaaliyrityksille, ja auttoi muita virtuaalisia yrityksiä heidän toimeksiannoissaan.",
 
   "h3-history-year-2018": "2018",
 

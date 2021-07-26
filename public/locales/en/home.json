@@ -54,7 +54,7 @@
   "assignments-tag-selenium": "Selenium",
   "assignments-tag-websocket": "WebSocket",
 
-  "assignments-link-more": "Read more",
+  "more-button": "Read more",
 
   "h2-instructors": "Instructors",
 
@@ -75,13 +75,13 @@
   "h3-history-2021": "2021",
 
   "h4-history-2021-1": "IoTitude",
-  "p-history-2021-1": "Designed and implemented the Haastix mobile game utilizing web sockets and React to encourage players to move around and explore the nearby area. In the game, the Game Master gives the players a task and the players collect pictures with their smartphones of the topic mentioned in the task.",
+  "p-history-2021-1": "Designed and developed Haastix mobile game utilizing WebSockets and React Native to encourage players to move around and explore their surroundings. In the game, the Game Master gives players a task and players take pictures that fit the description with their smartphones.",
   "h4-history-2021-2": "Overflow",
-  "p-history-2021-2": "Developed the “Future factory Marketplace” service for JAMK. The service makes it possible for students to familiarize themselves with assignments and team up with like-minded students for a Future Factory course.",
+  "p-history-2021-2": "Developed “Future Factory Marketplace” service for JAMK. The service makes it possible for students to familiarize themselves with assignments and team up with like-minded students for a Future Factory course.",
   "h4-history-2021-3": "Mysticons",
-  "p-history-2021-3": "Created the Kubernetes platform and CI/CD pipelines that allows the services of other teams in WIMMA Lab 2021 to work. Mysticons also developed a forms-sheet with the Power Automate tool that allows teachers to easily create Microsoft Teams channels and Gitlab repositories for their courses.",
+  "p-history-2021-3": "Created the Kubernetes platform and CI/CD pipelines that allow the services of other teams in WIMMA Lab 2021 to function. Mysticons also developed a forms-sheet with Power Automate that allows teachers to easily create Microsoft Teams channels and GitLab repositories for their courses.",
   "h4-history-2021-4": "Pengwin Media",
-  "p-history-2021-4": "Re-designed the WIMMA Lab brand by creating new websites utilizing Next.js and React. Pengwin Media also provided support for other virtual companies.",
+  "p-history-2021-4": "Re-designed the WIMMA Lab brand by creating a new website utilizing Next.js. Pengwin Media also provided support for other virtual companies.",
 
   "h3-history-2020": "2020",
   "p-history-2020": "WIMMA Lab was on break due to COVID-19.",
@@ -89,9 +89,9 @@
   "h3-history-2019": "2019",
 
   "h4-history-2019-1": "IoTitude",
-  "p-history-2019-1": "Developed Jonoxi, a scalable queueing service using technologies such as PWA, serverless cloud functions and Firebase",
+  "p-history-2019-1": "Developed Jonoxi, a scalable queueing service using technologies such as PWA, serverless cloud functions and Firebase. The user can join a queue and track their queueing number.",
   "h4-history-2019-2": "Overflow",
-  "p-history-2019-2": "Developed a service called TACS for managing airsoft games. Their assignment was to expand on the already existing EHASA-system, which could create and organise games. With the added functionality of TACS, it allowed the game organisers to see players' positions on the map in real time, and to share tactical plans with the teams among other things.",
+  "p-history-2019-2": "Developed a service called TACS for managing airsoft games. Their assignment was to expand on the already existing EHASA-system, which could create and organise games. With the added functionality of TACS, it allowed the game organisers to see players' positions on the map in real time, and to share tactical plans with teams.",
   "h4-history-2019-3": "Mysticons",
   "p-history-2019-3": "Built a CI/CD pipeline and improved on the current DevSecOps model, produced software for a robot and extended its features, and made learning music easier through games for JAMK University of Applied Sciences' educational purposes.",
   "h4-history-2019-4": "Pengwin Media",
