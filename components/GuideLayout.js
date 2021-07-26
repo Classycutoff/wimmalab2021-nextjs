@@ -6,7 +6,7 @@ export default function GuideLayout({ guideId, children }) {
     <div className="guides">
       <Meta />
       <GuideNavBar guideId={guideId} />
-      <div className="content">{children}</div>
+      <div className="guides__content">{children}</div>
     </div>
   );
 }

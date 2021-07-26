@@ -1,27 +1,29 @@
 // import Meta from '/components/Meta';
 import Head from 'next/head';
+import Image from 'next/image';
 import { MDXRemote } from 'next-mdx-remote';
 
+import CustomLink from '/components/CustomLink';
 import GuideLayout from '/components/GuideLayout';
+import { CodeBlock } from '/components/lib/CodeBlock';
 import { getAllGuideIds, getAllStaticIds, getFileBySlug } from '/components/lib/mdx';
 import NextChapter from '/components/NextChapter';
 
+const components = { Image, a: CustomLink, code: CodeBlock };
+
 //If you have any frontMatter, add frontMatter to props jusst beside mdxSource and use that
 const Guide = (props) => {
-  console.log('Guide props ->', props);
   const { mdxSource, chapterList, chapterId, guideId } = props;
   return (
-    <>
-      <GuideLayout guideId={guideId}>
-        <Head>
-          <title>{chapterId}</title>
-        </Head>
-        <div className="mdx">
-          <MDXRemote {...mdxSource} />
-          <NextChapter chapterList={chapterList} chapterId={chapterId} guideId={guideId} />
-        </div>
-      </GuideLayout>
-    </>
+    <GuideLayout guideId={guideId}>
+      <Head>
+        <title>{chapterId}</title>
+      </Head>
+      <div className="mdx">
+        <MDXRemote {...mdxSource} components={components} />
+        <NextChapter chapterList={chapterList} chapterId={chapterId} guideId={guideId} />
+      </div>
+    </GuideLayout>
   );
 };
 

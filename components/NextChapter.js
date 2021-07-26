@@ -1,40 +1,30 @@
 import Link from 'next/link';
+import { useEffect, useState } from 'react';
 
 export default function NextChapter(props) {
   const { chapterList, chapterId, guideId } = props;
-  const chapterPos = chapterList.findIndex((chapter) => chapter === chapterId);
+  const [chapterPos, setChapterPos] = useState(null);
 
-  console.log('chapterPos? ->', chapterPos);
+  useEffect(() => {
+    setChapterPos(chapterList.findIndex((chapter) => chapter === chapterId));
+  }, [chapterId, chapterList]);
 
-  if (chapterPos !== 0 && chapterPos !== chapterList.length - 1) {
-    return (
-      <div className="switch_chapter">
+  return chapterPos !== null ? (
+    <div className="switch_chapter">
+      {chapterPos !== 0 ? (
         <Link href={'../' + guideId + '/' + chapterList[chapterPos - 1]}>
-          Link to the previous chapter
+          <a>Link to Previous chapter</a>
         </Link>
-        <Link href={'../' + guideId}>Link to the introduction</Link>
+      ) : (
+        <Link href={'../' + guideId}>
+          <a>Link to Introduction</a>
+        </Link>
+      )}
+      {chapterPos !== chapterList.length - 2 && (
         <Link href={'../' + guideId + '/' + chapterList[chapterPos + 1]}>
-          Link to the Next chapter
+          <a>Link to Next chapter</a>
         </Link>
-      </div>
-    );
-  } else if (chapterPos === chapterList.length - 1) {
-    return (
-      <div className="switch_chapter">
-        <Link href={'../' + guideId + '/' + chapterList[chapterPos - 1]}>
-          Link to the previous chapter
-        </Link>
-        <Link href={'../' + guideId}>Link to the introduction</Link>
-      </div>
-    );
-  } else {
-    return (
-      <div className="switch_chapter">
-        <Link href={'../' + guideId}>Link to the introduction</Link>
-        <Link href={'../' + guideId + '/' + chapterList[chapterPos + 1]}>
-          Link to the Next chapter
-        </Link>
-      </div>
-    );
-  }
+      )}
+    </div>
+  ) : null;
 }
