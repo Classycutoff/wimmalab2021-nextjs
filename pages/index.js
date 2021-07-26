@@ -9,7 +9,7 @@ import Layout, { siteTitle } from '/components/Layout';
 
 import ProfileCard from '../components/ProfileCard';
 import ProjectCard from '../components/ProjectCard';
-import heroBg from '../public/assets/home-hero.png';
+import HeroBg from '../public/assets/home-hero.png';
 import Logo from '../public/assets/logo_wimma.png';
 
 const Home = () => {
@@ -23,7 +23,7 @@ const Home = () => {
       {/* Hero section */}
       <section className="content__section hero hero--home">
         <Image
-          src={heroBg}
+          src={HeroBg}
           layout="fill"
           objectFit="cover"
           objectPosition="center"
