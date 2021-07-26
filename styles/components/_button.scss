@@ -92,4 +92,33 @@
       }
     }
   }
+
+  &--third {
+    font-size: 1rem;
+    color: $txt-black;
+    padding: 0.2rem 0;
+
+    &:visited {
+      color: $txt-black;
+    }
+    
+    &:hover, &:focus {
+      color: $txt-grey;
+    }
+
+    .icon-arrow {
+      position: relative;
+      left: 0.75rem;
+      bottom: -0.1rem;
+      width: 27px;
+      height: 15px;
+      transition: all 0.15s ease-in-out;
+    }
+
+    &:hover {
+      .icon-arrow {
+        left: 1.2rem;
+      }
+    }
+  }
 }
