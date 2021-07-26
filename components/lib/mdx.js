@@ -89,9 +89,12 @@ export const getGuideIntroductions = async () => {
     const source = fs.readFileSync(path.join(root, 'guides', folder, 'index.mdx'), 'utf8');
 
     const { data } = matter(source);
-    return data;
+    return {
+      dir: folder,
+      ...data
+    };
   });
   return {
-    guideIndexes: guideIndexes
+    guideIndexes
   };
 };
