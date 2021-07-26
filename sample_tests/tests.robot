@@ -9,19 +9,17 @@ Start Chrome
     Create Webdriver    Chrome      chrome_options=${chrome_options}
 
 *** Test Cases ***
+Test Firefox
+    Open Browser   http://google.com    Firefox
+    Title Should Be     Google
+    Close Browser
 
-Test chromeLanding
+Test Chrome
     Start Chrome
-    Go To    http://vm3714.kaj.pouta.csc.fi:30149/    
-    Set Window size	    1366  768
-    Title Should Be      WIMMA Lab
-    Capture Page Screenshot  ChromeEtu  
+    Go To   http://www.google.com
+    Title Should Be     Google
     Close Browser
     
-
-Test firefoxLanding
-    Open Browser    http://vm3714.kaj.pouta.csc.fi:30149/   Firefox
-    Set Window size	     1920  1080
-    Title Should Be      WIMMA Lab
-    Capture Page Screenshot   FireEtu
-    
+Ping test
+    ${result} =     Run Process   ping 127.0.0.1 -c 1   shell=True
+    Should Contain   ${result.stdout}     64 bytes from 127.0.0.1:
