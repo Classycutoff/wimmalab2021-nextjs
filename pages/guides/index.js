@@ -6,13 +6,6 @@ const GuidesIndex = (props) => {
   console.log('GUIDESINDEX --->', props);
   const { guideIndexes } = props;
 
-  // return (
-  //   <>
-  //     {guideIndexes.map((guide, i) => {
-  //       return <h1 key={i}>{guide.title}</h1>;
-  //     })}
-  //   </>
-  // );
   return (
     <GuideLayout>
       <h1>WIMMA Lab Guides</h1>
@@ -24,7 +17,7 @@ const GuidesIndex = (props) => {
         . By reading through the guides, you can learn more about the concept of WIMMA Lab and how
         it’s implemented in{' '}
         <a href="https://www.jamk.fi/" target="_blank" rel="noopener noreferrer">
-          JAMK University of Applied Sciences
+          Jyväskylä University of Applied Sciences (JAMK)
         </a>
         . You could even use the guides to implement and build your own project environment based on
         the WIMMA Lab concept!
