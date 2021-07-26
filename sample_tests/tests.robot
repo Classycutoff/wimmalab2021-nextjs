@@ -8,30 +8,20 @@ Start Chrome
     Call Method    ${chrome_options}    add_argument    --no-sandbox
     Create Webdriver    Chrome      chrome_options=${chrome_options}
 
-
-    
-    
-
 *** Test Cases ***
 
-Test chrome
-    sleep        5
+Test chromeLanding
     Start Chrome
-    sleep        5
-    Go To    http://128.214.252.171:30149   
+    Go To    http://vm3714.kaj.pouta.csc.fi:30149/    
     Set Window size	    1366  768
     Title Should Be      WIMMA Lab
-    Capture Page Screenshot  screenshot 100%    
+    Capture Page Screenshot  ChromeEtu  
     Close Browser
-    
     
 
-Test firefox
-    sleep       5
-    Open Browser    http://128.214.252.171:30149   Firefox
-    sleep       5
+Test firefoxLanding
+    Open Browser    http://vm3714.kaj.pouta.csc.fi:30149/   Firefox
     Set Window size	     1920  1080
     Title Should Be      WIMMA Lab
-    Capture Page Screenshot   
-    Close Browser
+    Capture Page Screenshot   FireEtu
     
