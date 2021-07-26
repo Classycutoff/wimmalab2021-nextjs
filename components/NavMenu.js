@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
+import CustomLink from '/components/CustomLink';
+
 import IconFacebook from '../svgs/socials-facebook.svg';
 import IconInstagram from '../svgs/socials-instagram.svg';
 import IconLinkedIn from '../svgs/socials-linkedin.svg';
@@ -59,25 +61,30 @@ export default function NavMenu({ t, active, handleClick }) {
                   <a>{t('companies')}</a>
                 </Link>
               </li>
+              <li>
+                <Link href="/guides" locale="fi">
+                  <a>{t('guides')}</a>
+                </Link>
+              </li>
             </ul>
             <ul className="mobile-menu__team-links">
               <li>
-                <Link href="/iotitude">
+                <Link href="/iotitude" locale="fi">
                   <a>IoTitude</a>
                 </Link>
               </li>
               <li>
-                <Link href="/mysticons">
+                <Link href="/mysticons" locale="fi">
                   <a>Mysticons</a>
                 </Link>
               </li>
               <li>
-                <Link href="/overflow">
+                <Link href="/overflow" locale="fi">
                   <a>Overflow</a>
                 </Link>
               </li>
               <li>
-                <Link href="/pengwin">
+                <Link href="/pengwin" locale="fi">
                   <a>Pengwin Media</a>
                 </Link>
               </li>
@@ -93,29 +100,29 @@ export default function NavMenu({ t, active, handleClick }) {
           <div className="mobile-menu__container-socials">
             <ul className="mobile-menu__social-links">
               <li>
-                <a href="https://www.facebook.com/wimmalab">
+                <CustomLink href="https://www.facebook.com/wimmalab">
                   <IconFacebook />
-                </a>
+                </CustomLink>
               </li>
               <li>
-                <a href="https://www.instagram.com/wimmalab">
+                <CustomLink href="https://www.instagram.com/wimmalab">
                   <IconInstagram />
-                </a>
+                </CustomLink>
               </li>
               <li>
-                <a href="https://www.linkedin.com/company/wimmalab">
+                <CustomLink href="https://www.linkedin.com/company/wimmalab">
                   <IconLinkedIn />
-                </a>
+                </CustomLink>
               </li>
               <li>
-                <a href="https://www.youtube.com/channel/UCe0Ssog7DURm_aTiPO2hUFw">
+                <CustomLink href="https://www.youtube.com/channel/UCe0Ssog7DURm_aTiPO2hUFw">
                   <IconYouTube />
-                </a>
+                </CustomLink>
               </li>
               <li>
-                <a href="https://twitter.com/wimmalab">
+                <CustomLink href="https://twitter.com/wimmalab">
                   <IconTwitter />
-                </a>
+                </CustomLink>
               </li>
             </ul>
           </div>
