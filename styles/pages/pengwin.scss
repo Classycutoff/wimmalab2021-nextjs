@@ -1,0 +1,54 @@
+// -----------------------------------------------------------------------------
+// Pengwin
+// -----------------------------------------------------------------------------
+
+.hero--companies {
+    background-color: whitesmoke;
+  }
+  
+  .pengwin {
+    &__apply-dates {
+      margin-bottom: 2rem;
+    }
+  }
+
+// -----------------------------------------------------------------------------
+// General template for cards
+// -----------------------------------------------------------------------------
+
+.pengwin-card {
+    border-radius: $border-radius;
+    padding: 2z rem;
+    margin-bottom: 1rem;
+  
+    &--purple {
+      background-color: $pastel-purple;
+    }
+  
+    &--blue {
+      background-color: $pastel-blue;
+    }
+  
+    &--cyan-light{
+      background-color: $cyan-light;
+    }
+  
+    &--cyan{
+        background-color: $cyan;
+    }
+  
+    &--orange{
+      background-color: $pastel-orange;
+    }
+  }
+  
+
+// -----------------------------------------------------------------------------
+// introduction
+// -----------------------------------------------------------------------------
+.introduction{
+    .miniImage{
+        border-radius: 100%;
+    }
+    
+}

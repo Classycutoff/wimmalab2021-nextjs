@@ -1,0 +1,38 @@
+{
+"page-title": "Pengwin Media",
+"h1": "Pengwin Media",
+"h1-subheading": "New and Improved.",
+
+"h1-team": "Tiimiesittely",
+"p-team": "Pengwin Media vastaa WIMMA Labin brändiuudistuksesta ja wimmalab.org-sivuston päivityksestä. Tiimiläiset toimivat yhteistyössä muiden WIMMA Labin virtuaaliyritysten kanssa (Overflow, Mysticons ja IoTitude) ja tuottavat materiaalia heidän tarpeisiinsa. Lisäksi Pengwin Media päivittää WIMMA Labin sosiaalisen median kanavia.",
+
+"h2-assignment": "Tehtävät",
+"p-assignment": "Kesän aikana Pengwin Media uudistaa ja laajentaa wimmalab.org-sivua modernein teknologioin. Uudistuksessa käytetään Next.js:ää ja hyödynnetään markdown-merkintäkieltä sisällön päivittämisen helpottamiseksi. Tavoitteena on rakentaa sivusto, joka palvelee paremmin käyttäjää ja kuvastaa WIMMA Labin kunnianhimoisia tavoitteita sekä tekemisen meininkiä.",
+
+"h2-introduction": "Tiimin jäsenet",
+
+"h2-member1": "Annukka Rajala", 
+"h3-member1": "Team Leader, Junior Web Developer",
+"p-member1": "Olen 22-vuotias kolmannen vuoden mediatekniikan opiskelija Hankasalmelta. Tavoitteenani on erikoistua frontend-kehittäjäksi, joka selviää myös UI/UX-suunnittelun haasteista. Eniten innostun projekteista, joissa pääsen osallistumaan sekä visuaaliseen suunnitteluun että koodaamiseen. Vapaa-ajalla todennäköisesti työstän omia projekteja, mutta uppoudun mielelläni myös ruoan­laittoon, liikuntaan tai viher­kasvien hoitoon.",
+
+"h2-member2": "Roope Huttunen", 
+"h3-member2": "Junior Developer",
+"p-member2": "Olen Äänekoskelta kotoisin, nyt Jyväskylässä asuskeleva 22-vuotias toisen vuoden ohjelmistotekniikan JAMKissa. Olen kiinnostunut kaikenlaisesta teknologiasta, varsinkin ohjelmoinnista. Ohjelmoinnin puolella minulla on kokemusta C#-kielellä ohjelmoinnista. Vapaa-ajalla pelaan video- ja lautapelejä ystävieni kanssa.",
+
+"h2-member3": "Eliel Taskinen", 
+"h3-member3": "Junior Web Developer",
+"p-member3": "Olen Eliel Jyväskylästä. Opiskelen ensimmäistä vuotta tieto- ja viestintätekniikkaa JAMKilla. Minua kiinnostaa koodaaminen, tietoverkot ja tietoturvallisuus modernissa maailmassa. Minulla on kokemusta Pythonista, Reactista ja Linuxin käytöstä. Vapaa-ajallani soitan kitaraa, koodaan pieniä projekteja ja pelaan kavereiden kanssa roolipelejä.",
+
+"h2-member4": "Sari Kumpulainen", 
+"h3-member4": "Junior Web Developer",
+"p-member4": "Opiskelen Jyväskylän ammattikorkeakoulussa tieto- ja viestintätekniikkaa, erikoistumisena on ohjelmistotekniikka. Opinnot alkavat kohta olla loppusuoralla, jäljellä enää joitakin yksittäisiä kursseja sekä osa työharjoittelusta ja opinnäytetyö. Alalla erityisesti kiinnostaa käyttöliittymien koodaus ja suunnittelu sekä testaus ja siihen liittyvät asiat. Vapaa-ajalla tykkään lukea, pelailla, ulkoilla sekä tehdä käsitöitä.",
+
+"h2-member5": "Tatu Seppänen", 
+"h3-member5": "Junior Web Developer",
+"p-member5": "Olen Tatu Seppänen, opiskelen kyberturvallisuutta JAMK:issa. Koodailla tykkään Pythonilla ja varsinkin tietoturvatestaus ja ”valkohattu-hakkeri”-jutut kiinnostavat erityisesti. Olen innokas oppimaan uusia asioita ja laajentamaan osaamista uusille alueille. Pidän tiimityöskentelystä ja tulen hyvin toimeen kaikenlaisten ihmisten kanssa. Vapaa-aikaani tykkään viettää pyörällä ajaen tai kalasten.",
+
+"h2-member6": "Janna Niemi", 
+"h3-member6": "Junior Web Developer",
+"p-member6": "Suunnittelen mielelläni ulkoasuja, mutta koodaaminen ja ohjelmointi ovat myös lähellä sydäntäni. Frontend-kehitys on luonnollisesti kaikista mielekkäintä puuhaa, koska visuaalisuus ja koodi yhdistyvät siinä kivasti. Backend-kehityksen puolelta parhaiten hallussani on Python ja tietokannat, ja opiskelun aikana C# tulee entistä tutummaksi. Kiinnostusta olisi myös oppia RUST-kieli. WIMMA Labissa olen oppimassa projektityöskentelyä ja toivon siitä olevan hyötyä myös työmarkkinoilla. Vapaa-ajalla harrastan kaikenlaista liikuntaa, erityisesti maastopyöräilyä ja juoksemista, vaikkakin arki ja vapaa-aika rullaa tiiviisti kahden alle kouluikäisen vanhempana."
+
+}
