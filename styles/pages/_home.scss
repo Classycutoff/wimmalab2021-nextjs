@@ -97,10 +97,55 @@
 // History styling
 // ===============
 .history {
+  &__section-wrapper {
+    position: relative;
+    margin-left: 2.25rem;
+    padding-bottom: 1.25rem;
+
+    @include breakpoint(sm) {
+      margin-left: 2.5rem;
+    }
+
+    &:last-of-type {
+      padding-bottom: 0;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -2rem;
+      height: 100%;
+      width: 4px;
+      background-color: $pastel-blue;
+
+      @include breakpoint(sm) {
+        left: -2.5rem;
+      }
+    }
+  }
+
   &__section {
     background-color: $pastel-blue;
     border-radius: $border-radius;
-    margin-bottom: 1.25rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 1.2rem;
+      height: 1.2rem;
+      left: -2.5rem;
+      top: 1.8rem;
+      border-radius: 100%;
+      background: $pastel-blue-dark;
+      border: 4px solid #fff;
+      -webkit-box-shadow: 0 0 0 3px $pastel-blue;
+      box-shadow: 0 0 0 3px $pastel-blue;
+
+      @include breakpoint(sm) {
+        left: -3rem;
+      }
+    }
   }
 
   // Overwrite default Accordion styles
@@ -109,19 +154,95 @@
   }
 
   .accordion-title {
-    margin: 0;
+    width: 100%;
+    background: none;
+    border: 1px solid transparent;
 
-    &:hover, &:focus {
-      background: blue;
+    & + * {
+      margin: 0;
     }
+
+    p {
+      font-family: 'Space Grotesk', $fallback-stack;
+      font-weight: 700;
+      font-size: 1.5rem;
+      color: $txt-black;
+
+      &::before {
+        content: '';
+        position: absolute;
+        background-image: url('../../svgs/chevron2.svg');
+        margin: 0.35rem 0 0 -1.75rem;
+      }
+    }
+
+    // Triangle
+    &::before {
+      content: "";
+      position: absolute;
+      left: -0.65rem;
+      top: 1.7rem;
+      width: 0;
+      height: 0;
+      border-top: 12px solid transparent;
+      border-bottom: 12px solid transparent;
+      border-right: 12px solid $pastel-blue;
+    }
+
+    // Triangle shadow
+    &::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      z-index: -1;
+    }
+
+    &:hover {
+      border: 1px solid $pastel-blue-dark;
+
+      &::after {
+        left: -0.72rem;
+        top: 1.58rem;
+        border-top: 14px solid transparent;
+        border-bottom: 14px solid transparent;
+        border-right: 14px solid $pastel-blue-dark;
+      }
+    }
+
+    &:focus {
+      border: 1px solid $pastel-blue-dark;
+      outline: none;
+      box-shadow: 0 0 0 1px $pastel-blue-dark;
+    }
+
+    &:focus-within {
+      &::after {
+        left: -0.85rem;
+        top: 1.45rem;
+        border-top: 16px solid transparent;
+        border-bottom: 16px solid transparent;
+        border-right: 16px solid $pastel-blue-dark;
+      }
+    }
+  }
+
+  .accordion-content {
+    padding: 1.5rem;
   }
 
   h3 {
     margin: 0 0 1rem;
   }
 
-  p {
-    margin-bottom: 0;
+  .p-intro {
+    margin: 0;
+    max-width: auto;
+    text-align: left;
+
+    &:not(:only-child) {
+      margin-bottom: 1rem;
+    }
   }
 
   &__card-wrapper {
@@ -129,7 +250,9 @@
     gap: 1rem;
 
     a:hover, a:focus {
-      background: red;
+      outline: none;
+      box-shadow: 0 0 0 1px $pastel-blue-dark;
+      background-color: #e6effc;
     }
     
     @include breakpoint(lg) {
@@ -143,6 +266,7 @@
   border-radius: $border-radius;
   padding: 1.25rem;
   height: 100%;
+  transition: all 0.1s ease;
   
   display: flex;
   flex-direction: column;

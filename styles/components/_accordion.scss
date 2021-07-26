@@ -26,7 +26,7 @@
     font-size: 1.15rem;
     letter-spacing: -0.2px;
     line-height: 1.5;
-    padding: 1.2em 1.5rem 1.2rem 3rem;
+    padding: 1.2rem 1.5rem 1.2rem 3rem;
     margin: 0;
 
     &::before {
@@ -44,7 +44,7 @@
   }
 
   &.open {
-    border-radius: 8px;
+    border-radius: $border-radius;
 
     p::before {
       transform: rotate(0deg);
@@ -56,12 +56,16 @@
   overflow: hidden;
   transition: max-height 0.3s cubic-bezier(1, 0, 1, 0), background-color 0.3s ease;
   height: auto;
-  max-height: 1200px;
+  max-height: 2000px;
 }
 
 .accordion-item.collapsed {
   max-height: 0;
   transition: max-height 0.35s cubic-bezier(0, 1, 0, 1);
+}
+
+.accordion-item.hidden {
+  visibility: hidden;
 }
 
 .accordion-content {

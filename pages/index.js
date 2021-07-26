@@ -116,7 +116,7 @@ const Home = () => {
         <p className="p-intro">{t('p-big-history')}</p>
 
         <div className="history">
-          <HistorySection year="2021">
+          <HistorySection year="2021" intro={t('p-history-2021')}>
             <HistoryCard
               url="/iotitude"
               imgUrl="/assets/history/iotitude-logo.png"
@@ -166,9 +166,69 @@ const Home = () => {
             />
             <HistoryCard
               url="http://wimma-lab-2019.pages.labranet.jamk.fi/pengwin/site/"
-              imgUrl="/assets/history/pengwin-logo.png"
+              imgUrl="/assets/history/pengwin-media_logo.jpg"
               title={t('h4-history-2019-4')}
               desc={t('p-history-2019-4')}
+            />
+          </HistorySection>
+
+          <HistorySection year="2018">
+            <HistoryCard
+              url="https://www.youtube.com/watch?v=Etb0ojiCAcU"
+              imgUrl="/assets/history/iotitude-logo.png"
+              title={t('h4-history-2018-1')}
+              desc={t('p-history-2018-1')}
+            />
+            <HistoryCard
+              url="https://www.youtube.com/watch?v=UlDXseU_ooQ"
+              imgUrl="/assets/history/overflow-logo.png"
+              title={t('h4-history-2018-2')}
+              desc={t('p-history-2018-2')}
+            />
+            <HistoryCard
+              url="https://www.youtube.com/watch?v=hjyqjsUpaug"
+              imgUrl="/assets/history/mysticons-logo.png"
+              title={t('h4-history-2018-3')}
+              desc={t('p-history-2018-3')}
+            />
+            <HistoryCard
+              url="https://www.youtube.com/watch?v=MJNZGc2jYkc"
+              imgUrl="/assets/history/pengwin-media_logo.jpg"
+              title={t('h4-history-2018-4')}
+              desc={t('p-history-2018-4')}
+            />
+          </HistorySection>
+
+          <HistorySection year="2017" intro={t('p-big-history-2017')}>
+            <HistoryCard
+              url="https://wimmalab.github.io/iotitude/"
+              imgUrl="/assets/history/iotitude-logo.png"
+              title={t('h4-history-2017-1')}
+              desc={t('p-history-2017-1')}
+            />
+            <HistoryCard
+              url="https://wimmalab.github.io/overflow/"
+              imgUrl="/assets/history/overflow-logo.png"
+              title={t('h4-history-2017-2')}
+              desc={t('p-history-2017-2')}
+            />
+            <HistoryCard
+              url="https://wimmalab.github.io/mysticons/"
+              imgUrl="/assets/history/mysticons-logo.png"
+              title={t('h4-history-2017-3')}
+              desc={t('p-history-2017-3')}
+            />
+            <HistoryCard
+              url="https://wimmalab.github.io/pengwingame/"
+              imgUrl="/assets/history/pengwin-game_logo.jpg"
+              title={t('h4-history-2017-4')}
+              desc={t('p-history-2017-4')}
+            />
+            <HistoryCard
+              url="https://wimmalab.github.io/pengwinmedia/"
+              imgUrl="/assets/history/pengwin-media_logo.jpg"
+              title={t('h4-history-2017-5')}
+              desc={t('p-history-2017-5')}
             />
           </HistorySection>
         </div>

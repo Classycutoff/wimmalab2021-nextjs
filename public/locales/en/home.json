@@ -74,6 +74,8 @@
 
   "h3-history-2021": "2021",
 
+  "p-history-2021": "WIMMA Lab was organized in virtual form.",
+
   "h4-history-2021-1": "IoTitude",
   "p-history-2021-1": "Designed and developed Haastix mobile game utilizing WebSockets and React Native to encourage players to move around and explore their surroundings. In the game, the Game Master gives players a task and players take pictures that fit the description with their smartphones.",
   "h4-history-2021-2": "Overflow",
@@ -109,7 +111,7 @@
   "p-history-2018-4": "Provided media content, video production, UI design and graphic design for the WIMMA Lab brand and its virtual companies, and helped the other virtual companies with their assignments.",
 
   "h3-history-2017": "2017",
-  "p-big-history-2017": "The concept of WIMMA Lab brand was established",
+  "p-big-history-2017": "The WIMMA Lab brand was established.",
 
   "h4-history-2017-1": "IoTitude",
   "p-history-2017-1": "Developed the Mood-O-Meter, which collects data on person's mood. The data is collected by an IoT device with buttons for different moods and the statistics could be seen in real time on the user interface.",
