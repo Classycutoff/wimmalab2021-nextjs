@@ -70,9 +70,11 @@
   "p-instructors-5": "Ohjaaja",
 
   "h2-history": "Historia",
-  "p-big-history": "WIMMA Lab -konsepti kehittyy vuosi vuodelta. Aiemmin se tunnettiin nimillä Challenge Factory (2014 – 2017) ja Summer Factory (2011 – 2014)",
+  "p-big-history": "WIMMA Lab -konsepti kehittyy vuosi vuodelta. Aiemmin se tunnettiin nimillä Challenge Factory (2014 – 2017) ja Summer Factory (2011 – 2014).",
   
   "h3-history-2021": "2021",
+
+  "p-history-2021": "WIMMA Lab järjestettiin virtuaalisesti.",
 
   "h4-history-2021-1": "IoTitude",
   "p-history-2021-1": "Suunnitteli ja toteutti Haastix-mobiilipelin WebSocketteja ja React Nativea käyttäen, joka kannustaa pelaajia liikkumaan ja tutkimaan lähiympäristöä. Pelissä Pelimestari antaa pelaajille tehtävän ja pelaajat ottavat kuvia älypuhelimillaan tehtävässä mainitusta asiasta.",
@@ -142,13 +144,13 @@
   "p-history-2015-3": "Työkalu verkon kuormituksen simulointiin.",
 
   "h3-history-2014": "2014",
-  "p-big-history-2014": "Kurssin nimi muuttui Challenge Factoryksi",
+  "p-big-history-2014": "Kurssin nimi muuttui Challenge Factoryksi.",
 
   "h4-history-2014": "Toolbar",
   "p-history-2014": "Kehitti edellisten vuosien konseptia Toolbar-nimiseksi alustaksi, joka kokoaa tarvittavat työkalut ja sivustot yhteen paikkaan. Tämä teki Toolbarista joustavan ratkaisun eri tyyppisille projekteille.",
 
   "h3-history-2011-2013": "2011-2013",
-  "p-big-history-2011-2013": "Kurssin nimi oli aluksi Summer Factory",
+  "p-big-history-2011-2013": "Kurssin nimi oli aluksi Summer Factory.",
 
   "h4-history-2011-2013": "FreeNest",
   "p-history-2011-2013": "Projektinhallinta-alusta, joka tarjoaa kokoelman työkaluja sujuvaan projektityöskentelyyn. Ominaisuuksia ovat muun muassa foorumit, yksityiset chatit ja tiedostojen jakaminen."
