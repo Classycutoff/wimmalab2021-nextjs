@@ -1,0 +1,89 @@
+.mdx {
+  position: relative;
+
+  img {
+    max-width: 100%;
+  }
+  
+  .switch_chapter {
+    text-align: center;
+    a {
+      color: red;
+      padding: 20px;
+    }
+  }
+}
+
+.guides {
+  a {
+    color: $link-color;
+    transition: color 0.15s ease;
+  }
+
+  a:hover, a:focus {
+    color: $link-hover;
+  }
+
+  .navbar {
+    a {
+      color: $txt-white;
+    }
+  }
+
+  &__content {
+    display: grid;
+    --padding: 1rem;
+    grid-template-columns: [full-start] minmax(var(--padding), 1fr) [contain-start] minmax(0, $breakpoint-md) [contain-end] minmax(var(--padding), 1fr) [full-end];
+    padding: 2rem 0 6rem;
+
+    p {
+      font-size: 1.063rem;
+    }
+
+    @include breakpoint(sm) {
+      --padding: 3rem;
+      padding-top: 6rem;
+    }
+
+    @include breakpoint(md) {
+      --padding: 4rem;
+    }
+
+    @include breakpoint(lg) {
+      --padding: 2rem;
+    }
+    
+    > * {
+      grid-column: contain;
+    }
+  }
+}
+
+.book {
+  &__container {
+    border: 1px solid #eaeaea;
+    margin-bottom: 1rem;
+    border-radius: $border-radius;
+    padding: 1.5rem;
+    transition: all 0.15s ease;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    @include breakpoint(md) {
+      flex-direction: row;
+    }
+    
+    p {
+      font-size: 1rem;
+      margin-bottom: 1.25rem;
+      color: $txt-grey;
+    }
+  }
+
+  &__img-container {
+    width: 100%;
+    max-width: 10rem;
+  }
+}

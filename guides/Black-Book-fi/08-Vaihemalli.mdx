@@ -1,0 +1,88 @@
+# 8.0 WIMMA Labin vaihemalli
+WIMMA Labiin valitut henkilöt jakautuvat pienempiin tiimeihin, eli virtuaaliyrityksiin. Jokainen virtuaaliyritys saa oman toimeksiantonsa, osa jopa useamman. Virtuaaliyrityksen koko riippuu täysin tehtävänannon vaatimuksista.
+ 
+Edistystä seurataan jokaisen tiimin omalla Kanban-laudalla, jota he pitävät itse ajan tasalla. Kanban-laudalla on omat alueensa erilaisille tehtäville:
+
+* Backlogissa tulevilla sprinteillä tehtäviä taskeja
+* To Do:ssa kuluvalla sprintillä tehtäviä (tekemättömiä) taskeja
+* Doing:ssa tällä hetkellä tehtäviä taskeja
+* Waiting for review:ssa tehtyjä, tarkistusta odottavia taskeja.
+
+Kanbanin mukaisesti jokainen tiimi määrittää myös itselleen WIP-luvun, eli Work in progress -luvun. Luku kertoo, kuinka monta tehtävää voi olla yhtä aikaa työn alla. Lukua ei saa ylittää. Jos tehtäviä olisi tulossa liikaa, jotain pitää siirtää Doingalueelta takaisin To Do –alueelle. Tehtäviä voidaan lisätä To Do –listaan sitä mukaa, kun aiempia tehtäviä valmistuu ja WIP-numero antaa myöten.
+
+Tärkeimmät tehtävät voidaan merkitä esimerkiksi Priority-leimalla (Label), eli ne vaativat välittömästi huomiota ja on tehtävä ensisijaisesti ennen muita tehtäviä.
+
+![Mysticonsin Kanban-lauta](/assets/Black-Book-Images/image017.jpg)  
+*Mysticonsin Kanban-lauta Gitlabissa.*
+
+Tehtäville arvioidaan myös kuormitusarvo (Weight) sekä valmistumisaika (Estimate). Kuormitusarvo kertoo, kuinka vaativa tehtävä on. Esimerkiksi kuormitusarvolla 1 olevan homman voidaan arvioida kestävän alle tunnin, kun taas kuormitusarvolla 5 voi mennä useampi päivä.
+
+WIMMA Lab on kovin lyhyt projekti, jossa hommat on saatava alulle erittäin nopeasti. Kahden ja puolen kuukauden ajanjakso on jaettu lyhyempiin pätkiin, eli sprintteihin. Jokaisen sprintin aluksi tiimit määrittävät tavoitteensa alkavalle sprintille ja sprintin päätteeksi tiimin aikaansaannokset katselmoidaan yhdessä.
+
+Katselmointiin osallistuvat yleensä ainakin tiiminvetäjä, valmentaja ja mahdollisuuksien mukaan työn tilaaja. Katselmoinnissa tutustutaan tiimin työn tuloksiin ja katsotaan, onko se sitä, mitä pitikin olla. Jos tavoitteisiin ei päästä, voidaan yhdessä arvioida syitä tähän ja muokataan työ vastaamaan toivottua mahdollisimman pian. Korjauksien jälkeen pidetään uusi katselmointi sovittuna ajanhetkenä. 
+
+WIMMA Labissa kesällä 2018 oli käytössä kahden viikon sprintit, eli katselmoinnit olivat joka toinen perjantai. Katselmointia seuraavana maanantaina tiimit kävivät keskenään läpi alkavan sprintin tavoitteet ja kirjasivat ne ylös.
+
+### 8.1 Aloitus
+Ennen WIMMA Labin aloitusta kannattaa tehdä selkeä aikataulu ensimmäiselle sprintille, sillä osallistuvat opiskelijat eivät välttämättä vielä tiedä, mitä on WIMMA Labin aikana luvassa. Aikataulu kannattaa ilmoittaa opiskelijoille hyvissä ajoin etukäteen, jotta he voivat tutustua siihen rauhassa.
+
+Heti alkuun on hyvä perustaa yhteinen keskustelukanava esimerkiksi Slackiin, jonne liittyvät WIMMA Labilaiset, ohjaajat sekä tukihenkilöt. Tätä kautta voidaan helposti tavoittaa kaikki, mikäli tulee jotain tärkeää ilmoitusasiaa. Jokaiselle virtuaaliyritykselle kannattaa myös tehdä oma kanavansa, jossa he voivat keskustella toimeksiantoon liittyvistä asioista keskenään.
+
+Kesällä 2018 valmentaja oli luonut jo etukäteen GitLab-ympäristöön projektin, johon oli tehty kaikille tiimeille yhteisiä tehtäviä ensimmäisille viikoille. Jokainen virtuaaliyritys kopioi projektin itselleen pohjaksi, jonka avulla he pystyivät aloittamaan GitLabiin tutustumisen. Näin jokainen tiimi pääsi nopeasti alkuun ja opiskelijat oppivat samalla Kanban-laudan käyttöä sekä tehtävien jakamista.
+
+Ensimmäinen sprintti (sprint 0) oli WIMMA Labissa kesällä 2018 ainoastaan kolmen päivän mittainen. Sen aihe oli ”Homma haltuun ja tiimi kuntoon!”. Sprintin tavoitteena oli käydä läpi WIMMA Labin yleistä toimintaa, kesän aikataulua, toimeksiantoja sekä virtuaaliyrityksien kokoonpanoa. Sprintin aikana myös rakennettiin työtilat sekä asennettiin tietokoneet käyttövalmiiksi.
+
+![Työtilojen rakennus](/assets/Black-Book-Images/image018.jpg)  
+*Työtilojen rakennusta kesällä 2018*
+
+#### 8.1.1 WIMMA Labin yleiset säännöt
+Orientaatiovaiheessa perehdytään kaikkien kanssa WIMMA Labin sääntöihin, jotta ne eivät ole kenellekään epäselviä. 
+
+WIMMA Labissa on käytössä normaalit toimistotyöajat, eli maanantaista perjantaihin kello 8-16. Ruokatauko on 45 minuuttia, joka vähennetään päivittäisestä työajasta. Jokainen tiimi voi pitää ruokataukonsa milloin haluaa, kunhan on paikalla pakollisten tapahtumien aikaan. Jokainen pitää itse ylhäällä omia tuntejaan ja raportoi ne talon määrittämällä tavalla.
+
+Sairaspoissaoloista sekä muista poissaoloista tulisi ilmoittaa mahdollisimman pian valmentajalle sekä omalle tiiminvetäjälle.
+
+Heti alussa sovitaan myös kahvinkeitto- sekä siivouskierrosta (lue näistä lisää luvussa 6), jotta ensimmäinen ryhmä voi aloittaa tehtävät mahdollisimman pian. WIMMA Labissa kahvit keitettiin opettajien tiloissa ja tuotiin termoskannuissa työskentelytilaan, sillä tilaan ei saanut tuoda keittimiä turvallisuuden takia. Talon turvallisuuskäytänteet kannattaa selvittää hyvissä ajoin etukäteen.
+
+#### 8.1.2 Ryhmiin jakautuminen
+Virtuaaliyritysten jäsenet on hyvä jakaa jo etukäteen toimeksiannon vaatiman osaamisen sekä osallistujien osaamisen ja kiinnostuksen perusteella.
+
+Jokaiselle virtuaaliyritykselle tulisi valita myös tiiminvetäjä. Valitulta henkilöltä kannattaa vielä varmistaa, haluaako hän varmasti toimia tehtävässä.
+
+Ryhmäkokoonpanojen ilmoittamisen jälkeen tiimit pääsevät rakentamaan omaa työskentelytilaansa. Kaikkien tiimin jäsenien tulisi istua samassa ryhmässä, jotta kommunikointi tiimin sisällä on mahdollisimman helppoa.
+
+Mikäli joku kokee olevansa väärässä virtuaaliyrityksessä ja haluaisikin vaihtaa toiseen (esimerkiksi joku toimeksianto kiinnostaisikin enemmän), kannattaa siitä ilmoittaa mahdollisimman nopeasti. Vaihtoja voidaan tehdä, olettaen että osaamistaso pysyy suurin piirtein samana.
+
+#### 8.1.3 Projektien esittely
+Toimeksiantoihin liittyvät ihmiset ja yhdyshenkilöt olisi hyvä saada käymään paikan päällä ja esittäytymään WIMMA Labilaisille jo heti alussa. On erittäin tärkeää saada naamat tutuiksi ja kuulla toimeksiannosta suoraan tilaajalta, ettei tehtävä tunnu ”tarpeettomalta koulutehtävältä, joka ei koskaan mene minnekään”. Ratkaisun kehittäminen todelliseen ongelmaan tai tarpeeseen luo motivaatiota.
+
+Toimeksiannon saanut tiimi saa samalla mahdollisuuden esittää tarkentavia kysymyksiä sekä ottaa yhteystiedot ylös tapaamisen sopimiseksi. Kysymyksiä ei välttämättä vielä näin aikaisessa vaiheessa nouse esille, kun kaikki on kovin uutta ja tietoa tulee paljon.
+
+![Toimeksiantoja](/assets/Black-Book-Images/image019.jpg)  
+*Toimeksiantoja yhteisellä boardilla.*
+
+### 8.2 Keskivaihe
+
+Orientaatiovaiheen jälkeen alkaa itse työnteko, joka ajoittui WIMMA Labissa kesällä 2018 sprinteille 1-5. Työvaiheet jakautuivat seuraavanlaisesti:
+
+* Sprint 1:n aihe oli ”Perehdytään ja opitaan” ja se keskittyi pääasiassa ryhmäytymiseen ja konseptin rakentamiseen. Tiimit muodostivat keskenään yhteisen kuvan tuotteesta ja aloittivat dokumentaation luomisen vaatimusmääritelmän merkeissä.
+* Sprint 2:n: aihe oli ”Nyt painaa jo katselmointi päälle” ja sen aikana oli saatava jotain näytettävää valmiiksi Avoimiin oviin, joka sijoittui sprintin loppuun. Avoimissa ovissa esiteltiin konsepti yleisölle ja kerättiin palautetta. Avoimien ovien jälkeen olikin Kettu Keterin vuoro… (Lue tapahtumasta lisää luvussa 12.)
+* Sprint 3:n aihe oli ”Välillä saa jo keskittyä” ja sprint 4:n ”Integraatiota pukkaa! On saatava hommat yhteen”. Näillä sprinteillä työstettiin toimeksiantoja eteenpäin Avoimista ovista saadun palautteen perusteella.
+* Sprint 5:n aihe oli ”JES! Loppu häämöttää”. Tällä sprintillä ei enää tuotu uusia ominaisuuksia mukaan, vaan vakautettiin ja testattiin tuotteita. Dokumentit ja käyttöohjeet viimeisteltiin luovutuskuntoon.
+
+![Overflow työssä](/assets/Black-Book-Images/image020.jpg)  
+*Työntekoa Overflow-tiimissä.*
+
+### 8.3 Lopetus
+WIMMA Labissa kesällä 2018 lopetukseen oli varattu sprint 6, joka oli pituudeltaan vain kaksi päivää. Sen aihe oli ”Nyt saa jo relata! Siivotaan ja dokumentoidaan”.
+
+Pääasiallisena tavoitteena oli dokumentaation ja aikaansaadun tuotteen luovuttaminen siinä muodossa, missä toimeksiantaja oli ne ilmoittanut haluavansa.
+
+Jokainen opiskelija kirjoitti oman oppimispäiväkirjansa palautuskuntoon, jotta saisi tavoittelemansa opintopisteet Jyväskylän ammattikorkeakoulusta. Tässä toimitaan koulun toimintatapojen mukaisesti, joten kaikkialla ei välttämättä tarvita oppimispäiväkirjaa ollenkaan.
+
+Viimeisenä siivottiin tilat, eli käytännössä purettiin työasemat ja palautettiin kaikki tavarat sinne, mistä ne oli alussa haettu. 
+
+Kun kaikki tarvittava on palautettu ja tilat siivottu, on vihdoin Kaunaillan aika… (Lue Kaunaillasta lisää luvussa 12.)
+
+![Sprintit](/assets/Black-Book-Images/image021.png)  
+*WIMMA Labin sprintit kesällä 2018.*
