@@ -97,6 +97,9 @@
 // History styling
 // ===============
 .history {
+  max-width: 1080px;
+  margin: 0 auto;
+
   &__section-wrapper {
     position: relative;
     margin-left: 2.25rem;
@@ -228,7 +231,11 @@
   }
 
   .accordion-content {
-    padding: 1.5rem;
+    padding: 1.25rem;
+
+    @include breakpoint(sm) {
+      padding: 1.5rem;
+    }
   }
 
   h3 {

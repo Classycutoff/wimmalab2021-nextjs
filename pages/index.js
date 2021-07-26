@@ -116,7 +116,7 @@ const Home = () => {
         <p className="p-intro">{t('p-big-history')}</p>
 
         <div className="history">
-          <HistorySection year="2021" intro={t('p-history-2021')}>
+          <HistorySection year="2021" intro={t('p-history-2021')} expanded>
             <HistoryCard
               url="/iotitude"
               imgUrl="/assets/history/iotitude-logo.png"
@@ -250,6 +250,45 @@ const Home = () => {
               imgUrl="/assets/history/kumos-logo.png"
               title={t('h4-history-2016-3')}
               desc={t('p-history-2016-3')}
+            />
+          </HistorySection>
+
+          <HistorySection year="2015">
+            <HistoryCard
+              url="http://n4sjamk.github.io/contriboard/"
+              imgUrl="/assets/history/contriboard_logo.png"
+              title={t('h4-history-2015-1')}
+              desc={t('p-history-2015-1')}
+            />
+            <HistoryCard
+              url="https://n4sjamk.github.io/jarmo/"
+              imgUrl="/assets/history/jarmo_logo.png"
+              title={t('h4-history-2015-2')}
+              desc={t('p-history-2015-2')}
+            />
+            <HistoryCard
+              url="https://n4sjamk.github.io/challenge-factory-2015.html"
+              imgUrl="/assets/history/noise_logo.png"
+              title={t('h4-history-2015-3')}
+              desc={t('p-history-2015-3')}
+            />
+          </HistorySection>
+
+          <HistorySection year="2014" intro={t('p-big-history-2014')}>
+            <HistoryCard
+              url="https://n4sjamk.github.io/challenge-factory-2014.html"
+              imgUrl="/assets/history/toolbar_logo.png"
+              title={t('h4-history-2014')}
+              desc={t('p-history-2014')}
+            />
+          </HistorySection>
+
+          <HistorySection year="2011-2013" intro={t('p-big-history-2011-2013')}>
+            <HistoryCard
+              url="https://github.com/FreeNest"
+              imgUrl="/assets/history/freenest_logo.png"
+              title={t('h4-history-2011-2013')}
+              desc={t('p-history-2011-2013')}
             />
           </HistorySection>
         </div>

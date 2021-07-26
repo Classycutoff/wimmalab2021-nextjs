@@ -61,13 +61,13 @@
   "h4-instructors-1": "Marko “Narsu” Rintamäki",
   "p-instructors-1": "Product Owner",
   "h4-instructors-2": "Paavo Nelimarkka",
-  "p-instructors-2": "Instructor",
+  "p-instructors-2": "Coach",
   "h4-instructors-3": "Kari Pitkäniemi",
-  "p-instructors-3": "Student Instructor",
+  "p-instructors-3": "Student Coach",
   "h4-instructors-4": "Teemu Kontio",
-  "p-instructors-4": "Instructor",
+  "p-instructors-4": "Coach",
   "h4-instructors-5": "Heli Vepsäläinen",
-  "p-instructors-5": "Instructor",
+  "p-instructors-5": "Coach",
 
   "h2-history": "History",
   "p-big-history": "The WIMMA Lab concept is evolving year by year. It was formerly known as Challenge Factory (2014 - 2017) and Summer Factory (2011 - 2014).",
@@ -144,13 +144,13 @@
   "p-history-2015-3": "A tool for simulating and stress testing different network conditions.",
 
   "h3-history-2014": "2014",
-  "p-big-history-2014": "The course's name was changed into Challenge Factory",
+  "p-big-history-2014": "The course's name was changed into Challenge Factory.",
 
   "h4-history-2014": "Toolbar",
   "p-history-2014": "Toolbar improved on last year's concept of making a project platform with required tools included, to a platform that let's you collect the tools and sites you need into one place. This made Toolbar a flexible choice for all kinds of projects.",
 
   "h3-history-2011-2013": "2011-2013",
-  "p-big-history-2011-2013": "The course started as Summer Factory",
+  "p-big-history-2011-2013": "The course started as Summer Factory.",
 
   "h4-history-2011-2013": "FreeNest",
   "p-history-2011-2013": "A project management platform that provides a collection of tools for smooth project work. FreeNest's features include forums, private chats and file sharing."

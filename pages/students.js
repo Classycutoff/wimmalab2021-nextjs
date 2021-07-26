@@ -198,19 +198,19 @@ const Students = () => {
             </Button>
           </div>
           <div>
-            <Accordion title={t('p-faq-q1')}>
+            <Accordion title={t('p-faq-q1')} id="faq-q1">
               <p className="faq__p">{t('p-faq-a1')}</p>
             </Accordion>
-            <Accordion title={t('p-faq-q2')}>
+            <Accordion title={t('p-faq-q2')} id="faq-q2">
               <p className="faq__p">{t('p-faq-a2')}</p>
             </Accordion>
-            <Accordion title={t('p-faq-q3')}>
+            <Accordion title={t('p-faq-q3')} id="faq-q3">
               <p className="faq__p">{t('p-faq-a3')}</p>
             </Accordion>
-            <Accordion title={t('p-faq-q4')}>
+            <Accordion title={t('p-faq-q4')} id="faq-q4">
               <p className="faq__p">{t('p-faq-a4')}</p>
             </Accordion>
-            <Accordion title={t('p-faq-q6')}>
+            <Accordion title={t('p-faq-q6')} id="faq-q6">
               <p className="faq__p">{t('p-faq-a6')}</p>
             </Accordion>
           </div>
