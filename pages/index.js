@@ -231,6 +231,27 @@ const Home = () => {
               desc={t('p-history-2017-5')}
             />
           </HistorySection>
+
+          <HistorySection year="2016" intro={t('p-big-history-2016')}>
+            <HistoryCard
+              url="https://iotitude.github.io/"
+              imgUrl="/assets/history/iotitude-logo.png"
+              title={t('h4-history-2016-1')}
+              desc={t('p-history-2016-1')}
+            />
+            <HistoryCard
+              url="https://overflowjamk.github.io/"
+              imgUrl="/assets/history/overflow-logo.png"
+              title={t('h4-history-2016-2')}
+              desc={t('p-history-2016-2')}
+            />
+            <HistoryCard
+              url="http://kumos.github.io/"
+              imgUrl="/assets/history/kumos-logo.png"
+              title={t('h4-history-2016-3')}
+              desc={t('p-history-2016-3')}
+            />
+          </HistorySection>
         </div>
       </section>
     </Layout>
