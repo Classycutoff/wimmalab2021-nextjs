@@ -1,6 +1,5 @@
 import { useTranslation } from 'next-i18next';
 
-import Button from '../components/Button';
 import LazyImage from './LazyImage';
 
 export default function ProjectCard() {

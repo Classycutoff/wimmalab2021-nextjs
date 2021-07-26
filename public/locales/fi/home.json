@@ -50,21 +50,23 @@
   "p-instructors-5": "Ohjaaja",
 
   "h2-history": "Historia",
-  "p-big-history": "WIMMA Lab -konsepti kehittyy vuosi vuodelta. Aiemmin se tunnettiin nimillä Challenge Factory (2014 – 2017) ja Summer Factory (2011 – 2014)",
+  "p-big-history": "WIMMA Lab -konsepti kehittyy vuosi vuodelta. Aiemmin se tunnettiin nimillä Challenge Factory (2014 – 2017) ja Summer Factory (2011 – 2014).",
   
   "h3-history-2021": "2021",
 
+  "p-history-2021": "WIMMA Lab järjestettiin virtuaalisesti.",
+
   "h4-history-2021-1": "IoTitude",
-  "p-history-2021-1": "Suunnitteli ja toteutti Haastix-mobiilipelin web socketteja ja Reactia käyttäen, joka kannustaa pelaajia liikkumaan ja tutkimaan lähiympäristöä. Pelissä Pelimestari antaa pelaajille tehtävän ja pelaajat ottavat kuvia älypuhelimillaan tehtävässä mainitusta asiasta.",
+  "p-history-2021-1": "Suunnitteli ja toteutti Haastix-mobiilipelin WebSocketteja ja React Nativea käyttäen, joka kannustaa pelaajia liikkumaan ja tutkimaan lähiympäristöä. Pelissä Pelimestari antaa pelaajille tehtävän ja pelaajat ottavat kuvia älypuhelimillaan tehtävässä mainitusta asiasta.",
   "h4-history-2021-2": "Overflow",
-  "p-history-2021-2": "Kehitti FF marketplace -palvelun JAMK:ille. Palvelun avulla opiskelijoiden on mahdollista tutustua toimeksiantoihin ja tiimiytyä muiden opiskelijoiden kanssa Future Factory -kurssille.",
+  "p-history-2021-2": "Kehitti Future Factory Marketplace -palvelun JAMKille. Palvelun avulla opiskelijoiden on mahdollista tutustua toimeksiantoihin ja tiimiytyä muiden opiskelijoiden kanssa Future Factory -kurssille.",
   "h4-history-2021-3": "Mysticons",
-  "p-history-2021-3": "Loi Kubernetes-alustan ja CI/CD-pipelinet WIMMA Labille, joiden avulla muiden virtuaaliyritysten palvelut toimivat. Mysticons kehitti myös Power Automate -työkalulla lomakkeen, jolla opettajat voivat luoda kursseille Microsoft Teams -kanavat ja Gitlab-repositoriot helposti.",
+  "p-history-2021-3": "Loi Kubernetes-alustan ja CI/CD-pipelinet WIMMA Labille, joiden avulla muiden virtuaaliyritysten palvelut toimivat. Mysticons kehitti myös Power Automate -työkalulla lomakkeen, jolla opettajat voivat luoda kursseille Microsoft Teams -kanavat ja GitLab-repositoriot helposti.",
   "h4-history-2021-4": "Pengwin Media",
-  "p-history-2021-4": "Toteutti WIMMA Labin brändiuudistuksen luomalla uudet verkkosivut käyttäen Next.js:ää ja Reactia. Pengwin Media antoi myös tukea muille virtuaaliyrityksille tarvittaessa.",
+  "p-history-2021-4": "Toteutti WIMMA Labin brändiuudistuksen luomalla uudet verkkosivut käyttäen Next.js:ää. Pengwin Media antoi myös tukea muille virtuaaliyrityksille tarvittaessa.",
 
   "h3-history-2020": "2020",
-  "p-history-2020": "WIMMA Lab oli tauolla COVID-19 vuoksi.",
+  "p-history-2020": "WIMMA Lab oli tauolla COVID-19-tilanteen vuoksi.",
 
   "h3-history-2019": "2019",
 
@@ -75,7 +77,7 @@
   "h4-history-2019-3": "Mysticons",
   "p-history-2019-3": "Työsti CI/CD pipelineä ja paransi nykyistä DevSecOps-mallia, kehitti ohjelman robotille ja uudisti sen uusilla toiminnallisuuksilla sekä helpotti sovelluksen avulla musiikin opiskelua Jyväskylän ammattikorkeakoulun opetustarkoituksiin.",
   "h4-history-2019-4": "Pengwin Media",
-  "p-history-2019-4": "Tuotti mediasisältöä, videoita, grafiikkaa sekä UI-suunnittelua WIMMA Labille ja sen virtuaaliyrityksille, ja auttoi muita virtuaalisia yrityksiä heidän toimeksiannoissa.",
+  "p-history-2019-4": "Tuotti mediasisältöä, videoita, grafiikkaa sekä UI-suunnittelua WIMMA Labille ja sen virtuaaliyrityksille, ja auttoi muita virtuaalisia yrityksiä heidän toimeksiannoissaan.",
 
   "h3-history-year-2018": "2018",
 
@@ -122,13 +124,13 @@
   "p-history-2015-3": "Työkalu verkon kuormituksen simulointiin.",
 
   "h3-history-2014": "2014",
-  "p-big-history-2014": "Kurssin nimi muuttui Challenge Factoryksi",
+  "p-big-history-2014": "Kurssin nimi muuttui Challenge Factoryksi.",
 
   "h4-history-2014": "Toolbar",
   "p-history-2014": "Kehitti edellisten vuosien konseptia Toolbar-nimiseksi alustaksi, joka kokoaa tarvittavat työkalut ja sivustot yhteen paikkaan. Tämä teki Toolbarista joustavan ratkaisun eri tyyppisille projekteille.",
 
   "h3-history-2011-2013": "2011-2013",
-  "p-big-history-2011-2013": "Kurssin nimi oli aluksi Summer Factory",
+  "p-big-history-2011-2013": "Kurssin nimi oli aluksi Summer Factory.",
 
   "h4-history-2011-2013": "FreeNest",
   "p-history-2011-2013": "Projektinhallinta-alusta, joka tarjoaa kokoelman työkaluja sujuvaan projektityöskentelyyn. Ominaisuuksia ovat muun muassa foorumit, yksityiset chatit ja tiedostojen jakaminen."

@@ -25,10 +25,12 @@
 @import
   'components/button',
   'components/image',
+  'components/accordion',
   'components/projectcard';
 
 // Page-specific styles
 @import
   'pages/home',
   'pages/students',
-  'pages/companies';
+  'pages/companies',
+  'pages/guides';
