@@ -165,7 +165,7 @@ const Pengwin = () => {
           </div>
 
           {/* member6 */}
-          <div className="simple-grid virtua-card">
+          <div className="simple-grid company-card company-card--cyan-light">
             <div>
               <Image src={member6} />
             </div>
@@ -183,13 +183,10 @@ const Pengwin = () => {
       <div className="twitter-container">
       <h2>{t('h2-twitter')}</h2>      
         <div>
-          <TwitterTweetEmbed tweetId={'1418511303061262339'} />
+          <TwitterTweetEmbed tweetId={'1419971852970205211'} />
         </div>
         <div>
-          <TwitterTweetEmbed tweetId={'1418511303061262339'} />
-        </div>
-        <div>
-          <TwitterTweetEmbed tweetId={'1418511303061262339'} />
+          <TwitterTweetEmbed tweetId={'1400398116080308227'} />
         </div>
       </div>
     </Layout>

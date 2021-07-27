@@ -100,7 +100,7 @@ const Pengwin = () => {
         <div>
           {/* member1 */}
 
-          <div className="simple-grid company-card company-card--cyan-light">
+          <div className="simple-grid company-card company-card--pastel-blue">
             <div>
               <Image src={member1} className="miniImage" />
             </div>
@@ -114,7 +114,7 @@ const Pengwin = () => {
           </div>
 
           {/* member2 */}
-          <div className="simple-grid company-card company-card--cyan-light">
+          <div className="simple-grid company-card company-card--pastel-blue">
             <div>
               <Image src={member2} />
             </div>
@@ -128,7 +128,7 @@ const Pengwin = () => {
           </div>
 
           {/* member3 */}
-          <div className="simple-grid company-card company-card--cyan-light">
+          <div className="simple-grid company-card company-card--pastel-blue">
             <div>
               <Image src={member3} />
             </div>
@@ -141,7 +141,7 @@ const Pengwin = () => {
           </div>
 
           {/* member4 */}
-          <div className="simple-grid company-card company-card--cyan-light">
+          <div className="simple-grid company-card company-card--pastel-blue">
             <div>
               <Image src={member4} />
             </div>
@@ -154,7 +154,7 @@ const Pengwin = () => {
           </div>
 
           {/* member5 */}
-          <div className="simple-grid company-card company-card--cyan-light">
+          <div className="simple-grid company-card company-card--pastel-blue">
             <div>
               <Image src={member5} />
             </div>
@@ -167,7 +167,7 @@ const Pengwin = () => {
           </div>
 
           {/* member6 */}
-          <div className="simple-grid virtua-card">
+          <div className="simple-grid company-card company-card--pastel-blue">
             <div>
               <Image src={member6} />
             </div>
@@ -185,13 +185,13 @@ const Pengwin = () => {
       <div className="twitter-container">
         <h2>{t('h2-twitter')}</h2>
         <div>
-          <TwitterTweetEmbed tweetId={'1418511303061262339'} />
+          <TwitterTweetEmbed tweetId={'1417071027490787330'} />
         </div>
         <div>
-          <TwitterTweetEmbed tweetId={'1418511303061262339'} />
+          <TwitterTweetEmbed tweetId={'1415594923861159940'} />
         </div>
         <div>
-          <TwitterTweetEmbed tweetId={'1418511303061262339'} />
+          <TwitterTweetEmbed tweetId={'1399681977712795652'} />
         </div>
       </div>
     </Layout>
