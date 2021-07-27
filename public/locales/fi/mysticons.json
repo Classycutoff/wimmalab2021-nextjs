@@ -1,40 +1,37 @@
 {
-    "page-title": "Pengwin Media",
-    "h1": "Pengwin Media",
-    "h1-subheading": "New and Improved.",
+    "page-title": "Mysticons",
+    "h1": "Mysticons",
+    "h1-subheading": "Connecting pipelines.",
     
     "h1-team": "Tiimiesittely",
-    "p-team": "Pengwin Media vastaa WIMMA Labin brändiuudistuksesta ja wimmalab.org-sivuston päivityksestä. Tiimiläiset toimivat yhteistyössä muiden WIMMA Labin virtuaaliyritysten kanssa (Overflow, Mysticons ja IoTitude) ja tuottavat materiaalia heidän tarpeisiinsa. Lisäksi Pengwin Media päivittää WIMMA Labin sosiaalisen median kanavia.",
+    "p-team": "Mysticons on WIMMA Labissa toimiva virtuaaliyritys, jonka vastuualueena on ottaa DevSecOps-hengessä haltuun Kubernetes, Docker, Power Automate ja CI/CD pipelinet ja integroida ne keskenään. Tiimi koostuu monialaisista osaajista vahvalla kyberturvallisuustwistillä.",
     
     "h2-assignment": "Tehtävät",
-    "p-assignment": "Kesän aikana Pengwin Media uudistaa ja laajentaa wimmalab.org-sivua modernein teknologioin. Uudistuksessa käytetään Next.js:ää ja hyödynnetään markdown-merkintäkieltä sisällön päivittämisen helpottamiseksi. Tavoitteena on rakentaa sivusto, joka palvelee paremmin käyttäjää ja kuvastaa WIMMA Labin kunnianhimoisia tavoitteita sekä tekemisen meininkiä.",
-    
+    "p-assignment": "Kesän aikana Mysticonsilla on useampi ongelma kohdattavana, joista mahdollisimman moneen pyritään löytämään järkevä ratkaisu tiukan aikataulun puitteissa.",
+    "p2-assignment": "Kaikista Mysticons-saavutuksista tuotetaan WIMMA Labille helposti toistettavissa olevat ohjeet sekä dokumentaatio.",
+
     "h2-introduction": "Tiimin jäsenet",
     
-    "h3-member1": "Annukka Rajala", 
-    "h4-member1": "Team Leader, Junior Web Developer",
-    "p-member1": "Olen 22-vuotias kolmannen vuoden mediatekniikan opiskelija Hankasalmelta. Tavoitteenani on erikoistua frontend-kehittäjäksi, joka selviää myös UI/UX-suunnittelun haasteista. Eniten innostun projekteista, joissa pääsen osallistumaan sekä visuaaliseen suunnitteluun että koodaamiseen. Vapaa-ajalla todennäköisesti työstän omia projekteja, mutta uppoudun mielelläni myös ruoan­laittoon, liikuntaan tai viher­kasvien hoitoon.",
+    "h3-member1": "Sini Karvonen", 
+    "h4-member1": "Team Leader, Junior Developer",
+    "p-member1": "Jyväskyläläinen, monesta asiasta innostuva ja kiinnostuva ravintola-alalta IT-alalle vaihtava kahden koiran yksinhuoltaja, joka nauttii työskentelystä ihmisten kanssa ja siitä, että päivät eroavat toisistaan ja tuovat haasteita. Harrastaa käsitöitä, pelaamista ja kaikenlaista luovaa taiteilua ja tekemistä. JAMKin kyberturvallisuuspuolen opiskelija, joka haluaisi oppia enemmän automaatiosta, koodaamisesta, 3D-grafiikan tekemisestä ja monesta muusta.",
     
-    "h3-member2": "Roope Huttunen", 
-    "h4-member2": "Junior Developer",
-    "p-member2": "Olen Äänekoskelta kotoisin, nyt Jyväskylässä asuskeleva 22-vuotias toisen vuoden ohjelmistotekniikan JAMKissa. Olen kiinnostunut kaikenlaisesta teknologiasta, varsinkin ohjelmoinnista. Ohjelmoinnin puolella minulla on kokemusta C#-kielellä ohjelmoinnista. Vapaa-ajalla pelaan video- ja lautapelejä ystävieni kanssa.",
+    "h3-member2": "Heikki Pekkarinen", 
+    "h4-member2": "Junior Software Developer",
+    "p-member2": "Cyber Security student at JAMK / 10+ years in Aviation Industry / PC user since 80286 / Quake Veteran / White Hat / Traveller / Musician / Producer / DJ",
     
-    "h3-member3": "Eliel Taskinen", 
-    "h4-member3": "Junior Web Developer",
+    "h3-member3": "Matti Saarelma", 
+    "h4-member3": "Junior Software Developer",
     "p-member3": "Olen Eliel Jyväskylästä. Opiskelen ensimmäistä vuotta tieto- ja viestintätekniikkaa JAMKilla. Minua kiinnostaa koodaaminen, tietoverkot ja tietoturvallisuus modernissa maailmassa. Minulla on kokemusta Pythonista, Reactista ja Linuxin käytöstä. Vapaa-ajallani soitan kitaraa, koodaan pieniä projekteja ja pelaan kavereiden kanssa roolipelejä.",
     
-    "h3-member4": "Sari Kumpulainen", 
+    "h3-member4": "Timo Lehosvuo", 
     "h4-member4": "Junior Web Developer",
-    "p-member4": "Opiskelen Jyväskylän ammattikorkeakoulussa tieto- ja viestintätekniikkaa, erikoistumisena on ohjelmistotekniikka. Opinnot alkavat kohta olla loppusuoralla, jäljellä enää joitakin yksittäisiä kursseja sekä osa työharjoittelusta ja opinnäytetyö. Alalla erityisesti kiinnostaa käyttöliittymien koodaus ja suunnittelu sekä testaus ja siihen liittyvät asiat. Vapaa-ajalla tykkään lukea, pelailla, ulkoilla sekä tehdä käsitöitä.",
     
-    "h3-member5": "Tatu Seppänen", 
-    "h4-member5": "Junior Web Developer",
-    "p-member5": "Olen Tatu Seppänen, opiskelen kyberturvallisuutta JAMK:issa. Koodailla tykkään Pythonilla ja varsinkin tietoturvatestaus ja ”valkohattu-hakkeri”-jutut kiinnostavat erityisesti. Olen innokas oppimaan uusia asioita ja laajentamaan osaamista uusille alueille. Pidän tiimityöskentelystä ja tulen hyvin toimeen kaikenlaisten ihmisten kanssa. Vapaa-aikaani tykkään viettää pyörällä ajaen tai kalasten.",
     
-    "h3-member6": "Janna Niemi", 
-    "h4-member6": "Junior Web Developer",
-    "p-member6": "Suunnittelen mielelläni ulkoasuja, mutta koodaaminen ja ohjelmointi ovat myös lähellä sydäntäni. Frontend-kehitys on luonnollisesti kaikista mielekkäintä puuhaa, koska visuaalisuus ja koodi yhdistyvät siinä kivasti. Backend-kehityksen puolelta parhaiten hallussani on Python ja tietokannat, ja opiskelun aikana C# tulee entistä tutummaksi. Kiinnostusta olisi myös oppia RUST-kieli. WIMMA Labissa olen oppimassa projektityöskentelyä ja toivon siitä olevan hyötyä myös työmarkkinoilla. Vapaa-ajalla harrastan kaikenlaista liikuntaa, erityisesti maastopyöräilyä ja juoksemista, vaikkakin arki ja vapaa-aika rullaa tiiviisti kahden alle kouluikäisen vanhempana.",
-    
+    "h3-member5": "Samuli Ylönen", 
+    "h4-member5": "Junior Software Developer",
+    "p-member5": "ICT-alan monimuoto-opiskelija Jyväskylästä. Aloitin opinnot keväällä 2019 avoimella puolella, ja syksyllä 2020 siirryin tutkinto-opiskelijaksi. Olen aiemmalta koulutukseltani musiikkipedagogi/musiikkiteknologi, ja olen työskennellyt yli 13 vuotta ääni- ja tapahtumatekniikan parissa. Opinnoissani olen suuntautunut kyberturvallisuuden pariin, sillä sen testaaminen ja kehittäminen kiinnostaa. Opintojen myötä kokemusta on mm. palvelimista, ohjelmoinnista, tietoturvasta, tietoverkoista sekä käyttöjärjestelmistä. Vapaa-aika menee usein kitaran soiton ja musiikin parissa.",
+        
     "h2-twitter": "Seuraa meitä twitterissä:"
     
     }
