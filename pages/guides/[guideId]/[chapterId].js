@@ -15,15 +15,17 @@ const components = { Image, a: CustomLink, code: CodeBlock };
 const Guide = (props) => {
   const { mdxSource, chapterList, chapterId, guideId } = props;
   return (
-    <GuideLayout guideId={guideId}>
-      <Head>
-        <title>{chapterId}</title>
-      </Head>
-      <div className="mdx">
-        <MDXRemote {...mdxSource} components={components} />
-        <NextChapter chapterList={chapterList} chapterId={chapterId} guideId={guideId} />
-      </div>
-    </GuideLayout>
+    <>
+      <GuideLayout guideId={guideId}>
+        <Head>
+          <title>{chapterId}</title>
+        </Head>
+        <div className="mdx">
+          <MDXRemote {...mdxSource} components={components} />
+        </div>
+      </GuideLayout>
+      <NextChapter chapterList={chapterList} chapterId={chapterId} guideId={guideId} />
+    </>
   );
 };
 

@@ -9,7 +9,7 @@ import ImageWrapper from '/components/ImageWrapper';
 import Layout, { siteTitle } from '/components/Layout';
 import Profile2 from '/public/assets/pfp-hannu.png';
 import Profile1 from '/public/assets/pfp-minttu.png';
-import heroBg from '/public/assets/students-hero-bg.png';
+import HeroBg from '/public/assets/students-hero-bg.png';
 import Img1 from '/public/assets/students-img1.png';
 
 import IconCoach from '../svgs/icon-coach.svg';
@@ -33,7 +33,7 @@ const Students = () => {
       {/* Hero section */}
       <section className="content__section hero hero--students margin-b">
         <Image
-          src={heroBg}
+          src={HeroBg}
           layout="fill"
           objectFit="cover"
           objectPosition="center"
@@ -193,7 +193,7 @@ const Students = () => {
           <div>
             <h2>{t('h2-faq')}</h2>
             <p className="p-narrow p-bigger">{t('p-faq-more-info')}</p>
-            <Button href="/guides" type="secondary" className="margin-t" icon>
+            <Button href="/guides" type="secondary" className="margin-t" locale="fi" icon>
               {t('button-faq-guides')}
             </Button>
           </div>

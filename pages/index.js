@@ -9,8 +9,11 @@ import Layout, { siteTitle } from '/components/Layout';
 
 import ProfileCard from '../components/ProfileCard';
 import ProjectCard from '../components/ProjectCard';
-import logo from '../public/assets/logo_wimma.png';
-import heroBg from '../public/assets/students-hero-bg.png';
+import HeroBg from '../public/assets/home-hero.png';
+import Logo from '../public/assets/logo_wimma.png';
+import IconAgile from '../svgs/icon-agile.svg';
+import IconNetwork from '../svgs/icon-network.svg';
+import IconTeam from '../svgs/icon-team.svg';
 
 const Home = () => {
   const { t } = useTranslation('home');
@@ -23,7 +26,7 @@ const Home = () => {
       {/* Hero section */}
       <section className="content__section hero hero--home">
         <Image
-          src={heroBg}
+          src={HeroBg}
           layout="fill"
           objectFit="cover"
           objectPosition="center"
@@ -33,7 +36,7 @@ const Home = () => {
           priority={true}
         />
         <div className="hero__container">
-          <Image src={logo} />
+          <Image src={Logo} width={160} height={160} priority={true} />
           <h1 className="hero__h1">{t('h1')}</h1>
           <p className="hero__p">{t('h1-subheading')}</p>
         </div>
@@ -44,18 +47,22 @@ const Home = () => {
         <h2 className="h2-nutshell h2-section">{t('h2-nutshell')}</h2>
         <div className="simple-grid">
           <div>
+            <IconNetwork className="svg-icon" />
             <h4 className="h3-nutshell-1">{t('h3-nutshell-1')}</h4>
             <p> {t('p-nutshell-1')} </p>
           </div>
           <div>
+            <IconTeam className="svg-icon" />
             <h4 className="h3-nutshell-2">{t('h3-nutshell-2')}</h4>
             <p> {t('p-nutshell-2')} </p>
           </div>
           <div>
+            <IconAgile className="svg-icon" />
             <h4 className="h3-nutshell-3">{t('h3-nutshell-3')}</h4>
             <p> {t('p-nutshell-3')} </p>
           </div>
           <div>
+            <IconNetwork className="svg-icon" />
             <h4 className="h3-nutshell-4">{t('h3-nutshell-4')}</h4>
             <p> {t('p-nutshell-4')} </p>
           </div>

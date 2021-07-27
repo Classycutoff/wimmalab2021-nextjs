@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+import CustomLink from '/components/CustomLink';
+
 import Logo from '../svgs/logo-light_no-bg.svg';
 import IconFacebook from '../svgs/socials-facebook.svg';
 import IconInstagram from '../svgs/socials-instagram.svg';
@@ -23,38 +25,29 @@ const Footer = ({ t }) => {
 
           <ul className="footer__social-media-container">
             <li>
-              <a href="https://www.facebook.com/wimmalab" target="_blank" rel="noreferrer noopener">
+              <CustomLink href="https://www.facebook.com/wimmalab">
                 <IconFacebook />
-              </a>
+              </CustomLink>
             </li>
             <li>
-              <a
-                href="https://www.instagram.com/wimmalab"
-                target="_blank"
-                rel="noreferrer noopener">
+              <CustomLink href="https://www.instagram.com/wimmalab">
                 <IconInstagram />
-              </a>
+              </CustomLink>
             </li>
             <li>
-              <a
-                href="https://www.linkedin.com/company/wimmalab"
-                target="_blank"
-                rel="noreferrer noopener">
+              <CustomLink href="https://www.linkedin.com/company/wimmalab">
                 <IconLinkedIn />
-              </a>
+              </CustomLink>
             </li>
             <li>
-              <a
-                href="https://www.youtube.com/channel/UCe0Ssog7DURm_aTiPO2hUFw"
-                target="_blank"
-                rel="noreferrer noopener">
+              <CustomLink href="https://www.youtube.com/channel/UCe0Ssog7DURm_aTiPO2hUFw">
                 <IconYouTube />
-              </a>
+              </CustomLink>
             </li>
             <li>
-              <a href="https://twitter.com/wimmalab" target="_blank" rel="noreferrer noopener">
+              <CustomLink href="https://twitter.com/wimmalab">
                 <IconTwitter />
-              </a>
+              </CustomLink>
             </li>
           </ul>
         </div>
@@ -64,24 +57,15 @@ const Footer = ({ t }) => {
             <h4 className="footer__title">{t('footer-title1')}</h4>
             <ul className="footer__links">
               <li>
-                <Link href="/students">
-                  <a>{t('students')}</a>
-                </Link>
+                <CustomLink href="/students">{t('students')}</CustomLink>
               </li>
               <li>
-                <Link href="/companies">
-                  <a>{t('companies')}</a>
-                </Link>
+                <CustomLink href="/companies">{t('companies')}</CustomLink>
               </li>
               <li>
-                <Link href="/guides">
-                  <a>{t('guides')}</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/">
-                  <a>{t('open-doors')}</a>
-                </Link>
+                <CustomLink href="/guides" locale="fi">
+                  {t('guides')}
+                </CustomLink>
               </li>
             </ul>
           </div>
@@ -90,24 +74,24 @@ const Footer = ({ t }) => {
             <h4 className="footer__title">{t('footer-title2')}</h4>
             <ul className="footer__links">
               <li>
-                <Link href="/iotitude">
-                  <a>IoTitude</a>
-                </Link>
+                <CustomLink href="/iotitude" locale="fi">
+                  IoTitude
+                </CustomLink>
               </li>
               <li>
-                <Link href="/overflow">
-                  <a>Overflow</a>
-                </Link>
+                <CustomLink href="/overflow" locale="fi">
+                  Overflow
+                </CustomLink>
               </li>
               <li>
-                <Link href="/mysticons">
-                  <a>Mysticons</a>
-                </Link>
+                <CustomLink href="/mysticons" locale="fi">
+                  Mysticons
+                </CustomLink>
               </li>
               <li>
-                <Link href="/pengwin">
-                  <a>Pengwin Media</a>
-                </Link>
+                <CustomLink href="/pengwin" locale="fi">
+                  Pengwin Media
+                </CustomLink>
               </li>
             </ul>
           </div>
