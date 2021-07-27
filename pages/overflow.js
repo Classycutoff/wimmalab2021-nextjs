@@ -16,25 +16,23 @@ import {
 } from 'react-twitter-embed';
 
 // import Accordion from '/components/Accordion';
-import ImageWrapper from '/components/ImageWrapper';
+// import ImageWrapper from '/components/ImageWrapper';
 import Layout, { siteTitle } from '/components/Layout';
-
-// img: team members
-import member1 from '/public/assets/pengwin/annukka.png';
-import member3 from '/public/assets/pengwin/eliel.png';
-import member6 from '/public/assets/pengwin/janna.png';
-import member2 from '/public/assets/pengwin/roope.png';
-import member4 from '/public/assets/pengwin/sari.png';
-import member5 from '/public/assets/pengwin/tatu.png';
-import team from '/public/assets/pengwin/tiimi.jpg';
-
+import member5 from '/public/assets/overflow/jesse.png';
+import member2 from '/public/assets/overflow/joel.png';
+import member6 from '/public/assets/overflow/lassi.png';
+import member4 from '/public/assets/overflow/mikko.png';
 // other images
-import heroBg from '/public/assets/pengwin/pengwin-header.png';
-import pengwinLogo from '/public/assets/pengwin/pengwin-logo.png';
+import heroBg from '/public/assets/overflow/overflow-header.png';
+import pengwinLogo from '/public/assets/overflow/overflow-logo.png';
+import member1 from '/public/assets/overflow/reetta.png';
+import member3 from '/public/assets/overflow/samu.png';
+import team from '/public/assets/overflow/tiimi.jpg';
+
 import Img4 from '../public/assets/software.png';
 
 const Pengwin = () => {
-  const { t } = useTranslation('pengwin');
+  const { t } = useTranslation('overflow');
 
   return (
     <Layout t={t}>
@@ -72,6 +70,8 @@ const Pengwin = () => {
           <div>
             <h2>{t('h1-team')}</h2>
             <p>{t('p-team')}</p>
+            <p>{t('p2-team')}</p>
+            <p>{t('p3-team')}</p>
           </div>
         </div>
       </section>
@@ -82,6 +82,7 @@ const Pengwin = () => {
           <div className="pengwin-card pengwin-card--blue">
             <h1>{t('h2-assignment')}</h1>
             <p>{t('p-assignment')}</p>
+            <p>{t('p2-assignment')}</p>
           </div>
           <div>
             <Image src={Img4} />
@@ -97,7 +98,6 @@ const Pengwin = () => {
 
         {/* team members */}
         <div>
-                    
           {/* member1 */}
 
           <div className="simple-grid company-card company-card--cyan-light">
@@ -108,6 +108,7 @@ const Pengwin = () => {
               <h3>{t('h3-member1')}</h3>
               <h4>{t('h4-member1')}</h4>
               <p>{t('p-member1')}</p>
+              <p>{t('p2-member1')}</p>
               <a>LinkedIn</a>
             </div>
           </div>
@@ -121,6 +122,7 @@ const Pengwin = () => {
               <h3>{t('h3-member2')}</h3>
               <h4>{t('h4-member2')}</h4>
               <p>{t('p-member2')}</p>
+              <p>{t('p2-member2')}</p>
               <a>LinkedIn</a>
             </div>
           </div>
@@ -181,7 +183,7 @@ const Pengwin = () => {
 
       {/* social media  */}
       <div className="twitter-container">
-      <h2>{t('h2-twitter')}</h2>      
+        <h2>{t('h2-twitter')}</h2>
         <div>
           <TwitterTweetEmbed tweetId={'1418511303061262339'} />
         </div>
@@ -198,7 +200,7 @@ const Pengwin = () => {
 
 export const getStaticProps = async ({ locale }) => ({
   props: {
-    ...(await serverSideTranslations(locale, ['common', 'pengwin']))
+    ...(await serverSideTranslations(locale, ['common', 'overflow']))
   }
 });
 
