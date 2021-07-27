@@ -1,39 +1,45 @@
 {
-    "page-title": "Pengwin Media",
-    "h1": "Pengwin Media",
-    "h1-subheading": "New and Improved.",
+    "page-title": "Iotitude",
+    "h1": "Iotitude",
+    "h1-subheading": "Committed to excellence.",
     
     "h1-team": "Tiimiesittely",
-    "p-team": "Pengwin Media vastaa WIMMA Labin brändiuudistuksesta ja wimmalab.org-sivuston päivityksestä. Tiimiläiset toimivat yhteistyössä muiden WIMMA Labin virtuaaliyritysten kanssa (Overflow, Mysticons ja IoTitude) ja tuottavat materiaalia heidän tarpeisiinsa. Lisäksi Pengwin Media päivittää WIMMA Labin sosiaalisen median kanavia.",
+    "p-team": "IoTitude-tiimistä löytyy monipuolisesti osaamista joka suuntautumisvaihtoehdolta. Mukana on ohjelmointi-, kyber-, verkko-, sekä mediaosaajia. IoTitude tekee vahvaa yhteistyötä Mysticons-tiimin kanssa, joka tarjoaa palvelinalustan Kuberneteksessa, sekä Pengwin Median, joka antaa graafista tukea.",
     
     "h2-assignment": "Tehtävät",
-    "p-assignment": "Kesän aikana Pengwin Media uudistaa ja laajentaa wimmalab.org-sivua modernein teknologioin. Uudistuksessa käytetään Next.js:ää ja hyödynnetään markdown-merkintäkieltä sisällön päivittämisen helpottamiseksi. Tavoitteena on rakentaa sivusto, joka palvelee paremmin käyttäjää ja kuvastaa WIMMA Labin kunnianhimoisia tavoitteita sekä tekemisen meininkiä.",
-    
+    "p-assignment": "IoTitude-tiimillä on tänä kesänä toimeksiantona toteuttaa ”Haastepeli”. Pelin ideana on, että pelimestari keksii haasteen pelaajille, kuten esimerkiksi ”etsi leskenlehti, aikaa 15 minuuttia”. Pelaajat liittyvät koodilla peliin mukaan ja lähettävät Pelimestarille kuvan todistuksena suorituksesta. Pelimestari hylkää tai hyväksyy suoritukset.",
+    "p2-assignment": "Tätä perusideaa lähdetään myöhemmin kesällä vielä kehittelemään pidemmälle. Ideoina on heitetty mm. koneoppimisesta kuvien tunnistuksessa, useampien minipelien haastehuoneista, avatarien generoinnista… vain taivas on rajana.",
+    "p3-assignment": "IoTituden teknologiastäkki näyttää seuraavalta: React Native, NodeJS, PostgreSQL, MinIO, Robot Framework, Jest, Kubernetes ja GitLab CI/CD.",
+
     "h2-introduction": "Tiimin jäsenet",
     
-    "h3-member1": "Annukka Rajala", 
-    "h4-member1": "Team Leader, Junior Web Developer",
-    "p-member1": "Olen 22-vuotias kolmannen vuoden mediatekniikan opiskelija Hankasalmelta. Tavoitteenani on erikoistua frontend-kehittäjäksi, joka selviää myös UI/UX-suunnittelun haasteista. Eniten innostun projekteista, joissa pääsen osallistumaan sekä visuaaliseen suunnitteluun että koodaamiseen. Vapaa-ajalla todennäköisesti työstän omia projekteja, mutta uppoudun mielelläni myös ruoan­laittoon, liikuntaan tai viher­kasvien hoitoon.",
+    "h3-member1": "Elmer Tuukkanen", 
+    "h4-member1": "Team Leader / Junior Software Developer",
+    "p-member1": "Olen 22-vuotias kolmannen vuoden tieto- ja viestintätekniikan opiskelija. Olen kotoisin Mikkelistä, mutta muutin Jyväskylään koulun perässä kesällä 2018. Koodaamisessa minua kiinnostaa sekä frontend ja backend-puoli, mutta kokemusta minulla löytyy paljon enemmän frontendin puolelta. Eniten kokemusta minulta löytyy Reactin ja React Nativen käytöstä. Vapaa-ajallani lenkkeilen ja kesäisin kalastan, toisinaan myös koodailen omia projekteja.",
     
-    "h3-member2": "Roope Huttunen", 
-    "h4-member2": "Junior Developer",
-    "p-member2": "Olen Äänekoskelta kotoisin, nyt Jyväskylässä asuskeleva 22-vuotias toisen vuoden ohjelmistotekniikan JAMKissa. Olen kiinnostunut kaikenlaisesta teknologiasta, varsinkin ohjelmoinnista. Ohjelmoinnin puolella minulla on kokemusta C#-kielellä ohjelmoinnista. Vapaa-ajalla pelaan video- ja lautapelejä ystävieni kanssa.",
+    "h3-member2": "Ella Vilen", 
+    "h4-member2": "Junior UI/UX Designer",
+    "p-member2": "Olen syntynyt vuonna -94 ja olen kotoisin Tampereelta. Olen kolmannen vuoden opiskelija mediatekniikalta ja opinnoista on jäljellä oikeastaan enää harkka ja oppari. Olen kiinnostunut web-, UI/UX- ja frontend-kehityksestä. Vapaa-aikaani kulutan pelaamisen, piirtämisen/maalaamisen ja musiikin parissa.",
     
-    "h3-member3": "Eliel Taskinen", 
-    "h4-member3": "Junior Web Developer",
-    "p-member3": "Olen Eliel Jyväskylästä. Opiskelen ensimmäistä vuotta tieto- ja viestintätekniikkaa JAMKilla. Minua kiinnostaa koodaaminen, tietoverkot ja tietoturvallisuus modernissa maailmassa. Minulla on kokemusta Pythonista, Reactista ja Linuxin käytöstä. Vapaa-ajallani soitan kitaraa, koodaan pieniä projekteja ja pelaan kavereiden kanssa roolipelejä.",
+    "h3-member3": "Markku Puura", 
+    "h4-member3": "Junior Software Developer",
+    "p-member3": "Kolmannen vuoden ohjelmistotekniikan opiskelija. Kiinnostunut uusimmista teknologioista ja tietotekniikka-alasta laajasti. Vapaa-ajalla harrastelen omien projektien ääressä esim. DIY CNC -laitteita.",
     
-    "h3-member4": "Sari Kumpulainen", 
-    "h4-member4": "Junior Web Developer",
-    "p-member4": "Opiskelen Jyväskylän ammattikorkeakoulussa tieto- ja viestintätekniikkaa, erikoistumisena on ohjelmistotekniikka. Opinnot alkavat kohta olla loppusuoralla, jäljellä enää joitakin yksittäisiä kursseja sekä osa työharjoittelusta ja opinnäytetyö. Alalla erityisesti kiinnostaa käyttöliittymien koodaus ja suunnittelu sekä testaus ja siihen liittyvät asiat. Vapaa-ajalla tykkään lukea, pelailla, ulkoilla sekä tehdä käsitöitä.",
+    "h3-member4": "Eetu Karjalainen", 
+    "h4-member4": "Networking & DevOps Trainee",
+    "p-member4": "Kolmannen vuoden tietoverkko-opiskelija Pieksämäeltä. Erityisesti kiinnostaa laitteiden hardwarepuoli sekä sysadmin-hommat ja virtualisointikikkailut. Ruokapöydän alla pyörii palomuuri/peliserveri/fileserveri. Lisäksi tulee harrasteltua 3D-mallinnusta.",
     
-    "h3-member5": "Tatu Seppänen", 
-    "h4-member5": "Junior Web Developer",
-    "p-member5": "Olen Tatu Seppänen, opiskelen kyberturvallisuutta JAMK:issa. Koodailla tykkään Pythonilla ja varsinkin tietoturvatestaus ja ”valkohattu-hakkeri”-jutut kiinnostavat erityisesti. Olen innokas oppimaan uusia asioita ja laajentamaan osaamista uusille alueille. Pidän tiimityöskentelystä ja tulen hyvin toimeen kaikenlaisten ihmisten kanssa. Vapaa-aikaani tykkään viettää pyörällä ajaen tai kalasten.",
+    "h3-member5": "Mirva Kallioinen", 
+    "h4-member5": "Junior Software Developer",
+    "p-member5": "Hei! Olen Mirva, Jyväskylästä kotoisin oleva tuleva IT-alan ammattilainen. Olen alanvaihtaja, ja lähdin rohkeasti ilman aiempaa kokemusta hakeutumaan IT-alalle, koska kaipasin uusia haasteita elämään. Niitä on opiskelujen aikana saanutkin. Olen kyberpuolelta, mutta huomasin, että minua kiinnostaa muutkin vaihtoehdot, kuten frontend-koodaus ja testaaminen. Vapaa-ajalla harrastan eri liikuntalajeja koneella istumisen vastapainoksi. Lisäksi tykkään laittaa ruokaa, lukea sekä bongata lintuja.",
     
-    "h3-member6": "Janna Niemi", 
-    "h4-member6": "Junior Web Developer",
-    "p-member6": "Suunnittelen mielelläni ulkoasuja, mutta koodaaminen ja ohjelmointi ovat myös lähellä sydäntäni. Frontend-kehitys on luonnollisesti kaikista mielekkäintä puuhaa, koska visuaalisuus ja koodi yhdistyvät siinä kivasti. Backend-kehityksen puolelta parhaiten hallussani on Python ja tietokannat, ja opiskelun aikana C# tulee entistä tutummaksi. Kiinnostusta olisi myös oppia RUST-kieli. WIMMA Labissa olen oppimassa projektityöskentelyä ja toivon siitä olevan hyötyä myös työmarkkinoilla. Vapaa-ajalla harrastan kaikenlaista liikuntaa, erityisesti maastopyöräilyä ja juoksemista, vaikkakin arki ja vapaa-aika rullaa tiiviisti kahden alle kouluikäisen vanhempana.",
+    "h3-member6": "Ildikó Makra", 
+    "h4-member6": "Test Automation Trainee",
+    "p-member6": "Olen kotoisin Budapestista. Olen ollut töissä taloushallinon tehtävien parissa monta vuotta, josta olen siirtymässä ICT-alalle. Ohjelmointikielistä suosikkini on Python. Erityisesti olen kiinnostunut automaatiotestauksesta ja ylipäätään laadunhallinnan asioista. Edellisessä ohjelmistoprojektissa olen tutustunut Robot Framewokin käyttöön selaimessa ja nykyisessä projektissa haluan tutustua React Native -komponenttien yksikkötestaukseen sekä ottaa halttuun Robot Frameworkin Appium-kirjastoa. Rakkain harrastus on lenkeily ja ulkoilu perheeni kanssa.",
+
+    "h3-member7": "Olli Saari", 
+    "h4-member7": "Junior Software Developer",
+    "p-member7": "Hei, olen Olli Saari ja tulen Keski-Pohjanmaalta. Suoritan JAMKissa tieto- ja viestintätekniikan opintolinjaa ja suuntautuminen on kyberturvallisuus, mutta lisäksi olen suorittanut ohjelmoinnin puolen kursseja. Kiinnostuksen kohteita IT-teknologian puolella on useita. Muutama isoin kiinnostuksen kohde on IoT-laitteet, koneoppi, keinoäly, tietoturvallisuus ja avaruusteknologia. Kokemusta löytyy koulun ja harrastuksien osalta IoT-laitteista, Linux, Python, PHP, React, React Native ja C#.",
     
     "h2-twitter": "Seuraa meitä twitterissä:"
     
