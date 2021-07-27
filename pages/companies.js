@@ -64,7 +64,7 @@ const Companies = () => {
 
       {/* How to participate */}
       <section className="content__section participate">
-        <div className="conten_section">
+        <div>
           <div>
             <h2>{t('h2-how-to-participate')}</h2>
             <p className="general">{t('p-how-to-participate')}</p>

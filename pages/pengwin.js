@@ -16,17 +16,22 @@ import {
 } from 'react-twitter-embed';
 
 // import Accordion from '/components/Accordion';
-// import ImageWrapper from '/components/ImageWrapper';
+import ImageWrapper from '/components/ImageWrapper';
 import Layout, { siteTitle } from '/components/Layout';
+
+// img: team members
 import member1 from '/public/assets/pengwin/annukka.png';
 import member3 from '/public/assets/pengwin/eliel.png';
 import member6 from '/public/assets/pengwin/janna.png';
-import heroBg from '/public/assets/pengwin/pengwin-header.png';
-import pengwinLogo from '/public/assets/pengwin/pengwin-logo.png';
 import member2 from '/public/assets/pengwin/roope.png';
 import member4 from '/public/assets/pengwin/sari.png';
 import member5 from '/public/assets/pengwin/tatu.png';
 import team from '/public/assets/pengwin/tiimi.jpg';
+
+// other images
+import heroBg from '/public/assets/pengwin/pengwin-header.png';
+import pengwinLogo from '/public/assets/pengwin/pengwin-logo.png';
+import Img4 from '../public/assets/software.png';
 
 const Pengwin = () => {
   const { t } = useTranslation('pengwin');
@@ -54,133 +59,139 @@ const Pengwin = () => {
         <div className="hero__container">
           <Image src={pengwinLogo} />
           <h1 className="hero__h1">{t('h1')}</h1>
-          <p className="hero__p">{t('h1-subheading')}</p>
+          <h3>{t('h1-subheading')}</h3>
         </div>
       </section>
-      {/* team  in nutshell*/}
-      <section className="content__section">
-        <div>
-          <Image src={team} />
-        </div>
-        <div>
-          <h1>{t('h1-team')}</h1>
-          <p>{t('p-team')}</p>
+
+      {/*who we are*/}
+      <section className="content__section who-we-are">
+        <div className="simple-grid">
+          <div>
+            <Image src={team} />
+          </div>
+          <div>
+            <h2>{t('h1-team')}</h2>
+            <p>{t('p-team')}</p>
+          </div>
         </div>
       </section>
+
       {/* assignment */}
-      <section className="content__section ">
-        <h2>{t('h2-assignment')}</h2>
-        <p>{t('p-assignment')}</p>
+      <section className="content__section assignment">
+        <div className="simple-grid">
+          <div className="pengwin-card pengwin-card--blue">
+            <h1>{t('h2-assignment')}</h1>
+            <p>{t('p-assignment')}</p>
+          </div>
+          <div>
+            <Image src={Img4} />
+          </div>
+        </div>
       </section>
 
       {/* team introduction */}
       <section className="content__section introduction">
         <div>
-          <h1>{t('h2-introduction')}</h1>
+          <h2>{t('h2-introduction')}</h2>
         </div>
-        {/* member1 */}
+
+        {/* team members */}
         <div>
-          <div className="pengwin-card">
+                    
+          {/* member1 */}
+
+          <div className="simple-grid company-card company-card--cyan-light">
             <div>
-              <div>
-                <Image src={member1} className="miniImage" />
-              </div>
-              <div>
-                <h2>{t('h2-member1')}</h2>
-                <h3>{t('h3-member1')}</h3>
-                <p>{t('p-member1')}</p>
-                <a>LinkedIn</a>
-              </div>
+              <Image src={member1} className="miniImage" />
+            </div>
+            <div>
+              <h3>{t('h3-member1')}</h3>
+              <h4>{t('h4-member1')}</h4>
+              <p>{t('p-member1')}</p>
+              <a>LinkedIn</a>
             </div>
           </div>
 
           {/* member2 */}
-          <div>
-            <div className="pengwin-card">
-              <div>
-                <Image src={member2} />
-              </div>
-              <div>
-                <h2>{t('h2-member2')}</h2>
-                <h3>{t('h3-member2')}</h3>
-                <p>{t('p-member2')}</p>
-                <a>LinkedIn</a>
-              </div>
+          <div className="simple-grid company-card company-card--cyan-light">
+            <div>
+              <Image src={member2} />
+            </div>
+            <div>
+              <h3>{t('h3-member2')}</h3>
+              <h4>{t('h4-member2')}</h4>
+              <p>{t('p-member2')}</p>
+              <a>LinkedIn</a>
             </div>
           </div>
 
           {/* member3 */}
-          <div>
+          <div className="simple-grid company-card company-card--cyan-light">
             <div>
-              <div>
-                <Image src={member3} />
-              </div>
-              <div>
-                <h2>{t('h2-member3')}</h2>
-                <h3>{t('h3-member3')}</h3>
-                <p>{t('p-member3')}</p>
-                <a>LinkedIn</a>
-              </div>
+              <Image src={member3} />
+            </div>
+            <div>
+              <h3>{t('h3-member3')}</h3>
+              <h4>{t('h4-member3')}</h4>
+              <p>{t('p-member3')}</p>
+              <a>LinkedIn</a>
             </div>
           </div>
 
           {/* member4 */}
-          <div>
+          <div className="simple-grid company-card company-card--cyan-light">
             <div>
-              <div>
-                <Image src={member4} />
-              </div>
-              <div>
-                <h2>{t('h2-member4')}</h2>
-                <h3>{t('h3-member4')}</h3>
-                <p>{t('p-member4')}</p>
-                <a>LinkedIn</a>
-              </div>
+              <Image src={member4} />
+            </div>
+            <div>
+              <h3>{t('h3-member4')}</h3>
+              <h4>{t('h4-member4')}</h4>
+              <p>{t('p-member4')}</p>
+              <a>LinkedIn</a>
             </div>
           </div>
 
           {/* member5 */}
-          <div>
+          <div className="simple-grid company-card company-card--cyan-light">
             <div>
-              <div>
-                <Image src={member5} />
-              </div>
-              <div>
-                <h2>{t('h2-member5')}</h2>
-                <h3>{t('h3-member5')}</h3>
-                <p>{t('p-member5')}</p>
-                <a>LinkedIn</a>
-              </div>
+              <Image src={member5} />
+            </div>
+            <div>
+              <h3>{t('h3-member5')}</h3>
+              <h4>{t('h4-member5')}</h4>
+              <p>{t('p-member5')}</p>
+              <a>LinkedIn</a>
             </div>
           </div>
 
           {/* member6 */}
-          <div>
+          <div className="simple-grid company-card company-card--cyan-light">
             <div>
-              <div>
-                <Image src={member6} />
-              </div>
-              <div>
-                <h2>{t('h2-member6')}</h2>
-                <h3>{t('h3-member6')}</h3>
-                <p>{t('p-member6')}</p>
-                <a>LinkedIn</a>
-              </div>
+              <Image src={member6} />
+            </div>
+            <div>
+              <h3>{t('h3-member6')}</h3>
+              <h4>{t('h4-member6')}</h4>
+              <p>{t('p-member6')}</p>
+              <a>LinkedIn</a>
             </div>
           </div>
         </div>
       </section>
+
       {/* social media  */}
-      <div className="simple-grid">
-        {/* {' '}
-        <TwitterTimelineEmbed
-          sourceType="profile"
-          screenName="wimmalab"
-          options={{ height: 400 }}
-        /> */}
-        <TwitterTweetEmbed tweetId={'1418511303061262339'} />
-        <TwitterTweetEmbed tweetId={'1418511303061262339'} />
-        <TwitterTweetEmbed tweetId={'1418511303061262339'} />
+      <div className="twitter-container">
+      <h2>{t('h2-twitter')}</h2>
+      
+        <div>
+          <TwitterTweetEmbed tweetId={'1418511303061262339'} />
+        </div>
+        <div>
+          <TwitterTweetEmbed tweetId={'1418511303061262339'} />
+        </div>
+        <div>
+          <TwitterTweetEmbed tweetId={'1418511303061262339'} />
+        </div>
       </div>
     </Layout>
   );
