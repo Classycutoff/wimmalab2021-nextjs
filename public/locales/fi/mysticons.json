@@ -3,21 +3,21 @@
     "h1": "Mysticons",
     "h1-subheading": "Connecting pipelines.",
     
-    "h1-team": "Tiimiesittely",
+    "h1-team": "1. Projektin nimi, ketkä kehitti, mikä on perusidea ja tärkeimmät ominaisuudet? Minkä ongelman tuote ratkaisee?",
     "p-team": "Mysticons on WIMMA Labissa toimiva virtuaaliyritys, jonka vastuualueena on ottaa DevSecOps-hengessä haltuun Kubernetes, Docker, Power Automate ja CI/CD pipelinet ja integroida ne keskenään. Tiimi koostuu monialaisista osaajista vahvalla kyberturvallisuustwistillä.",
     
-    "h2-assignment": "Tehtävät",
-    "p-assignment": "Kesän aikana Mysticonsilla on useampi ongelma kohdattavana, joista mahdollisimman moneen pyritään löytämään järkevä ratkaisu tiukan aikataulun puitteissa.",
-    "p2-assignment": "Kaikista Mysticons-saavutuksista tuotetaan WIMMA Labille helposti toistettavissa olevat ohjeet sekä dokumentaatio.",
+    "h2-assignment": "Miksi halutaan kehittää? toimeksiantajat?",
+    "p-assignment": "Mysticons assignments were WIMMA Lab internal assignments given by Marko “Narsuman” Rintamäki. The goal with Power Automate was to reduce the workload of teachers when the workspaces with needed materials for the course could be created automatically, and students could be as well added to groups automatically. With Kubernetes the goal was to get as far as possible with the development of the cluster and bring DevSecOps methods to the process as was achievable in given time frame. The idea behind the Kubernetes cluster is that the cluster could be used to replace paid cloud services in student projects such as WIMMA Lab projects. Adding DevSecOps and the CI/CD pipelines to the cluster students are taught modern ways of software development. Such as automated testing with Robot Framework and SAST and DAST checks in pipelines.",
+   
 
     "h2-technologies": "Teknologiat (mitä ja miksi)",
-    "p-technologies": "Kesän aikana Pengwin media on suunnitellut ja toteuttanut uuden wimmalab.org verkkosivuston hyödyntäen modernia Reaktin Next.JS framework ja markdownia sisältöjen generoimiseen. Uusille verkkosivuille toteutettiin lokalisaatio suomen lisäksi myös englanniksi, joten WIMMA Labiin on mahdollista tutustua myös kansainvälisemmällä kielellä. WIMMA Labin pääsivun lisäksi Pengwin media teki jokaiselle tiimille oman verkkosivun, mistä löytyy tietoa projektitiimistä ja kesän aikana työnalla olleesta projektista.",
+    "p-technologies": "MS Power Automate, Teams, MS Forms, MS Excel, OneDrive, SharePoint, GitLab, email (Outlook). Kubernetes, DevSecOps, GitLab, CI/CD pipelines, Robot Framework, script, Ansible. Technologies had to be compatible, in both solutions. In addition, Kubernetes used open-source technologies.",
 
     "h2-challenges": "Millaisia haasteita kohdattiin? Miten ne selvitettiin?",
-    "p-challenges": "Kaikki Pengwin median ryhmäläiset eivät olleet käyttäneet Next.js frameworkiä aiemmin, mutta siitä huolimatta niillä saatiin tehtyä hakukoneoptimoidut, tyylikkäät ja informatiiviset verkkosivut. Toinen haaste, oli projektin nopea aikataulu. Pengwin media toteutti ensin vanhemmilla tekniikoilla päivitetymmät sivut WIMMA Labin avoimet ovet-tapahtumaan ja siksi Täysin uuden verkkosivun suunnitteluun ja toteutukseen aikaa oli käytettävissä noin 7 viikkoa.",
+    "p-challenges": "Created Power Automate workflow uses features which require Power Automate Premium license, with the license flow creation can be quite simple. However, joining GitLab API to the flow required some knowledge about JSON scripting. Understanding of loops was very helpful when creating alternative event flows for error situations. Kubernetes assignment was a huge challenge itself, as the assignment scope was very wide with the DevSecOps twist. Everything in the Kubernetes project was new to the team and processes were created with trial-and-error methods. Strong teamwork was needed to solve challenges and to achieve accomplished results. Due to the scale of the project, Mysticos was able to only scratch the surface during the summer. But with good and thorough documentation is intended to give a good start to those who will join to the project later.",
 
     "h2-learned": "Mitä opittiin, millaista oli työskennellä, fiilikset?",
-    "p-learned": "Kesän aikana tutuksi tuli verkkosivuston tekemisen prosessi ensimmäisestä suunnittelupalaverista valmiin verkkosivuston julkaisemiseen. Kesän aikana uutta opittiin paljon ja opittuja taitoja on hyvä lähteä soveltamaan työelämään tai syksyllä takaisin opintojen parissa. WIMMA Lab tarjosi erinomaisen mahdollisuuden verkostoitua muihin opiskelijoihin ja työelämän edustajiin ja ainutlaatuisen kokemuksen, millaista ei opiskelujen aikana muualta saa.",
+    "p-learned": "Mysticons had very strong team spirit during the summer 2021. The team was not afraid of challenges but worked actively to achieve the goals. Although not all goals were achieved, the team learned a lot during the summer.",
 
 
     "h2-introduction": "Tiimin jäsenet",

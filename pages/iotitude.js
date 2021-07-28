@@ -22,7 +22,7 @@ import team from '/public/assets/iotitude/tiimi.jpg';
 
 import Img4 from '../public/assets/software.png';
 
-const Pengwin = () => {
+const Iotitude = () => {
   const { t } = useTranslation('iotitude');
 
   return (
@@ -67,7 +67,7 @@ const Pengwin = () => {
 
       {/* assignment */}
       <section className="content__section assignment">
-        <div className="pengwin-card pengwin-card--blue">
+        <div className="pengwin-card pengwin-card--cyan-light">
           <h1>{t('h2-assignment')}</h1>
           <p>{t('p-assignment')}</p>
         </div>
@@ -76,7 +76,7 @@ const Pengwin = () => {
       {/* technologies */}
       <section className="content__section technologies">
         <div className="simple-grid">
-          <div className="virtual-card virtual-card--blue">
+          <div className="virtual-card virtual-card--cyan-light">
             <h1>{t('h2-technologies')}</h1>
             <p>{t('p-technologies')}</p>
           </div>
@@ -89,11 +89,11 @@ const Pengwin = () => {
       {/* challenges */}
       <section className="content__section challenges">
         <div className="simple-grid">
-          <div className="virtual-card virtual-card--blue">
+          <div className="virtual-card virtual-card--cyan-light">
             <h1>{t('h2-challenges')}</h1>
             <p>{t('p-challenges')}</p>
           </div>
-          <div className="virtual-card virtual-card--blue">
+          <div className="virtual-card virtual-card--cyan-light">
             <h1>{t('h2-learned')}</h1>
             <p>{t('p-learned')}</p>
           </div>
@@ -233,4 +233,4 @@ export const getStaticProps = async ({ locale }) => ({
   }
 });
 
-export default Pengwin;
+export default Iotitude;

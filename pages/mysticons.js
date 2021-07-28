@@ -20,7 +20,7 @@ import member4 from '/public/assets/mysticons/timo.png';
 
 import Img4 from '../public/assets/software.png';
 
-const Pengwin = () => {
+const Mysticons = () => {
   const { t } = useTranslation('mysticons');
 
   return (
@@ -206,4 +206,4 @@ export const getStaticProps = async ({ locale }) => ({
   }
 });
 
-export default Pengwin;
+export default Mysticons;

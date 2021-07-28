@@ -28,6 +28,7 @@
         border-radius: 100%;
         overflow: hidden;
         margin-left: 100px;
+        border: 1px solid black;
       }
       
     }
@@ -52,6 +53,10 @@
     &--orange{
       background-color: $pastel-orange;
     }
+
+    &--dark-blue{
+      background-color: $dark-blue;
+    }
   }
  
   
@@ -60,20 +65,21 @@
   // -----------------------------------------------------------------------------
   .twitter-container{
     h2{
+      display: flex;
       text-align: center;
       display: grid;
     }
 
     .twitter-grid{
-      grid-row: somegridarea 4;    
+      flex-direction: row;  
       gap: 0.5rem;
       
     
-      @include breakpoint(lg) {
-        grid-template-columns: 0.5fr 0.5fr;
-        place-content: end;
-        gap: 3rem;
-        text-align: center;
-      }
+      // @include breakpoint(lg) {
+      //   grid-template-columns: 0.5fr 0.5fr;
+      //   place-content: end;
+      //   gap: 3rem;
+      //   text-align: center;
+      // }
     }
   }
