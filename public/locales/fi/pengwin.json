@@ -3,11 +3,20 @@
 "h1": "Pengwin Media",
 "h1-subheading": "New and Improved.",
 
-"h1-team": "Tiimiesittely",
-"p-team": "Pengwin Media vastaa WIMMA Labin brändiuudistuksesta ja wimmalab.org-sivuston päivityksestä. Tiimiläiset toimivat yhteistyössä muiden WIMMA Labin virtuaaliyritysten kanssa (Overflow, Mysticons ja IoTitude) ja tuottavat materiaalia heidän tarpeisiinsa. Lisäksi Pengwin Media päivittää WIMMA Labin sosiaalisen median kanavia.",
+"h1-team": "Projektin nimi? Ketkä kehitti? Mikä on perusidea? Tärkeimmät ominaisuudet? Minkä ongelman tuote ratkaisee?",
+"p-team": "Pengwin median päätehtävä kesälle 2021 on ollut Uudistaa WIMMA LABin brändiä ja päivittää verkkosivut vuoteen 2021. Sen lisäksi Pengwin medialaiset ovat työskennelleet tiiviissä yhteistyössä muiden Labin tiimien kanssa ja antaneet tukea graafien suunnittelun ja frontend-koodaamisen muodossa. Kesän aikana Pengwin media on myös pitänyt huolta siitä, että WIMMA Labin toiminta on tullut tutuksi ja näkyväksi myös sosiaalisen median kanavissa.",
 
-"h2-assignment": "Tehtävät",
-"p-assignment": "Kesän aikana Pengwin Media uudistaa ja laajentaa wimmalab.org-sivua modernein teknologioin. Uudistuksessa käytetään Next.js:ää ja hyödynnetään markdown-merkintäkieltä sisällön päivittämisen helpottamiseksi. Tavoitteena on rakentaa sivusto, joka palvelee paremmin käyttäjää ja kuvastaa WIMMA Labin kunnianhimoisia tavoitteita sekä tekemisen meininkiä.",
+"h2-assignment": "Miksi halutaan kehittää? toimeksiantajat?",
+"p-assignment": "Yhtä tiettyä toimeksiantajaa ei Pengwin medialla ollut. Toimeksiantajaan roolissa WIMMA Labissa toimi JAMK, WIMMA Lab ja muut tiimit. Tähän voi keksiä lisää tekstiä. Tekstejä voi ja pitääkin tyylitellä paremmiksi.......",
+
+"h2-technologies": "Teknologiat (mitä ja miksi)",
+"p-technologies": "Kesän aikana Pengwin media on suunnitellut ja toteuttanut uuden wimmalab.org verkkosivuston hyödyntäen modernia Reaktin Next.JS framework ja markdownia sisältöjen generoimiseen. Uusille verkkosivuille toteutettiin lokalisaatio suomen lisäksi myös englanniksi, joten WIMMA Labiin on mahdollista tutustua myös kansainvälisemmällä kielellä. WIMMA Labin pääsivun lisäksi Pengwin media teki jokaiselle tiimille oman verkkosivun, mistä löytyy tietoa projektitiimistä ja kesän aikana työnalla olleesta projektista.",
+
+"h2-challenges": "Millaisia haasteita kohdattiin? Miten ne selvitettiin?",
+"p-challenges": "Kaikki Pengwin median ryhmäläiset eivät olleet käyttäneet Next.js frameworkiä aiemmin, mutta siitä huolimatta niillä saatiin tehtyä hakukoneoptimoidut, tyylikkäät ja informatiiviset verkkosivut. Toinen haaste, oli projektin nopea aikataulu. Pengwin media toteutti ensin vanhemmilla tekniikoilla päivitetymmät sivut WIMMA Labin avoimet ovet-tapahtumaan ja siksi Täysin uuden verkkosivun suunnitteluun ja toteutukseen aikaa oli käytettävissä noin 7 viikkoa.",
+
+"h2-learned": "Mitä opittiin, millaista oli työskennellä, fiilikset?",
+"p-learned": "Kesän aikana tutuksi tuli verkkosivuston tekemisen prosessi ensimmäisestä suunnittelupalaverista valmiin verkkosivuston julkaisemiseen. Kesän aikana uutta opittiin paljon ja opittuja taitoja on hyvä lähteä soveltamaan työelämään tai syksyllä takaisin opintojen parissa. WIMMA Lab tarjosi erinomaisen mahdollisuuden verkostoitua muihin opiskelijoihin ja työelämän edustajiin ja ainutlaatuisen kokemuksen, millaista ei opiskelujen aikana muualta saa.",
 
 "h2-introduction": "Tiimin jäsenet",
 
@@ -35,6 +44,6 @@
 "h4-member6": "Junior Web Developer",
 "p-member6": "Suunnittelen mielelläni ulkoasuja, mutta koodaaminen ja ohjelmointi ovat myös lähellä sydäntäni. Frontend-kehitys on luonnollisesti kaikista mielekkäintä puuhaa, koska visuaalisuus ja koodi yhdistyvät siinä kivasti. Backend-kehityksen puolelta parhaiten hallussani on Python ja tietokannat, ja opiskelun aikana C# tulee entistä tutummaksi. Kiinnostusta olisi myös oppia RUST-kieli. WIMMA Labissa olen oppimassa projektityöskentelyä ja toivon siitä olevan hyötyä myös työmarkkinoilla. Vapaa-ajalla harrastan kaikenlaista liikuntaa, erityisesti maastopyöräilyä ja juoksemista, vaikkakin arki ja vapaa-aika rullaa tiiviisti kahden alle kouluikäisen vanhempana.",
 
-"h2-twitter": "Seuraa meitä twitterissä:"
+"h2-twitter": "Seuraa twitterissä:"
 
 }

@@ -10,6 +10,16 @@
     "p-assignment": "Kesän aikana Mysticonsilla on useampi ongelma kohdattavana, joista mahdollisimman moneen pyritään löytämään järkevä ratkaisu tiukan aikataulun puitteissa.",
     "p2-assignment": "Kaikista Mysticons-saavutuksista tuotetaan WIMMA Labille helposti toistettavissa olevat ohjeet sekä dokumentaatio.",
 
+    "h2-technologies": "Teknologiat (mitä ja miksi)",
+    "p-technologies": "Kesän aikana Pengwin media on suunnitellut ja toteuttanut uuden wimmalab.org verkkosivuston hyödyntäen modernia Reaktin Next.JS framework ja markdownia sisältöjen generoimiseen. Uusille verkkosivuille toteutettiin lokalisaatio suomen lisäksi myös englanniksi, joten WIMMA Labiin on mahdollista tutustua myös kansainvälisemmällä kielellä. WIMMA Labin pääsivun lisäksi Pengwin media teki jokaiselle tiimille oman verkkosivun, mistä löytyy tietoa projektitiimistä ja kesän aikana työnalla olleesta projektista.",
+
+    "h2-challenges": "Millaisia haasteita kohdattiin? Miten ne selvitettiin?",
+    "p-challenges": "Kaikki Pengwin median ryhmäläiset eivät olleet käyttäneet Next.js frameworkiä aiemmin, mutta siitä huolimatta niillä saatiin tehtyä hakukoneoptimoidut, tyylikkäät ja informatiiviset verkkosivut. Toinen haaste, oli projektin nopea aikataulu. Pengwin media toteutti ensin vanhemmilla tekniikoilla päivitetymmät sivut WIMMA Labin avoimet ovet-tapahtumaan ja siksi Täysin uuden verkkosivun suunnitteluun ja toteutukseen aikaa oli käytettävissä noin 7 viikkoa.",
+
+    "h2-learned": "Mitä opittiin, millaista oli työskennellä, fiilikset?",
+    "p-learned": "Kesän aikana tutuksi tuli verkkosivuston tekemisen prosessi ensimmäisestä suunnittelupalaverista valmiin verkkosivuston julkaisemiseen. Kesän aikana uutta opittiin paljon ja opittuja taitoja on hyvä lähteä soveltamaan työelämään tai syksyllä takaisin opintojen parissa. WIMMA Lab tarjosi erinomaisen mahdollisuuden verkostoitua muihin opiskelijoihin ja työelämän edustajiin ja ainutlaatuisen kokemuksen, millaista ei opiskelujen aikana muualta saa.",
+
+
     "h2-introduction": "Tiimin jäsenet",
     
     "h3-member1": "Sini Karvonen", 

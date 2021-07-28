@@ -67,18 +67,40 @@ const Pengwin = () => {
 
       {/* assignment */}
       <section className="content__section assignment">
+        <div className="pengwin-card pengwin-card--blue">
+          <h1>{t('h2-assignment')}</h1>
+          <p>{t('p-assignment')}</p>
+        </div>
+      </section>
+
+      {/* technologies */}
+      <section className="content__section technologies">
         <div className="simple-grid">
-          <div className="pengwin-card pengwin-card--blue">
-            <h1>{t('h2-assignment')}</h1>
-            <p>{t('p-assignment')}</p>
-            <p>{t('p2-assignment')}</p>
-            <p>{t('p3-assignment')}</p>
+          <div className="virtual-card virtual-card--blue">
+            <h1>{t('h2-technologies')}</h1>
+            <p>{t('p-technologies')}</p>
           </div>
           <div>
             <Image src={Img4} />
           </div>
         </div>
       </section>
+
+      {/* challenges */}
+      <section className="content__section challenges">
+        <div className="simple-grid">
+          <div className="virtual-card virtual-card--blue">
+            <h1>{t('h2-challenges')}</h1>
+            <p>{t('p-challenges')}</p>
+          </div>
+          <div className="virtual-card virtual-card--blue">
+            <h1>{t('h2-learned')}</h1>
+            <p>{t('p-learned')}</p>
+          </div>
+        </div>
+      </section>
+
+      {/* mockups */}
 
       {/* team introduction */}
       <section className="content__section introduction">
@@ -90,86 +112,86 @@ const Pengwin = () => {
         <div>
           {/* member1 */}
 
-          <div className="simple-grid company-card company-card--dark-blue">
-            <div>
-              <Image src={member1} className="miniImage" />
+          <div className="simple-grid virtual-card virtual-card--dark-blue">
+            <div className="profileImage">
+              <Image src={member1} />
             </div>
             <div>
               <h3>{t('h3-member1')}</h3>
               <h4>{t('h4-member1')}</h4>
               <p>{t('p-member1')}</p>
-              <a>LinkedIn</a>
+              <a href="https://www.linkedin.com/in/elmer-tuukkanen/">LinkedIn</a>
             </div>
           </div>
 
           {/* member2 */}
-          <div className="simple-grid company-card company-card--dark-blue">
-            <div>
+          <div className="simple-grid virtual-card virtual-card--dark-blue">
+            <div className="profileImage">
               <Image src={member2} />
             </div>
             <div>
               <h3>{t('h3-member2')}</h3>
               <h4>{t('h4-member2')}</h4>
               <p>{t('p-member2')}</p>
-              <a>LinkedIn</a>
+              <a href="https://www.linkedin.com/in/ella-vilen/">LinkedIn</a>
             </div>
           </div>
 
           {/* member3 */}
-          <div className="simple-grid company-card company-card--dark-blue">
-            <div>
+          <div className="simple-grid virtual-card virtual-card--dark-blue">
+            <div className="profileImage">
               <Image src={member3} />
             </div>
             <div>
               <h3>{t('h3-member3')}</h3>
               <h4>{t('h4-member3')}</h4>
               <p>{t('p-member3')}</p>
-              <a>LinkedIn</a>
+              <a href="https://www.linkedin.com/in/markkupuura/">LinkedIn</a>
             </div>
           </div>
 
           {/* member4 */}
-          <div className="simple-grid company-card company-card--dark-blue">
-            <div>
+          <div className="simple-grid virtual-card virtual-card--dark-blue">
+            <div className="profileImage">
               <Image src={member4} />
             </div>
             <div>
               <h3>{t('h3-member4')}</h3>
               <h4>{t('h4-member4')}</h4>
               <p>{t('p-member4')}</p>
-              <a>LinkedIn</a>
+              <a href="https://www.linkedin.com/in/eetu-karjalainen/">LinkedIn</a>
             </div>
           </div>
 
           {/* member5 */}
-          <div className="simple-grid company-card company-card--dark-blue">
-            <div>
+          <div className="simple-grid virtual-card virtual-card--dark-blue">
+            <div className="profileImage">
               <Image src={member5} />
             </div>
             <div>
               <h3>{t('h3-member5')}</h3>
               <h4>{t('h4-member5')}</h4>
               <p>{t('p-member5')}</p>
-              <a>LinkedIn</a>
+              <a href="https://www.linkedin.com/in/mirva-kallioinen/">LinkedIn</a>
             </div>
           </div>
 
           {/* member6 */}
-          <div className="simple-grid company-card company-card--dark-blue">
-            <div>
+          <div className="simple-grid virtual-card virtual-card--dark-blue">
+            <div className="profileImage">
               <Image src={member6} />
             </div>
             <div>
               <h3>{t('h3-member6')}</h3>
               <h4>{t('h4-member6')}</h4>
               <p>{t('p-member6')}</p>
-              <a>LinkedIn</a>
+              <a href="https://www.linkedin.com/in/ildiko-makra/">LinkedIn</a>
             </div>
           </div>
 
           {/* member7 */}
-          <div className="simple-grid company-card company-card--dark-blue">
-            <div>
+          <div className="simple-grid virtual-card virtual-card--dark-blue">
+            <div className="profileImage">
               <Image src={member7} />
             </div>
             <div>
@@ -183,7 +205,7 @@ const Pengwin = () => {
                 <li>Pelaaminen. Mitä haastavampaa, sen mukavempaa.</li>
                 <li>Kehittelen sekä ideoin omaa IoT-projektia.</li>
               </ul>
-              <a>LinkedIn</a>
+              <a href="https://www.linkedin.com/in/ollisaari/">LinkedIn</a>
             </div>
           </div>
         </div>
@@ -192,11 +214,13 @@ const Pengwin = () => {
       {/* social media  */}
       <div className="twitter-container">
         <h2>{t('h2-twitter')}</h2>
-        <div>
-          <Tweet tweetId="1413432922523242496" />
-        </div>
-        <div>
-          <Tweet tweetId="1400763566383419397" />
+        <div className="twitter-grid">
+          <div>
+            <Tweet tweetId="1413432922523242496" />
+          </div>
+          <div>
+            <Tweet tweetId="1400763566383419397" />
+          </div>
         </div>
       </div>
     </Layout>
