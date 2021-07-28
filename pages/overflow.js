@@ -2,18 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import {
-  // TwitterDMButton,
-  // TwitterFollowButton,
-  // TwitterHashtagButton,
-  // TwitterMentionButton,
-  // TwitterMomentShare,
-  // TwitterOnAirButton,
-  // TwitterShareButton,
-  // TwitterTimelineEmbed,
-  TwitterTweetEmbed
-  // TwitterVideoEmbed
-} from 'react-twitter-embed';
+import { Tweet } from 'react-twitter-widgets';
 
 // import Accordion from '/components/Accordion';
 // import ImageWrapper from '/components/ImageWrapper';
@@ -185,13 +174,13 @@ const Pengwin = () => {
       <div className="twitter-container">
         <h2>{t('h2-twitter')}</h2>
         <div>
-          <TwitterTweetEmbed tweetId={'1417071027490787330'} />
+          <Tweet tweetId="1417071027490787330" />
         </div>
         <div>
-          <TwitterTweetEmbed tweetId={'1415594923861159940'} />
+          <Tweet tweetId="1415594923861159940" />
         </div>
         <div>
-          <TwitterTweetEmbed tweetId={'1399681977712795652'} />
+          <Tweet tweetId="1399681977712795652" />
         </div>
       </div>
     </Layout>
