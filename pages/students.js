@@ -7,6 +7,7 @@ import Accordion from '/components/Accordion';
 import Button from '/components/Button';
 import ImageWrapper from '/components/ImageWrapper';
 import Layout, { siteTitle } from '/components/Layout';
+import LogoPengwin from '/public/assets/history/pengwin-logo.png';
 import Profile2 from '/public/assets/pfp-hannu.png';
 import Profile1 from '/public/assets/pfp-minttu.png';
 import HeroBg from '/public/assets/students-hero-bg.png';
@@ -17,6 +18,9 @@ import IconDesign from '../svgs/icon-design.svg';
 import IconDev from '../svgs/icon-dev.svg';
 import IconDevOps from '../svgs/icon-devops.svg';
 import IconLeader from '../svgs/icon-leader.svg';
+import LogoIotitude from '../svgs/logo-iotitude.svg';
+import LogoMysticons from '../svgs/logo-mysticons.svg';
+import LogoOverflow from '../svgs/logo-overflow.svg';
 import SvgUnderline from '../svgs/underline.svg';
 
 const Students = () => {
@@ -67,16 +71,16 @@ const Students = () => {
             </div>
             <div className="teams__logo-grid">
               <div className="teams__iotitude">
-                <span>IoTitude</span>
+                <LogoIotitude />
               </div>
               <div className="teams__mysticons">
-                <span>Mysticons</span>
+                <LogoMysticons className="1h" />
               </div>
               <div className="teams__overflow">
-                <span>Overflow</span>
+                <LogoOverflow />
               </div>
               <div className="teams__pengwin">
-                <span>Pengwin Media</span>
+                <Image src={LogoPengwin} />
               </div>
             </div>
           </div>
