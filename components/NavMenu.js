@@ -32,6 +32,11 @@ export default function NavMenu({ t, active, handleClick }) {
               <a>{t('companies')}</a>
             </ActiveLink>
           </li>
+          <li>
+            <Link href="/guides" locale="fi">
+              <a>{t('guides')}</a>
+            </Link>
+          </li>
         </ul>
         <ul className="desktop-menu__locale">
           <li>
