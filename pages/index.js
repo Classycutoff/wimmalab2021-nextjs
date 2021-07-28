@@ -16,8 +16,11 @@ import IconAgile from '../svgs/icon-agile.svg';
 import IconNetwork from '../svgs/icon-network.svg';
 import IconTeam from '../svgs/icon-team.svg';
 import LogoIotitude from '../svgs/logo-iotitude.svg';
+import LogoIotitudeSmall from '../svgs/logo-iotitude-sm.svg';
 import LogoMysticons from '../svgs/logo-mysticons.svg';
+import LogoMysticonsSmall from '../svgs/logo-mysticons-sm.svg';
 import LogoOverflow from '../svgs/logo-overflow.svg';
+import LogoOverflowSmall from '../svgs/logo-overflow-sm.svg';
 
 const Home = () => {
   const { t } = useTranslation('home');
@@ -122,19 +125,22 @@ const Home = () => {
           <HistorySection year="2021" intro={t('p-history-2021')} expanded>
             <HistoryCard
               url="/iotitude"
-              imgUrl="/assets/history/iotitude-logo.png"
+              imgUrl={<LogoIotitudeSmall />}
+              isSvg
               title={t('h4-history-2021-1')}
               desc={t('p-history-2021-1')}
             />
             <HistoryCard
               url="/overflow"
-              imgUrl="/assets/history/overflow-logo.png"
+              imgUrl={<LogoOverflowSmall />}
+              isSvg
               title={t('h4-history-2021-2')}
               desc={t('p-history-2021-2')}
             />
             <HistoryCard
               url="/mysticons"
-              imgUrl="/assets/history/mysticons-logo.png"
+              imgUrl={<LogoMysticonsSmall />}
+              isSvg
               title={t('h4-history-2021-3')}
               desc={t('p-history-2021-3')}
             />
