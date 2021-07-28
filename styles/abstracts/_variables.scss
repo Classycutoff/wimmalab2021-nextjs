@@ -38,11 +38,11 @@ $pastel-blue-dark: #ADD5FA;
 $pastel-blue-darker: #679add;
 $pastel-blue-darker2: #386aac;
 
-$pastel-purple: #E9DAFC;
+$pastel-purple: #e6defd;
 $pastel-cyan: #D1F7FA;
-$pastel-orange: #FCE6C4;
+$pastel-orange: #ffedc5;
 
-$bg-iotitude: #D5F0F6;
-$bg-mysticons: #EEE1F5;
-$bg-overflow: #DEE7F7;
-$bg-pengwin: #FFE0D6;
+$bg-iotitude: $pastel-cyan;
+$bg-mysticons: $pastel-purple;
+$bg-overflow: $pastel-blue;
+$bg-pengwin: $pastel-orange;

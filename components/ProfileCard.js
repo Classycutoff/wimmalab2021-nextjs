@@ -32,7 +32,7 @@ export default function ProfileCard() {
         <div className="background">
           <div className="profile-img">
             <Image
-              src="/assets/paavo.png"
+              src="/assets/paavo2.jpg"
               alt="Paavo Nelimarkka"
               width="180"
               height="180"
@@ -53,7 +53,7 @@ export default function ProfileCard() {
         <div className="background">
           <div className="profile-img">
             <Image
-              src="/assets/kari.png"
+              src="/assets/kari2.png"
               alt="Kari Pitkämäki"
               width="180"
               height="180"
@@ -74,7 +74,7 @@ export default function ProfileCard() {
         <div className="background">
           <div className="profile-img">
             <Image
-              src="/assets/narsu.jpg"
+              src="/assets/teemu.jpg"
               alt="Teemu Kontio"
               width="180"
               height="180"
@@ -94,7 +94,7 @@ export default function ProfileCard() {
         <div className="background">
           <div className="profile-img">
             <Image
-              src="/assets/narsu.jpg"
+              src="/assets/heli.jpg"
               alt="Heli Vepsäläinen"
               width="180"
               height="180"

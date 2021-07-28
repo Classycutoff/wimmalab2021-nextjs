@@ -6,6 +6,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import HistoryCard from '/components/HistoryCard';
 import HistorySection from '/components/HistorySection';
 import Layout, { siteTitle } from '/components/Layout';
+import LogoPengwin from '/public/assets/history/pengwin-logo.png';
 
 import ProfileCard from '../components/ProfileCard';
 import ProjectCard from '../components/ProjectCard';
@@ -14,6 +15,9 @@ import Logo from '../public/assets/logo_wimma.png';
 import IconAgile from '../svgs/icon-agile.svg';
 import IconNetwork from '../svgs/icon-network.svg';
 import IconTeam from '../svgs/icon-team.svg';
+import LogoIotitude from '../svgs/logo-iotitude.svg';
+import LogoMysticons from '../svgs/logo-mysticons.svg';
+import LogoOverflow from '../svgs/logo-overflow.svg';
 
 const Home = () => {
   const { t } = useTranslation('home');
@@ -73,26 +77,18 @@ const Home = () => {
       <section className="content__section">
         <div>
           <h2 className="h2-companies h2-section">{t('h2-companies')}</h2>
-          <div className="logo-grid companies-logos">
-            <div>
-              <svg width="274" height="274" viewBox="0 0 274 274">
-                <rect width="274" height="274" fill="#CCC" />
-              </svg>
+          <div className="company-logo__wrapper">
+            <div className="company-logo company-logo--iotitude">
+              <LogoIotitude />
             </div>
-            <div>
-              <svg width="274" height="274" viewBox="0 0 274 274">
-                <rect width="274" height="274" fill="#CCC" />
-              </svg>
+            <div className="company-logo company-logo--mysticons">
+              <LogoMysticons />
             </div>
-            <div>
-              <svg width="274" height="274" viewBox="0 0 274 274">
-                <rect width="274" height="274" fill="#CCC" />
-              </svg>
+            <div className="company-logo company-logo--overflow">
+              <LogoOverflow />
             </div>
-            <div>
-              <svg width="274" height="274" viewBox="0 0 274 274">
-                <rect width="274" height="274" fill="#CCC" />
-              </svg>
+            <div className="company-logo company-logo--pengwin">
+              <Image src={LogoPengwin} width={160} height={160} />
             </div>
           </div>
         </div>
