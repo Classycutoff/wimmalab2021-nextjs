@@ -328,6 +328,8 @@
   flex-direction: column;
   gap: 1rem;
 
+  background-color: #e6effc;
+
   @include breakpoint(sm) {
     flex-direction: row;
     gap: 1.5rem;
@@ -339,6 +341,12 @@
     img {
       border-radius: 100%;
       overflow: hidden;
+    }
+
+    svg {
+      width: 100px;
+      height: auto;
+      padding: 0.2rem 0.5rem 0.5rem;
     }
   }
 
