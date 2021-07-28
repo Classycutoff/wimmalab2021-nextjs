@@ -2,35 +2,24 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import {
-  // TwitterDMButton,
-  // TwitterFollowButton,
-  // TwitterHashtagButton,
-  // TwitterMentionButton,
-  // TwitterMomentShare,
-  // TwitterOnAirButton,
-  // TwitterShareButton,
-  // TwitterTimelineEmbed,
-  TwitterTweetEmbed
-  // TwitterVideoEmbed
-} from 'react-twitter-embed';
+import { Timeline } from 'react-twitter-widgets';
+import { Tweet } from 'react-twitter-widgets';
 
 // import Accordion from '/components/Accordion';
 import ImageWrapper from '/components/ImageWrapper';
 import Layout, { siteTitle } from '/components/Layout';
-
 // img: team members
 import member1 from '/public/assets/pengwin/annukka.png';
 import member3 from '/public/assets/pengwin/eliel.png';
 import member6 from '/public/assets/pengwin/janna.png';
+// other images
+import heroBg from '/public/assets/pengwin/pengwin-header.png';
+import pengwinLogo from '/public/assets/pengwin/pengwin-logo.png';
 import member2 from '/public/assets/pengwin/roope.png';
 import member4 from '/public/assets/pengwin/sari.png';
 import member5 from '/public/assets/pengwin/tatu.png';
 import team from '/public/assets/pengwin/tiimi.jpg';
 
-// other images
-import heroBg from '/public/assets/pengwin/pengwin-header.png';
-import pengwinLogo from '/public/assets/pengwin/pengwin-logo.png';
 import Img4 from '../public/assets/software.png';
 
 const Pengwin = () => {
@@ -97,7 +86,6 @@ const Pengwin = () => {
 
         {/* team members */}
         <div>
-                    
           {/* member1 */}
 
           <div className="simple-grid company-card company-card--cyan-light">
@@ -165,7 +153,7 @@ const Pengwin = () => {
           </div>
 
           {/* member6 */}
-          <div className="simple-grid company-card company-card--cyan-light">
+          <div className="simple-grid virtual-card">
             <div>
               <Image src={member6} />
             </div>
@@ -181,12 +169,12 @@ const Pengwin = () => {
 
       {/* social media  */}
       <div className="twitter-container">
-      <h2>{t('h2-twitter')}</h2>      
+        <h2>{t('h2-twitter')}</h2>
         <div>
-          <TwitterTweetEmbed tweetId={'1419971852970205211'} />
+          <Tweet tweetId="841418541026877441" />
         </div>
         <div>
-          <TwitterTweetEmbed tweetId={'1400398116080308227'} />
+          <Tweet tweetId="841418541026877441" />
         </div>
       </div>
     </Layout>
