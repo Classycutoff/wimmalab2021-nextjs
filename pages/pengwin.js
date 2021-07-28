@@ -171,10 +171,10 @@ const Pengwin = () => {
       <div className="twitter-container">
         <h2>{t('h2-twitter')}</h2>
         <div>
-          <Tweet tweetId="841418541026877441" />
+          <Tweet tweetId="1419971852970205211" />
         </div>
         <div>
-          <Tweet tweetId="841418541026877441" />
+          <Tweet tweetId="1400398116080308227" />
         </div>
       </div>
     </Layout>
