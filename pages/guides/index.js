@@ -3,7 +3,6 @@ import GuideLayout from '/components/GuideLayout';
 import { getGuideIntroductions } from '/components/lib/mdx';
 
 const GuidesIndex = (props) => {
-  console.log('GUIDESINDEX --->', props);
   const { guideIndexes } = props;
 
   return (
