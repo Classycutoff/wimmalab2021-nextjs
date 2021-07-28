@@ -1,0 +1,54 @@
+{
+    "page-title": "overflow",
+    "h1": "Overflow",
+    "h1-subheading": "There's Always Room For Overflow",
+    
+    "h1-team": "Projektin nimi? Ketkä kehitti? Mikä on perusidea? Tärkeimmät ominaisuudet? Minkä ongelman tuote ratkaisee?",
+    "p-team": "Overflow on WIMMA Labissa toimiva virtuaaliyritys, jonka kokoonpanosta löytyy kyberturvallisuus­osaajia sekä ohjelmisto­kehittäjiä.",
+    "p2-team": "Kesällä 2021 Overflow vastaa 'FF Marketplace - tiiminrakennuspalvelu Future Factory -kurssia varten.: tiimin tavoitteena on kesän aikana suunnitella ja toteuttaa palvelu, jossa opiskelijat voivat helposti selailla yritysten toimeksiantoja ja valita omien kriteeriensä perusteella mielenkiintoisimman projektin. Overflow toimii palvelun kehityksessä DevSecOps-hengen mukaisesti ja pyrkii integroimaan automatisoituja turvallisuusratkaisuja kehityksen eri vaiheisiin.",
+    "p3-team": "Teknologioita, joita tulemme käyttämään: Microsoft Power Automate, Kubernetes, Gitlab CI/CD, React frontendissä, ASP.NET Core backendissä, PostgreSQL tietokannassa sekä Robot Frameworkia ja Seleniumia testaamisessa.",
+
+    "h2-assignment": "Tehtävät",
+    "p-assignment": "Palvelusta tulee olemaan hyötyä yrityksille, opiskelijoille ja ohjaajille. Jos yrityksillä tai yksityisyrittäjillä on jonkinlaisia projekti- tai kehityshaasteita opiskelijoille, he voivat täyttää ja lähettää lomakkeen Future Factoryn tiimille. Kun toimeksianto on hyväksytty FF-tiimin puolesta, FF-tiimin jäsen voi lisätä toimeksiannon palveluumme. JAMKin Future Factory -kurssin opiskelijat voivat helposti selailla toimeksiantoja ja valita kiinnostavimman toimeksiannon ja siellä auki olevan tiimiroolin itselleen. Opiskelija voi käyttää suodatinta ja lajittelua saadakseen hänelle parhaiten sopivat tehtävät näkyviin. Palvelumme avulla pyrimme rakentamaan tiimejä, jotka koostuvat eri alojen opiskelijoista ja/tai eri tiimiroolin omaavista opiskelijoista.",
+    "p2-assignment": "Ensimmäiseen versioon palvelusta pyrimme lisäämään tärkeimmät ominaisuudet sekä pyrimme toteuttamaan ensimmäisen version siten, että sinne voidaan myöhemmin lisätä helposti muita tarpeellisia ominaisuuksia.",
+    
+    "h2-technologies": "Teknologiat (mitä ja miksi)",
+    "p-technologies": "Teknologioita, joita tulemme käyttämään: -Microsoft Power Automate: Ajatuksena oli, että Power Automaten käyttö muutamissa kohdissa olisi kiva lisäys. -Kubernetes & Gitlab CI/CD: Palvelu on tarkoitus laittaa pyörimään kubernetesin päälle, samalla hyödyntäen gitlabin CI/CD pipelinejä. Mysticons oli tässä asiantuntijana ja antoi meille ohjeet. -React: React oli useammalle tiimin jäsenestä tuttu, ja on toimiva kieli, joten sitä käytämme frontissa. - Node.js: Oli myös käytössä frontissa. -.NET Core: ASP.NET Core oli myös useammalle tiimin jäsenestä tuttu, joten käytimme sitä kielenä backendissä. -PostgreSQL: Tietokantaan valitsimme PostgreSQL, koska se on nopea laittaa pystyyn ja helppo käyttää. -Cypress: Aluksi oli suunnitteilla tehdä Robot Frameworkia käyttäen testejä, mutta vaihdoimmekin Cypressiin, koska sillä on muun muassa helppoa tehdä testejä. - Admin-frontendissä käytetyt teknologiat: Node.js, React, Formik, Axios, Material UI, Yup",
+
+    "h2-challenges": "Millaisia haasteita kohdattiin? Miten ne selvitettiin?",
+    "p-challenges": "Haasteita, joita kohdattiin: - Autentikoinnin lisäys: Ajatuksena oli, että saisimme käytettyä Keycloakia palvelun kehitysvaiheessa autentikoinnissa. Haka-tunnistautuminen käyttää Saml2.0 (The Security Assertion Markup Language), ja Keycloak tukee Saml2.0:aa. Näin ollen Keycloakista vaihto Hakaan olisi ollut helpompaa. Saml2.0 lisäys backendin koodiin olikin astetta vaikeampaa. Emme saaneet sitä Keycloakin kanssa toimimaan, joten kokeilimme myös Oktaa. Vaihdon avulla teimme pientä edistystä. Autentikaatio toimi nyt jotenkuten, mutta siinä oli edelleen jotain rikki ja ratkaisua ei ehditä keksiä ajan vähyyden vuoksi. Jouduimme luopumaan tämän teosta eli nyt ensimmäisessä versiossa ei ole autentikointia mukana. - Mitä tietoja voimme säilyttää? Tätä jouduimme pohtimaan paljon suunnittelu vaiheessa. Totesimme, että nyt kehitys vaiheessa käytämme omia koulunsähköposteja tai tekaistuja tunnuksia, mutta palvelun käyttöönotossa tätä varten tulisi tehdä rekisteriseloste. Suunnitteilla olisi, että tiedot joita otetaan opiskelijoilta on koulunsähköposti, ja tietoa pidettäisiin palvelussa vain max. viikon ajan. Emme itse ehtineet nyt tehdä rekisteriselostetta, joten mahdollisen projektin jatkajan on tehtävä se. - Konttien laitto Kuberneteksen päälle ja Gitlab CI/CD pipelinejen toimivuus haasteet. Erroreita tuli useampi tätä tehtäessä, mutta ne saatiin ratkaistua Mysticonsin kanssa. - Myös pieniä haasteita siellä sun täällä projektia tehtäessä, jotka saatiin ratkaistua.",
+
+    "h2-learned": "Mitä opittiin, millaista oli työskennellä, fiilikset?",
+    "p-learned": "Kesä meni oikein hyvillä fiiliksillä. Koko tiimi oppi lisää Gitin käytöstä. Opimme asioita useammista teknologioista: osalle useampi käytössä ollut teknologia oli uutta ja niille joille oli tuttua, he pääsivät parantamaan taitojaan sen teknologian parissa. Power Automate sekä Kubernetes & Gitlab CI/CD yhdistelmä olivat aikalailla koko tiimille uutta. Työskentely tehtiin etänä Discordia käyttäen ja se onnistui hyvin.",
+
+    "h2-introduction": "Tiimin jäsenet",
+    
+    "h3-member1": "Reetta Laitinen", 
+    "h4-member1": "Technical Leader",
+    "p-member1": "Olen Reetta Laitinen, 23-vuotias 3. vuoden tieto- ja viestintätekniikan opiskelija Jyväskylästä. Olen alunperin kotoisin Siilinjärveltä. Itseäni kiinnostaa uusien asioiden oppiminen sekä olemassa olevien taitojeni parantaminen. Opinnoissani suuntaudun kyberturvallisuuteen, joka aiheena kiinnostaa itseäni, ja olenkin saanut kurssien kautta siihen osaamista ja kokemusta. Lisäksi minua kiinnostaisi myös oppia lisää front-end -ohjelmoinnista.",
+    "p2-member1": "Alan työelämästä minulla ei ole vielä kokemusta, mutta koulussa projekteista ja vapaa-ajalla on tullut kiinnostus ja kokemuksia mm. REST-api -kehityksestä (ASP.NET Core, NodeJS), tietokannoista (pääasiassa relaatiotietokannoista kuten MySQL, PostgreSQL mutta myös NoSQL on jokseenkin tuttu), Docker, pilvipalvelut (AWS, CSC), mobiilikehitys (Android/Kotlin, React Native) ja frontin puolella JS+HTML+CSS sekä vähän React. Vapaa-ajalla tykkään kuunnella musiikkia ja käydä keikoilla, jongleerata, seurata urheilua ja oppia uusia taitoja.",
+
+    "h3-member2": "Joel Aalto", 
+    "h4-member2": "Junior Developer",
+    "p-member2": "Hei! Olen Joel Aalto, 25-vuotias opiskelija alun perin Lappeenrannasta. Ohjelmistotekniikan opintoja on nyt 3 vuotta takana ja siihen on kuulunut mm. vaihto Saksassa ja nyt WIMMA Lab. Minua erityisesti kiinnostaa full stack -kehitys ja haluaisin kehittyä sitä kohti urallani.",
+    "p2-member2": "Vapaa-aikani kuluu kissojeni Simban ja Lunan touhuja seuratessa, sekä erilaisten elokuvien ja tv-sarjojen katseluun. Muun muassa Studio Ghiblin eloukuvat ovat hyvin lähellä sydäntäni.",
+
+    "h3-member3": "Samu Vesiluoma", 
+    "h4-member3": "Junior Software Developer",
+    "p-member3": "Full stack -henkinen ohjelmistotekniikan opiskelija Seinäjoelta. Ohjelmointi ja DevOps -roolit ovat tulleet minulle jo tutuiksi koulussa opiskelun aikana. Vapaa-ajalla tykkään vaeltaa, urheilla, koodata ja kokeilla uusia teknologioita.",
+    
+    "h3-member4": "Mikko Fredrikson", 
+    "h4-member4": "Test Automation Engineer",
+    "p-member4": "Olen Mikko Fredrikson. Alunperin Kirkkonummelta, nykyään Jyväskyläläinen. Jos saisin päättää, niin tekisin erilaisia simulaatio-ohjelmia työkseni. Vapaa ajalla pelailen pelejä ja huvin vuoksi luon skriptejä tai plugineja, jotka automatisoivat tai helpottavat elementtejä pelissä.",
+    
+    "h3-member5": "Jesse Rissanen", 
+    "h4-member5": "Cyber Security Specialist",
+    "p-member5": "Olen syksyllä 2021 viimeisen opiskeluvuoteni aloittava kyberturvallisuuden opiskelija. Minulla on monipuolinen tausta turvallisuusalan tehtävistä, jonka päälle on hyvä rakentaa kyberturvallisuusosaamista. Vapaa-ajallani harrastan mm. kuntosaliharjoittelua, dokumenttiohjelmien katselua ja tietokonepelaamista.",
+    
+    "h3-member6": "Lassi Viitakoski", 
+    "h4-member6": "Junior Web Developer",
+    "p-member6": "Olen 23-vuotias syksyllä kolmatta vuotta aloittava ohjelmistotekniikan opiskelija. Kotoisin olen Mikkelistä. Tutuimpia teknologioita tällä hetkellä ovat NodeJS, C# ja React. Tällä hetkellä eniten kiinnostaa web-ohjelmoijana kehittyminen, niin palvelinpuolella kuin myös selainpuolella. Vapaa-ajalla tulee harrastettua lukemista, tietokoneella pelailua sekä lenkkeilyä.",
+    
+    "h2-twitter": "Seuraa meitä twitterissä:"
+    
+    }

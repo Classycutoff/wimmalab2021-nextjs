@@ -1,0 +1,49 @@
+{
+"page-title": "Pengwin Media",
+"h1": "Pengwin Media",
+"h1-subheading": "New and Improved.",
+
+"h1-team": "Projektin nimi? Ketkä kehitti? Mikä on perusidea? Tärkeimmät ominaisuudet? Minkä ongelman tuote ratkaisee?",
+"p-team": "Pengwin median päätehtävä kesälle 2021 on ollut Uudistaa WIMMA LABin brändiä ja päivittää verkkosivut vuoteen 2021. Sen lisäksi Pengwin medialaiset ovat työskennelleet tiiviissä yhteistyössä muiden Labin tiimien kanssa ja antaneet tukea graafien suunnittelun ja frontend-koodaamisen muodossa. Kesän aikana Pengwin media on myös pitänyt huolta siitä, että WIMMA Labin toiminta on tullut tutuksi ja näkyväksi myös sosiaalisen median kanavissa.",
+
+"h2-assignment": "Miksi halutaan kehittää? toimeksiantajat?",
+"p-assignment": "Yhtä tiettyä toimeksiantajaa ei Pengwin medialla ollut. Toimeksiantajaan roolissa WIMMA Labissa toimi JAMK, WIMMA Lab ja muut tiimit. Tähän voi keksiä lisää tekstiä. Tekstejä voi ja pitääkin tyylitellä paremmiksi.......",
+
+"h2-technologies": "Teknologiat (mitä ja miksi)",
+"p-technologies": "Kesän aikana Pengwin media on suunnitellut ja toteuttanut uuden wimmalab.org verkkosivuston hyödyntäen modernia Reaktin Next.JS framework ja markdownia sisältöjen generoimiseen. Uusille verkkosivuille toteutettiin lokalisaatio suomen lisäksi myös englanniksi, joten WIMMA Labiin on mahdollista tutustua myös kansainvälisemmällä kielellä. WIMMA Labin pääsivun lisäksi Pengwin media teki jokaiselle tiimille oman verkkosivun, mistä löytyy tietoa projektitiimistä ja kesän aikana työnalla olleesta projektista.",
+
+"h2-challenges": "Millaisia haasteita kohdattiin? Miten ne selvitettiin?",
+"p-challenges": "Kaikki Pengwin median ryhmäläiset eivät olleet käyttäneet Next.js frameworkiä aiemmin, mutta siitä huolimatta niillä saatiin tehtyä hakukoneoptimoidut, tyylikkäät ja informatiiviset verkkosivut. Toinen haaste, oli projektin nopea aikataulu. Pengwin media toteutti ensin vanhemmilla tekniikoilla päivitetymmät sivut WIMMA Labin avoimet ovet-tapahtumaan ja siksi Täysin uuden verkkosivun suunnitteluun ja toteutukseen aikaa oli käytettävissä noin 7 viikkoa.",
+
+"h2-learned": "Mitä opittiin, millaista oli työskennellä, fiilikset?",
+"p-learned": "Kesän aikana tutuksi tuli verkkosivuston tekemisen prosessi ensimmäisestä suunnittelupalaverista valmiin verkkosivuston julkaisemiseen. Kesän aikana uutta opittiin paljon ja opittuja taitoja on hyvä lähteä soveltamaan työelämään tai syksyllä takaisin opintojen parissa. WIMMA Lab tarjosi erinomaisen mahdollisuuden verkostoitua muihin opiskelijoihin ja työelämän edustajiin ja ainutlaatuisen kokemuksen, millaista ei opiskelujen aikana muualta saa.",
+
+"h2-introduction": "Tiimin jäsenet",
+
+"h3-member1": "Annukka Rajala", 
+"h4-member1": "Team Leader, Junior Web Developer",
+"p-member1": "Olen 22-vuotias kolmannen vuoden mediatekniikan opiskelija Hankasalmelta. Tavoitteenani on erikoistua frontend-kehittäjäksi, joka selviää myös UI/UX-suunnittelun haasteista. Eniten innostun projekteista, joissa pääsen osallistumaan sekä visuaaliseen suunnitteluun että koodaamiseen. Vapaa-ajalla todennäköisesti työstän omia projekteja, mutta uppoudun mielelläni myös ruoan­laittoon, liikuntaan tai viher­kasvien hoitoon.",
+
+"h3-member2": "Roope Huttunen", 
+"h4-member2": "Junior Developer",
+"p-member2": "Olen Äänekoskelta kotoisin, nyt Jyväskylässä asuskeleva 22-vuotias toisen vuoden ohjelmistotekniikan JAMKissa. Olen kiinnostunut kaikenlaisesta teknologiasta, varsinkin ohjelmoinnista. Ohjelmoinnin puolella minulla on kokemusta C#-kielellä ohjelmoinnista. Vapaa-ajalla pelaan video- ja lautapelejä ystävieni kanssa.",
+
+"h3-member3": "Eliel Taskinen", 
+"h4-member3": "Junior Web Developer",
+"p-member3": "Olen Eliel Jyväskylästä. Opiskelen ensimmäistä vuotta tieto- ja viestintätekniikkaa JAMKilla. Minua kiinnostaa koodaaminen, tietoverkot ja tietoturvallisuus modernissa maailmassa. Minulla on kokemusta Pythonista, Reactista ja Linuxin käytöstä. Vapaa-ajallani soitan kitaraa, koodaan pieniä projekteja ja pelaan kavereiden kanssa roolipelejä.",
+
+"h3-member4": "Sari Kumpulainen", 
+"h4-member4": "Junior Web Developer",
+"p-member4": "Opiskelen Jyväskylän ammattikorkeakoulussa tieto- ja viestintätekniikkaa, erikoistumisena on ohjelmistotekniikka. Opinnot alkavat kohta olla loppusuoralla, jäljellä enää joitakin yksittäisiä kursseja sekä osa työharjoittelusta ja opinnäytetyö. Alalla erityisesti kiinnostaa käyttöliittymien koodaus ja suunnittelu sekä testaus ja siihen liittyvät asiat. Vapaa-ajalla tykkään lukea, pelailla, ulkoilla sekä tehdä käsitöitä.",
+
+"h3-member5": "Tatu Seppänen", 
+"h4-member5": "Junior Web Developer",
+"p-member5": "Olen Tatu Seppänen, opiskelen kyberturvallisuutta JAMK:issa. Koodailla tykkään Pythonilla ja varsinkin tietoturvatestaus ja ”valkohattu-hakkeri”-jutut kiinnostavat erityisesti. Olen innokas oppimaan uusia asioita ja laajentamaan osaamista uusille alueille. Pidän tiimityöskentelystä ja tulen hyvin toimeen kaikenlaisten ihmisten kanssa. Vapaa-aikaani tykkään viettää pyörällä ajaen tai kalasten.",
+
+"h3-member6": "Janna Niemi", 
+"h4-member6": "Junior Web Developer",
+"p-member6": "Suunnittelen mielelläni ulkoasuja, mutta koodaaminen ja ohjelmointi ovat myös lähellä sydäntäni. Frontend-kehitys on luonnollisesti kaikista mielekkäintä puuhaa, koska visuaalisuus ja koodi yhdistyvät siinä kivasti. Backend-kehityksen puolelta parhaiten hallussani on Python ja tietokannat, ja opiskelun aikana C# tulee entistä tutummaksi. Kiinnostusta olisi myös oppia RUST-kieli. WIMMA Labissa olen oppimassa projektityöskentelyä ja toivon siitä olevan hyötyä myös työmarkkinoilla. Vapaa-ajalla harrastan kaikenlaista liikuntaa, erityisesti maastopyöräilyä ja juoksemista, vaikkakin arki ja vapaa-aika rullaa tiiviisti kahden alle kouluikäisen vanhempana.",
+
+"h2-twitter": "Seuraa twitterissä:"
+
+}

@@ -1,0 +1,47 @@
+{
+    "page-title": "Mysticons",
+    "h1": "Mysticons",
+    "h1-subheading": "Connecting pipelines.",
+    
+    "h1-team": "1. Projektin nimi, ketkä kehitti, mikä on perusidea ja tärkeimmät ominaisuudet? Minkä ongelman tuote ratkaisee?",
+    "p-team": "Mysticons on WIMMA Labissa toimiva virtuaaliyritys, jonka vastuualueena on ottaa DevSecOps-hengessä haltuun Kubernetes, Docker, Power Automate ja CI/CD pipelinet ja integroida ne keskenään. Tiimi koostuu monialaisista osaajista vahvalla kyberturvallisuustwistillä.",
+    
+    "h2-assignment": "Miksi halutaan kehittää? toimeksiantajat?",
+    "p-assignment": "Mysticons assignments were WIMMA Lab internal assignments given by Marko “Narsuman” Rintamäki. The goal with Power Automate was to reduce the workload of teachers when the workspaces with needed materials for the course could be created automatically, and students could be as well added to groups automatically. With Kubernetes the goal was to get as far as possible with the development of the cluster and bring DevSecOps methods to the process as was achievable in given time frame. The idea behind the Kubernetes cluster is that the cluster could be used to replace paid cloud services in student projects such as WIMMA Lab projects. Adding DevSecOps and the CI/CD pipelines to the cluster students are taught modern ways of software development. Such as automated testing with Robot Framework and SAST and DAST checks in pipelines.",
+   
+
+    "h2-technologies": "Teknologiat (mitä ja miksi)",
+    "p-technologies": "MS Power Automate, Teams, MS Forms, MS Excel, OneDrive, SharePoint, GitLab, email (Outlook). Kubernetes, DevSecOps, GitLab, CI/CD pipelines, Robot Framework, script, Ansible. Technologies had to be compatible, in both solutions. In addition, Kubernetes used open-source technologies.",
+
+    "h2-challenges": "Millaisia haasteita kohdattiin? Miten ne selvitettiin?",
+    "p-challenges": "Created Power Automate workflow uses features which require Power Automate Premium license, with the license flow creation can be quite simple. However, joining GitLab API to the flow required some knowledge about JSON scripting. Understanding of loops was very helpful when creating alternative event flows for error situations. Kubernetes assignment was a huge challenge itself, as the assignment scope was very wide with the DevSecOps twist. Everything in the Kubernetes project was new to the team and processes were created with trial-and-error methods. Strong teamwork was needed to solve challenges and to achieve accomplished results. Due to the scale of the project, Mysticos was able to only scratch the surface during the summer. But with good and thorough documentation is intended to give a good start to those who will join to the project later.",
+
+    "h2-learned": "Mitä opittiin, millaista oli työskennellä, fiilikset?",
+    "p-learned": "Mysticons had very strong team spirit during the summer 2021. The team was not afraid of challenges but worked actively to achieve the goals. Although not all goals were achieved, the team learned a lot during the summer.",
+
+
+    "h2-introduction": "Tiimin jäsenet",
+    
+    "h3-member1": "Sini Karvonen", 
+    "h4-member1": "Team Leader, Junior Developer",
+    "p-member1": "Jyväskyläläinen, monesta asiasta innostuva ja kiinnostuva ravintola-alalta IT-alalle vaihtava kahden koiran yksinhuoltaja, joka nauttii työskentelystä ihmisten kanssa ja siitä, että päivät eroavat toisistaan ja tuovat haasteita. Harrastaa käsitöitä, pelaamista ja kaikenlaista luovaa taiteilua ja tekemistä. JAMKin kyberturvallisuuspuolen opiskelija, joka haluaisi oppia enemmän automaatiosta, koodaamisesta, 3D-grafiikan tekemisestä ja monesta muusta.",
+    
+    "h3-member2": "Heikki Pekkarinen", 
+    "h4-member2": "Junior Software Developer",
+    "p-member2": "Cyber Security student at JAMK / 10+ years in Aviation Industry / PC user since 80286 / Quake Veteran / White Hat / Traveller / Musician / Producer / DJ",
+    
+    "h3-member3": "Matti Saarelma", 
+    "h4-member3": "Junior Software Developer",
+    "p-member3": "Olen Eliel Jyväskylästä. Opiskelen ensimmäistä vuotta tieto- ja viestintätekniikkaa JAMKilla. Minua kiinnostaa koodaaminen, tietoverkot ja tietoturvallisuus modernissa maailmassa. Minulla on kokemusta Pythonista, Reactista ja Linuxin käytöstä. Vapaa-ajallani soitan kitaraa, koodaan pieniä projekteja ja pelaan kavereiden kanssa roolipelejä.",
+    
+    "h3-member4": "Timo Lehosvuo", 
+    "h4-member4": "Junior Web Developer",
+    
+    
+    "h3-member5": "Samuli Ylönen", 
+    "h4-member5": "Junior Software Developer",
+    "p-member5": "ICT-alan monimuoto-opiskelija Jyväskylästä. Aloitin opinnot keväällä 2019 avoimella puolella, ja syksyllä 2020 siirryin tutkinto-opiskelijaksi. Olen aiemmalta koulutukseltani musiikkipedagogi/musiikkiteknologi, ja olen työskennellyt yli 13 vuotta ääni- ja tapahtumatekniikan parissa. Opinnoissani olen suuntautunut kyberturvallisuuden pariin, sillä sen testaaminen ja kehittäminen kiinnostaa. Opintojen myötä kokemusta on mm. palvelimista, ohjelmoinnista, tietoturvasta, tietoverkoista sekä käyttöjärjestelmistä. Vapaa-aika menee usein kitaran soiton ja musiikin parissa.",
+        
+    "h2-twitter": "Seuraa meitä twitterissä:"
+    
+    }
