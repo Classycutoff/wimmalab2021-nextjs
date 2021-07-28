@@ -19,22 +19,6 @@
   }
 }
 
-.companies-logos {
-	display: grid;
-	gap: 1em;
-	padding: 1em;
-	justify-items: center;
-}
-@media (min-width: 44em) {
-	.companies-logos {
-		grid-template-columns: 1fr 1fr;
-		grid-gap: 10px;
-		padding: 10px;
-		display: grid;
-		grid-template-columns: auto auto auto auto;
-	}
-}
-
 .h2-section {
 	margin-bottom: 3rem;
   
@@ -46,15 +30,64 @@
 
 .svg-icon {
 	width: 100px;
-  	height: auto;
+  height: auto;
 }
 
-.logo-grid {
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	flex-wrap: wrap;
+.company-logo {
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+
+    @include breakpoint(sm) {
+      gap: 1rem;
+    }
+
+    @include breakpoint(md) {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: $border-radius;
+  padding: 1.3rem;
+
+  > * {
+    max-width: 9rem;
+  }
+  
+
+  // Make flex items square
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    padding-bottom: 100%;
+  }
+
+  &--iotitude {
+    background-color: $bg-iotitude;
+  }
+
+  &--overflow {
+    background-color: $bg-overflow;
+  }
+
+  &--mysticons {
+    background-color: $bg-mysticons;
+
+    > * {
+      max-width: 8.5rem;
+    }
+  }
+
+  &--pengwin {
+    background-color: $bg-pengwin;
+  }
+
 }
 
 .profile-grid {

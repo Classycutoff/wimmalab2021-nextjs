@@ -38,6 +38,11 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      padding: 1.8rem;
+
+      > * {
+        max-width: 8rem;
+      }
     }
 
     // CSS trick to get square grid items
@@ -47,12 +52,6 @@
       width: 0;
       height: 0;
       padding-bottom: 100%;
-    }
-
-    span {
-      font-size: 1.063rem;
-      font-weight: 500;
-      
     }
   }
   
@@ -64,6 +63,10 @@
   &__mysticons {
     grid-area: mysticons;
     background-color: $pastel-purple;
+
+    > * {
+      max-width: 7rem;
+    }
   }
 
   &__overflow {
