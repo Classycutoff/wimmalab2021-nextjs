@@ -1,22 +1,24 @@
 {
 "page-title": "Pengwin Media",
-"h1": "Pengwin Media",
-"h1-subheading": "New and Improved.",
+"hero-h1": "Brändiuudistus ja wimmalab.org",
+"hero-p": "Pengwin Media vastasi WIMMA Labin brändiuudistuksesta ja wimmalab.org-sivuston kehittämisestä Next.js:llä. Tiimiläiset toimivat yhteistyössä muiden virtuaaliyritysten kanssa tarjoten frontend-koodausapua, testausta sekä UI/UX-suunnittelua. Lisäksi Pengwin Media päivitti WIMMA Labin sosiaalisen median kanavia.",
 
-"h1-team": "Projektin nimi? Ketkä kehitti? Mikä on perusidea? Tärkeimmät ominaisuudet? Minkä ongelman tuote ratkaisee?",
-"p-team": "Pengwin median päätehtävä kesälle 2021 on ollut Uudistaa WIMMA LABin brändiä ja päivittää verkkosivut vuoteen 2021. Sen lisäksi Pengwin medialaiset ovat työskennelleet tiiviissä yhteistyössä muiden Labin tiimien kanssa ja antaneet tukea graafien suunnittelun ja frontend-koodaamisen muodossa. Kesän aikana Pengwin media on myös pitänyt huolta siitä, että WIMMA Labin toiminta on tullut tutuksi ja näkyväksi myös sosiaalisen median kanavissa.",
+"h1-team": "Tiimiesittely",
+"p-team": "Pengwin Median kokoonpanosta löytyy monipuolista frontend-osaamista: UI/UX-suunnittelijoita, koodareita sekä graafisia suunnittelijoita. Lisäksi tiimistä löytyy kiinnostusta testausautomaatioon ja tietoturvaan.",
 
 "h2-assignment": "Miksi halutaan kehittää? toimeksiantajat?",
 "p-assignment": "Yhtä tiettyä toimeksiantajaa ei Pengwin medialla ollut. Toimeksiantajaan roolissa WIMMA Labissa toimi JAMK, WIMMA Lab ja muut tiimit. Tähän voi keksiä lisää tekstiä. Tekstejä voi ja pitääkin tyylitellä paremmiksi.......",
 
-"h2-technologies": "Teknologiat (mitä ja miksi)",
-"p-technologies": "Kesän aikana Pengwin media on suunnitellut ja toteuttanut uuden wimmalab.org verkkosivuston hyödyntäen modernia Reaktin Next.JS framework ja markdownia sisältöjen generoimiseen. Uusille verkkosivuille toteutettiin lokalisaatio suomen lisäksi myös englanniksi, joten WIMMA Labiin on mahdollista tutustua myös kansainvälisemmällä kielellä. WIMMA Labin pääsivun lisäksi Pengwin media teki jokaiselle tiimille oman verkkosivun, mistä löytyy tietoa projektitiimistä ja kesän aikana työnalla olleesta projektista.",
+"h2-technologies": "Käytetyt teknologiat",
+"p-technologies1": "Päätimme toteuttaa wimmalab.org-sivun uudistuksen Next.js:llä. Next.js on sovelluskehys, joka tekee Reactin käytöstä mielekästä myös perinteisemmissä nettisivuissa. Hyödynsimme oppaat-osiossa markdown-tiedostoja, jotta sisällön päivitys olisi mahdollisimman helppoa ja vaivatonta. Tällaisen ominaisuuden toteuttamiselle löytyi Next.js:stä tukea ja dokumentaatiota. Muita Next.js:n tarjoamia etuja ovat mm. kuvien automaattinen optimointi, tuki lokalisoinnille, hakukoneoptimointi ja nopeat latausajat.",
+"p-technologies2": "Tyylit toteutimme SCSS:llä, suunnitteluun käytimme Figmaa ja ikonien, logojen ja muun svg-grafiikan toteuttamisessa hyödynsimme Illustratoria.",
 
-"h2-challenges": "Millaisia haasteita kohdattiin? Miten ne selvitettiin?",
-"p-challenges": "Kaikki Pengwin median ryhmäläiset eivät olleet käyttäneet Next.js frameworkiä aiemmin, mutta siitä huolimatta niillä saatiin tehtyä hakukoneoptimoidut, tyylikkäät ja informatiiviset verkkosivut. Toinen haaste, oli projektin nopea aikataulu. Pengwin media toteutti ensin vanhemmilla tekniikoilla päivitetymmät sivut WIMMA Labin avoimet ovet-tapahtumaan ja siksi Täysin uuden verkkosivun suunnitteluun ja toteutukseen aikaa oli käytettävissä noin 7 viikkoa.",
+"h2-challenges": "Haasteet ja niiden ratkaiseminen",
+"p-challenges1": "Next.js oli suurimmalle osalle Pengwin Medialaisista uusi teknologia, joten opeteltavaa on ollut paljon. Työmäärästä huolimatta saimme toteutettua aiempaa huomattavasti laajemmat, hakukoneoptimoidut ja informatiiviset verkkosivut.",
+"p-challenges2": "Toinen haaste oli projektin nopea aikataulu: Next.js-projekti päästiin aloittamaan Avoimien ovien jälkeen, sillä toteutimme ensin perinteisillä HTML/CSS -tekniikoilla kevyesti päivitetyt sivut tapahtuman markkinointia varten. Tämän vuoksi täysin uuden verkkosivun suunnitteluun ja toteutukseen oli käytettävissä vain noin puolet kesästä.",
 
-"h2-learned": "Mitä opittiin, millaista oli työskennellä, fiilikset?",
-"p-learned": "Kesän aikana tutuksi tuli verkkosivuston tekemisen prosessi ensimmäisestä suunnittelupalaverista valmiin verkkosivuston julkaisemiseen. Kesän aikana uutta opittiin paljon ja opittuja taitoja on hyvä lähteä soveltamaan työelämään tai syksyllä takaisin opintojen parissa. WIMMA Lab tarjosi erinomaisen mahdollisuuden verkostoitua muihin opiskelijoihin ja työelämän edustajiin ja ainutlaatuisen kokemuksen, millaista ei opiskelujen aikana muualta saa.",
+"h2-learned": "Yhteenveto",
+"p-learned": "Verkkosivuston toteuttamisen prosessi ensimmäisestä suunnittelupalaverista valmiin sivuston julkaisemiseen tuli kesän aikana tutuksi. WIMMA Labissa karttuneita taitoja on hyvä lähteä soveltamaan työelämään tai syksyllä jatkuvien opintojen parissa. WIMMA Lab tarjosi erinomaisen mahdollisuuden verkostoitua muihin opiskelijoihin ja työelämän edustajiin, ja oli ainutlaatuisen kokemus, jollaista ei opiskelujen aikana muualta saa.",
 
 "h2-introduction": "Tiimin jäsenet",
 
@@ -44,6 +46,6 @@
 "h4-member6": "Junior Web Developer",
 "p-member6": "Suunnittelen mielelläni ulkoasuja, mutta koodaaminen ja ohjelmointi ovat myös lähellä sydäntäni. Frontend-kehitys on luonnollisesti kaikista mielekkäintä puuhaa, koska visuaalisuus ja koodi yhdistyvät siinä kivasti. Backend-kehityksen puolelta parhaiten hallussani on Python ja tietokannat, ja opiskelun aikana C# tulee entistä tutummaksi. Kiinnostusta olisi myös oppia RUST-kieli. WIMMA Labissa olen oppimassa projektityöskentelyä ja toivon siitä olevan hyötyä myös työmarkkinoilla. Vapaa-ajalla harrastan kaikenlaista liikuntaa, erityisesti maastopyöräilyä ja juoksemista, vaikkakin arki ja vapaa-aika rullaa tiiviisti kahden alle kouluikäisen vanhempana.",
 
-"h2-twitter": "Seuraa twitterissä:"
+"h2-twitter": "Seuraa meitä Twitterissä"
 
 }

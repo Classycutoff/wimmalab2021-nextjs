@@ -49,6 +49,14 @@
     }
   }
 
+  &--pengwin {
+    background-color: $bg-pengwin;
+
+    svg {
+      max-width: 132px;
+    }
+  }
+
 }
 
 .project-info {
@@ -94,6 +102,11 @@
 .img-overflow {
   .image__bg {
     background-color: $bg-overflow;
+  }
+}
+.img-pengwin {
+  .image__bg {
+    background-color: $bg-pengwin;
   }
 }
 
@@ -174,7 +187,7 @@
   &--iotitude {
     background-color: $bg-iotitude;
     
-    a {
+    a, a:visited {
       color: $link-iotitude;
 
       .btn__text::after {
@@ -186,7 +199,7 @@
   &--purple {
     background-color: $pastel-purple;
 
-    a {
+    a, a:visited {
       color: $link-mysticons;
 
       .btn__text::after {
@@ -198,7 +211,7 @@
   &--blue {
     background-color: $pastel-blue;
 
-     a {
+     a, a:visited {
       color: $link-overflow;
 
       .btn__text::after {
@@ -207,20 +220,16 @@
     }
   }
 
-  &--cyan-light{
-    background-color: $cyan-light;
-  }
+  &--pengwin {
+    background-color: $bg-pengwin;
+    
+    a, a:visited {
+      color: $link-pengwin;
 
-  &--cyan{
-      background-color: $cyan;
-  }
-
-  &--orange{
-    background-color: $pastel-orange;
-  }
-
-  &--dark-blue{
-    background-color: $dark-blue;
+      .btn__text::after {
+        background-color: $link-pengwin;
+      }
+    }
   }
 }
 
