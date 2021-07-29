@@ -3,6 +3,8 @@
 // -----------------------------------------------------------------------------
 
 .hero--home {
+  background-color: #78F0E6;
+
   .hero__h1 {
     margin-top: 2rem;
     max-width: 480px;
@@ -16,25 +18,9 @@
     }
   }
 }
-
-.companies-logos {
-	display: grid;
-	gap: 1em;
-	padding: 1em;
-	justify-items: center;
-}
-@media (min-width: 44em) {
-	.companies-logos {
-		grid-template-columns: 1fr 1fr;
-		grid-gap: 10px;
-		padding: 10px;
-		display: grid;
-		grid-template-columns: auto auto auto auto;
-	}
-}
-
 .h2-section {
 	margin-bottom: 3rem;
+  text-align: center;
   
 	@include breakpoint(lg) {
 	  text-align: center;
@@ -47,59 +33,90 @@
   	height: auto;
 }
 
-.logo-grid {
+// ================
+// Companies styling
+// ================
+.companies-grid {
 	width: 100%;
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: space-evenly;
 	flex-wrap: wrap;
+
+  &__logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5rem;
+    justify-content: center;
+
+    svg {
+      max-width: 100%;
+      margin: auto;
+    }
+
+    @include breakpoint(md){
+      width: 100%;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @include breakpoint(lg){
+      width: 100%;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 10px;
+      padding: 10px;
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+
+    }
+  }
 }
 
-.profile-grid {
-	width: 100%;
+// =====================
+// Profile cards styling
+// =====================
+.instructors {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-}
+  align-content: flex-start;
 
-.profile-card {
+&__card {
 	position: relative;
 	overflow: hidden;
 	margin: 10px;
-	min-width: 210px;
-	max-width: 350px;
-	width: 100%;
+	width: 320px;
 	height: 380px;
 	border-radius: $border-radius;
 	color: $txt-black;
 	text-align: left;
 	line-height: 1.4em;
 	background-color: $pastel-blue;
+
+}
+&__img {
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 3rem; 
+  max-width: 180px;
+}
+
+&__caption {
+  width: 100%;
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+}
+
+&__social {
+  max-width: 40px;
+  position: absolute;
+  right: 15%;
+  bottom: 15%
+}
   
 	p {
 	  font-size: 1.063rem;
 	  margin: 1rem 0 0;
-	}
-	
-	.profile-img {
-	  border-radius: 50%;
-	  margin: auto;
-	  margin-top: 3rem; 
-	  max-width: 180px;
-	}
-  
-	.caption {
-	  width: 100%;
-	  position: absolute;
-	  left: 10%;
-	  bottom: 10%;
-	}
-  
-	.social-icon {
-	  max-width: 40px;
-	  position: absolute;
-	  right: 22%;
-	  bottom: 15%
 	}
   
 	a {
@@ -318,5 +335,63 @@
     line-height: 1.7;
     margin: 0.5rem 0 0;
     color: $txt-grey;
+  }
+}
+
+// ================
+// Nutshell styling
+// ================
+.nutshell{
+  &__grid-container {
+    display: grid;
+    width: 100%;
+    margin-bottom: 2rem;
+
+    @include breakpoint(lg) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+
+    }
+  }
+
+  &__box {
+    border-radius: 8px;
+    margin-top: 1rem;
+    padding: 2rem 1.3rem 1rem 1rem;
+    background-color: $nutshell-bg;
+
+    @include breakpoint(lg) {
+      padding: 2rem 1.3rem 1rem 1rem;
+      margin-top: 0;
+    }
+  }
+  &__icon {
+    height: 70px;
+    position:relative;
+    top: 2rem;
+    left: 3rem;
+    transform:translate(-50%,-50%);
+    
+    @include breakpoint(lg) {
+      height: 60px;
+      float: left;
+    }
+  }
+
+  &__content {
+    margin-left: 15px;
+    margin-top: 0;
+    color: $txt-black;
+
+    @include breakpoint(lg) {
+      text-align: left;
+      margin-left: 100px;
+      margin-top: 0;
+    }
+
+    h4 {
+      font-size: 1.4rem;
+    }
   }
 }
