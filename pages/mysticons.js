@@ -240,7 +240,7 @@ const Mysticons = () => {
 
       {/* social media  */}
       <section>
-        <h2 className="h2-centered">{t('h2-twitter')}</h2>
+        <h2 className="h2-centered tweet-h2">{t('h2-twitter')}</h2>
         <div className="twitter-grid">
           <div>
             <Tweet tweetId="1400051275966857216" />
