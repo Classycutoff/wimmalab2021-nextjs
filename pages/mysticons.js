@@ -2,9 +2,9 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { Tweet } from 'react-twitter-widgets';
 
 import Button from '/components/Button';
-// import { Tweet } from 'react-twitter-widgets';
 import ImageWrapper from '/components/ImageWrapper';
 import Layout, { siteTitle } from '/components/Layout';
 import member2 from '/public/assets/mysticons/heikki.png';
@@ -239,8 +239,8 @@ const Mysticons = () => {
       </section>
 
       {/* social media  */}
-      {/* <div className="twitter-container">
-        <h2>{t('h2-twitter')}</h2>
+      <section>
+        <h2 className="h2-centered">{t('h2-twitter')}</h2>
         <div className="twitter-grid">
           <div>
             <Tweet tweetId="1400051275966857216" />
@@ -249,7 +249,7 @@ const Mysticons = () => {
             <Tweet tweetId="1418511305607106560" />
           </div>
         </div>
-      </div> */}
+      </section>
     </Layout>
   );
 };
