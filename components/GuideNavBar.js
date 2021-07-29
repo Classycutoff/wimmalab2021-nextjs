@@ -26,7 +26,7 @@ export default function GuideNavBar() {
               </li>
               <li>
                 <Link href="/guides/Green-Book">
-                  <a>Green Book 2021</a>
+                  <a>Green Book 2.0</a>
                 </Link>
               </li>
             </ul>

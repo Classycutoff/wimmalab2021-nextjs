@@ -63,7 +63,39 @@
     margin-top: 1rem;
     max-width: 100%;
   }
-  
+
+  table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+    th, td {
+      padding: 8px 10px;
+      border: 1px #7e7e7e;
+      border-style: solid solid solid solid;
+    }
+
+
+    thead {
+      tr {
+        background-color: #949494;
+        color: #ffffff;
+        text-align: left;
+      }
+    }
+
+    tbody {
+      tr {
+        border-bottom: 1px solid #dddddd;
+      }
+      tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+      }
+      tr:last-of-type {
+        border-bottom: 2px solid #000000;
+      }
+    }
+  }
   .switch_chapter {
     text-align: center;
     a {
@@ -72,6 +104,7 @@
     }
   }
 }
+
 
 .guides {
   a {
