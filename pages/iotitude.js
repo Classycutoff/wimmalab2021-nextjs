@@ -32,16 +32,6 @@ const Iotitude = () => {
 
       {/* Hero section */}
       <section className="content__section hero hero--virtual-company hero--iotitude margin-b">
-        {/* <Image
-          src={heroBg}
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
-          alt=""
-          quality={96}
-          className="hero__bg"
-          priority={true}
-        /> */}
         <div className="hero__container">
           <IotitudeLogo />
           <h1 className="hero__h1">{t('hero-h1')}</h1>
@@ -86,7 +76,6 @@ const Iotitude = () => {
         </div>
       </section>
 
-      {/* technologies */}
       {/* <section className="content__section technologies">
         <div className="simple-grid">
           <div className="virtual-card virtual-card--iotitude">
@@ -99,7 +88,6 @@ const Iotitude = () => {
         </div>
       </section> */}
 
-      {/* challenges */}
       {/* <section className="content__section challenges">
         <div className="simple-grid">
           <div className="virtual-card virtual-card--cyan-light">
@@ -112,8 +100,6 @@ const Iotitude = () => {
           </div>
         </div>
       </section> */}
-
-      {/* mockups */}
 
       {/* team introduction */}
       <section className="content__section introduction">

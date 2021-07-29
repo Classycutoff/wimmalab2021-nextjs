@@ -14,7 +14,6 @@ import member1 from '/public/assets/mysticons/sini.png';
 import team from '/public/assets/mysticons/tiimi.jpg';
 import member4 from '/public/assets/mysticons/timo.png';
 
-import Img4 from '../public/assets/software.png';
 import MysticonsLogo from '../svgs/logo-mysticons.svg';
 
 const Mysticons = () => {
@@ -30,16 +29,6 @@ const Mysticons = () => {
 
       {/* Hero section */}
       <section className="content__section hero hero--virtual-company hero--mysticons margin-b">
-        {/* <Image
-          src={heroBg}
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
-          alt=""
-          quality={96}
-          className="hero__bg"
-          priority={true}
-        /> */}
         <div className="hero__container">
           <MysticonsLogo />
           <h1 className="hero__h1">{t('hero-h1')}</h1>
@@ -84,8 +73,7 @@ const Mysticons = () => {
         </div>
       </section>
 
-      {/* technologies */}
-      <section className="content__section technologies">
+      {/* <section className="content__section technologies">
         <div className="simple-grid">
           <div className="">
             <h2>{t('h2-technologies')}</h2>
@@ -97,7 +85,6 @@ const Mysticons = () => {
         </div>
       </section>
 
-      {/* challenges */}
       <section className="content__section challenges">
         <div className="simple-grid">
           <div>
@@ -112,7 +99,6 @@ const Mysticons = () => {
         </div>
       </section>
 
-      {/* conclusion */}
       <section className="content__section">
         <div className="simple-grid">
           <div>
@@ -121,7 +107,7 @@ const Mysticons = () => {
           </div>
           <div></div>
         </div>
-      </section>
+      </section> */}
 
       {/* mockups */}
 

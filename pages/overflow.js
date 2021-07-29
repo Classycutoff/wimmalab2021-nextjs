@@ -15,7 +15,6 @@ import member1 from '/public/assets/overflow/reetta.png';
 import member3 from '/public/assets/overflow/samu.png';
 import team from '/public/assets/overflow/tiimi.jpg';
 
-import Img4 from '../public/assets/software.png';
 import OverflowLogo from '../svgs/logo-overflow.svg';
 
 const Overflow = () => {
@@ -74,8 +73,7 @@ const Overflow = () => {
         </div>
       </section>
 
-      {/* assignment */}
-      <section className="content__section assignment">
+      {/* <section className="content__section assignment">
         <div className="simple-grid">
           <div>
             <h2>{t('h2-assignment')}</h2>
@@ -89,7 +87,6 @@ const Overflow = () => {
         </div>
       </section>
 
-      {/* technologies */}
       <section className="content__section assignment">
         <div className="simple-grid">
           <div>
@@ -132,8 +129,6 @@ const Overflow = () => {
         </div>
       </section>
 
-      {/* challenges */}
-
       <section className="content__section challenges">
         <div>
           <h2>{t('h2-challenges')}</h2>
@@ -154,9 +149,7 @@ const Overflow = () => {
             <p>{t('p-learned')}</p>
           </div>
         </div>
-      </section>
-
-      {/* mockups */}
+      </section> */}
 
       {/* team introduction */}
       <section className="content__section introduction">

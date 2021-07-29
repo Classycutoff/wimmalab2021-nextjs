@@ -16,8 +16,6 @@ import member4 from '/public/assets/pengwin/sari.png';
 import member5 from '/public/assets/pengwin/tatu.png';
 import team from '/public/assets/pengwin/tiimi.jpg';
 
-import Img4 from '../public/assets/software.png';
-
 const Pengwin = () => {
   const { t } = useTranslation('pengwin');
 
@@ -31,16 +29,6 @@ const Pengwin = () => {
 
       {/* Hero section */}
       <section className="content__section hero hero--virtual-company hero--pengwin margin-b">
-        {/* <Image
-          src={heroBg}
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
-          alt=""
-          quality={96}
-          className="hero__bg"
-          priority={true}
-        /> */}
         <div className="hero__container">
           <Image src={pengwinLogo} width={120} height={120} />
           <h1 className="hero__h1">{t('hero-h1')}</h1>
@@ -83,16 +71,7 @@ const Pengwin = () => {
         </div>
       </section>
 
-      {/* assignment
-      <section className="content__section assignment">
-        <div className="pengwin-card pengwin-card--blue">
-          <h1>{t('h2-assignment')}</h1>
-          <p>{t('p-assignment')}</p>
-        </div>
-      </section> */}
-
-      {/* technologies */}
-      <section className="content__section technologies">
+      {/* <section className="content__section technologies">
         <div className="simple-grid">
           <div className="">
             <h2>{t('h2-technologies')}</h2>
@@ -105,7 +84,6 @@ const Pengwin = () => {
         </div>
       </section>
 
-      {/* challenges */}
       <section className="content__section challenges">
         <div className="simple-grid">
           <div>
@@ -119,7 +97,6 @@ const Pengwin = () => {
         </div>
       </section>
 
-      {/* conclusion */}
       <section className="content__section">
         <div className="simple-grid">
           <div>
@@ -128,9 +105,7 @@ const Pengwin = () => {
           </div>
           <div></div>
         </div>
-      </section>
-
-      {/* mockups */}
+      </section> */}
 
       {/* team introduction */}
       <section className="content__section introduction">
