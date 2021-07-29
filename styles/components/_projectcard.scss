@@ -7,10 +7,23 @@
     flex-direction: column;
     width: 100%;
 
+    @include breakpoint(card) {
+      width: 100%;
+    }
+
+    @include breakpoint(lg) {
+      width: 100%;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+
     &__iotitude {
       background-color: $bg-iotitude;
       border: 1px solid $pastel-blue;
     }
+
     &__iotitude .tag {
       background-color: #A7E1EE;
     }
@@ -155,7 +168,7 @@
   
   .tag {
     &__container {
-      margin: 2rem 0 1.5rem;
+      margin: 1rem 0 1.5rem;
   
       @include breakpoint(card) {
         bottom: 0;
@@ -167,6 +180,7 @@
     background-color:#A7E1EE;
     color: $txt-black;
     font-weight: 500;
+    font-size: 1rem;
     padding: .3rem .5rem .4rem .5rem;
     border-radius: $border-radius;
     margin-right: .35rem;
@@ -174,7 +188,11 @@
   
     @include breakpoint(sm) {
       margin-right: .5rem;
-    }
+    }    
 
-    
+    &__title {
+      margin-top: .15rem;
+    }
   }
+
+  
