@@ -74,7 +74,6 @@ const Students = () => {
               <CustomLink href="/iotitude" locale="fi" className="teams__iotitude">
                 <LogoIotitude />
               </CustomLink>
-
               <CustomLink href="/mysticons" locale="fi" className="teams__mysticons">
                 <LogoMysticons className="1h" />
               </CustomLink>
