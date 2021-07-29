@@ -202,12 +202,8 @@
 // Twitter
 // -----------------------------------------------------------------------------
 .twitter-grid {
-  display: grid;
-  gap: 1rem;
-  max-width: 1115px;
   margin: 0 auto;
+  max-width: min-content;
+  padding: 0 1rem 1rem;
 
-  @include breakpoint(md) {
-    grid-template-columns: 1fr 1fr;
-  }
 }

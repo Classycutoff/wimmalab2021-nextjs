@@ -2,8 +2,8 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { Tweet } from 'react-twitter-widgets';
 
-// import { Tweet } from 'react-twitter-widgets';
 import Button from '/components/Button';
 import ImageWrapper from '/components/ImageWrapper';
 import Layout, { siteTitle } from '/components/Layout';
@@ -267,7 +267,7 @@ const Iotitude = () => {
       </section>
 
       {/* social media  */}
-      {/* <section className="content__section">
+      <section>
         <h2 className="h2-centered">{t('h2-twitter')}</h2>
         <div className="twitter-grid">
           <div>
@@ -277,7 +277,7 @@ const Iotitude = () => {
             <Tweet tweetId="1400763566383419397" />
           </div>
         </div>
-      </section> */}
+      </section>
     </Layout>
   );
 };
