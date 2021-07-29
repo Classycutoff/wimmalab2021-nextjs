@@ -7,13 +7,13 @@ import { Tweet } from 'react-twitter-widgets';
 import Button from '/components/Button';
 import ImageWrapper from '/components/ImageWrapper';
 import Layout, { siteTitle } from '/components/Layout';
-import member1 from '/public/assets/pengwin/annukka.png';
-import member3 from '/public/assets/pengwin/eliel.png';
-import member6 from '/public/assets/pengwin/janna.png';
+import member1 from '/public/assets/pengwin/Annukka.png';
+import member3 from '/public/assets/pengwin/Eliel.png';
+import member6 from '/public/assets/pengwin/Janna.png';
 import pengwinLogo from '/public/assets/pengwin/pengwin-logo.png';
-import member2 from '/public/assets/pengwin/roope.png';
-import member4 from '/public/assets/pengwin/sari.png';
-import member5 from '/public/assets/pengwin/tatu.png';
+import member2 from '/public/assets/pengwin/Roope.png';
+import member4 from '/public/assets/pengwin/Sari.png';
+import member5 from '/public/assets/pengwin/Tatu.png';
 import team from '/public/assets/pengwin/tiimi.jpg';
 
 const Pengwin = () => {

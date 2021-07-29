@@ -7,12 +7,12 @@ import { Tweet } from 'react-twitter-widgets';
 import Button from '/components/Button';
 import ImageWrapper from '/components/ImageWrapper';
 import Layout, { siteTitle } from '/components/Layout';
-import member5 from '/public/assets/overflow/jesse.png';
-import member2 from '/public/assets/overflow/joel.png';
-import member6 from '/public/assets/overflow/lassi.png';
-import member4 from '/public/assets/overflow/mikko.png';
-import member1 from '/public/assets/overflow/reetta.png';
-import member3 from '/public/assets/overflow/samu.png';
+import member5 from '/public/assets/overflow/Jesse.png';
+import member2 from '/public/assets/overflow/Joel.png';
+import member6 from '/public/assets/overflow/Lassi.png';
+import member4 from '/public/assets/overflow/Mikko.png';
+import member1 from '/public/assets/overflow/Reetta.png';
+import member3 from '/public/assets/overflow/Samu.png';
 import team from '/public/assets/overflow/tiimi.jpg';
 
 import OverflowLogo from '../svgs/logo-overflow.svg';

@@ -7,12 +7,12 @@ import { Tweet } from 'react-twitter-widgets';
 import Button from '/components/Button';
 import ImageWrapper from '/components/ImageWrapper';
 import Layout, { siteTitle } from '/components/Layout';
-import member2 from '/public/assets/mysticons/heikki.png';
-import member3 from '/public/assets/mysticons/matti.png';
-import member5 from '/public/assets/mysticons/samuli.png';
-import member1 from '/public/assets/mysticons/sini.png';
+import member2 from '/public/assets/mysticons/Heikki.png';
+import member3 from '/public/assets/mysticons/Matti.png';
+import member5 from '/public/assets/mysticons/Samuli.png';
+import member1 from '/public/assets/mysticons/Sini.png';
 import team from '/public/assets/mysticons/tiimi.jpg';
-import member4 from '/public/assets/mysticons/timo.png';
+import member4 from '/public/assets/mysticons/Timo.png';
 
 import MysticonsLogo from '../svgs/logo-mysticons.svg';
 
