@@ -1,5 +1,6 @@
 import { useTranslation } from 'next-i18next';
 
+import Button from './Button';
 import LazyImage from './LazyImage';
 
 export default function ProjectCard() {
@@ -42,13 +43,18 @@ export default function ProjectCard() {
               <span className="tag__title">Gitlab CI/CD</span>
             </span>
           </div>
+          <div>
+            <Button type="iotitude" href="/iotitude" locale="fi" className="margin-t" icon>
+              {t('more-button')}
+            </Button>
+          </div>
         </div>
         <div className="project-card__image">
           <div className="project-card__img-outer-container">
             <div className="project-card__img-inner-container">
               <LazyImage
-                alt="Overflow: Mockup"
-                src="/assets/overflow-mockup.png"
+                alt="IoTitude: Mockup"
+                src="/assets/iotitude-placeholder.png"
                 width={1024}
                 height={576}
                 quality={100}
@@ -89,13 +95,18 @@ export default function ProjectCard() {
               <span className="tag__title">Ansible</span>
             </span>
           </div>
+          <div>
+            <Button type="mysticons" href="/mysticons" locale="fi" className="margin-t" icon>
+              {t('more-button')}
+            </Button>
+          </div>
         </div>
         <div className="project-card__image">
           <div className="project-card__img-outer-container">
             <div className="project-card__img-inner-container">
               <LazyImage
-                alt="Overflow: Mockup"
-                src="/assets/overflow-mockup.png"
+                alt="Mysticons: Mockup"
+                src="/assets/mysticons-placeholder.png"
                 width={1024}
                 height={576}
                 quality={100}
@@ -142,13 +153,18 @@ export default function ProjectCard() {
               <span className="tag__title">Gitlab CI/CD</span>
             </span>
           </div>
+          <div>
+            <Button type="overflow" href="/overflow" locale="fi" className="margin-t" icon>
+              {t('more-button')}
+            </Button>
+          </div>
         </div>
         <div className="project-card__image">
           <div className="project-card__img-outer-container">
             <div className="project-card__img-inner-container">
               <LazyImage
                 alt="Overflow: Mockup"
-                src="/assets/overflow-mockup.png"
+                src="/assets/overflow-placeholder.png"
                 width={1024}
                 height={576}
                 quality={100}
@@ -198,13 +214,18 @@ export default function ProjectCard() {
               <span className="tag__title">Gitlab CI/CD</span>
             </span>
           </div>
+          <div>
+            <Button type="pengwin" href="/pengwin" locale="fi" className="margin-t" icon>
+              {t('more-button')}
+            </Button>
+          </div>
         </div>
         <div className="project-card__image">
           <div className="project-card__img-outer-container">
             <div className="project-card__img-inner-container">
               <LazyImage
-                alt="Overflow: Mockup"
-                src="/assets/overflow-mockup.png"
+                alt="Pengwin: Mockup"
+                src="/assets/pengwin-placeholder.png"
                 width={1024}
                 height={576}
                 quality={100}

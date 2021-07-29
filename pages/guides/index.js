@@ -3,16 +3,8 @@ import GuideLayout from '/components/GuideLayout';
 import { getGuideIntroductions } from '/components/lib/mdx';
 
 const GuidesIndex = (props) => {
-  console.log('GUIDESINDEX --->', props);
   const { guideIndexes } = props;
 
-  // return (
-  //   <>
-  //     {guideIndexes.map((guide, i) => {
-  //       return <h1 key={i}>{guide.title}</h1>;
-  //     })}
-  //   </>
-  // );
   return (
     <GuideLayout>
       <h1>WIMMA Lab Guides</h1>

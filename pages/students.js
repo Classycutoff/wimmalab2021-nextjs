@@ -5,8 +5,10 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 import Accordion from '/components/Accordion';
 import Button from '/components/Button';
+import CustomLink from '/components/CustomLink';
 import ImageWrapper from '/components/ImageWrapper';
 import Layout, { siteTitle } from '/components/Layout';
+import LogoPengwin from '/public/assets/history/pengwin-logo.png';
 import Profile2 from '/public/assets/pfp-hannu.png';
 import Profile1 from '/public/assets/pfp-minttu.png';
 import HeroBg from '/public/assets/students-hero-bg.png';
@@ -17,6 +19,9 @@ import IconDesign from '../svgs/icon-design.svg';
 import IconDev from '../svgs/icon-dev.svg';
 import IconDevOps from '../svgs/icon-devops.svg';
 import IconLeader from '../svgs/icon-leader.svg';
+import LogoIotitude from '../svgs/logo-iotitude.svg';
+import LogoMysticons from '../svgs/logo-mysticons.svg';
+import LogoOverflow from '../svgs/logo-overflow.svg';
 import SvgUnderline from '../svgs/underline.svg';
 
 const Students = () => {
@@ -66,18 +71,18 @@ const Students = () => {
               <p>{t('p-wimma-lab-offers-2')}</p>
             </div>
             <div className="teams__logo-grid">
-              <div className="teams__iotitude">
-                <span>IoTitude</span>
-              </div>
-              <div className="teams__mysticons">
-                <span>Mysticons</span>
-              </div>
-              <div className="teams__overflow">
-                <span>Overflow</span>
-              </div>
-              <div className="teams__pengwin">
-                <span>Pengwin Media</span>
-              </div>
+              <CustomLink href="/iotitude" locale="fi" className="teams__iotitude">
+                <LogoIotitude />
+              </CustomLink>
+              <CustomLink href="/mysticons" locale="fi" className="teams__mysticons">
+                <LogoMysticons className="1h" />
+              </CustomLink>
+              <CustomLink href="/overflow" locale="fi" className="teams__overflow">
+                <LogoOverflow />
+              </CustomLink>
+              <CustomLink href="/pengwin" locale="fi" className="teams__pengwin">
+                <Image src={LogoPengwin} />
+              </CustomLink>
             </div>
           </div>
           <div className="simple-grid">
@@ -193,7 +198,7 @@ const Students = () => {
           <div>
             <h2>{t('h2-faq')}</h2>
             <p className="p-narrow p-bigger">{t('p-faq-more-info')}</p>
-            <Button href="/guides" type="secondary" className="margin-t" icon>
+            <Button href="/guides" type="secondary" className="margin-t" locale="fi" icon>
               {t('button-faq-guides')}
             </Button>
           </div>

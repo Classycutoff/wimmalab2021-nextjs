@@ -1,6 +1,9 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
+import CustomLink from '/components/CustomLink';
+
+import ArrowRight from '../svgs/arrow-right-sm.svg';
 import IconFacebook from '../svgs/socials-facebook.svg';
 import IconInstagram from '../svgs/socials-instagram.svg';
 import IconLinkedIn from '../svgs/socials-linkedin.svg';
@@ -29,6 +32,14 @@ export default function NavMenu({ t, active, handleClick }) {
             <ActiveLink activeClassName="active" href="/companies">
               <a>{t('companies')}</a>
             </ActiveLink>
+          </li>
+          <li>
+            <Link href="/guides" locale="fi">
+              <a className="guides-link">
+                {t('guides')}
+                <ArrowRight />
+              </a>
+            </Link>
           </li>
         </ul>
         <ul className="desktop-menu__locale">
@@ -59,25 +70,30 @@ export default function NavMenu({ t, active, handleClick }) {
                   <a>{t('companies')}</a>
                 </Link>
               </li>
+              <li>
+                <Link href="/guides" locale="fi">
+                  <a>{t('guides')}</a>
+                </Link>
+              </li>
             </ul>
             <ul className="mobile-menu__team-links">
               <li>
-                <Link href="/iotitude">
+                <Link href="/iotitude" locale="fi">
                   <a>IoTitude</a>
                 </Link>
               </li>
               <li>
-                <Link href="/mysticons">
+                <Link href="/mysticons" locale="fi">
                   <a>Mysticons</a>
                 </Link>
               </li>
               <li>
-                <Link href="/overflow">
+                <Link href="/overflow" locale="fi">
                   <a>Overflow</a>
                 </Link>
               </li>
               <li>
-                <Link href="/pengwin">
+                <Link href="/pengwin" locale="fi">
                   <a>Pengwin Media</a>
                 </Link>
               </li>
@@ -89,35 +105,35 @@ export default function NavMenu({ t, active, handleClick }) {
                 </Link>
               </li>
             </ul>
-          </div>
-          <div className="mobile-menu__container-socials">
-            <ul className="mobile-menu__social-links">
-              <li>
-                <a href="https://www.facebook.com/wimmalab">
-                  <IconFacebook />
-                </a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/wimmalab">
-                  <IconInstagram />
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/company/wimmalab">
-                  <IconLinkedIn />
-                </a>
-              </li>
-              <li>
-                <a href="https://www.youtube.com/channel/UCe0Ssog7DURm_aTiPO2hUFw">
-                  <IconYouTube />
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com/wimmalab">
-                  <IconTwitter />
-                </a>
-              </li>
-            </ul>
+            <div className="mobile-menu__container-socials">
+              <ul className="mobile-menu__social-links">
+                <li>
+                  <CustomLink href="https://www.facebook.com/wimmalab">
+                    <IconFacebook />
+                  </CustomLink>
+                </li>
+                <li>
+                  <CustomLink href="https://www.instagram.com/wimmalab">
+                    <IconInstagram />
+                  </CustomLink>
+                </li>
+                <li>
+                  <CustomLink href="https://www.linkedin.com/company/wimmalab">
+                    <IconLinkedIn />
+                  </CustomLink>
+                </li>
+                <li>
+                  <CustomLink href="https://www.youtube.com/channel/UCe0Ssog7DURm_aTiPO2hUFw">
+                    <IconYouTube />
+                  </CustomLink>
+                </li>
+                <li>
+                  <CustomLink href="https://twitter.com/wimmalab">
+                    <IconTwitter />
+                  </CustomLink>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         <button aria-label="Menu" onClick={handleClick} className="mobile-menu__button">

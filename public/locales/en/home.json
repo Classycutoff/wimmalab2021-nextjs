@@ -86,7 +86,7 @@
   "h4-history-2018-2": "Overflow",
   "p-history-2018-2": "Researched indoor positioning and NB-IoT technology that helped them develop the MoTrak tracking system to locate and monitor assistive technology indoors.",
   "h4-history-2018-3": "Mysticons",
-  "p-history-2018-3": "Developed the RPA-bot to help the work of the secretaries of Jyväskylä University of Applied Sciences and developed a tool to track students' GitLab activity.",
+  "p-history-2018-3": "Developed the RPA-bot to help the work of the secretaries of JAMK University of Applied Sciences and developed a tool to track students' GitLab activity.",
   "h4-history-2018-4": "Pengwin Media",
   "p-history-2018-4": "Provided media content, video production, UI design and graphic design for the WIMMA Lab brand and its virtual companies, and helped the other virtual companies with their assignments.",
 
@@ -94,13 +94,13 @@
   "p-big-history-2017": "The WIMMA Lab brand was established.",
 
   "h4-history-2017-1": "IoTitude",
-  "p-history-2017-1": "Developed the Mood-O-Meter, which collects data on person's mood. The data is collected by an IoT device with buttons for different moods and the statistics could be seen in real time on the user interface.",
+  "p-history-2017-1": "Developed Mood-O-Meter, which collects data on people's moods. The data is collected by an IoT device with buttons for different moods and the statistics could be seen in real time in an user interface.",
   "h4-history-2017-2": "Overflow",
   "p-history-2017-2": "Researched the possibilities of SDN networks and developed a system called Puikkari for controlling them.",
   "h4-history-2017-3": "Mysticons",
   "p-history-2017-3": "Implemented data analysis methods to visualize data collected by other virtual companies, developed a sensor to identify vacant parking slots using machine learning and created a pipeline for monitoring sensors and IoT devices.",
   "h4-history-2017-4": "Pengwin Game",
-  "p-history-2017-4": "Developed a mobile game about growing, making and selling wine to support the studies of tourism and catering at Jyväskylä University of Applied Sciences. It was implemented with the Unity game engine.",
+  "p-history-2017-4": "Developed a mobile game about growing, making and selling wine to support the studies of tourism and catering at JAMK University of Applied Sciences. It was implemented with the Unity game engine.",
   "h4-history-2017-5": "Pengwin Media",
   "p-history-2017-5": "Provided media content, video production, UI design and graphic design for the WIMMA Lab brand and its virtual companies, and helped the other virtual companies with their assignments.",
 
@@ -124,10 +124,10 @@
   "p-history-2015-3": "A tool for simulating and stress testing different network conditions.",
 
   "h3-history-2014": "2014",
-  "p-big-history-2014": "The course's name was changed into Challenge Factory.",
+  "p-big-history-2014": "The course's name changed to Challenge Factory.",
 
   "h4-history-2014": "Toolbar",
-  "p-history-2014": "Toolbar improved on last year's concept of making a project platform with required tools included, to a platform that let's you collect the tools and sites you need into one place. This made Toolbar a flexible choice for all kinds of projects.",
+  "p-history-2014": "Toolbar improved on last year's concept of making a project platform with required tools included, to a platform that lets you collect the tools and sites you need into one place. This made Toolbar a flexible choice for all kinds of projects.",
 
   "h3-history-2011-2013": "2011-2013",
   "p-big-history-2011-2013": "The course started as Summer Factory.",
