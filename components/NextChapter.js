@@ -9,7 +9,6 @@ export default function NextChapter(props) {
 
   useEffect(() => {
     setChapterPos(chapterList.findIndex((chapter) => chapter === chapterId));
-    console.log(chapterList);
   }, [chapterId, chapterList]);
 
   let pre_chap_pos, pre_chap_name, next_chap_pos, next_chap_name;

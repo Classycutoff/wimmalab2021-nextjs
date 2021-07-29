@@ -31,8 +31,11 @@
     background-color: $pastel-purple;
     margin-bottom: 1rem;
   }
-}
 
+  &--pastel-blue {
+    background-color: $pastel-blue;
+  }
+}
 
 // -----------------------------------------------------------------------------
 // What WIMMA Lab is
@@ -68,10 +71,6 @@
       border: 2px solid $pastel-blue-darker;
       text-shadow: 1px 2px 0 #fff, -1px -2px 0 #fff;
     }
-  }
-
-  p {
-    margin: 0;
   }
 }
 

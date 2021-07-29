@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 
 import CustomLink from '/components/CustomLink';
 
+import ArrowRight from '../svgs/arrow-right-sm.svg';
 import IconFacebook from '../svgs/socials-facebook.svg';
 import IconInstagram from '../svgs/socials-instagram.svg';
 import IconLinkedIn from '../svgs/socials-linkedin.svg';
@@ -34,7 +35,10 @@ export default function NavMenu({ t, active, handleClick }) {
           </li>
           <li>
             <Link href="/guides" locale="fi">
-              <a>{t('guides')}</a>
+              <a className="guides-link">
+                {t('guides')}
+                <ArrowRight />
+              </a>
             </Link>
           </li>
         </ul>
@@ -101,35 +105,35 @@ export default function NavMenu({ t, active, handleClick }) {
                 </Link>
               </li>
             </ul>
-          </div>
-          <div className="mobile-menu__container-socials">
-            <ul className="mobile-menu__social-links">
-              <li>
-                <CustomLink href="https://www.facebook.com/wimmalab">
-                  <IconFacebook />
-                </CustomLink>
-              </li>
-              <li>
-                <CustomLink href="https://www.instagram.com/wimmalab">
-                  <IconInstagram />
-                </CustomLink>
-              </li>
-              <li>
-                <CustomLink href="https://www.linkedin.com/company/wimmalab">
-                  <IconLinkedIn />
-                </CustomLink>
-              </li>
-              <li>
-                <CustomLink href="https://www.youtube.com/channel/UCe0Ssog7DURm_aTiPO2hUFw">
-                  <IconYouTube />
-                </CustomLink>
-              </li>
-              <li>
-                <CustomLink href="https://twitter.com/wimmalab">
-                  <IconTwitter />
-                </CustomLink>
-              </li>
-            </ul>
+            <div className="mobile-menu__container-socials">
+              <ul className="mobile-menu__social-links">
+                <li>
+                  <CustomLink href="https://www.facebook.com/wimmalab">
+                    <IconFacebook />
+                  </CustomLink>
+                </li>
+                <li>
+                  <CustomLink href="https://www.instagram.com/wimmalab">
+                    <IconInstagram />
+                  </CustomLink>
+                </li>
+                <li>
+                  <CustomLink href="https://www.linkedin.com/company/wimmalab">
+                    <IconLinkedIn />
+                  </CustomLink>
+                </li>
+                <li>
+                  <CustomLink href="https://www.youtube.com/channel/UCe0Ssog7DURm_aTiPO2hUFw">
+                    <IconYouTube />
+                  </CustomLink>
+                </li>
+                <li>
+                  <CustomLink href="https://twitter.com/wimmalab">
+                    <IconTwitter />
+                  </CustomLink>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         <button aria-label="Menu" onClick={handleClick} className="mobile-menu__button">

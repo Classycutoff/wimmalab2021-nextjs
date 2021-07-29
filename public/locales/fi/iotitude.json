@@ -1,0 +1,55 @@
+{
+    "page-title": "IoTitude",
+    "hero-h1": "Haastix: aktivoiva haastepeli mobiililaitteille",
+    "hero-p": "IoTitude-tiimillä oli kesällä 2021 toimeksiantona toteuttaa ”haastepeli”. Pelin ideana on, että Pelimestari keksii haasteen pelaajille, kuten esimerkiksi ”etsi leskenlehti, aikaa 15 minuuttia”. Pelaajat liittyvät koodilla peliin mukaan ja lähettävät Pelimestarille kuvan todistuksena suorituksesta. Pelimestari hylkää tai hyväksyy suoritukset.",
+    
+    "h1-team": "Tiimiesittely",
+    "p-team": "IoTitude-tiimistä löytyy monipuolisesti osaamista joka suuntautumisvaihtoehdolta. Mukana on ohjelmointi-, kyber-, verkko-, sekä mediaosaajia. IoTitude tekee vahvaa yhteistyötä Mysticons-tiimin kanssa, joka tarjoaa palvelinalustan Kuberneteksessa.",
+    
+    "h2-assignment": "Tehtävät",
+    "p-assignment": "IoTitude-tiimillä on tänä kesänä toimeksiantona toteuttaa ”Haastepeli”. Pelin ideana on, että pelimestari keksii haasteen pelaajille, kuten esimerkiksi ”etsi leskenlehti, aikaa 15 minuuttia”. Pelaajat liittyvät koodilla peliin mukaan ja lähettävät Pelimestarille kuvan todistuksena suorituksesta. Pelimestari hylkää tai hyväksyy suoritukset.",
+    "p2-assignment": "Tätä perusideaa lähdetään myöhemmin kesällä vielä kehittelemään pidemmälle. Ideoina on heitetty mm. koneoppimisesta kuvien tunnistuksessa, useampien minipelien haastehuoneista, avatarien generoinnista… vain taivas on rajana.",
+    "p3-assignment": "IoTituden teknologiastäkki näyttää seuraavalta: React Native, NodeJS, PostgreSQL, MinIO, Robot Framework, Jest, Kubernetes ja GitLab CI/CD.",
+
+    "h2-technologies": "Teknologiat",
+    "p-technologies": "IoTituden teknologiastäkki näyttää seuraavalta: React Native, NodeJS, PostgreSQL, MinIO, Robot Framework, Jest, Kubernetes ja GitLab CI/CD.",
+
+    "h2-challenges": "Millaisia haasteita kohdattiin? Miten ne selvitettiin?",
+    "p-challenges": "Kaikki Pengwin median ryhmäläiset eivät olleet käyttäneet Next.js frameworkiä aiemmin, mutta siitä huolimatta niillä saatiin tehtyä hakukoneoptimoidut, tyylikkäät ja informatiiviset verkkosivut. Toinen haaste, oli projektin nopea aikataulu. Pengwin media toteutti ensin vanhemmilla tekniikoilla päivitetymmät sivut WIMMA Labin avoimet ovet-tapahtumaan ja siksi Täysin uuden verkkosivun suunnitteluun ja toteutukseen aikaa oli käytettävissä noin 7 viikkoa.",
+
+    "h2-learned": "Mitä opittiin, millaista oli työskennellä, fiilikset?",
+    "p-learned": "Kesän aikana tutuksi tuli verkkosivuston tekemisen prosessi ensimmäisestä suunnittelupalaverista valmiin verkkosivuston julkaisemiseen. Kesän aikana uutta opittiin paljon ja opittuja taitoja on hyvä lähteä soveltamaan työelämään tai syksyllä takaisin opintojen parissa. WIMMA Lab tarjosi erinomaisen mahdollisuuden verkostoitua muihin opiskelijoihin ja työelämän edustajiin ja ainutlaatuisen kokemuksen, millaista ei opiskelujen aikana muualta saa.",
+
+    "h2-introduction": "Tiimin jäsenet",
+    
+    "h3-member1": "Elmer Tuukkanen", 
+    "h4-member1": "Team Leader / Junior Software Developer",
+    "p-member1": "Olen 22-vuotias kolmannen vuoden tieto- ja viestintätekniikan opiskelija. Olen kotoisin Mikkelistä, mutta muutin Jyväskylään koulun perässä kesällä 2018. Koodaamisessa minua kiinnostaa sekä frontend ja backend-puoli, mutta kokemusta minulla löytyy paljon enemmän frontendin puolelta. Eniten kokemusta minulta löytyy Reactin ja React Nativen käytöstä. Vapaa-ajallani lenkkeilen ja kesäisin kalastan, toisinaan myös koodailen omia projekteja.",
+    
+    "h3-member2": "Ella Vilen", 
+    "h4-member2": "Junior UI/UX Designer",
+    "p-member2": "Olen syntynyt vuonna -94 ja olen kotoisin Tampereelta. Olen kolmannen vuoden opiskelija mediatekniikalta ja opinnoista on jäljellä oikeastaan enää harkka ja oppari. Olen kiinnostunut web-, UI/UX- ja frontend-kehityksestä. Vapaa-aikaani kulutan pelaamisen, piirtämisen/maalaamisen ja musiikin parissa.",
+    
+    "h3-member3": "Markku Puura", 
+    "h4-member3": "Junior Software Developer",
+    "p-member3": "Kolmannen vuoden ohjelmistotekniikan opiskelija. Kiinnostunut uusimmista teknologioista ja tietotekniikka-alasta laajasti. Vapaa-ajalla harrastelen omien projektien ääressä esim. DIY CNC -laitteita.",
+    
+    "h3-member4": "Eetu Karjalainen", 
+    "h4-member4": "Networking & DevOps Trainee",
+    "p-member4": "Kolmannen vuoden tietoverkko-opiskelija Pieksämäeltä. Erityisesti kiinnostaa laitteiden hardwarepuoli sekä sysadmin-hommat ja virtualisointikikkailut. Ruokapöydän alla pyörii palomuuri/peliserveri/fileserveri. Lisäksi tulee harrasteltua 3D-mallinnusta.",
+    
+    "h3-member5": "Mirva Kallioinen", 
+    "h4-member5": "Junior Software Developer",
+    "p-member5": "Hei! Olen Mirva, Jyväskylästä kotoisin oleva tuleva IT-alan ammattilainen. Olen alanvaihtaja, ja lähdin rohkeasti ilman aiempaa kokemusta hakeutumaan IT-alalle, koska kaipasin uusia haasteita elämään. Niitä on opiskelujen aikana saanutkin. Olen kyberpuolelta, mutta huomasin, että minua kiinnostaa muutkin vaihtoehdot, kuten frontend-koodaus ja testaaminen. Vapaa-ajalla harrastan eri liikuntalajeja koneella istumisen vastapainoksi. Lisäksi tykkään laittaa ruokaa, lukea sekä bongata lintuja.",
+    
+    "h3-member6": "Ildikó Makra", 
+    "h4-member6": "Test Automation Trainee",
+    "p-member6": "Olen kotoisin Budapestista. Olen ollut töissä taloushallinon tehtävien parissa monta vuotta, josta olen siirtymässä ICT-alalle. Ohjelmointikielistä suosikkini on Python. Erityisesti olen kiinnostunut automaatiotestauksesta ja ylipäätään laadunhallinnan asioista. Edellisessä ohjelmistoprojektissa olen tutustunut Robot Framewokin käyttöön selaimessa ja nykyisessä projektissa haluan tutustua React Native -komponenttien yksikkötestaukseen sekä ottaa halttuun Robot Frameworkin Appium-kirjastoa. Rakkain harrastus on lenkeily ja ulkoilu perheeni kanssa.",
+
+    "h3-member7": "Olli Saari", 
+    "h4-member7": "Junior Software Developer",
+    "p-member7": "Hei, olen Olli Saari ja tulen Keski-Pohjanmaalta. Suoritan JAMKissa tieto- ja viestintätekniikan opintolinjaa ja suuntautuminen on kyberturvallisuus, mutta lisäksi olen suorittanut ohjelmoinnin puolen kursseja. Kiinnostuksen kohteita IT-teknologian puolella on useita. Muutama isoin kiinnostuksen kohde on IoT-laitteet, koneoppi, keinoäly, tietoturvallisuus ja avaruusteknologia. Kokemusta löytyy koulun ja harrastuksien osalta IoT-laitteista, Linux, Python, PHP, React, React Native ja C#.",
+    
+    "h2-twitter": "Seuraa meitä Twitterissä"
+    
+    }

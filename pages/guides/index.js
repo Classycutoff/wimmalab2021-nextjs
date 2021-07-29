@@ -3,7 +3,6 @@ import GuideLayout from '/components/GuideLayout';
 import { getGuideIntroductions } from '/components/lib/mdx';
 
 const GuidesIndex = (props) => {
-  console.log('GUIDESINDEX --->', props);
   const { guideIndexes } = props;
 
   return (
@@ -17,7 +16,7 @@ const GuidesIndex = (props) => {
         . By reading through the guides, you can learn more about the concept of WIMMA Lab and how
         it’s implemented in{' '}
         <a href="https://www.jamk.fi/" target="_blank" rel="noopener noreferrer">
-          Jyväskylä University of Applied Sciences (JAMK)
+          JAMK University of Applied Sciences
         </a>
         . You could even use the guides to implement and build your own project environment based on
         the WIMMA Lab concept!
