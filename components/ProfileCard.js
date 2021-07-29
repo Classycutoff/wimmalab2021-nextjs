@@ -72,7 +72,7 @@ export default function ProfileCard() {
         <div className="instructors__card">
           <div className="instructors__img">
             <Image
-              src="/assets/narsu.jpg"
+              src="/assets/teemu.png"
               alt="Teemu Kontio"
               width="180"
               height="180"
