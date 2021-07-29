@@ -5,6 +5,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 import Accordion from '/components/Accordion';
 import Button from '/components/Button';
+import CustomLink from '/components/CustomLink';
 import ImageWrapper from '/components/ImageWrapper';
 import Layout, { siteTitle } from '/components/Layout';
 import LogoPengwin from '/public/assets/history/pengwin-logo.png';
@@ -70,18 +71,19 @@ const Students = () => {
               <p>{t('p-wimma-lab-offers-2')}</p>
             </div>
             <div className="teams__logo-grid">
-              <div className="teams__iotitude">
+              <CustomLink href="/iotitude" locale="fi" className="teams__iotitude">
                 <LogoIotitude />
-              </div>
-              <div className="teams__mysticons">
+              </CustomLink>
+
+              <CustomLink href="/mysticons" locale="fi" className="teams__mysticons">
                 <LogoMysticons className="1h" />
-              </div>
-              <div className="teams__overflow">
+              </CustomLink>
+              <CustomLink href="/overflow" locale="fi" className="teams__overflow">
                 <LogoOverflow />
-              </div>
-              <div className="teams__pengwin">
+              </CustomLink>
+              <CustomLink href="/pengwin" locale="fi" className="teams__pengwin">
                 <Image src={LogoPengwin} />
-              </div>
+              </CustomLink>
             </div>
           </div>
           <div className="simple-grid">

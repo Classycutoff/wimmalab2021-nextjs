@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
+import CustomLink from '/components/CustomLink';
 import HistoryCard from '/components/HistoryCard';
 import HistorySection from '/components/HistorySection';
 import Layout, { siteTitle } from '/components/Layout';
@@ -81,18 +82,27 @@ const Home = () => {
         <div>
           <h2 className="h2-companies h2-section">{t('h2-companies')}</h2>
           <div className="company-logo__wrapper">
-            <div className="company-logo company-logo--iotitude">
+            <CustomLink
+              href="/iotitude"
+              locale="fi"
+              className="company-logo company-logo--iotitude">
               <LogoIotitude />
-            </div>
-            <div className="company-logo company-logo--mysticons">
+            </CustomLink>
+            <CustomLink
+              href="/mysticons"
+              locale="fi"
+              className="company-logo company-logo--mysticons">
               <LogoMysticons />
-            </div>
-            <div className="company-logo company-logo--overflow">
+            </CustomLink>
+            <CustomLink
+              href="/overflow"
+              locale="fi"
+              className="company-logo company-logo--overflow">
               <LogoOverflow />
-            </div>
-            <div className="company-logo company-logo--pengwin">
+            </CustomLink>
+            <CustomLink href="/pengwin" locale="fi" className="company-logo company-logo--pengwin">
               <Image src={LogoPengwin} width={160} height={160} />
-            </div>
+            </CustomLink>
           </div>
         </div>
       </section>
