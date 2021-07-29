@@ -63,9 +63,6 @@ const Footer = ({ t }) => {
                 <CustomLink href="/companies">{t('companies')}</CustomLink>
               </li>
               <li>
-                <CustomLink href="/contact">{t('contact')}</CustomLink>
-              </li>
-              <li>
                 <CustomLink href="/guides" locale="fi">
                   {t('guides')}
                 </CustomLink>

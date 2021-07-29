@@ -34,11 +34,6 @@ export default function NavMenu({ t, active, handleClick }) {
             </ActiveLink>
           </li>
           <li>
-            <ActiveLink activeClassName="active" href="/contact">
-              <a>{t('contact')}</a>
-            </ActiveLink>
-          </li>
-          <li>
             <Link href="/guides" locale="fi">
               <a className="guides-link">
                 {t('guides')}
@@ -73,11 +68,6 @@ export default function NavMenu({ t, active, handleClick }) {
               <li>
                 <Link href="/companies">
                   <a>{t('companies')}</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact">
-                  <a>{t('contact')}</a>
                 </Link>
               </li>
               <li>
