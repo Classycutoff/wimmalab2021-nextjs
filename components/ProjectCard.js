@@ -43,9 +43,11 @@ export default function ProjectCard() {
               <span className="tag__title">Gitlab CI/CD</span>
             </span>
           </div>
-          <Button type="secondary" className="margin-t" icon>
-            {t('more-button')}
-          </Button>
+          <div>
+            <Button type="iotitude" href="/iotitude" locale="fi" className="margin-t" icon>
+              {t('more-button')}
+            </Button>
+          </div>
         </div>
         <div className="project-card__image">
           <div className="project-card__img-outer-container">
@@ -93,9 +95,11 @@ export default function ProjectCard() {
               <span className="tag__title">Ansible</span>
             </span>
           </div>
-          <Button type="secondary" className="margin-t" icon>
-            {t('more-button')}
-          </Button>
+          <div>
+            <Button type="mysticons" href="/mysticons" locale="fi" className="margin-t" icon>
+              {t('more-button')}
+            </Button>
+          </div>
         </div>
         <div className="project-card__image">
           <div className="project-card__img-outer-container">
@@ -149,9 +153,11 @@ export default function ProjectCard() {
               <span className="tag__title">Gitlab CI/CD</span>
             </span>
           </div>
-          <Button type="secondary" className="margin-t" icon>
-            {t('more-button')}
-          </Button>
+          <div>
+            <Button type="overflow" href="/overflow" locale="fi" className="margin-t" icon>
+              {t('more-button')}
+            </Button>
+          </div>
         </div>
         <div className="project-card__image">
           <div className="project-card__img-outer-container">
@@ -208,9 +214,11 @@ export default function ProjectCard() {
               <span className="tag__title">Gitlab CI/CD</span>
             </span>
           </div>
-          <Button type="secondary" className="margin-t" icon>
-            {t('more-button')}
-          </Button>
+          <div>
+            <Button type="pengwin" href="/pengwin" locale="fi" className="margin-t" icon>
+              {t('more-button')}
+            </Button>
+          </div>
         </div>
         <div className="project-card__image">
           <div className="project-card__img-outer-container">

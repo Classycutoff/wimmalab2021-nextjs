@@ -121,4 +121,121 @@
       }
     }
   }
+
+  &--iotitude {
+    font-size: 1rem;
+    color: #05828c;
+    padding: 0.2rem 0;
+
+    &:visited{
+      color: #05828c;
+    }
+    
+    &:hover, &:focus {
+      color: #05828c;
+    }
+
+    .icon-arrow {
+      position: relative;
+      left: 0.75rem;
+      bottom: -0.1rem;
+      width: 27px;
+      height: 15px;
+      transition: all 0.15s ease-in-out;
+    }
+
+    &:hover {
+      .icon-arrow {
+        left: 1.2rem;
+      }
+    }
+  }
+
+  &--mysticons {
+    font-size: 1rem;
+    color: #6953a8;
+    padding: 0.2rem 0;
+
+    &:visited{
+      color: #6953a8;
+    }
+    
+    &:hover, &:focus {
+      color: #6953a8;
+    }
+
+    .icon-arrow {
+      position: relative;
+      left: 0.75rem;
+      bottom: -0.1rem;
+      width: 27px;
+      height: 15px;
+      transition: all 0.15s ease-in-out;
+    }
+
+    &:hover {
+      .icon-arrow {
+        left: 1.2rem;
+      }
+    }
+  }
+
+  &--overflow {
+    font-size: 1rem;
+    color: #3f68a5;
+    padding: 0.2rem 0;
+
+    &:visited{
+      color: #3f68a5;
+    }
+    
+    &:hover, &:focus {
+      color: #3f68a5;
+    }
+
+    .icon-arrow {
+      position: relative;
+      left: 0.75rem;
+      bottom: -0.1rem;
+      width: 27px;
+      height: 15px;
+      transition: all 0.15s ease-in-out;
+    }
+
+    &:hover {
+      .icon-arrow {
+        left: 1.2rem;
+      }
+    }
+  }
+
+  &--pengwin {
+    font-size: 1rem;
+    color: #756543;
+    padding: 0.2rem 0;
+
+    &:visited{
+      color: #756543;
+    }
+    
+    &:hover, &:focus {
+      color: #756543;
+    }
+
+    .icon-arrow {
+      position: relative;
+      left: 0.75rem;
+      bottom: -0.1rem;
+      width: 27px;
+      height: 15px;
+      transition: all 0.15s ease-in-out;
+    }
+
+    &:hover {
+      .icon-arrow {
+        left: 1.2rem;
+      }
+    }
+  }
+  
 }
