@@ -1,18 +1,18 @@
 {
-    "page-title": "Iotitude",
-    "h1": "Iotitude",
-    "h1-subheading": "Committed to excellence.",
+    "page-title": "IoTitude",
+    "hero-h1": "Haastix: aktivoiva haastepeli mobiililaitteille",
+    "hero-p": "IoTitude-tiimillä oli kesällä 2021 toimeksiantona toteuttaa ”haastepeli”. Pelin ideana on, että Pelimestari keksii haasteen pelaajille, kuten esimerkiksi ”etsi leskenlehti, aikaa 15 minuuttia”. Pelaajat liittyvät koodilla peliin mukaan ja lähettävät Pelimestarille kuvan todistuksena suorituksesta. Pelimestari hylkää tai hyväksyy suoritukset.",
     
     "h1-team": "Tiimiesittely",
-    "p-team": "IoTitude-tiimistä löytyy monipuolisesti osaamista joka suuntautumisvaihtoehdolta. Mukana on ohjelmointi-, kyber-, verkko-, sekä mediaosaajia. IoTitude tekee vahvaa yhteistyötä Mysticons-tiimin kanssa, joka tarjoaa palvelinalustan Kuberneteksessa, sekä Pengwin Median, joka antaa graafista tukea.",
+    "p-team": "IoTitude-tiimistä löytyy monipuolisesti osaamista joka suuntautumisvaihtoehdolta. Mukana on ohjelmointi-, kyber-, verkko-, sekä mediaosaajia. IoTitude tekee vahvaa yhteistyötä Mysticons-tiimin kanssa, joka tarjoaa palvelinalustan Kuberneteksessa.",
     
     "h2-assignment": "Tehtävät",
     "p-assignment": "IoTitude-tiimillä on tänä kesänä toimeksiantona toteuttaa ”Haastepeli”. Pelin ideana on, että pelimestari keksii haasteen pelaajille, kuten esimerkiksi ”etsi leskenlehti, aikaa 15 minuuttia”. Pelaajat liittyvät koodilla peliin mukaan ja lähettävät Pelimestarille kuvan todistuksena suorituksesta. Pelimestari hylkää tai hyväksyy suoritukset.",
     "p2-assignment": "Tätä perusideaa lähdetään myöhemmin kesällä vielä kehittelemään pidemmälle. Ideoina on heitetty mm. koneoppimisesta kuvien tunnistuksessa, useampien minipelien haastehuoneista, avatarien generoinnista… vain taivas on rajana.",
     "p3-assignment": "IoTituden teknologiastäkki näyttää seuraavalta: React Native, NodeJS, PostgreSQL, MinIO, Robot Framework, Jest, Kubernetes ja GitLab CI/CD.",
 
-    "h2-technologies": "Teknologiat (mitä ja miksi)",
-    "p-technologies": "Kesän aikana Pengwin media on suunnitellut ja toteuttanut uuden wimmalab.org verkkosivuston hyödyntäen modernia Reaktin Next.JS framework ja markdownia sisältöjen generoimiseen. Uusille verkkosivuille toteutettiin lokalisaatio suomen lisäksi myös englanniksi, joten WIMMA Labiin on mahdollista tutustua myös kansainvälisemmällä kielellä. WIMMA Labin pääsivun lisäksi Pengwin media teki jokaiselle tiimille oman verkkosivun, mistä löytyy tietoa projektitiimistä ja kesän aikana työnalla olleesta projektista.",
+    "h2-technologies": "Teknologiat",
+    "p-technologies": "IoTituden teknologiastäkki näyttää seuraavalta: React Native, NodeJS, PostgreSQL, MinIO, Robot Framework, Jest, Kubernetes ja GitLab CI/CD.",
 
     "h2-challenges": "Millaisia haasteita kohdattiin? Miten ne selvitettiin?",
     "p-challenges": "Kaikki Pengwin median ryhmäläiset eivät olleet käyttäneet Next.js frameworkiä aiemmin, mutta siitä huolimatta niillä saatiin tehtyä hakukoneoptimoidut, tyylikkäät ja informatiiviset verkkosivut. Toinen haaste, oli projektin nopea aikataulu. Pengwin media toteutti ensin vanhemmilla tekniikoilla päivitetymmät sivut WIMMA Labin avoimet ovet-tapahtumaan ja siksi Täysin uuden verkkosivun suunnitteluun ja toteutukseen aikaa oli käytettävissä noin 7 viikkoa.",
@@ -50,6 +50,6 @@
     "h4-member7": "Junior Software Developer",
     "p-member7": "Hei, olen Olli Saari ja tulen Keski-Pohjanmaalta. Suoritan JAMKissa tieto- ja viestintätekniikan opintolinjaa ja suuntautuminen on kyberturvallisuus, mutta lisäksi olen suorittanut ohjelmoinnin puolen kursseja. Kiinnostuksen kohteita IT-teknologian puolella on useita. Muutama isoin kiinnostuksen kohde on IoT-laitteet, koneoppi, keinoäly, tietoturvallisuus ja avaruusteknologia. Kokemusta löytyy koulun ja harrastuksien osalta IoT-laitteista, Linux, Python, PHP, React, React Native ja C#.",
     
-    "h2-twitter": "Seuraa meitä twitterissä:"
+    "h2-twitter": "Seuraa meitä Twitterissä"
     
     }
