@@ -1,10 +1,9 @@
 
 
-
 stages:
   - Robot_tests
   - test
- # - build
+  # build
  # - deploy
   - dast
 
