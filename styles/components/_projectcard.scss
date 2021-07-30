@@ -21,7 +21,6 @@
 
     &__iotitude {
       background-color: $bg-iotitude;
-      border: 1px solid $pastel-blue;
     }
 
     &__iotitude .tag {
@@ -30,7 +29,6 @@
 
     &__mysticons {
       background-color: $bg-mysticons;
-      border: 1px solid $pastel-purple;
     }
 
     &__mysticons .tag {
@@ -39,7 +37,6 @@
 
     &__overflow {
       background-color: $bg-overflow;
-      border: 1px solid $pastel-cyan;
     }
 
     &__overflow .tag {
@@ -48,7 +45,6 @@
 
     &__pengwin {
       background-color: $bg-pengwin;
-      border: 1px solid $pastel-orange;
     }
 
     &__pengwin .tag {
@@ -89,6 +85,7 @@
     small {
       font-size: 1.063rem;
       font-weight: bold;
+      letter-spacing: -0.2px;
       line-height: 1.3;
       color: $txt-black;
     }
@@ -135,33 +132,37 @@
   
     &__img-outer-container {
       width: calc(100% + 2rem);
-      height: 24rem;
+      height: 16rem;
       border-radius: $border-radius 0 $border-radius 0;
       overflow: hidden;
+
+      @include breakpoint(xs) {
+        height: 20rem;
+      }
   
       @include breakpoint(sm) {
-        width: calc(100% + 2rem);
+        height: 24rem;
       }
   
       @include breakpoint(card) {
-        height: 30rem;
+        height: 29rem;
       }
   }
   
     &__img-inner-container {
-      width: 44rem;
-      height: 24.75rem;
+      width: 30rem;
+      height: 16.75rem;
       border-radius: $border-radius;
       overflow: hidden;
   
       @include breakpoint(xs) {
-        width: 52rem;
-        height: 29.25rem;
+        width: 36rem;
+        height: 28rem;
       }
   
       @include breakpoint(sm) {
-        width: 64rem;
-        height: 36rem;
+        width: 48rem;
+        height: 38rem;
       }
     }
   }
