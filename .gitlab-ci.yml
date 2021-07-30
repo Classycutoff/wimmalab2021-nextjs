@@ -1,8 +1,28 @@
 stages:
+  - robot_tests
   - test
   - build
   - deploy
   - dast
+
+Robot_framework_test:
+  
+  tags:
+    - general
+
+  stage: test
+  image: gitlab.labranet.jamk.fi:4567/wimmalab2021/mysticons/robot-test
+  
+  script:
+    - export ROBOT_TESTS=sample_tests/
+    - export OUTPUT_DIR=output/
+
+    - run.sh
+  artifacts:
+    paths:
+#      - DIRECTORY_TO_SAVE_OUTPUT_TO=output/
+      - output/
+
 
 include:
   - template: Dependency-Scanning.gitlab-ci.yml
