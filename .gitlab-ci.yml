@@ -1,5 +1,4 @@
 
-
 stages:
   - Robot_tests
   - test
@@ -7,7 +6,7 @@ stages:
  # - deploy
   - dast
 
-ROBOT_TESTS:
+Robot_framework_test:
   
   tags:
     - general
