@@ -1,25 +1,55 @@
 *** Settings ***
+
 Library     SeleniumLibrary
+Library     OperatingSystem
 Library     Process
 
-*** Keywords ***
-Start Chrome
-    ${chrome_options}=    Evaluate    sys.modules['selenium.webdriver'].ChromeOptions()    sys, selenium.webdriver
-    Call Method    ${chrome_options}    add_argument    --no-sandbox
-    Create Webdriver    Chrome      chrome_options=${chrome_options}
+*** Variables ***                 
+     
+      
+  
+*** Test Case ***
+Test
+    BuiltIn.Log To Console       .
+    BuiltIn.Log To Console      You know the rules and so do I
+    BuiltIn.Log To Console     A full commitment's what I'm thinking of
+    BuiltIn.Log To Console      You wouldn't get this from any other guy
 
-*** Test Cases ***
-Test Firefox
-    Open Browser   http://google.com    Firefox
-    Title Should Be     Google
-    Close Browser
 
-Test Chrome
-    Start Chrome
-    Go To   http://www.google.com
-    Title Should Be     Google
-    Close Browser
+    BuiltIn.Log To Console   I just wanna tell you how I'm feeling
+    BuiltIn.Log To Console    Gotta make you understand
+
+
+    BuiltIn.Log To Console    Never gonna give you up
+    BuiltIn.Log To Console   Never gonna let you down
+    BuiltIn.Log To Console   Never gonna run around and desert you
+     BuiltIn.Log To Console       .
+    BuiltIn.Log To Console    Never gonna make you cry
     
-Ping test
-    ${result} =     Run Process   ping 127.0.0.1 -c 1   shell=True
-    Should Contain   ${result.stdout}     64 bytes from 127.0.0.1:
+    BuiltIn.Log To Console      Never gonna say goodbye
+    BuiltIn.Log To Console      Never gonna tell a lie and hurt you
+
+
+    BuiltIn.Log To Console       We've known each other for so long
+    BuiltIn.Log To Console       Your heart's been aching, but you're too shy to say it
+    BuiltIn.Log To Console        Inside, we both know what's been going on
+    BuiltIn.Log To Console         We know the game, and we're gonna play it
+     BuiltIn.Log To Console       .
+
+    BuiltIn.Log To Console    And if you ask me how I'm feeling
+    BuiltIn.Log To Console    Don't tell me you're too blind to see
+
+
+    BuiltIn.Log To Console     Never gonna give you up
+    BuiltIn.Log To Console    Never gonna let you down
+    BuiltIn.Log To Console     Never gonna run around and desert you
+    BuiltIn.Log To Console   Never gonna make you cry
+    BuiltIn.Log To Console     Never gonna say goodbye
+    BuiltIn.Log To Console       .
+    BuiltIn.Log To Console    Never gonna tell a lie and hurt you
+    BuiltIn.Log To Console    Never gonna give you up
+    BuiltIn.Log To Console    Never gonna let you down
+    BuiltIn.Log To Console   Never gonna run around and desert you
+    BuiltIn.Log To Console   Never gonna make you cry
+    BuiltIn.Log To Console     Never gonna say goodbye
+    BuiltIn.Log To Console     Never gonna tell a lie and hurt you
