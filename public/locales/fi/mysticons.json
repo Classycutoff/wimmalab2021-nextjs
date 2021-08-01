@@ -12,7 +12,7 @@
    
 
     "h2-technologies": "Technologies used",
-    "p-technologies": "MS Power Automate, Teams, MS Forms, MS Excel, OneDrive, SharePoint, GitLab, email (Outlook). Kubernetes, DevSecOps, GitLab, CI/CD pipelines, Robot Framework, script, Ansible. Technologies had to be compatible, in both solutions. In addition, Kubernetes used open-source technologies.",
+    "p-technologies": "MS Power Automate, Teams, MS Forms, MS Excel, OneDrive, SharePoint, GitLab, email (Outlook). Kubernetes, DevSecOps, CI/CD pipelines, Robot Framework, script, Ansible. Technologies had to be compatible, in both solutions. In addition, Kubernetes used open-source technologies.",
 
     "h2-challenges": "Challenges",
     "p-challenges-1": "The created Power Automate workflow uses features which require Power Automate Premium license, with the license flow creation can be quite simple. However, joining GitLab API to the flow required some knowledge about JSON scripting. Understanding of loops was very helpful when creating alternative event flows for error situations.",
