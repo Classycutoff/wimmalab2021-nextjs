@@ -59,7 +59,7 @@
   "h4-history-2021-1": "IoTitude",
   "p-history-2021-1": "Designed and developed Haastix mobile game utilizing WebSockets and React Native to encourage players to move around and explore their surroundings. In the game, the Game Master gives players a task and players take pictures that fit the description with their smartphones.",
   "h4-history-2021-2": "Overflow",
-  "p-history-2021-2": "Developed “Future Factory Marketplace” service for JAMK. The service makes it possible for students to familiarize themselves with assignments and team up with like-minded students for a Future Factory course.",
+  "p-history-2021-2": "Developed “Future Factory Marketplace” service for JAMK with React and ASP.NET Core. The service makes it possible for students to familiarize themselves with assignments and team up with like-minded students for a Future Factory course.",
   "h4-history-2021-3": "Mysticons",
   "p-history-2021-3": "Created the Kubernetes platform and CI/CD pipelines that allow the services of other teams in WIMMA Lab 2021 to function. Mysticons also developed a forms-sheet with Power Automate that allows teachers to easily create Microsoft Teams channels and GitLab repositories for their courses.",
   "h4-history-2021-4": "Pengwin Media",

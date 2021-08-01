@@ -59,7 +59,7 @@
   "h4-history-2021-1": "IoTitude",
   "p-history-2021-1": "Suunnitteli ja toteutti Haastix-mobiilipelin WebSocketteja ja React Nativea käyttäen, joka kannustaa pelaajia liikkumaan ja tutkimaan lähiympäristöä. Pelissä Pelimestari antaa pelaajille tehtävän ja pelaajat ottavat kuvia älypuhelimillaan tehtävässä mainitusta asiasta.",
   "h4-history-2021-2": "Overflow",
-  "p-history-2021-2": "Kehitti Future Factory Marketplace -palvelun JAMKille. Palvelun avulla opiskelijoiden on mahdollista tutustua toimeksiantoihin ja tiimiytyä muiden opiskelijoiden kanssa Future Factory -kurssille.",
+  "p-history-2021-2": "Kehitti Future Factory Marketplace -palvelun JAMKille Reactilla ja ASP.NET Corella. Palvelun avulla opiskelijoiden on mahdollista tutustua toimeksiantoihin ja tiimiytyä muiden opiskelijoiden kanssa Future Factory -kurssille.",
   "h4-history-2021-3": "Mysticons",
   "p-history-2021-3": "Loi Kubernetes-alustan ja CI/CD-pipelinet WIMMA Labille, joiden avulla muiden virtuaaliyritysten palvelut toimivat. Mysticons kehitti myös Power Automate -työkalulla lomakkeen, jolla opettajat voivat luoda kursseille Microsoft Teams -kanavat ja GitLab-repositoriot helposti.",
   "h4-history-2021-4": "Pengwin Media",
