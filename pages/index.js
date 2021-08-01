@@ -96,21 +96,25 @@ const Home = () => {
               href="/iotitude"
               locale="fi"
               className="company-logo company-logo--iotitude">
+              <span className="visually-hidden">IoTitude</span>
               <LogoIotitude />
             </CustomLink>
             <CustomLink
               href="/mysticons"
               locale="fi"
               className="company-logo company-logo--mysticons">
+              <span className="visually-hidden">Mysticons</span>
               <LogoMysticons />
             </CustomLink>
             <CustomLink
               href="/overflow"
               locale="fi"
               className="company-logo company-logo--overflow">
+              <span className="visually-hidden">Overflow</span>
               <LogoOverflow />
             </CustomLink>
             <CustomLink href="/pengwin" locale="fi" className="company-logo company-logo--pengwin">
+              <span className="visually-hidden">Pengwin Media</span>
               <LogoPengwin />
             </CustomLink>
           </div>
