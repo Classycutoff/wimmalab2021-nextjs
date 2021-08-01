@@ -28,6 +28,9 @@ export default function ProjectCard() {
               <span className="tag__title">PostgreSQL</span>
             </span>
             <span className="tag">
+              <span className="tag__title">MinIO</span>
+            </span>
+            <span className="tag">
               <span className="tag__title">WebSocket</span>
             </span>
             <span className="tag">
@@ -40,7 +43,7 @@ export default function ProjectCard() {
               <span className="tag__title">Kubernetes</span>
             </span>
             <span className="tag">
-              <span className="tag__title">Gitlab CI/CD</span>
+              <span className="tag__title">GitLab CI/CD</span>
             </span>
           </div>
           <div>
@@ -53,11 +56,11 @@ export default function ProjectCard() {
           <div className="project-card__img-outer-container">
             <div className="project-card__img-inner-container">
               <LazyImage
-                alt="IoTitude: Mockup"
-                src="/assets/iotitude-placeholder.png"
-                width={1024}
-                height={576}
-                quality={100}
+                alt="IoTitude: Haastix"
+                src="/assets/iotitude/iotitude-cover.png"
+                width={750}
+                height={560}
+                quality={95}
                 layout="responsive"
               />
             </div>
@@ -83,7 +86,7 @@ export default function ProjectCard() {
               <span className="tag__title">Kubernetes</span>
             </span>
             <span className="tag">
-              <span className="tag__title">Gitlab CI/CD</span>
+              <span className="tag__title">GitLab CI/CD</span>
             </span>
             <span className="tag">
               <span className="tag__title">Power Automate</span>
@@ -106,10 +109,10 @@ export default function ProjectCard() {
             <div className="project-card__img-inner-container">
               <LazyImage
                 alt="Mysticons: Mockup"
-                src="/assets/mysticons-placeholder.png"
-                width={1024}
-                height={576}
-                quality={100}
+                src="/assets/mysticons/mysticons-cover.png"
+                width={750}
+                height={560}
+                quality={95}
                 layout="responsive"
               />
             </div>
@@ -138,10 +141,7 @@ export default function ProjectCard() {
               <span className="tag__title">PostgreSQL</span>
             </span>
             <span className="tag">
-              <span className="tag__title">Robot Framework</span>
-            </span>
-            <span className="tag">
-              <span className="tag__title">Selenium</span>
+              <span className="tag__title">Cypress</span>
             </span>
             <span className="tag">
               <span className="tag__title">Power Automate</span>
@@ -150,7 +150,7 @@ export default function ProjectCard() {
               <span className="tag__title">Kubernetes</span>
             </span>
             <span className="tag">
-              <span className="tag__title">Gitlab CI/CD</span>
+              <span className="tag__title">GitLab CI/CD</span>
             </span>
           </div>
           <div>
@@ -163,11 +163,11 @@ export default function ProjectCard() {
           <div className="project-card__img-outer-container">
             <div className="project-card__img-inner-container">
               <LazyImage
-                alt="Overflow: Mockup"
-                src="/assets/overflow-placeholder.png"
-                width={1024}
-                height={576}
-                quality={100}
+                alt="Overflow: Future Factory Marketplace"
+                src="/assets/overflow/overflow-etusivu.png"
+                width={750}
+                height={460}
+                quality={95}
                 layout="responsive"
               />
             </div>
@@ -193,16 +193,13 @@ export default function ProjectCard() {
               <span className="tag__title">Next.js</span>
             </span>
             <span className="tag">
-              <span className="tag__title">Sass</span>
+              <span className="tag__title">SCSS</span>
             </span>
             <span className="tag">
               <span className="tag__title">Figma</span>
             </span>
             <span className="tag">
-              <span className="tag__title">HTML</span>
-            </span>
-            <span className="tag">
-              <span className="tag__title">CSS</span>
+              <span className="tag__title">Illustrator</span>
             </span>
             <span className="tag">
               <span className="tag__title">Robot Framework</span>
@@ -211,7 +208,7 @@ export default function ProjectCard() {
               <span className="tag__title">Kubernetes</span>
             </span>
             <span className="tag">
-              <span className="tag__title">Gitlab CI/CD</span>
+              <span className="tag__title">GitLab CI/CD</span>
             </span>
           </div>
           <div>
@@ -224,11 +221,11 @@ export default function ProjectCard() {
           <div className="project-card__img-outer-container">
             <div className="project-card__img-inner-container">
               <LazyImage
-                alt="Pengwin: Mockup"
-                src="/assets/pengwin-placeholder.png"
-                width={1024}
-                height={576}
-                quality={100}
+                alt="Pengwin Media: wimmalab.org"
+                src="/assets/pengwin/pengwin-screenshot.png"
+                width={760}
+                height={498}
+                quality={95}
                 layout="responsive"
               />
             </div>

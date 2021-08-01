@@ -24,7 +24,7 @@
 
   "h4-assignments-2": "Mysticons",
   "h3-assignments-2": "Kubernetes-alusta projekteille",
-  "p-assignments-2": "Mysticonsin vastuualueena on ottaa DevSecOps-hengessä haltuun Kubernetes, Docker, Power Automate ja CI/CD pipelinet sekä integroida ne keskenään. Kesän aikana luodaan alusta muiden tiimien projekteille ja JAMKin opetuskäyttöön.",
+  "p-assignments-2": "Mysticonsin vastuualueena oli ottaa DevSecOps-hengessä haltuun Kubernetes, Docker, Power Automate ja CI/CD pipelinet sekä integroida ne keskenään. Kesän aikana luotiin alusta muiden tiimien projekteille ja JAMKin opetuskäyttöön.",
 
   "h4-assignments-3": "Overflow",
   "h3-assignments-3": "Future Factory Marketplace",
@@ -32,7 +32,7 @@
 
   "h4-assignments-4": "Pengwin Media",
   "h3-assignments-4": "Brändiuudistus ja wimmalab.org",
-  "p-assignments-4": "Pengwin Media vastasi WIMMA Labin brändiuudistuksesta ja wimmalab.org-sivuston kehittämisestä Next.js:llä. Tiimiläiset toimivat yhteistyössä muiden virtuaaliyritysten kanssa tarjoten frontend-koodausapua, testausta sekä UI/UX-suunnittelua. Lisäksi Pengwin Media päivitti WIMMA Labin sosiaalisen median kanavia.",
+  "p-assignments-4": "Pengwin Media vastasi WIMMA Labin brändiuudistuksesta ja wimmalab.org-sivuston kehittämisestä Next.js:llä. Tiimiläiset toimivat yhteistyössä muiden virtuaaliyritysten kanssa tarjoten frontend-koodausapua, testausta sekä mockuppien suunnittelua. Lisäksi Pengwin Media päivitti WIMMA Labin sosiaalisen median kanavia.",
 
   "more-button": "Lue lisää",
 
@@ -59,11 +59,11 @@
   "h4-history-2021-1": "IoTitude",
   "p-history-2021-1": "Suunnitteli ja toteutti Haastix-mobiilipelin WebSocketteja ja React Nativea käyttäen, joka kannustaa pelaajia liikkumaan ja tutkimaan lähiympäristöä. Pelissä Pelimestari antaa pelaajille tehtävän ja pelaajat ottavat kuvia älypuhelimillaan tehtävässä mainitusta asiasta.",
   "h4-history-2021-2": "Overflow",
-  "p-history-2021-2": "Kehitti Future Factory Marketplace -palvelun JAMKille. Palvelun avulla opiskelijoiden on mahdollista tutustua toimeksiantoihin ja tiimiytyä muiden opiskelijoiden kanssa Future Factory -kurssille.",
+  "p-history-2021-2": "Kehitti Future Factory Marketplace -palvelun JAMKille Reactilla ja ASP.NET Corella. Palvelun avulla opiskelijoiden on mahdollista tutustua toimeksiantoihin ja tiimiytyä muiden opiskelijoiden kanssa Future Factory -kurssille.",
   "h4-history-2021-3": "Mysticons",
   "p-history-2021-3": "Loi Kubernetes-alustan ja CI/CD-pipelinet WIMMA Labille, joiden avulla muiden virtuaaliyritysten palvelut toimivat. Mysticons kehitti myös Power Automate -työkalulla lomakkeen, jolla opettajat voivat luoda kursseille Microsoft Teams -kanavat ja GitLab-repositoriot helposti.",
   "h4-history-2021-4": "Pengwin Media",
-  "p-history-2021-4": "Toteutti WIMMA Labin brändiuudistuksen luomalla uudet verkkosivut käyttäen Next.js:ää. Pengwin Media antoi myös tukea muille virtuaaliyrityksille tarvittaessa.",
+  "p-history-2021-4": "Toteutti WIMMA Labin brändiuudistuksen uudistamalla logoja ja luomalla uudet verkkosivut käyttäen Next.js:ää. Pengwin Media tuki muita virtuaaliyrityksiä frontend-koodauksessa, testauksessa sekä mockuppien suunnittelussa. Lisäksi Pengwin Media päivitti WIMMA Labin sosiaalisen median kanavia.",
 
   "h3-history-2020": "2020",
   "p-history-2020": "WIMMA Lab oli tauolla COVID-19-tilanteen vuoksi.",
