@@ -32,7 +32,7 @@
 
   "h4-assignments-4": "Pengwin Media",
   "h3-assignments-4": "Brändiuudistus ja wimmalab.org",
-  "p-assignments-4": "Pengwin Media vastasi WIMMA Labin brändiuudistuksesta ja wimmalab.org-sivuston kehittämisestä Next.js:llä. Tiimiläiset toimivat yhteistyössä muiden virtuaaliyritysten kanssa tarjoten frontend-koodausapua, testausta sekä UI/UX-suunnittelua. Lisäksi Pengwin Media päivitti WIMMA Labin sosiaalisen median kanavia.",
+  "p-assignments-4": "Pengwin Media vastasi WIMMA Labin brändiuudistuksesta ja wimmalab.org-sivuston kehittämisestä Next.js:llä. Tiimiläiset toimivat yhteistyössä muiden virtuaaliyritysten kanssa tarjoten frontend-koodausapua, testausta sekä mockuppien suunnittelua. Lisäksi Pengwin Media päivitti WIMMA Labin sosiaalisen median kanavia.",
 
   "more-button": "Lue lisää",
 
@@ -63,7 +63,7 @@
   "h4-history-2021-3": "Mysticons",
   "p-history-2021-3": "Loi Kubernetes-alustan ja CI/CD-pipelinet WIMMA Labille, joiden avulla muiden virtuaaliyritysten palvelut toimivat. Mysticons kehitti myös Power Automate -työkalulla lomakkeen, jolla opettajat voivat luoda kursseille Microsoft Teams -kanavat ja GitLab-repositoriot helposti.",
   "h4-history-2021-4": "Pengwin Media",
-  "p-history-2021-4": "Toteutti WIMMA Labin brändiuudistuksen luomalla uudet verkkosivut käyttäen Next.js:ää. Pengwin Media antoi myös tukea muille virtuaaliyrityksille tarvittaessa.",
+  "p-history-2021-4": "Toteutti WIMMA Labin brändiuudistuksen uudistamalla logoja ja luomalla uudet verkkosivut käyttäen Next.js:ää. Pengwin Media tuki muita virtuaaliyrityksiä frontend-koodauksessa, testauksessa sekä mockuppien suunnittelussa. Lisäksi Pengwin Media päivitti WIMMA Labin sosiaalisen median kanavia.",
 
   "h3-history-2020": "2020",
   "p-history-2020": "WIMMA Lab oli tauolla COVID-19-tilanteen vuoksi.",
