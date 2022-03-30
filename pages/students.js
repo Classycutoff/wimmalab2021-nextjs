@@ -57,7 +57,7 @@ const Students = () => {
           </p>
           <h1 className="hero__h1">{t('h1')}</h1>
           <p className="hero__p">{t('h1-subheading')}</p>
-          <Button icon>{t('apply-button')}</Button>
+          <Button href="https://ttvw0110.pages.labranet.jamk.fi/wimmalab2022/01-hakuvaihe/haku/" icon>{t('apply-button')}</Button>
         </div>
       </section>
 
