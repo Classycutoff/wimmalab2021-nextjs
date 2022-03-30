@@ -58,8 +58,8 @@ const Students = () => {
           <h1 className="hero__h1">{t('h1')}</h1>
           <p className="hero__p">{t('h1-subheading')}</p>
           <Button
-            href="https://ttvw0110.pages.labranet.jamk.fi/wimmalab2022/01-hakuvaihe/haku/"
-            icon>
+            icon
+            href="https://ttvw0110.pages.labranet.jamk.fi/wimmalab2022/01-hakuvaihe/haku/">
             {t('apply-button')}
           </Button>
         </div>
@@ -101,7 +101,11 @@ const Students = () => {
               <h3 className="students__apply-h3">{t('h3-apply-to-wimma-lab')}</h3>
               <p>{t('p-apply-to-wimma-lab-1')}</p>
               <p>{t('p-apply-to-wimma-lab-2')}</p>
-              <Button type="secondary" className="margin-t" icon>
+              <Button
+                type="secondary"
+                className="margin-t"
+                icon
+                href="https://ttvw0110.pages.labranet.jamk.fi/wimmalab2022/01-hakuvaihe/haku/">
                 {t('apply-button')}
               </Button>
             </div>
