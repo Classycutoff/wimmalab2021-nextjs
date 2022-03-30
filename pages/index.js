@@ -7,7 +7,6 @@ import CustomLink from '/components/CustomLink';
 import HistoryCard from '/components/HistoryCard';
 import HistorySection from '/components/HistorySection';
 import Layout, { siteTitle } from '/components/Layout';
-import LogoPengwin from '/public/assets/history/pengwin-logo.png';
 
 import ProfileCard from '../components/ProfileCard';
 import ProjectCard from '../components/ProjectCard';
@@ -23,6 +22,8 @@ import LogoMysticons from '../svgs/logo-mysticons.svg';
 import LogoMysticonsSmall from '../svgs/logo-mysticons-sm.svg';
 import LogoOverflow from '../svgs/logo-overflow.svg';
 import LogoOverflowSmall from '../svgs/logo-overflow-sm.svg';
+import LogoPengwin from '../svgs/logo-pengwin.svg';
+import LogoPengwinSmall from '../svgs/logo-pengwin-sm.svg';
 
 const Home = () => {
   const { t } = useTranslation('home');
@@ -95,22 +96,26 @@ const Home = () => {
               href="/iotitude"
               locale="fi"
               className="company-logo company-logo--iotitude">
+              <span className="visually-hidden">IoTitude</span>
               <LogoIotitude />
             </CustomLink>
             <CustomLink
               href="/mysticons"
               locale="fi"
               className="company-logo company-logo--mysticons">
+              <span className="visually-hidden">Mysticons</span>
               <LogoMysticons />
             </CustomLink>
             <CustomLink
               href="/overflow"
               locale="fi"
               className="company-logo company-logo--overflow">
+              <span className="visually-hidden">Overflow</span>
               <LogoOverflow />
             </CustomLink>
             <CustomLink href="/pengwin" locale="fi" className="company-logo company-logo--pengwin">
-              <Image src={LogoPengwin} width={160} height={160} />
+              <span className="visually-hidden">Pengwin Media</span>
+              <LogoPengwin />
             </CustomLink>
           </div>
         </div>
@@ -165,7 +170,8 @@ const Home = () => {
             />
             <HistoryCard
               url="/pengwin"
-              imgUrl="/assets/history/pengwin-logo.png"
+              imgUrl={<LogoPengwinSmall />}
+              isSvg
               title={t('h4-history-2021-4')}
               desc={t('p-history-2021-4')}
             />

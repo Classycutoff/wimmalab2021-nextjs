@@ -51,7 +51,7 @@ export default function ProfileCard() {
         <div className="instructors__card">
           <div className="instructors__img">
             <Image
-              src="/assets/kari2.png"
+              src="/assets/kari.png"
               alt="Kari Pitkämäki"
               width="180"
               height="180"

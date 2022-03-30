@@ -8,7 +8,6 @@ import Button from '/components/Button';
 import CustomLink from '/components/CustomLink';
 import ImageWrapper from '/components/ImageWrapper';
 import Layout, { siteTitle } from '/components/Layout';
-import LogoPengwin from '/public/assets/history/pengwin-logo.png';
 import Profile2 from '/public/assets/pfp-hannu.png';
 import Profile1 from '/public/assets/pfp-minttu.png';
 import HeroBg from '/public/assets/students-hero-bg.png';
@@ -22,6 +21,7 @@ import IconLeader from '../svgs/icon-leader.svg';
 import LogoIotitude from '../svgs/logo-iotitude.svg';
 import LogoMysticons from '../svgs/logo-mysticons.svg';
 import LogoOverflow from '../svgs/logo-overflow.svg';
+import LogoPengwin from '../svgs/logo-pengwin.svg';
 import SvgUnderline from '../svgs/underline.svg';
 
 const Students = () => {
@@ -72,16 +72,20 @@ const Students = () => {
             </div>
             <div className="teams__logo-grid">
               <CustomLink href="/iotitude" locale="fi" className="teams__iotitude">
+                <span className="visually-hidden">IoTitude</span>
                 <LogoIotitude />
               </CustomLink>
               <CustomLink href="/mysticons" locale="fi" className="teams__mysticons">
+                <span className="visually-hidden">Mysticons</span>
                 <LogoMysticons className="1h" />
               </CustomLink>
               <CustomLink href="/overflow" locale="fi" className="teams__overflow">
+                <span className="visually-hidden">Overflow</span>
                 <LogoOverflow />
               </CustomLink>
               <CustomLink href="/pengwin" locale="fi" className="teams__pengwin">
-                <Image src={LogoPengwin} />
+                <span className="visually-hidden">Pengwin Media</span>
+                <LogoPengwin />
               </CustomLink>
             </div>
           </div>

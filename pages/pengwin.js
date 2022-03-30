@@ -10,11 +10,12 @@ import Layout, { siteTitle } from '/components/Layout';
 import member1 from '/public/assets/pengwin/Annukka.png';
 import member3 from '/public/assets/pengwin/Eliel.png';
 import member6 from '/public/assets/pengwin/Janna.png';
-import pengwinLogo from '/public/assets/pengwin/pengwin-logo.png';
 import member2 from '/public/assets/pengwin/Roope.png';
 import member4 from '/public/assets/pengwin/Sari.png';
 import member5 from '/public/assets/pengwin/Tatu.png';
 import team from '/public/assets/pengwin/tiimi.jpg';
+
+import PengwinLogo from '../svgs/logo-pengwin.svg';
 
 const Pengwin = () => {
   const { t } = useTranslation('pengwin');
@@ -30,7 +31,7 @@ const Pengwin = () => {
       {/* Hero section */}
       <section className="content__section hero hero--virtual-company hero--pengwin margin-b">
         <div className="hero__container">
-          <Image src={pengwinLogo} width={120} height={120} />
+          <PengwinLogo />
           <h1 className="hero__h1">{t('hero-h1')}</h1>
           <p className="p-bigger">{t('hero-p')}</p>
           <div className="project-info">
