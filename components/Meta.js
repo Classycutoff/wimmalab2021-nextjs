@@ -20,7 +20,7 @@ export default function Meta() {
       <meta name="title" content="WIMMA Lab" />
       <meta
         name="description"
-        content="WIMMA Lab on haastekeskeinen oppimiskonsepti, joka toteutetaan virtuaalisesti vuonna 2021."
+        content="WIMMA Lab on haastekeskeinen oppimiskonsepti, joka toteutetaan hybridimuodossa vuonna 2022."
       />
 
       {/* Open Graph / Facebook */}
