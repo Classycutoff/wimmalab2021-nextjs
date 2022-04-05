@@ -29,7 +29,7 @@ export default function Meta() {
       <meta property="og:title" content="WIMMA Lab" />
       <meta
         property="og:description"
-        content="WIMMA Lab on haastekeskeinen oppimiskonsepti, joka toteutetaan virtuaalisesti vuonna 2021."
+        content="WIMMA Lab on haastekeskeinen oppimiskonsepti, joka toteutetaan hybridimuodossa vuonna 2022."
       />
       <meta property="og:image" content="https://www.wimmalab.org/assets/meta_wimma.png" />
 
@@ -39,7 +39,7 @@ export default function Meta() {
       <meta property="twitter:title" content="WIMMA Lab" />
       <meta
         property="twitter:description"
-        content="WIMMA Lab on haastekeskeinen oppimiskonsepti, joka toteutetaan virtuaalisesti vuonna 2021."
+        content="WIMMA Lab on haastekeskeinen oppimiskonsepti, joka toteutetaan hybridimuodossa vuonna 2022."
       />
       <meta property="twitter:image" content="https://www.wimmalab.org/assets/meta_wimma.png" />
     </Head>

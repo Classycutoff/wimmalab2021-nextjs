@@ -103,9 +103,9 @@ const Footer = ({ t }) => {
               <dd>
                 <a href="mailto:marko.rintamaki@jamk.fi">marko.rintamaki@jamk.fi</a>
               </dd>
-              <dt>Kari Pitkäniemi</dt>
+              <dt>Eliel Taskinen</dt>
               <dd>
-                <a href="mailto:kari.pitkaniemi@jamk.fi">kari.pitkaniemi@jamk.fi</a>
+                <a href="mailto:eliel.taskinen@jamk.fi">eliel.taskinen@jamk.fi</a>
               </dd>
             </dl>
           </div>

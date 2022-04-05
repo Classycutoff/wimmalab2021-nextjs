@@ -30,8 +30,8 @@ export default function ProfileCard() {
         <div className="instructors__card">
           <div className="instructors__img">
             <Image
-              src="/assets/paavo.png"
-              alt="Paavo Nelimarkka"
+              src="/assets/eliel.jpg"
+              alt="Eliel Taskinen"
               width="180"
               height="180"
               className={'instructors__img'}
@@ -40,6 +40,27 @@ export default function ProfileCard() {
           <div className="instructors__caption">
             <h4 className="h4-instructors-2">{t('h4-instructors-2')}</h4>
             <span className="p-instructors-2">{t('p-instructors-2')}</span>
+            <a href="https://www.linkedin.com/in/eliel-taskinen/">
+              <SocialIcon className="instructors__social" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="instructors">
+        <div className="instructors__card">
+          <div className="instructors__img">
+            <Image
+              src="/assets/paavo.png"
+              alt="Paavo Nelimarkka"
+              width="180"
+              height="180"
+              className={'instructors__img'}
+            />
+          </div>
+          <div className="instructors__caption">
+            <h4 className="h4-instructors-3">{t('h4-instructors-3')}</h4>
+            <span className="p-instructors-3">{t('p-instructors-3')}</span>
             <a href="https://www.linkedin.com/in/paavonelimarkka/">
               <SocialIcon className="instructors__social" />
             </a>
@@ -59,8 +80,8 @@ export default function ProfileCard() {
             />
           </div>
           <div className="instructors__caption">
-            <h4 className="h4-instructors-3">{t('h4-instructors-3')}</h4>
-            <span className="p-instructors-3">{t('p-instructors-3')}</span>
+            <h4 className="h4-instructors-4">{t('h4-instructors-4')}</h4>
+            <span className="p-instructors-4">{t('p-instructors-4')}</span>
             <a href="https://www.linkedin.com/in/kari-pitkäniemi-9000b31a4/">
               <SocialIcon className="instructors__social" />
             </a>
@@ -80,29 +101,9 @@ export default function ProfileCard() {
             />
           </div>
           <div className="instructors__caption">
-            <h4 className="h4-instructors-4">{t('h4-instructors-4')}</h4>
-            <span className="p-instructors-4">{t('p-instructors-4')}</span>
-            <a href="https://www.linkedin.com/in/teemukontio/">
-              <SocialIcon className="instructors__social" />
-            </a>
-          </div>
-        </div>
-      </div>
-      <div className="instructors">
-        <div className="instructors__card">
-          <div className="instructors__img">
-            <Image
-              src="/assets/heli.png"
-              alt="Heli Vepsäläinen"
-              width="180"
-              height="180"
-              className={'instructors__img'}
-            />
-          </div>
-          <div className="instructors__caption">
             <h4 className="h4-instructors-5">{t('h4-instructors-5')}</h4>
             <span className="p-instructors-5">{t('p-instructors-5')}</span>
-            <a href="https://www.linkedin.com/in/hvepsäläinen/">
+            <a href="https://www.linkedin.com/in/teemukontio/">
               <SocialIcon className="instructors__social" />
             </a>
           </div>
